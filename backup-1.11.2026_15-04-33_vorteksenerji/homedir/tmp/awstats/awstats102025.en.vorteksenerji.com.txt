@@ -1,0 +1,378 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202510 will be lost/reset.
+# Last config file used to build this data file was /home/vorteksenerji/tmp/awstats/awstats.en.vorteksenerji.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2093                
+POS_TIME 2753                
+POS_VISITOR 8275                
+POS_DAY 8919                
+POS_DOMAIN 3393                
+POS_LOGIN 3699                
+POS_ROBOT 3854                
+POS_WORMS 4056                
+POS_EMAILSENDER 4187                
+POS_EMAILRECEIVER 4330                
+POS_SESSION 9445                
+POS_FILESIZE 10235               
+POS_REQUESTTIME 10357               
+POS_SIDER 9641                
+POS_FILETYPES 4465                
+POS_DOWNLOADS 4602                
+POS_OS 4650                
+POS_BROWSER 4770                
+POS_SCREENSIZE 5073                
+POS_UNKNOWNREFERER 5147                
+POS_UNKNOWNREFERERBROWSER 5295                
+POS_ORIGIN 5438                
+POS_SEREFERRALS 5572                
+POS_PAGEREFS 5716                
+POS_SEARCHWORDS 5864                
+POS_KEYWORDS 6016                
+POS_MISC 2417                
+POS_ERRORS 6075                
+POS_CLUSTER 3555                
+POS_SIDER_404 6194                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20251101001732 4 507 9903270144356
+FirstTime 0
+LastTime 20251031195846
+LastUpdate 20251101152012 4 0 3 0 0
+TotalVisits 80                  
+TotalUnique 15                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 15                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 8 8 1612 3 8 1141779
+1 3 3 0 3 11 404863
+2 3 3 0 2 17 1802204
+3 0 0 0 0 5 821041
+4 7 7 210 7 14 1784148
+5 7 7 1612 3 5 294338
+6 4 4 0 6 9 363
+7 3 3 0 2 11 797172
+8 7 7 186 5 10 552726
+9 2 2 0 1 3 242
+10 3 3 0 5 15 1941061
+11 2 2 0 2 9 936208
+12 6 6 990 7 15 633759
+13 4 4 186 2 10 1151036
+14 3 3 0 3 8 1858226
+15 5 5 0 4 5 121
+16 2 2 0 4 13 1536910
+17 4 4 0 4 12 932314
+18 16 16 0 18 27 1408370
+19 5 5 0 4 15 2208186
+20 3 3 0 3 15 3321575
+21 6 6 210 4 6 121
+22 1 1 0 1 12 713859
+23 35 70 12431524 36 40 1338258
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+it 96 96 0
+ru 34 69 12432943
+in 3 3 992
+us 2 2 589
+rs 1 1 403
+dz 1 1 990
+uz 1 1 403
+cn 1 1 210
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+DotBot/ 161 23658968 20251030023325 79
+GPTBot/ 1 101 20251019231911 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+png 6 4908567 0 0
+html 30 868132 0 0
+jpg 29 6654825 0 0
+php 109 5006 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 4
+macosx14 8 8
+Unknown 96 96
+linuxubuntu 65 30
+win10 5 5
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 15
+chrome138.0.0.0 1 1
+chrome93.8 1 1
+chrome96.4 1 1
+firefox127.0 1 1
+chrome99.4 1 1
+firefox126.0 65 30
+chrome97.4 1 1
+Unknown 96 96
+chrome92.5 1 1
+firefox140.0 1 1
+chrome124.0.0.0 1 1
+chrome124.0.6367.207 1 1
+chrome94.7 1 1
+chrome99.3 1 1
+chrome93.2 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+WordPress/6.7.1;_https://en.vorteksenerji.com 20251031195846
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+WordPress/6.7.1;_https://en.vorteksenerji.com 20251031195846
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 138 173
+From1 0 0
+From2 0 0
+From3 0 0
+From4 1 1
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+404 45 1919009
+401 1 802
+302 22 0
+301 61 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 42
+/phpinfo.php 1 http://151.80.64.2:80/phpinfo.php
+/bor-bes-enerji/+90%20542%20347%2052%2007 1 -
+/gemi-marine/+90%20542%20347%2052%2007 1 -
+/wp-content/plugins/wp-automatic/css/style.css 4 -
+/wp-content/themes/alone/css/sermone.css 1 -
+/iletisim/+90%20542%20347%2052%2007 1 -
+/user/login 1 https://en.vorteksenerji.com/user/login
+/baysak-enerji-nigde/+90%20542%20347%2052%2007 1 -
+/everest-enerji/+90%20542%20347%2052%2007 1 -
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 -
+/comfunctions.php 1 www.google.com
+/installer.php 1 -
+/bor-bes-enerji/vorteksenerji 1 -
+/karteks-enerji-edirne/vorteksenerji 1 -
+/baysak-enerji-nigde/vorteksenerji 1 -
+/enerji-santralleri/+90%20542%20347%2052%2007 1 -
+/karteks-enerji/+90%20542%20347%2052%2007 1 -
+/iletisim/vorteksenerji 1 -
+/everest-enerji-kayseri/vorteksenerji 1 -
+/gizlilik-guvenlik/vorteksenerji 1 -
+/karteks-enerji/vorteksenerji 1 -
+/servislerimiz/+90%20542%20347%2052%2007 1 -
+/pir-enerji/vorteksenerji 1 -
+/afyon-bor-bes-enerji/vorteksenerji 1 -
+/gemi-marine/vorteksenerji 1 -
+/servislerimiz/vorteksenerji 1 -
+/everest-enerji-kayseri/+90%20542%20347%2052%2007 1 -
+/dup-installer/main.installer.php 1 -
+/enerji-santralleri/vorteksenerji 1 -
+/installer-backup.php 1 -
+/biz-kimiz/+90%20542%20347%2052%2007 1 -
+/gizlilik-guvenlik/+90%20542%20347%2052%2007 1 -
+/+90%20542%20347%2052%2007 1 -
+/karteks-enerji-edirne/+90%20542%20347%2052%2007 1 -
+/biz-kimiz/vorteksenerji 1 -
+/pir-enerji/+90%20542%20347%2052%2007 1 -
+/pir-enerji-2/+90%20542%20347%2052%2007 1 -
+/afyon-bor-bes-enerji/+90%20542%20347%2052%2007 1 -
+/vorteksenerji 1 -
+/pir-enerji-2/vorteksenerji 1 -
+/wp-content/plugins/drag-and-drop-multiple-file-upload-contact-form-7/assets/js/codedropz-uploader-min.js 1 -
+/everest-enerji/vorteksenerji 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 15
+151.80.64.2 96 96 0 20251031195846
+188.143.244.142 30 65 12431524 20251008235624
+193.203.8.172 1 1 403 20251024053805
+171.44.206.197 1 1 210 20251020213525
+45.147.233.52 1 1 403 20251018003118
+64.49.39.130 1 1 403 20251024053804
+45.140.204.56 1 1 186 20251030131906
+216.26.238.121 1 1 186 20251013082550
+193.233.209.77 1 1 403 20251018003118
+77.220.192.22 1 1 403 20251018003119
+193.233.221.17 1 1 403 20251024053803
+193.233.222.119 1 1 403 20251018003120
+45.147.235.37 1 1 403 20251024053804
+197.113.127.203 1 1 990 20251023124706
+195.239.183.246 1 1 210 20251021045718
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 26
+20251001 1 1 0 1
+20251002 4 4 0 4
+20251003 4 4 0 3
+20251004 10 10 0 4
+20251006 3 3 0 3
+20251008 41 76 12431524 8
+20251009 3 3 0 1
+20251010 1 1 0 1
+20251011 3 3 0 3
+20251013 7 7 186 3
+20251014 4 4 0 3
+20251016 1 1 0 1
+20251017 3 3 0 2
+20251018 6 6 1612 6
+20251019 1 1 0 1
+20251020 5 5 210 5
+20251021 4 4 210 4
+20251022 6 6 0 4
+20251023 7 7 990 3
+20251024 7 7 1612 6
+20251026 4 4 0 3
+20251027 1 1 0 1
+20251028 2 2 0 2
+20251029 2 2 0 2
+20251030 6 6 186 4
+20251031 3 3 0 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+2mn-5mn 3
+0s-30s 65
+1h+ 2
+15mn-30mn 3
+30mn-1h 5
+5mn-15mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 18
+/wp-cron.php 96 0 66 66
+/xmlrpc.php 12 4016 12 12
+/enerji-santralleri/ 2 57298 0 0
+/pir-enerji/ 2 55536 0 0
+/baysak-enerji-nigde/ 2 57388 0 0
+/gemi-marine/ 2 57826 0 0
+/karteks-enerji-edirne/ 2 60168 0 0
+/afyon-bor-bes-enerji/ 2 55786 0 0
+/iletisim/ 2 56708 0 0
+/biz-kimiz/ 2 58798 0 0
+/karteks-enerji/ 2 56396 0 0
+/everest-enerji/ 2 55826 0 0
+/pir-enerji-2/ 2 55660 0 0
+/bor-bes-enerji/ 2 57580 0 0
+/everest-enerji-kayseri/ 2 57732 1 0
+/servislerimiz/ 2 60488 0 1
+/gizlilik-guvenlik/ 2 64942 0 0
+/administrator/index.php 1 990 1 1
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 5
+500-1K 5
+0-44 181
+5K+ 187
+1K-2K 4
+100-500 92
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

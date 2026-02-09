@@ -1,0 +1,181 @@
+Return-Path: <krish@bestsoftwaredevelopmentcompany.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id 6B5pDZLgFWjpAwAAOB6+FQ
+	(envelope-from <krish@bestsoftwaredevelopmentcompany.com>)
+	for <info@vorteksenerji.com>; Sat, 03 May 2025 12:23:30 +0300
+Return-path: <krish@bestsoftwaredevelopmentcompany.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Sat, 03 May 2025 12:23:30 +0300
+Received: from mail-pf1-f194.google.com ([209.85.210.194]:38916)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <krish@bestsoftwaredevelopmentcompany.com>)
+	id 1uB95m-000000000oe-062m
+	for info@vorteksenerji.com;
+	Sat, 03 May 2025 12:23:30 +0300
+Received: by mail-pf1-f194.google.com with SMTP id d2e1a72fcca58-7373aa99e2cso381570b3a.0
+        for <info@vorteksenerji.com>; Sat, 03 May 2025 02:23:09 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=bestsoftwaredevelopmentcompany.com; s=google; t=1746264168; x=1746868968; darn=vorteksenerji.com;
+        h=disposition-notification-to:content-language:thread-index
+         :mime-version:message-id:date:subject:to:from:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=mi9YDZYPZSpmqJ0rTqZ6TMVXOT0876L+ApuBrbW1cYI=;
+        b=MTKc03IyQ0gqkBb1Hgw+0wQ2hlxt4LiKD6tpBAFsOqjnLHbrbn34dmNUIL82gppVSi
+         nURXT1zXqH8VlkyfbbSUBCWAlHK0Q1vNRNt4ixVjmrjSjvzLqgNIQu1jjvuqHofdR7q1
+         +FpzUg5Q2EyHfeNXFcNyit5WparkvcX0b0+vcCZIj4kRfiteNIwC8IyTan73XVIM4SP1
+         DGdjDgU6rJh/UqaOYwXrfci2V1XS83UAHzvlqdype9B61G4RKAG+5PVlLB2AtVv63och
+         zmG/eB/fa82aXSHK9dm1a5F3BTivXWxa9A7Z71Az3/AmEEWP6PX34JSTXSRwIOcSZ5vk
+         uurA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1746264168; x=1746868968;
+        h=disposition-notification-to:content-language:thread-index
+         :mime-version:message-id:date:subject:to:from:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=mi9YDZYPZSpmqJ0rTqZ6TMVXOT0876L+ApuBrbW1cYI=;
+        b=hw9RTDdfVxPVgQpbswTqhOzt3gw91c4UHrxWTJwhB/nAEGAXoBQvDj4A3BCompU5cy
+         8/ZQN8MEv8Jc2PX0y2DZZhQvoonOzL2uzPBFUOjF7vYpgtXfo9pnniWPy2uyv6pvYFh8
+         iILuqrlUXCOCu9ji3JROe5Qu8fnBFCIE9ylBPSKPBEb55Bcw/AV0nJ6zTJfxAHVVg+l5
+         mEVsqpBb98Bjx2EKH52S0EgiQ71Uaz+6kE6Tl8Y4QrwO68dLwkixw8depeO8mRqWEt9W
+         5B4BlXWRfBcJAEARkRFPzF6cN5G8Reed/KZkzRM6RHT39CBwIU3gemQR4IA8izYY2roW
+         pfXQ==
+X-Gm-Message-State: AOJu0YzwNeV5P0koYccRClM65x3jy1WZ21cl9DLxFGlV3Aa6RKM4JK7V
+	mXlltyrVJ1X3SAf5vGU2vBCSgait7WKjwrpIL3GILCVD6xmRw905I45b1Bq3fu/P7x+NaOpKBa7
+	CA/4=
+X-Gm-Gg: ASbGncudUEGp7ObxQtJ41x9w56t3n2FBb3c6/zftdz+5nvhnBQJGVvsv89jfzYE6JNi
+	6my45H8d5Wfte1k0jzhh/Y6RZH+xbQJjFikAe2hlrwgUK1QNVx39rGU4ZwjoynTZYGwhRvIMYL9
+	VIn3SEonGCBFzo+A3RnJaP9hV14n0Qdwy5rXx6UXoGM2GjpvkaWiGahZvDxJZbgeH6IKvZ/FIHt
+	E8rcrQ0C6LvEHncQt8bk6ZMEZWEhsPycKu/nOdkFbgCdYqf8TpZiE/VaK9dxA/nFHdrCZzSIenz
+	o1w45rce0VGABz+re7iqxAcJ8xWxNreqxB1WAy0p+jEC5CSqHHiZI7VOFu5KP2aS25WK+42gymv
+	FdgieAA==
+X-Google-Smtp-Source: AGHT+IGWg2By3uLEu3T1yxNnlaooUPNCnmp0JlmDHOtmHqB+i7gWUOQ2qjm0/R7+s9FkibAoaPY4eg==
+X-Received: by 2002:a17:90b:3b47:b0:2fe:b45b:e7ec with SMTP id 98e67ed59e1d1-30a4e6f8226mr3364728a91.8.1746264167638;
+        Sat, 03 May 2025 02:22:47 -0700 (PDT)
+Received: from DESKTOP9CP7FT3 ([2409:40d0:2f7:a69d:aca6:3b87:f521:ea44])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-22e151e9f39sm20405825ad.84.2025.05.03.02.22.46
+        for <info@vorteksenerji.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 03 May 2025 02:22:47 -0700 (PDT)
+From: "Krish" <krish@bestsoftwaredevelopmentcompany.com>
+To: <info@vorteksenerji.com>
+Subject: Website...??
+Date: Sat, 3 May 2025 14:24:17 +0530
+Message-ID: <!&!AAAAAAAAAAAYAAAAAAAAAH/rapQ3cNBFrWNte2PIYHPCgAAAEAAAANi1zNOWAglEgK3Wlq6+eK4BAAAAAA==@bestsoftwaredevelopmentcompany.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_80B0_01DBBC3B.085A4E70"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: Adu7VYTKI4LDBLLpT+iqKmHOkQoTzA==
+Content-Language: en-us
+Disposition-Notification-To: "Krish" <krish@bestsoftwaredevelopmentcompany.com>
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_80B0_01DBBC3B.085A4E70
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+I'm Krish, a Website & Graphic Design professional. I'm just following up on
+an email I previously sent to you. I understand that you are busy, but I
+would appreciate it if you could review the email and respond to me as soon
+as you can.
+
+I was looking at your www.vorteksenerji.com website realized that we can
+make it more professional and modern with a great look,
+
+If interested you can get plenty of information and examples of what we've
+done for other clients and what the results have been.
+
+Looking forward to hearing from you!
+ 
+
+Kind Regards,
+Krish
+AVP- Sale
+
+
+------=_NextPart_000_80B0_01DBBC3B.085A4E70
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 15 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-ligatures:standardcontextual;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US =
+link=3D"#0563C1" vlink=3D"#954F72"><div class=3DWordSection1><p =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt'><span =
+style=3D'font-size:11.5pt;font-family:"Verdana",sans-serif;color:#203864'=
+>Hi,<br><br>I'm Krish, a Website &amp; Graphic Design professional. I'm =
+just following up on an email I previously sent to you. I understand =
+that you are busy, but I would appreciate it if you could review the =
+email and respond to me as soon as you can.<br><br>I was looking at your =
+www.vorteksenerji.com website realized that we can make it more =
+professional and modern with a great look,<br><br><b>If interested you =
+can get plenty of information and examples of what we&#8217;ve done for =
+other clients and what the results have been.<br></b><br>Looking forward =
+to hearing from you!<br>&nbsp;</span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.5pt;font-family:"Verdana",sans-serif;color:#203864'=
+>Kind Regards,<br>Krish<br>AVP- Sale</span></p></div></body></html>
+------=_NextPart_000_80B0_01DBBC3B.085A4E70--
+

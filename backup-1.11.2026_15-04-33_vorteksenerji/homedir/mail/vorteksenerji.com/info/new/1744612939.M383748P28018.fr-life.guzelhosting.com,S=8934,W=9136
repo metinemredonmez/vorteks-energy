@@ -1,0 +1,202 @@
+Return-Path: <burcu@b2ajans.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id HeiNFkuu/GdybQAAOB6+FQ
+	(envelope-from <burcu@b2ajans.com>)
+	for <info@vorteksenerji.com>; Mon, 14 Apr 2025 09:42:19 +0300
+Return-path: <burcu@b2ajans.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Mon, 14 Apr 2025 09:42:19 +0300
+Received: from mail-qv1-f44.google.com ([209.85.219.44]:47240)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <burcu@b2ajans.com>)
+	id 1u4DWN-0000000073B-0zTS
+	for info@vorteksenerji.com;
+	Mon, 14 Apr 2025 09:42:19 +0300
+Received: by mail-qv1-f44.google.com with SMTP id 6a1803df08f44-6eaf1b6ce9aso44998716d6.2
+        for <info@vorteksenerji.com>; Sun, 13 Apr 2025 23:41:59 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=b2ajans.com; s=google; t=1744612898; x=1745217698; darn=vorteksenerji.com;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=OfOiM8Fd8k0ULzlX3YU/G3I8k6RXadPeVDqHuSo5gHQ=;
+        b=k7J0RqMirNg29FbulhF5rgus8Ih5eS4uYExb/7C9Zik/kgaGUJaAaMeIeHt8R7sVFb
+         MA8G8wLdOFv8XTsXnElEmkldXSo6ztLTQiEdO7gB9jDFwXmnTZ4lUCwYXE8DPUyrJc6e
+         uxHlbuYbeK0sank9ahHKvrQGnWLB1RuyTWc6c=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1744612898; x=1745217698;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=OfOiM8Fd8k0ULzlX3YU/G3I8k6RXadPeVDqHuSo5gHQ=;
+        b=CdkXigpFyYBYqlmwKd4TzuiHvMBp2Qie02s2RHljkclcHun0UERXKUM9hHDJ3LODwL
+         zsoE7xE2CdNu89BWo9H5jIOnZ9df2AB87gO80M+gu/3r78b8qqHO7l+IQU903yIaQL9J
+         dI24voq3By9fFkBSzx9+x64579moxDhrMGo7W+zJVgLbNxSJYF84xFIoOUodla9vYCp6
+         3CNsdQBhjCkK6n7ZIknnG5VMGHr6X1BjLbioV/IEJZtneInZZqNL8O3/pkeBm1yfYVfK
+         5TKhl7dVodWVylARaSd+oN+sfDZz2YwmppBDrHzK6+1W2hs0jvkyIzhB0BQ4Nov3zjFA
+         tyiA==
+X-Gm-Message-State: AOJu0YzRzOQhiZsibrRDXyLXYNdVSsF8t2t3q33wu4n0h/YDSbhuXwnx
+	17alUeGDsVNqUOsnxOAjy8U7a+nG3h15pTunN4C58L1PQHA68eYacD1MqBM9qZarfS2HBpugwMd
+	9+RQpBaUKGPf9JPjMJvx6g2zrZmRrlsXKr0ofWxYiXDbvkMzlZmo=
+X-Gm-Gg: ASbGncu5BnPzkx1lbLDrMouepDAi00doWKNtqSY5MD6wag2EJ3IeeC2tMVFGW+siOcV
+	E3QRuOLid/FyqZsW5nvpHsNdMxkWBP3BYhjrl42uiwDmkH+RTmDnL5mAd97JLah5FcWFs6baThz
+	YCHIn3o/r1jihIjvdis6hVKl+OtBwBmXexwuiLBYnRsp5AKbAakQWk7as=
+X-Google-Smtp-Source: AGHT+IFW3+0Cy7ONbthxwRpPp386r97QFDJhmzc4Y5SCO4KknUdQ+XDL1Gju555vN8rwJp+qw56IwlS49jNCOZqyY4U=
+X-Received: by 2002:ad4:5cc6:0:b0:6d8:f0ba:ea92 with SMTP id
+ 6a1803df08f44-6f230d710abmr188528256d6.21.1744612897652; Sun, 13 Apr 2025
+ 23:41:37 -0700 (PDT)
+MIME-Version: 1.0
+References: <CA+wu8r2FSDv_3dqaeGZXjbtSmOcortbTHQgVb9U3FKxkDjWDaQ@mail.gmail.com>
+ <10fe94c44b9c8431ffca987437fa72da@vorteksenerji.com>
+In-Reply-To: <10fe94c44b9c8431ffca987437fa72da@vorteksenerji.com>
+From: =?UTF-8?Q?Burcu_Da=C4=9F?= <burcu@b2ajans.com>
+Date: Mon, 14 Apr 2025 09:41:25 +0300
+X-Gm-Features: ATxdqUFBWzIdZBdHnUy9dZFH9AIfdKFX05ZRW0OCRoDKqfJ7XT4J9YVOt_7Eh2Q
+Message-ID: <CA+wu8r2cazCQBn7Qx9UM61fL9Zc+YaHW_=VcPueehoRwa+jK6g@mail.gmail.com>
+Subject: =?UTF-8?B?UmU6IEIyIEFKQU5TIEZVQVIgSMSwWk1FVExFUsSwIFNFUlbEsFMgSE9TVEVTxLAtVEVSQw==?=
+	=?UTF-8?B?w5xNQU4gLSBNT0RFTC9LQVLFnklMQU1BLSBDQVRFUklORy0gRUvEsFBNQU4gS8SwUkFMQU1BIEhL?=
+To: info@vorteksenerji.com
+Content-Type: multipart/alternative; boundary="0000000000000916400632b7588a"
+
+--0000000000000916400632b7588a
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Merhabalar,
+
+Mail listemizden =C3=A7=C4=B1kar=C4=B1ld=C4=B1n=C4=B1z. Verdi=C4=9Fimiz rah=
+ats=C4=B1zl=C4=B1ktan dolay=C4=B1 =C3=B6z=C3=BCr
+dileriz.
+*Bilginize, Sevgiler*
+
+*KURUCU / FOUNDER*
+
+*BURCU DA=C4=9E*
+*0549 542 89 09*
+
+
+<info@vorteksenerji.com> adresine sahip kullan=C4=B1c=C4=B1 11 Nis 2025 Cum=
+, 12:55
+tarihinde =C5=9Funu yazd=C4=B1:
+
+> Merhaba benim herhangi bir talebim yok s=C3=BCrekli araman=C4=B1za be mai=
+l
+> atman=C4=B1za gerej yoktur On 2025-02-25 08:00, Burcu Da=C4=9F wrote:
+> > Merhabalar,
+> >
+> > -TECR=C3=9CBEL=C4=B0 STANDART SERV=C4=B0S HOSTESLER=C4=B0M=C4=B0Z=C4=B0=
+N =C3=BCcretleri 1600 tl +
+> > kdv den ba=C5=9Flamaktad=C4=B1r. Tek tip servis hostesi k=C4=B1yafetler=
+i
+> > kullan=C4=B1lmaktad=C4=B1r. Siyah pantolon ya da etek beyaz g=C3=B6mlek=
+.
+> >
+> > -SERV=C4=B0S PERSONELLER=C4=B0N=C4=B0 SE=C3=87MEK =C4=B0STERSEN=C4=B0Z =
+=C5=9Fayet ekte
+> > belirtti=C4=9Fim sunumlardan dil bilen g=C3=B6rseli olan ve tecr=C3=BCb=
+eli
+> > hosteslerden de se=C3=A7ebilirsiniz. =C4=B0STER TEK T=C4=B0P =C4=B0STER=
+SEN=C4=B0Z =C5=9EIK
+> > ELB=C4=B0SE G=C4=B0Y=C4=B0LEB=C4=B0L=C4=B0R.
+> >
+> > -TERC=C3=9CMANLARIMIZ yine bildikleri dillere ve seviyelerine g=C3=B6re
+> > de=C4=9Fi=C5=9Fiklik g=C3=B6stermektedir. Ekte =C3=B6rnek sunumlar=C4=
+=B1 g=C3=B6rebilirsiniz.
+> > Kad=C4=B1n veya erkek tesett=C3=BCrl=C3=BC veya a=C3=A7=C4=B1k t=C3=BCm=
+ terc=C3=BCmanlar
+> > mevcuttur. Arad=C4=B1=C4=9F=C4=B1n=C4=B1z t=C3=BCm diller i=C3=A7in tal=
+epte bulunabilirsiniz.
+> >
+> > -EK=C4=B0PMAN SUNUMUMUZDA kahve otomat=C4=B1 hari=C3=A7 di=C4=9Fer t=C3=
+=BCm =C3=BCr=C3=BCnlerin
+> > =C3=BCcretleri FUAR BOYU =C3=BCcretlerdir. G=C3=BCnl=C3=BCk =C3=BCcretl=
+er de=C4=9Fildir.
+> > Fiyatlara =C4=B0FM ve T=C3=9CYAPTA ger=C3=A7ekle=C5=9Fecek fuarlar i=C3=
+=A7in nakliyesi ve
+> > hammaliye dahildir.
+> >
+> > -CATERING =C4=B0=C3=87=C4=B0N EKTE G=C3=96NDERD=C4=B0=C4=9E=C4=B0M SUNU=
+MDAN B=C4=B0R MENU SE=C3=87=C4=B0P MASA
+> > SAYINIZI =C4=B0LETMEN=C4=B0Z YETERL=C4=B0D=C4=B0R.
+> >
+> > D=C3=B6n=C3=BC=C5=9F=C3=BCn=C3=BCz=C3=BC bekliyorum.
+> >
+> > Bilginize, Sevgiler
+> >
+> > KURUCU / FOUNDER
+> >
+> > BURCU DA=C4=9E
+> > 0549 542 89 09
+>
+>
+
+--0000000000000916400632b7588a
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Merhabalar,=C2=A0</div><div><br></div><div>Mail liste=
+mizden =C3=A7=C4=B1kar=C4=B1ld=C4=B1n=C4=B1z. Verdi=C4=9Fimiz rahats=C4=B1z=
+l=C4=B1ktan dolay=C4=B1 =C3=B6z=C3=BCr dileriz.=C2=A0</div><div><div dir=3D=
+"ltr" class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><div dir=
+=3D"ltr"><div><b>Bilginize, Sevgiler</b></div><div><b><br></b></div><b>KURU=
+CU / FOUNDER</b><div><b><br></b></div><div><b>BURCU DA=C4=9E</b></div><div>=
+<b>0549 542 89 09</b></div></div></div></div><br></div><br><div class=3D"gm=
+ail_quote gmail_quote_container"><div dir=3D"ltr" class=3D"gmail_attr">&lt;=
+<a href=3D"mailto:info@vorteksenerji.com">info@vorteksenerji.com</a>&gt; ad=
+resine sahip kullan=C4=B1c=C4=B1 11 Nis 2025 Cum, 12:55 tarihinde =C5=9Funu=
+ yazd=C4=B1:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0px=
+ 0px 0px 0.8ex;border-left-width:1px;border-left-style:solid;border-left-co=
+lor:rgb(204,204,204);padding-left:1ex">Merhaba benim herhangi bir talebim y=
+ok s=C3=BCrekli araman=C4=B1za be mail <br>
+atman=C4=B1za gerej yoktur On 2025-02-25 08:00, Burcu Da=C4=9F wrote:<br>
+&gt; Merhabalar,<br>
+&gt; <br>
+&gt; -TECR=C3=9CBEL=C4=B0 STANDART SERV=C4=B0S HOSTESLER=C4=B0M=C4=B0Z=C4=
+=B0N =C3=BCcretleri 1600 tl +<br>
+&gt; kdv den ba=C5=9Flamaktad=C4=B1r. Tek tip servis hostesi k=C4=B1yafetle=
+ri<br>
+&gt; kullan=C4=B1lmaktad=C4=B1r. Siyah pantolon ya da etek beyaz g=C3=B6mle=
+k.<br>
+&gt; <br>
+&gt; -SERV=C4=B0S PERSONELLER=C4=B0N=C4=B0 SE=C3=87MEK =C4=B0STERSEN=C4=B0Z=
+ =C5=9Fayet ekte<br>
+&gt; belirtti=C4=9Fim sunumlardan dil bilen g=C3=B6rseli olan ve tecr=C3=BC=
+beli<br>
+&gt; hosteslerden de se=C3=A7ebilirsiniz. =C4=B0STER TEK T=C4=B0P =C4=B0STE=
+RSEN=C4=B0Z =C5=9EIK<br>
+&gt; ELB=C4=B0SE G=C4=B0Y=C4=B0LEB=C4=B0L=C4=B0R.<br>
+&gt; <br>
+&gt; -TERC=C3=9CMANLARIMIZ yine bildikleri dillere ve seviyelerine g=C3=B6r=
+e<br>
+&gt; de=C4=9Fi=C5=9Fiklik g=C3=B6stermektedir. Ekte =C3=B6rnek sunumlar=C4=
+=B1 g=C3=B6rebilirsiniz.<br>
+&gt; Kad=C4=B1n veya erkek tesett=C3=BCrl=C3=BC veya a=C3=A7=C4=B1k t=C3=BC=
+m terc=C3=BCmanlar<br>
+&gt; mevcuttur. Arad=C4=B1=C4=9F=C4=B1n=C4=B1z t=C3=BCm diller i=C3=A7in ta=
+lepte bulunabilirsiniz.<br>
+&gt; <br>
+&gt; -EK=C4=B0PMAN SUNUMUMUZDA kahve otomat=C4=B1 hari=C3=A7 di=C4=9Fer t=
+=C3=BCm =C3=BCr=C3=BCnlerin<br>
+&gt; =C3=BCcretleri FUAR BOYU =C3=BCcretlerdir. G=C3=BCnl=C3=BCk =C3=BCcret=
+ler de=C4=9Fildir.<br>
+&gt; Fiyatlara =C4=B0FM ve T=C3=9CYAPTA ger=C3=A7ekle=C5=9Fecek fuarlar i=
+=C3=A7in nakliyesi ve<br>
+&gt; hammaliye dahildir.<br>
+&gt; <br>
+&gt; -CATERING =C4=B0=C3=87=C4=B0N EKTE G=C3=96NDERD=C4=B0=C4=9E=C4=B0M SUN=
+UMDAN B=C4=B0R MENU SE=C3=87=C4=B0P MASA<br>
+&gt; SAYINIZI =C4=B0LETMEN=C4=B0Z YETERL=C4=B0D=C4=B0R.<br>
+&gt; <br>
+&gt; D=C3=B6n=C3=BC=C5=9F=C3=BCn=C3=BCz=C3=BC bekliyorum.<br>
+&gt; <br>
+&gt; Bilginize, Sevgiler<br>
+&gt; <br>
+&gt; KURUCU / FOUNDER<br>
+&gt; <br>
+&gt; BURCU DA=C4=9E<br>
+&gt; 0549 542 89 09<br>
+<br>
+</blockquote></div>
+
+--0000000000000916400632b7588a--

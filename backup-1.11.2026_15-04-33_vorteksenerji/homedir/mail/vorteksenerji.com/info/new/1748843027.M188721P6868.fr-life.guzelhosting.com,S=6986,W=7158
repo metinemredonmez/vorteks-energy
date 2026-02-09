@@ -1,0 +1,172 @@
+Return-Path: <prachi@navigomobile.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id uLv0ChM6PWjUGgAAOB6+FQ
+	(envelope-from <prachi@navigomobile.com>)
+	for <info@vorteksenerji.com>; Mon, 02 Jun 2025 08:43:47 +0300
+Return-path: <prachi@navigomobile.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Mon, 02 Jun 2025 08:43:47 +0300
+Received: from mail-pf1-f193.google.com ([209.85.210.193]:60483)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <prachi@navigomobile.com>)
+	id 1uLxxa-000000002Rl-47fd
+	for info@vorteksenerji.com;
+	Mon, 02 Jun 2025 08:43:47 +0300
+Received: by mail-pf1-f193.google.com with SMTP id d2e1a72fcca58-742c5f3456fso3026898b3a.0
+        for <info@vorteksenerji.com>; Sun, 01 Jun 2025 22:43:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=navigomobile-com.20230601.gappssmtp.com; s=20230601; t=1748842985; x=1749447785; darn=vorteksenerji.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=coFuTMqxiR/lj6iFzKUl5pqoaP1fyoiRPBXLdm2wb94=;
+        b=ZYPCN+SEW8yfjUNMRFGeTRMy5AzPqEnpAm2+p4tI1Be9YqsXMWPWCRIaNzO7vpv/f7
+         rV/5459g4XruUx43IO+cG4SHD/AtwnbG4GOzzXxYuXLjdmvGrqW9klLmTvWi+MgKdeAN
+         SuDUppM9I+WQgjgIPpBvoO+BlGn1pA16pQwUD40AIKaQqe6l39ShpFQBJ46/tY5y0RGG
+         zQqJA2s2dt2zb1/+jnKbn4LzDHu8aLvuUkjWwEJUfNG5aK0f+Gu4bmgn37S1auhxM6fR
+         MozyYRwVIAsF1nB3Ffu4Z5OOz8kT1LUfDGus8XtuLDsTXAxLiP+C1tlhe3K8CEwJZCo/
+         /0Rw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1748842985; x=1749447785;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=coFuTMqxiR/lj6iFzKUl5pqoaP1fyoiRPBXLdm2wb94=;
+        b=lrg6fZfCu71KsHp7zYDNb2sGNFlgwR2cKR7DiWEkB+3AA1c/wnw/uiSHrluFGadYp7
+         HWdXKbOL/tkg6w5yaz3JhfV1ina9k/Z6RYXkd6qBg86cpIMwE+3vyKtxZX83Md2IyI3K
+         EAnaDO5MCo4GIY6R/wl3wUJJNXcBxv0OQ1BE8YGY1a3i/1M0fjaWuw4CpsO/FHZaOCpq
+         WMAOyZGVXGQuM1xNna32d60QXYyneY2hzC+NaArDGiPnpwmuyXFEE7smV3xNdLtjv+Im
+         4D0XUsYZU/gZYUc4WwMvGlMoCfiJ/LvveHRPX+HCyWAOOlGNoTetgkohgq9y4GSjWB1U
+         gzOg==
+X-Gm-Message-State: AOJu0Yy3v4TWV+au1zd8SnNs8LOKbUoWGLXrbfmtjHOVEEhefsIS6M9m
+	K0bXL/7SNT916Bp2THL9jHVcCmAYSmSyA6Ac10LRWEIRoUmBGT2UwlsFX6AUG5N/nzdk0LzMfdT
+	bxneGSwQ=
+X-Gm-Gg: ASbGncs5H7MDpkvsgo3aqGs4Zdb81jUsDQUklg2kQGn2BIcGnHYrXt7gUMPbmOsmDgF
+	BLpYmP2NH5CjvEWjP68PtQvdrq7V2LJKUbO2XOnsi4M3XJ64ViXGIDe3lKEqO4SZnySwnEqEnQE
+	VUzevV+9crUjhbQw/Ek0yghT0mezo/iMSOeTweFE99dT7Rv8BnVkB4TPMFvp4jC4T0+a1m6PrTt
+	EZIh0KplV2eQzRuzottWRXy4AGuMO5YZueBTdwEQgHOKMBq0ZPpFBONBBNsKiZzhQ3PKzTclhcL
+	knRKEZ5fkVXD8I+v0Q8wqR8eZxSiofN9uUDaXXYI+Zqn7kgY9DSlMj4X
+X-Google-Smtp-Source: AGHT+IF9ElpYgRq/aEqs0seHxRfboNt/U05JdN/qGe/aTe9/4f/cEaKTJI3e3SvEZU7vQleSmITjLQ==
+X-Received: by 2002:a05:6a00:6c8f:b0:747:ee09:1fdf with SMTP id d2e1a72fcca58-747ee092547mr2910940b3a.4.1748842984700;
+        Sun, 01 Jun 2025 22:43:04 -0700 (PDT)
+Received: from Bhati ([2405:201:402e:a071:f164:56ba:1f93:460e])
+        by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-747affcf497sm6752821b3a.125.2025.06.01.22.43.03
+        for <info@vorteksenerji.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 01 Jun 2025 22:43:04 -0700 (PDT)
+From: "Prachi" <prachi@navigomobile.com>
+To: <info@vorteksenerji.com>
+Subject: Website Upgrade
+Date: Mon, 2 Jun 2025 11:07:39 +0530
+Message-ID: <b00e01dbd381$35769f50$a063ddf0$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_B00F_01DBD3AF.4F2EDB50"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdvTGssBDCOMYCgzQZ2GtLHuMXm/Fg==
+Content-Language: en-us
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_B00F_01DBD3AF.4F2EDB50
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+ 
+
+Hope you're doing well!
+
+ 
+
+I'm Prachi, a seasoned web developer from India with over 12 years of
+experience. Whether you're looking to build a new website or improve an
+existing one, I'm here to help.
+
+ 
+
+Feel free to reach out for any web development needs.
+
+ 
+
+Best regards,
+
+Prachi,
+
+Business Consultant (INDIA)
+
+ 
+
+
+------=_NextPart_000_B00F_01DBD3AF.4F2EDB50
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+span.fui-primitive
+	{mso-style-name:fui-primitive;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNoSpacing>Hello,</p><p =
+class=3DMsoNoSpacing>&nbsp;</p><p class=3DMsoNoSpacing>Hope you're doing =
+well!</p><p class=3DMsoNoSpacing>&nbsp;</p><p class=3DMsoNoSpacing>I'm =
+<b>Prachi</b>, a seasoned web developer from India with over 12 years of =
+experience. Whether you're looking to build a new website or improve an =
+existing one, I'm here to help.</p><p class=3DMsoNoSpacing>&nbsp;</p><p =
+class=3DMsoNoSpacing>Feel free to reach out for any web development =
+needs.</p><p class=3DMsoNoSpacing>&nbsp;</p><p class=3DMsoNoSpacing>Best =
+regards,</p><p class=3DMsoNoSpacing><b>Prachi,<o:p></o:p></b></p><p =
+class=3DMsoNoSpacing><span class=3Dfui-primitive>Business Consultant =
+(INDIA)</span><b><o:p></o:p></b></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_000_B00F_01DBD3AF.4F2EDB50--
+

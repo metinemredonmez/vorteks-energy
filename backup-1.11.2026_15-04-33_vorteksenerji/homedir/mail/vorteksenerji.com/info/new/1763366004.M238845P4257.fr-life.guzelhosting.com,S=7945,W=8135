@@ -1,0 +1,190 @@
+Return-Path: <shaurya@webappconsultant.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id IMLsDXTUGmmhEAAAOB6+FQ
+	(envelope-from <shaurya@webappconsultant.com>)
+	for <info@vorteksenerji.com>; Mon, 17 Nov 2025 10:53:24 +0300
+Return-path: <shaurya@webappconsultant.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Mon, 17 Nov 2025 10:53:24 +0300
+Received: from mail-pl1-f195.google.com ([209.85.214.195]:55406)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <shaurya@webappconsultant.com>)
+	id 1vKu3A-00000000701-08DW
+	for info@vorteksenerji.com;
+	Mon, 17 Nov 2025 10:53:24 +0300
+Received: by mail-pl1-f195.google.com with SMTP id d9443c01a7336-297f35be2ffso57308175ad.2
+        for <info@vorteksenerji.com>; Sun, 16 Nov 2025 23:53:03 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=webappconsultant-com.20230601.gappssmtp.com; s=20230601; t=1763365962; x=1763970762; darn=vorteksenerji.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=QsqHojWWFQSI7CX0QPsx6+Ee1MT+gSsZvLy2JR6rvYI=;
+        b=IF1ecuOJkXjV1etV+iU3SuPHjehEP10H1WcNW2PTDmIgzfaoIj+YP3O2h7/LPXm+du
+         rG+6iZbCZaZTJpc2LuWfnaluV5SM32ASfvuOxrL1akX8xMg1d8RKWjtReqCPLvVwbazz
+         pb9gkV3RS8sWo/fRfHe/FzoJk59lWrhxJT3V7NEy78tekj+KhzW1RTMeyQO95ZqjjZI2
+         rHaUgygtUzGXGXX9OMf4l4yz+tRq9QhClxP8fZVEuv3Xckz2qqv7Y87NKAwOw5+Nxy8X
+         Drl5hKcZVhYiKdBdfD7Lb8Dyyd8OupO5I8INdirny0wHzdE4CLOcAMEFcJS3q8jPOGZQ
+         mmBg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1763365962; x=1763970762;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=QsqHojWWFQSI7CX0QPsx6+Ee1MT+gSsZvLy2JR6rvYI=;
+        b=uZfm89XhyDI9maQAUWiCtXgLOXrrlbvl0CI2O3Y8+t3sg6tAr/Sl31PiYZuh7fan6g
+         nHdOW1eiuQxk9J8N3f0++5K9YLIvla7Vo3V5suW0G4rGdSgRiGWWjRw6NoSu5XVhKKmy
+         MtG8k559U4Q8SdRO00W6rEmn6LPsozGROCSw/cUb8ildJGFX8GqbxtSb5AfpzkXC0p2H
+         1egFTvX8NFd1vNtwQtKBTtUeUjlbpVZTPXAaBvfbI26C5K3uIUNh/y8IAPkKC1OLcuq2
+         70+5xqYqUYCXm9xmSFSFDQowZk5CTmIlGxIQLNHRcSNjs4JbE8U0qT7YYWH9iqqsjALR
+         hdgQ==
+X-Gm-Message-State: AOJu0Yx5UwAOn1MQRgKP/m67yXkO7gW7zaQU+BVFBbcevCMuVp6RqAEs
+	k3RnBTvFMkrEfGZ4YXuxbje5UXh4kTPEJ5ZpUOJYxo2IGtSFqbtKo54eGRTS/df/8FbOEzU1hQQ
+	F1k1r10P8hw==
+X-Gm-Gg: ASbGncujUQ6f1xV24pn2J2LS9LYerlKLseG9dxXGrNO891NU0H8Vh3gm5tLw5yND9Ab
+	ofqMevOuhfj5v3roo+LH4H0SofSJ9vzc0u/GhBwBdMNhS9mVqRXkr5PZPKRFK++I/ka+lUten0l
+	uNKSJsPCoKYoWPSOoCByRURMY1TfYH7tyMQdq678qyV/BhPWIzESHra0nicNW6rt9s/drVQcGCg
+	2AwCp+AlzrSnZHiOdAKuXzXCkJoAeSNIIGmoLOBLNsjNMFxQxsfC7ASK210OdsH2K7PYHlYoJyN
+	GYPT14kKhT4Aa5N7JBUN4bk5xNAPP/EXSvhMYGRMRSwGNVouGpuAF5OJtEMEFvEDumOuAscR87v
+	JJSLSrDwkRf6kBBinCQb5/RIfvRrCNlvXcT4i0xn7/HEfO5dD/OsYfRLgw9+zhL88aFG6xV8O/o
+	8JxIDOb1ZAM3qybXCoAdKy
+X-Google-Smtp-Source: AGHT+IFprz4d8sWMApaarI9R2QeCoKtz4c1r2bMi9kmH0BlaXKnaCweyORhIRSOduw/CmLAPhVpMIg==
+X-Received: by 2002:a17:903:19e3:b0:297:f8d9:aae7 with SMTP id d9443c01a7336-2986a7556ebmr132611525ad.46.1763365961485;
+        Sun, 16 Nov 2025 23:52:41 -0800 (PST)
+Received: from Arvind ([110.235.233.239])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-2985c2565easm127942265ad.48.2025.11.16.23.52.40
+        for <info@vorteksenerji.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 16 Nov 2025 23:52:41 -0800 (PST)
+From: "Shaurya Bhatt" <shaurya@webappconsultant.com>
+To: <info@vorteksenerji.com>
+Subject: Designer / Developers ?
+Date: Mon, 17 Nov 2025 13:10:06 +0530
+Message-ID: <620ca01dc5797$27850720$768f1560$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_620CB_01DC57C5.413D4320"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdxW3za8tYrw1ufPRV2RPSnu6ZRcYw==
+Content-Language: en-in
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_620CB_01DC57C5.413D4320
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+I'm reaching out to see if there is anything that would like to create
+Shopify & Wordpress, upgrade, repair, or redesign on your website or Mobile
+App or SEO.
+
+I am a web designer/developer that can do just about anything you can
+imagine at very affordable prices.
+
+Let me know what you think.
+
+If interested. May I send you sample, Portfolio and company Details?
+
+Thank you for your time and consideration.
+
+Kind Regards,
+Shaurya Bhatt
+
+ 
+
+.S.: If you'd prefer not to receive further emails from me, simply reply
+with "NO" in the subject line.
+
+ 
+
+
+------=_NextPart_000_620CB_01DC57C5.413D4320
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p><span =
+style=3D'font-family:"Calibri","sans-serif"'>Hello,<br><br>I'm reaching =
+out to see if there is anything that would like to create Shopify &amp; =
+Wordpress, upgrade, repair, or <b>redesign</b> on your website or =
+<b>Mobile App</b> or <b><span =
+style=3D'color:black;background:yellow'>SEO</span></b>.<br><br>I am a =
+web <b>designer/developer</b> that can do just about anything you can =
+imagine at very affordable prices.<br><br>Let me know what you =
+think.<br><br>If interested. May I send you sample, Portfolio and =
+company Details?<br><br>Thank you for your time and =
+consideration.<br><br>Kind Regards,<br>Shaurya =
+Bhatt<o:p></o:p></span></p><p><span =
+style=3D'font-family:"Calibri","sans-serif";background:white'><o:p>&nbsp;=
+</o:p></span></p><p><span =
+style=3D'font-family:"Calibri","sans-serif";color:red;background:white'>.=
+S.: If you'd prefer not to receive further emails from me, simply reply =
+with &quot;NO&quot; in the subject line.</span><span =
+style=3D'font-family:"Calibri","sans-serif"'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:12.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p><=
+/div></body></html>
+------=_NextPart_000_620CB_01DC57C5.413D4320--
+

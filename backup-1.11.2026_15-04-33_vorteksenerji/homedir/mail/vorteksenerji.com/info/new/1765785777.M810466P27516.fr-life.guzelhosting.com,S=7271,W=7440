@@ -1,0 +1,169 @@
+Return-Path: <preet@wordpressconsultants.net>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id 8AD9L7HAP2l8awAAOB6+FQ
+	(envelope-from <preet@wordpressconsultants.net>)
+	for <info@vorteksenerji.com>; Mon, 15 Dec 2025 11:02:57 +0300
+Return-path: <preet@wordpressconsultants.net>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Mon, 15 Dec 2025 11:02:57 +0300
+Received: from mail-pl1-f194.google.com ([209.85.214.194]:52491)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <preet@wordpressconsultants.net>)
+	id 1vV3Xl-000000007pB-2U9M
+	for info@vorteksenerji.com;
+	Mon, 15 Dec 2025 11:02:57 +0300
+Received: by mail-pl1-f194.google.com with SMTP id d9443c01a7336-29efd139227so38456025ad.1
+        for <info@vorteksenerji.com>; Mon, 15 Dec 2025 00:02:37 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=wordpressconsultants-net.20230601.gappssmtp.com; s=20230601; t=1765785735; x=1766390535; darn=vorteksenerji.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=I4JqkIFpCUt1YyZgKXEo8e3ANoIt0m2TLgbCKvnSfqo=;
+        b=yL+bG8IzhDscRZ3s7oaXmq7c+pKTXaAkoN5P33ajP9BBDtn2MeWWL73VpodhkEGFxU
+         KJQ+/KiIMXGknpKCZcvWnb7hOHFz54xNxJCbsk4oaIyYO8gwEY1AmRTrh4Y0+A0OZwO/
+         tlSDSnTKdW2IUaImW2WMcSAi+W41R+Kx3OqbhZvLXSthfnn2lRDyI5bxyAahMWNWCZp1
+         4q0tWKRlU55YMdN+nN0XgxarjsvmEqORQzAd597dakGCNzZpL8iUqzwh0daLL/at7A3+
+         /D2ESmJf7hMkctM78syVm7naIjrJVVbk5UQ5LCsCsUe240X4jZj/obLX7Om9pM1KiEhW
+         JhJQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1765785735; x=1766390535;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=I4JqkIFpCUt1YyZgKXEo8e3ANoIt0m2TLgbCKvnSfqo=;
+        b=TXUCDQ4MDi/Za73hAUFoQw4aoLwIxK9v9MMYeB/gkdtrrGsV7zFSLqbEFTPoMUO8YV
+         FY7HMIZ0sMtqMYYTUMjdaB4Euwg/qArxgoJSw+pkoRkpXR44nhsUMCo+elmEGyeZzEtp
+         Qyb+ex+0EWcSLWnVZwxAwavFEl1wLjlbods64ZG35bFPcxyqeKe97ev4z8TLlgpFpeXW
+         UZbhlC0NC4Lh77EQo04Dv67tNtdC21qzvrIHEI2o+90qcBBbcJH3uhCCvy1ntk1UtNAp
+         ae5uEeU/EYxfTfOTM189NQZKoLbfJz1Wd0qv6w/mVaYoMs7g/9khZcJ0XLPJiSF+gFcE
+         Yprg==
+X-Gm-Message-State: AOJu0YxsWI5EU+onwm8q6wX3s2gs+qptAFmSs/bHb+Hn4RE+Mlz0pyIt
+	hyQ+sr8j0oWkCPOdsP4DaVu0RhAyznuzG7m7h9JJsT+9EtUmCkyo+aqzEFIwos/KQf8DF1fSqD5
+	p8MKM9A==
+X-Gm-Gg: AY/fxX7HYngY0x4sxDR8Jj/RAhIyO+c7Xqanhm5fibvbPWkwpQ8dxnslrcfWuZBs8TJ
+	aD/hXm1Zz+t5dJa5cRelateqM7YOTlJxqHnsjmXXxYZ4YwKiWK5OU1VxNNbD8dwGFP7xzfk/R3i
+	q/oyEVzTstF0m9GLQV4BDifYcxnfTbwT2tLWZ6Ogr9QkSB2D2bowA5495BQsBRmJChqrFbFYojZ
+	qJVBReAmQ46f1T69DJJ5lg7mC7d2lppqZoGPXLnE+0o3FmxVk6Tyl0IhvoWxPkKLal75AF1cH7z
+	5vLURZJuF6VD0aDlMvG+cphSPt9EFKJFAgykc0x9RdhXHmAYKfZCm0aHDcKehp7Gibp+ADRuSfA
+	XNBo+G74remWKkRi0iDxrSqbAC5+dQ28XnXVr18Ear3f+Lz1X00migYMkDA3aeydCSUpi3DA2yd
+	6ebjMZ7EdAbI9zh1T4ZS2BTs/jevIMFWlfk1zo24c=
+X-Google-Smtp-Source: AGHT+IFSnQHVRTnWw72Ucbf1JFoefhRfSHcjYYrC+Lph0vKXxRb9fSDA81WlyZK5LambtQKWn78DiQ==
+X-Received: by 2002:a17:903:4410:b0:29d:ea2c:42e0 with SMTP id d9443c01a7336-29f23ce1b64mr98775595ad.48.1765785734510;
+        Mon, 15 Dec 2025 00:02:14 -0800 (PST)
+Received: from Lata ([2401:4900:1c63:5e5d:19dc:fb26:f193:c04a])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-29eea06ae3bsm127408305ad.93.2025.12.15.00.02.13
+        for <info@vorteksenerji.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 15 Dec 2025 00:02:14 -0800 (PST)
+From: "Preet" <preet@wordpressconsultants.net>
+To: <info@vorteksenerji.com>
+Subject: Designer / Developer
+Date: Mon, 15 Dec 2025 13:30:12 +0530
+Message-ID: <3927901dc6d99$1f849a00$5e8dce00$@net>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_3927A_01DC6DC7.393CD600"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdxrZp8OJpoFQrtxQ2uQ7KamElpZTA==
+Content-Language: en-us
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_3927A_01DC6DC7.393CD600
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+I'm reaching out to see if there is anything that would like to create
+Shopify & Wordpress, upgrade, repair, or redesign on your website or Mobile
+App.
+
+I am a web designer/developer that can do just about anything you can
+imagine at very affordable prices.
+
+Let me know what you think.
+
+If interested. May I send you sample, Portfolio and company Details?
+
+Thank you for your time and consideration.
+
+Kind Regards,
+Preet
+
+ 
+
+Business Consultant (INDIA)
+
+
+------=_NextPart_000_3927A_01DC6DC7.393CD600
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNoSpacing><span =
+style=3D'font-size:12.0pt'>Hello,<br><br>I'm reaching out to see if =
+there is anything that would like to create Shopify &amp; Wordpress, =
+upgrade, repair, or redesign on your website or Mobile App.<br><br>I am =
+a web designer/developer that can do just about anything you can imagine =
+at very affordable prices.<br><br>Let me know what you think.<br><br>If =
+interested. May I send you sample, Portfolio and company =
+Details?<br><br>Thank you for your time and consideration.<br><br>Kind =
+Regards,<br><b>Preet<o:p></o:p></b></span></p><p =
+class=3DMsoNoSpacing><b><span =
+style=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p><p =
+class=3DMsoNoSpacing><span style=3D'font-size:12.0pt'>Business =
+Consultant (INDIA)<o:p></o:p></span></p></div></body></html>
+------=_NextPart_000_3927A_01DC6DC7.393CD600--
+

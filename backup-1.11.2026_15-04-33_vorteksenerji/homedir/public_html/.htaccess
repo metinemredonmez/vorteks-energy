@@ -1,0 +1,5 @@
+DirectoryIndex index.html index.htm default.htm index.php index.php3 index.phtml index.php5 index.shtml mwindex.phtml
+
+<IfModule mod_rewrite.c>
+RewriteEngine Off
+</IfModule>

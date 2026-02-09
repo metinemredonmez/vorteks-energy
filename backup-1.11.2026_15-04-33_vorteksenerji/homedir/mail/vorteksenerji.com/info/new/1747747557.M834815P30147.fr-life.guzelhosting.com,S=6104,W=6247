@@ -1,0 +1,143 @@
+Return-Path: <lapkermatest@gmail.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id mPFxMeWCLGjDdQAAOB6+FQ
+	(envelope-from <lapkermatest@gmail.com>)
+	for <info@vorteksenerji.com>; Tue, 20 May 2025 16:25:57 +0300
+Return-path: <lapkermatest@gmail.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Tue, 20 May 2025 16:25:57 +0300
+Received: from mail-wm1-f45.google.com ([209.85.128.45]:43398)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <lapkermatest@gmail.com>)
+	id 1uHMyj-000000008Ac-3IyR
+	for info@vorteksenerji.com;
+	Tue, 20 May 2025 16:25:57 +0300
+Received: by mail-wm1-f45.google.com with SMTP id 5b1f17b1804b1-443a787bd14so24406665e9.1
+        for <info@vorteksenerji.com>; Tue, 20 May 2025 06:25:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1747747517; x=1748352317; darn=vorteksenerji.com;
+        h=subject:to:mime-version:from:date:message-id:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=tK6Hqm+cJmPZ3pmMTfykzkSUdcCn2gH89shejnJ0hZ0=;
+        b=PM1y4LWaQMJrUIu149rCrMYesmU35lT6xfuU1AM9Z9wWH8NI9Ie4V6IHfwi0ADMOw5
+         tHWFVHa0o72KOY9da5L5dS7g2lyVe56zq837kreyeM0UQ8zbYnFOPXuzYvLFrb/N0cBS
+         QXZoLLo/edmawakkXzwHLNIe1IbBdhpWCwc///ffavE76Q0xpd7epK405g+K9LGG0Zy6
+         s2/LOu0LxRbJykFV2679QdiPgdjfByu2ApcEsjbS+TJ1RJ6HvlGwLBPkD/JydpRlty18
+         ZOUVRCgIL21KsjrKlcA+BnmVzSQay8ujyKgYyJHTMNVI7t2puDGe1mZx52VB50Wp5CM/
+         l8VA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1747747517; x=1748352317;
+        h=subject:to:mime-version:from:date:message-id:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=tK6Hqm+cJmPZ3pmMTfykzkSUdcCn2gH89shejnJ0hZ0=;
+        b=a/unsBxF5zftvfgD0cT+5wrpBUrSq3HcInrjow5P7xOZp7JyiQpAewXQzWyZjp9RwK
+         MYD0y9ln6MJl9rFoo23J2k/B7d/5c70OlJt9D9+z3Y0hrQNWI3n0oZHoANIblK/tjg36
+         A/7gXmwt/J5LjPA85POm0ZiQXi4RppWyK6QZXXK3fEHTU5XLOiOqCKeRAMf+UonAlC/l
+         SGKUGgF/f2ue5Rm4MuyvDsxAx2Lmh2obHFv7hp/NKZT0prIZehdhbAvBohATAvt8Qk6y
+         eYIScAf9cKNXzJdl9cS/dNMNZyzpm4HSJkOXZZ2AVYM163rJJGFfGw3CNJWRU2wxhPfZ
+         HztQ==
+X-Gm-Message-State: AOJu0YySwtnCMXc0fRu9cm4efGc0esf9QMDZG/WKVSdveowJ9KhO8BY1
+	zw2VYOn68KfuF4mtvEBx46fBcBrj9gq79n5743QEI7FBBMfXCCk2gj+8eUgcoeYYeAY=
+X-Gm-Gg: ASbGncv+jt2cOEDYGQg3e0/EBYmgCkTW0SDs/U3l6rbcFIxfh8yaMWjANslX+oFOXDG
+	Iysr5Lb07FZjQYeWB7X1GzeZPf91Ifi3JKANIAHoQaS9S4oVU9HvNH09o6mbRjgTd6OtizEcDR9
+	qT9YrZfPaWe7FkM36KBzjnwoGEzlf/lzYhxSSzAOEpybddTy1cLCR0BQqcl2QXcLV2fLQUPTl/J
+	cglCpiTU9KcE92IBdqT1WaXmyfInd/iZJWmmvKixn1uQUa93kmSDIAkcfwwYilItW1+vSkR1qFl
+	c/9dHr72W7JwxOebJ0mhCBn/MJTWgtwvYwUn3b7/hh4vGJhbYqjnUNtLcnVFzK3NtXj+H/vud6X
+	eK+hBjZE=
+X-Google-Smtp-Source: AGHT+IHGaQZpeo+NJ+xT6hxAYo8D0/O6oo8GBvYS2yi0Uj9RJmt26hURYDPhhHYKyuBmkw0SptFtXg==
+X-Received: by 2002:a05:600c:3507:b0:43c:f509:2bbf with SMTP id 5b1f17b1804b1-442f8524653mr217171105e9.15.1747747516812;
+        Tue, 20 May 2025 06:25:16 -0700 (PDT)
+Received: from [192.168.1.31] ([196.89.177.99])
+        by smtp.gmail.com with ESMTPSA id 5b1f17b1804b1-447f6ffaa6esm31658965e9.16.2025.05.20.06.25.16
+        for <info@vorteksenerji.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 20 May 2025 06:25:16 -0700 (PDT)
+Message-ID: <682c82bc.050a0220.8ae5a.6c50@mx.google.com>
+Date: Tue, 20 May 2025 06:25:16 -0700 (PDT)
+From: OpenAI <lapkermatest@gmail.com>
+X-Google-Original-From: OpenAI <leonidlazarevsq6352@rambler.ru>
+Content-Type: multipart/mixed; boundary="===============2083277729943805945=="
+MIME-Version: 1.0
+To: info@vorteksenerji.com
+Subject: Your ChatGPT Subscription Has Been Paused Due to Payment Issue
+
+--===============2083277729943805945==
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML lang=en><HEAD><TITLE>Subscription Declined</TITLE>
+<META content="text/html; charset=unicode" http-equiv=Content-Type>
+<STYLE>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      background-color: #ffffff;
+      margin: 50px auto;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .header {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    .header h1 {
+      color: #333333;
+    }
+    .content {
+      font-size: 16px;
+      color: #555555;
+      line-height: 1.6;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 20px;
+      background-color: #10a37f;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #999999;
+      text-align: center;
+    }
+  </STYLE>
+</HEAD>
+<BODY>
+<DIV class=container>
+<DIV class=header>
+<H1 align=left><IMG style="HEIGHT: 38px; WIDTH: 141px" alt="" 
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/512px-OpenAI_Logo.svg.png" 
+width=504 height=139 data-olk-copy-source="MessageBody" 
+data-imagetype="External"></H1>
+<P>&nbsp;</P>
+<H1>Subscription Payment Declined</H1></DIV>
+<DIV class=content>
+<P>Hi info@vorteksenerji.com,</P>
+<P>We attempted to process your subscription payment for ChatGPT, but 
+unfortunately, the payment was declined.</P>
+<P>This may be due to an issue with your payment method. To continue enjoying 
+uninterrupted access to ChatGPT, please update your payment information.</P>
+<P><A class=button href="https://zpr.io/7k6MARBTLnB8">Update Payment Details</A> 
+</P>
+<P>If you have any questions or need help, feel free to contact our support 
+team.</P>
+<P>Thank you for using ChatGPT.</P>
+<P>The OpenAI Team</P></DIV>
+<DIV class=footer>&#169; 2025 OpenAI. All rights reserved. </DIV></DIV></BODY></HTML>
+
+--===============2083277729943805945==--

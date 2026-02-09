@@ -1,0 +1,234 @@
+Return-Path: <dipesh@thejavaconsultants.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id ED9nA1CUMmkxIAAAOB6+FQ
+	(envelope-from <dipesh@thejavaconsultants.com>)
+	for <info@vorteksenerji.com>; Fri, 05 Dec 2025 11:14:08 +0300
+Return-path: <dipesh@thejavaconsultants.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Fri, 05 Dec 2025 11:14:08 +0300
+Received: from mail-pf1-f193.google.com ([209.85.210.193]:47554)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <dipesh@thejavaconsultants.com>)
+	id 1vRQx5-000000007LV-3YlC
+	for info@vorteksenerji.com;
+	Fri, 05 Dec 2025 11:14:08 +0300
+Received: by mail-pf1-f193.google.com with SMTP id d2e1a72fcca58-7b80fed1505so2050807b3a.3
+        for <info@vorteksenerji.com>; Fri, 05 Dec 2025 00:13:47 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=thejavaconsultants-com.20230601.gappssmtp.com; s=20230601; t=1764922406; x=1765527206; darn=vorteksenerji.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=C9snwqMRh40YUa6gd3xgQJrQB6XGEybdsFwSJhN+Qrw=;
+        b=ND5qmbNJItjxdOvxDddWl2vQdeavVooinwOKHT7GW5IfVV4wLZI1oLlvqlqVuwxsQm
+         1ls61UweQgwoTxOKxUj/nH5X8ub8BnTqaXYVL/XLaZo21GQnBrJGMX7TmmMv7vH02leN
+         RCWPzAFfmSzfQAbI++iVwySa9ALHgEgGmbY3JrWZxkCPAih0CgxI+5/+TQdlDzZR+kaC
+         mRXn8rhqlc61el73+9nWvPJqhzABxp2WGiJAFz2Ug5P+bKN2k/gBV0WRVPNUepP/70Y+
+         aFirKs5cmGRjNoTat3EEFk31nVEtUY6+6LwiyeG2bzH1YNdlAIa00DYxCfUdhwKa1RkX
+         rMYg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1764922406; x=1765527206;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=C9snwqMRh40YUa6gd3xgQJrQB6XGEybdsFwSJhN+Qrw=;
+        b=njTa/OnTlw1lGeDUEmHgdRIfffzvhiQ5quMilGaWfmef7xedFLQJZI4uIE4m07lkaY
+         Ze2q6rWmaQv1RghAt3MbCYDFjqZKafO/JRZklpFb1A0KnIO+Ap1SaNPN07S3uFJyQCFW
+         g7W8JtJBCeVzoal53/PzhwbqFA/07rcIEA5gEFBawWamKi4JYKhWAMB/CPJ9A6R52RrN
+         L01uat/3jqIKwbF73usTudrAvlB3Xdnh2+GI9CdfTnEPUQVz7eNm6VqfEzQMcOmW9NoY
+         ricGivQ8Hyj8QPUKPhx1NdkmpmyMNu+5pPwtLTXcmmMwE6FiW4y5El+jcbPbxuGg0YS3
+         d3fw==
+X-Gm-Message-State: AOJu0YzIBN6Ms5Ls4Au36WqfYrzfAXjfveQi6vBbR0L24XXwpVBySAhL
+	64pDnQZ9Y7R/IWYZrwRSHcMhBx5Cjp0Qz+nUjXkCGeLcXz4rYvo/qqJ0vLgpmFZ/4m4LOeIxY98
+	G4iio79M=
+X-Gm-Gg: ASbGncuWApjmkBKCCrRUCeoPMx7wsrbukMrPKTOlAOpqnx1tnw2sNcpbnnYBuMxa2lV
+	wZW50Kt2unT14s+d6RN5TPaCDEi4HTAydRCyJrq4ojkFaPdn+goRLp2lkGGjYjjBjYV5+k5zmAO
+	lml0ScYK5p6OFT35ev06qpb2qULPo/ykMJix4z6sVC52z6Die3AfTNrO3znWfLe8t7ZuqoKbePC
+	YKj2R7rqdoKzZ4jGAfOFj5fKlCWuVqjxAMpC59a3VEjRUkduwnt+WRZHTTVwThg5aTzMHBdulZM
+	T3TJahfMssM0OvspuB0ByivDcSynZtGHwzDlScmCYkmw0s7bXYTrdqOYMk6bSAoJ/uX956K8iPd
+	dPu/nSxA84k++AI5lZ+5hLliRkA9/sfHIzd01N1wZqaVGMyqgI7CbmIuJH6anoCFf6jJGyqht8D
+	l1H+IY2Vh8Pfe1MfmkqAyHwcqpppUbbffVb9tG
+X-Google-Smtp-Source: AGHT+IFC0uugtWXCwm21oZvxBtbXN8+ogrox5kuiV4pPO1SHb2KD7RFfOfiTBAd+bOCbkW1LiMc/2w==
+X-Received: by 2002:a05:6a20:3d8b:b0:34f:14d6:15f5 with SMTP id adf61e73a8af0-363f5e521a1mr11944022637.29.1764922405415;
+        Fri, 05 Dec 2025 00:13:25 -0800 (PST)
+Received: from DESKTOPQPJ2HB0 ([2401:4900:1c65:5a3a:81a2:84db:e304:2db9])
+        by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-7e2afa31e9fsm4360880b3a.68.2025.12.05.00.13.24
+        for <info@vorteksenerji.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 05 Dec 2025 00:13:24 -0800 (PST)
+From: "Dipesh" <dipesh@thejavaconsultants.com>
+To: <info@vorteksenerji.com>
+Subject: Website design/redesign/ Upgrade ?
+Date: Fri, 5 Dec 2025 13:35:05 +0530
+Message-ID: <2bdf01dc65be$abba57e0$032f07a0$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_2BE0_01DC65EC.C57293E0"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Adxlt0VZ5Xed8HxHSYCzW+Bgsk5xtQ==
+Content-Language: en-us
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_2BE0_01DC65EC.C57293E0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi info@vorteksenerji.com,
+
+ 
+
+I hope you are fine.
+
+ 
+
+We are an India based website design and development company with PHP
+development offering services at a moderate price. We have a dedicated team
+of over 100 professionals with over 12 years of experience and live by the
+idea that design makes a difference.
+
+ 
+
+1. Do you want to create a new company website?
+
+ 
+
+2. Do you want to redesign/revamp your website with a new, modern, and
+industry-standard look?
+
+ 
+
+We use the latest technologies, user-friendly CMS, and frameworks for
+designing a professional website such as: WordPress, Magento 2.0, Core PHP,
+Laravel, Node js, Vue js, React js, Angular js and Shopify.
+
+ 
+
+Let me know if you're ready to talk about a possible website
+redesign/redesign or a new website design.
+
+ 
+
+I am waiting for your answer.
+
+ 
+
+Best regards,
+
+Dipesh
+
+
+------=_NextPart_000_2BE0_01DC65EC.C57293E0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.v1msonormal1, li.v1msonormal1, div.v1msonormal1
+	{mso-style-name:v1msonormal1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.v1msonospacing1, li.v1msonospacing1, div.v1msonospacing1
+	{mso-style-name:v1msonospacing1;
+	mso-style-priority:1;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p =
+class=3Dv1msonospacing1><span style=3D'font-size:12.0pt'>Hi =
+info@vorteksenerji.com,</span></p><p class=3Dv1msonospacing1><span =
+style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dv1msonospacing1><span style=3D'font-size:12.0pt'>I hope you are =
+fine.</span></p><p class=3Dv1msonospacing1><span =
+style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dv1msonospacing1><span style=3D'font-size:12.0pt'>We are an India =
+based website design and development company with PHP development =
+offering services at a moderate price. We have a dedicated team of over =
+100 professionals with over 12 years of experience and live by the idea =
+that design makes a difference.</span></p><p =
+class=3Dv1msonospacing1><span =
+style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dv1msonospacing1><span style=3D'font-size:12.0pt'>1. Do you want =
+to create a new company website?</span></p><p =
+class=3Dv1msonospacing1><span =
+style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dv1msonospacing1><span style=3D'font-size:12.0pt'>2. Do you want =
+to redesign/revamp your website with a new, modern, and =
+industry-standard look?</span></p><p class=3Dv1msonospacing1><span =
+style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dv1msonospacing1><span style=3D'font-size:12.0pt'>We use the =
+latest technologies, user-friendly CMS, and frameworks for designing a =
+professional website such as: WordPress, Magento 2.0, Core PHP, Laravel, =
+Node js, Vue js, React js, Angular js and Shopify.</span></p><p =
+class=3Dv1msonospacing1><span =
+style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dv1msonospacing1><span style=3D'font-size:12.0pt'>Let me know if =
+you're ready to talk about a possible website redesign/redesign or a new =
+website design.</span></p><p class=3Dv1msonospacing1><span =
+style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dv1msonospacing1><span style=3D'font-size:12.0pt'>I am waiting =
+for your answer.</span></p><p class=3Dv1msonospacing1><span =
+style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dv1msonospacing1><span style=3D'font-size:12.0pt'>Best =
+regards,</span></p><p class=3DMsoNormal><span =
+style=3D'font-size:12.0pt;line-height:115%'>Dipesh</span></p></div></body=
+></html>
+------=_NextPart_000_2BE0_01DC65EC.C57293E0--
+

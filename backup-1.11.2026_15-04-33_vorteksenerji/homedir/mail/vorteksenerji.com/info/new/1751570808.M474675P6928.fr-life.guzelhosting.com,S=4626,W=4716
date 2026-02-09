@@ -1,0 +1,90 @@
+Return-Path: <sygnalcollective@gmail.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id AMIIHHjZZmgQGwAAOB6+FQ
+	(envelope-from <sygnalcollective@gmail.com>)
+	for <info@vorteksenerji.com>; Thu, 03 Jul 2025 22:26:48 +0300
+Return-path: <sygnalcollective@gmail.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Thu, 03 Jul 2025 22:26:48 +0300
+Received: from mail-pg1-f195.google.com ([209.85.215.195]:56635)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <sygnalcollective@gmail.com>)
+	id 1uXPa4-000000002Hh-1BtW
+	for info@vorteksenerji.com;
+	Thu, 03 Jul 2025 22:26:48 +0300
+Received: by mail-pg1-f195.google.com with SMTP id 41be03b00d2f7-b3226307787so188075a12.1
+        for <info@vorteksenerji.com>; Thu, 03 Jul 2025 12:26:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1751570766; x=1752175566; darn=vorteksenerji.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=3nXFdMntCMFq3PemPd4ACiNwdYY4zCZSf/EHtfUtuxc=;
+        b=OL4bUT1ciYlD+sUUZdyrXLbijZXNlG+30lBFP8Jtf50XEs/lfZ5TX2Dqm+45GH7OSa
+         OGLOGapdmAWLA+rf/mNOx1lhnBrLGKAXj/0qhakS9KvV0RtB+vEXV+l3OK44W1ibq37Q
+         6dNhGZTwzZV3zq5SBlEw/GxpsJDnHVoCzAaDu8ynSKWqmuWUYXoTpSjLWPNi2r6PhdjY
+         zJUupeHbIIP7EhXiIKM4juPCR9Ie9OLLD5+SiPbQKxtw6qt7Bz/2RVEHNDR+KEnnVK8J
+         4JNpuCM2BcOAPsn50jqrUG0ltuxhsnQk1G2yyt4gL49YaK6ZfEZ2MSXGKRStdJzhGE0L
+         P3YQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1751570766; x=1752175566;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=3nXFdMntCMFq3PemPd4ACiNwdYY4zCZSf/EHtfUtuxc=;
+        b=CFfs37gyz8VY5Z8HYarBY42D0UT+EVbxb71B5D8XLNyMuDl7IWpSc4oM4s5nyi0HGV
+         XWwnn/BIPeld+KwtBVW5p0owiXd0SgL7KADsPvZKCMCZh5J1zxbt4rR7+1xvu4c2Olds
+         Ih/IKqEcOCogWZDG1OeB3krhCEGHPVlJboXDt5vDF5yBROWaEfONXhaSYz6PJZMUXgTV
+         UX5RtFyQFfDQfDwTruVXHcLftFS8sXNy0HP3MlYk3kc6P2KNFhsMNpBrSGxa3aJ3Xfz9
+         T3sLjls1Reuh83lNy+NuuyLEYHfaWBRc+80yNhD29Y3fExvgUaduQ0fQHUUIeF0h4us7
+         9r5A==
+X-Gm-Message-State: AOJu0Yy+Rr1sNjoAeTOiASSU7kbsRE2sUUF5wt1Ts+wAw7xNjMQoV7rb
+	zWdZCYFmac/Hw9XeqmihjpKt0o4ZxssSD/h62bu7u4Gnn/i/+1PbgthEF9KGhJKNd3WyiBgWeNd
+	X6qeNJu4jtBSOr5oxe7ng2XSykt8zForQnY4v/X2xsQ==
+X-Gm-Gg: ASbGncvbq+3Xuejxa64D/MZo5fTJ4FcPkmR8g7wXd2dC9LqzPtYyws//TXdQ4jSzKy6
+	ddwR95DiwgHqSbsO5Rc8G16w1EWaUQIitrO6PRWSBDMgUsJbusVcxPMRfuSdwWC1iYcAjqTvNGm
+	JzuyX4ETFxk3UnTKNa+uziR7NRgfYhluEODNKtojzhLH0b
+X-Google-Smtp-Source: AGHT+IHsoOj+7z1HWaq9HE7+6Qakzn0Toyf2hcFMOhANZwwe3m237ZhCOloHMlO4bg8tFi8oDUhBrSxLLp9GmYszBD8=
+X-Received: by 2002:a17:90b:5590:b0:312:e9d:4002 with SMTP id
+ 98e67ed59e1d1-31a90bed3d0mr10882308a91.28.1751570765793; Thu, 03 Jul 2025
+ 12:26:05 -0700 (PDT)
+MIME-Version: 1.0
+From: =?UTF-8?Q?G=C3=B6khan_Zeybeko=C4=9Flu?= <sygnalcollective@gmail.com>
+Date: Thu, 3 Jul 2025 22:25:54 +0300
+X-Gm-Features: Ac12FXxggKpqDldqfGK7avwPZZ9XJy9uR9ymytxWdD2zKhZrWSIdHl5NFXPuvPY
+Message-ID: <CAOyt4GDz_QTPeL8chNCM3WUB31D30ObWhwH56y1FDRKniwR66Q@mail.gmail.com>
+Subject: vorteksenerji.com
+To: info@vorteksenerji.com
+Content-Type: multipart/alternative; boundary="0000000000004b4f5d06390b596b"
+
+--0000000000004b4f5d06390b596b
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Merhabalar,
+=C4=B0nternet sitenizin hacklenmi=C5=9F olabilece=C4=9Fini d=C3=BC=C5=9F=C3=
+=BCn=C3=BCyorum. Bir firman=C4=B1n
+taraf=C4=B1ma ba=C5=9Fvurusu ile sizin de ma=C4=9Fdur edildi=C4=9Finizi far=
+k etti=C4=9Fim i=C3=A7in
+sizinle ileti=C5=9Fime ge=C3=A7mek istedim.
+
+"view-source:https://vorteksenerji.com/" 3. ve 756. sat=C4=B1r=C4=B1 incele=
+menizi
+tavsiye ediyorum.
+
+=C4=B0yi =C3=A7al=C4=B1=C5=9Fmalar dilerim.
+
+--0000000000004b4f5d06390b596b
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Merhabalar,<br>=C4=B0nternet sitenizin hacklenmi=C5=9F ola=
+bilece=C4=9Fini d=C3=BC=C5=9F=C3=BCn=C3=BCyorum. Bir firman=C4=B1n taraf=C4=
+=B1ma ba=C5=9Fvurusu ile sizin de ma=C4=9Fdur edildi=C4=9Finizi fark etti=
+=C4=9Fim i=C3=A7in sizinle ileti=C5=9Fime ge=C3=A7mek istedim.<br><br>&quot=
+;view-source:<a href=3D"https://vorteksenerji.com/">https://vorteksenerji.c=
+om/</a>&quot; 3. ve 756. sat=C4=B1r=C4=B1 incelemenizi tavsiye ediyorum.<br=
+><br>=C4=B0yi =C3=A7al=C4=B1=C5=9Fmalar dilerim.<br></div>
+
+--0000000000004b4f5d06390b596b--

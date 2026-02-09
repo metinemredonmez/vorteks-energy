@@ -1,0 +1,71 @@
+Return-Path: <ismailalkan.vorteksenerji@gmail.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id IG9OO7WA9mdVTwAAOB6+FQ
+	(envelope-from <ismailalkan.vorteksenerji@gmail.com>)
+	for <info@vorteksenerji.com>; Wed, 09 Apr 2025 17:14:13 +0300
+Return-path: <ismailalkan.vorteksenerji@gmail.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Wed, 09 Apr 2025 17:14:14 +0300
+Received: from mail-pg1-f171.google.com ([209.85.215.171]:51411)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <ismailalkan.vorteksenerji@gmail.com>)
+	id 1u2WBx-000000006IQ-3Ntp
+	for info@vorteksenerji.com;
+	Wed, 09 Apr 2025 17:14:13 +0300
+Received: by mail-pg1-f171.google.com with SMTP id 41be03b00d2f7-af93cd64ef3so4664412a12.2
+        for <info@vorteksenerji.com>; Wed, 09 Apr 2025 07:13:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1744208011; x=1744812811; darn=vorteksenerji.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=n7tNxmiX+pmftbfcwyKiHPvF3OKOzqhCXOJ8tZr9n2w=;
+        b=eZiAuxGEZuOPy8ZLNgjdLo8nnjHXspiAUdwf+MEU0AvW19foAwfkGjRBMgGAGGlPpd
+         8RLtPlIHdPdRCVceYxBzFONcceyIPf8FChFQbzE3wuFj0LroRi8rFmYkhnJQIfBgUSG8
+         XWVM38jRyqQIw0A2ACGZ6ebYb7fiTzo2UY4t/rUQ/jiAYID96ZMpbDfgCDKbTJVQHZ15
+         K5coJJqlfa97WStypAFGI6bxLru2EknMgefJ7Kq8zEZkjlyzCHjWUf9qPyShF37vJKDj
+         K+cWddK1cVr4Y370UGdB59f+s1ubGzTs6kXN/HbWA/YXhRBkxp4xG9nUdAmybdCqwguv
+         dhWQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1744208011; x=1744812811;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=n7tNxmiX+pmftbfcwyKiHPvF3OKOzqhCXOJ8tZr9n2w=;
+        b=hsXw1XDRdDTxD03TkeMCou12ryGAApfhDhnL35V0QWape9brB/5pe8aV0a69uJA/CU
+         +mz621x5JaKp0CpEmmC0Ue6IP2eQNxy0H0Ukhr84iPTfWPwbfMs6eATG77bcjpotrtNE
+         ZAHwK7zITutZb3E3S49VnVoNn7tOM0WXShwdX8ux0to0ddUmXwP777/QKbuR2ns+x24k
+         wB43moRVuQAJKvvh9GtScL+WacIGUlS7k84+ZgBlViccpmwFkxFgaX0tkVw34uZsHy8H
+         nlMEH9u+oanlZasF6NpYg9+i5TwHb0FdOs9xYjpVUOxw3rY3N3j9MqrrhE6DJ025vWEV
+         cHjA==
+X-Gm-Message-State: AOJu0YzcoukSmHgPtDoAt71lu0k6KG8g8wKftOMHWRaUlCHqvN97ZrWY
+	BH1LxQXlmPPJx9REFwYYLazTkhydO5DxFDMeHHn60tr63LFzRJp7YvXtYdFhWMXZU0dui3P98HG
+	OWB1SK8U409v5y9iC0h3+d8vGTOkqn/EJ
+X-Gm-Gg: ASbGncta5RUIFDyWt3TKLtDpxRdF7zwgeJmQsB/6yFpqCdpO8oKFzitZRBtXmpE5jPs
+	GddZKQEYbWpzgaHIGLq5A//JMVDZUl7x+JmpzD0ZvQSbr6Wz99ofcLGgmO/BuvpkNYP5cooS0br
+	oRk7YCr1cNK99wQpv/qspGG2jNVvUShhgfuqJQXDtlSXmyCws2tUHHKEY=
+X-Google-Smtp-Source: AGHT+IERMuTOSXI/U+xH6KfxXS8KmrOVJBnmN6XrS/RhLEDX1wSbNCK0xVT6ycULewIlIgXkvVc8Jge+MAulg2jSEtE=
+X-Received: by 2002:a17:90a:c887:b0:301:a0e9:66f with SMTP id
+ 98e67ed59e1d1-306dd521d88mr4312208a91.14.1744208011413; Wed, 09 Apr 2025
+ 07:13:31 -0700 (PDT)
+MIME-Version: 1.0
+From: =?UTF-8?Q?=C4=B0smail_Alkan?= <ismailalkan.vorteksenerji@gmail.com>
+Date: Wed, 9 Apr 2025 17:13:19 +0300
+X-Gm-Features: ATxdqUEO99fCPtOAINHezZ2ZjmUwrY_Xj_dtmN0RxGhJ-BzTWPHMmI2ZXuXeiYs
+Message-ID: <CAEwAW4+0G_6=2sm_jbhP6L2YVRi91pUcWm-MDSX7LOXP3XVnkw@mail.gmail.com>
+Subject: 
+To: info@vorteksenerji.com
+Content-Type: multipart/alternative; boundary="000000000000ef4ffd0632591252"
+
+--000000000000ef4ffd0632591252
+Content-Type: text/plain; charset="UTF-8"
+
+Hh
+
+--000000000000ef4ffd0632591252
+Content-Type: text/html; charset="UTF-8"
+
+Hh
+
+--000000000000ef4ffd0632591252--

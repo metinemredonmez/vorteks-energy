@@ -1,0 +1,246 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Uber Uns",
+    "services": "Dienstleistungen",
+    "projects": "Projekte",
+    "gallery": "Galerie",
+    "contact": "Kontakt",
+    "getQuote": "Angebot Anfordern"
+  },
+  "hero": {
+    "title1": "Energie",
+    "title2": "Losungen",
+    "title3": "und Dienstleistungen",
+    "subtitle": "Mit 15 Jahren Erfahrung bieten wir Generator-, Kraftwerks-, Treibstoffversorgungs- und Wartungsdienstleistungen.",
+    "cta1": "Kostenloses Angebot",
+    "cta2": "Unsere Dienstleistungen"
+  },
+  "about": {
+    "subtitle": "UBER UNS",
+    "title1": "Ihr Zuverlassiger Partner",
+    "title2": "im Energiesektor",
+    "description1": "Bei Vorteks Energy bieten wir seit 2009 umfassende Dienstleistungen im Energiesektor an. Mit uber 15 Jahren Erfahrung und mehr als 50 Fachkraften bieten wir Generatorverkauf und -vermietung, Kraftwerksinstallation, Treibstoffversorgung und technische Wartung.",
+    "description2": "Mit der Kundenzufriedenheit als oberste Prioritat machen wir bei jedem Projekt keine Kompromisse bei unseren Qualitats- und Zuverlassigkeitsstandards. Wir bieten 24/7 Energielosungen fur Industrieanlagen, Bauprojekte und Gewerbeeinrichtungen in der gesamten Turkei.",
+    "stats": {
+      "projects": "Abgeschlossene Projekte",
+      "experience": "Jahre Erfahrung",
+      "satisfaction": "Kundenzufriedenheit",
+      "team": "Fachpersonal"
+    },
+    "mission": {
+      "title": "Unsere Mission",
+      "description": "Die ununterbrochenen Energiebedurfnisse unserer Kunden durch hochwertige Dienstleistungen im Energiesektor zu erfullen."
+    },
+    "vision": {
+      "title": "Unsere Vision",
+      "description": "Das fuhrende Energielosungsunternehmen in der Turkei zu werden und mit innovativen Technologien Trends zu setzen."
+    },
+    "values": {
+      "title": "Unsere Werte",
+      "description": "Qualitat, Zuverlassigkeit, Kundenorientierung, kontinuierliche Verbesserung und Umweltbewusstsein sind unsere Kernwerte."
+    },
+    "commitment": {
+      "title": "Unser Engagement",
+      "description": "Wir bieten punktliche Lieferung, wettbewerbsfahige Preise und eine Garantie fur einwandfreie Arbeit bei jedem Projekt."
+    },
+    "timeline": {
+      "title": "Unsere Geschichte",
+      "subtitle": "Unsere Transformation und Erfolge von 2009 bis heute"
+    },
+    "certifications": {
+      "title1": "Unsere Zertifizierungen und",
+      "title2": "Genehmigten Dokumente",
+      "description": "Unsere Zertifizierungen, die beweisen, dass wir Dienstleistungen nach internationalen Standards erbringen, sind die Grundlage der Qualitatsgarantie, die wir unseren Kunden bieten."
+    },
+    "team": {
+      "title1": "Unser Experten",
+      "title2": "Team",
+      "description": "Unser professionelles Team von uber 50 erfahrenen Ingenieuren, Technikern und Managern"
+    }
+  },
+  "services": {
+    "subtitle": "UNSERE DIENSTLEISTUNGEN",
+    "title1": "Umfassende Energie",
+    "title2": "Losungen",
+    "description": "Wir bieten alle Dienstleistungen, die Sie fur Ihre Energieanforderungen benotigen, unter einem Dach.",
+    "repair": {
+      "title": "Generatorverkauf & -vermietung",
+      "description": "Generatorverkauf und -vermietung in allen Leistungskapazitaten. Diesel-, Benzin- und Erdgasgeneratoren."
+    },
+    "engine": {
+      "title": "Generatorwartung",
+      "description": "Periodische Wartung, Uberholung und Teilewechsel. Leistungsoptimierung und Fehlervermeidung."
+    },
+    "fuel": {
+      "title": "Treibstoffversorgung",
+      "description": "Hochwertige Diesel-, Benzin- und Heizolversorgung. 24/7 Treibstofflieferung und Lagerservices."
+    },
+    "paint": {
+      "title": "Kraftwerke",
+      "description": "Kraftwerksinstallation, Betrieb und Wartungsdienstleistungen. Schlussfertige Projekte."
+    },
+    "yacht": {
+      "title": "Ersatzteilversorgung",
+      "description": "Original- und Aquivalent-Ersatzteilversorgung. Lagerservice fur alle Marken und Modelle."
+    },
+    "electrical": {
+      "title": "Elektrische Systeme",
+      "description": "Energieverteilungssysteme, Transformatoren, Schalttafeln und Automatisierungslosungen. Projekt- und Vertragsdienstleistungen."
+    },
+    "getQuote": "Angebot Anfordern",
+    "process": {
+      "title1": "Unser Arbeits",
+      "title2": "prozess",
+      "step1": { "title": "Kontakt", "desc": "Kontaktieren Sie uns, teilen Sie uns Ihre Bedurfnisse mit" },
+      "step2": { "title": "Inspektion", "desc": "Unser Expertenteam fuhrt eine Vor-Ort-Inspektion durch" },
+      "step3": { "title": "Angebot", "desc": "Detaillierte Preis- und Zeitschatzung" },
+      "step4": { "title": "Genehmigung", "desc": "Angebotsgenehmigung" },
+      "step5": { "title": "Ausfuhrung", "desc": "Professionelle Installation und Handwerksarbeit" },
+      "step6": { "title": "Lieferung", "desc": "Qualitatskontrolle und Ubergabe" }
+    },
+    "faq": {
+      "title1": "Haufig Gestellte",
+      "title2": "Fragen"
+    }
+  },
+  "projects": {
+    "title1": "Erfolgs",
+    "title2": "geschichten",
+    "description": "Mit 15 Jahren Erfahrung haben wir mehr als 500 Energieprojekte erfolgreich abgeschlossen. Jedes Projekt ist ein Beweis fur unsere Qualitatsstandards und unsere Kundenzufriedenheitsphilosophie.",
+    "stats": {
+      "total": "Gesamtprojekte",
+      "thisYear": "Dieses Jahr",
+      "ongoing": "Laufend",
+      "planned": "Geplant"
+    },
+    "distribution": "Projektverteilung",
+    "featured": {
+      "title1": "Vorgestellte",
+      "title2": "Projekte"
+    },
+    "sectors": {
+      "title1": "Branchen, die wir",
+      "title2": "Bedienen",
+      "cargo": { "title": "Industrieanlagen", "desc": "Fabriken und Produktionsstatten" },
+      "tanker": { "title": "Bauprojekte", "desc": "Baustellen und Baugebiete" },
+      "passenger": { "title": "Gewerbegebaude", "desc": "Einkaufszentren, Hotels und Buros" },
+      "fishing": { "title": "Gesundheitseinrichtungen", "desc": "Krankenhauser und Gesundheitszentren" },
+      "yacht": { "title": "Veranstaltungen", "desc": "Konzerte, Messen und Organisationen" },
+      "offshore": { "title": "Bergbau & Energie", "desc": "Bergbaustatten und Energieanlagen" }
+    },
+    "cta": {
+      "title": "Lassen Sie uns Ihr Projekt realisieren",
+      "description": "Mochten Sie professionellen Service fur Ihre Energieanforderungen erhalten? Kontaktieren Sie unser Expertenteam.",
+      "button1": "Angebot Anfordern",
+      "button2": "Galerie Ansehen"
+    }
+  },
+  "gallery": {
+    "title1": "Projekt",
+    "title2": "Galerie",
+    "description": "Sehen Sie sich Bilder unserer abgeschlossenen Projekte an",
+    "categories": {
+      "all": "Alle",
+      "repair": "Generatorinstallation",
+      "yacht": "Kraftwerke",
+      "engine": "Wartungsdienstleistungen",
+      "paint": "Treibstoffversorgung"
+    },
+    "featured": {
+      "title1": "Vorgestellte",
+      "title2": "Projekte"
+    },
+    "stats": {
+      "projects": "Abgeschlossene Projekte",
+      "customers": "Zufriedene Kunden",
+      "experience": "Jahre Erfahrung",
+      "team": "Fachpersonal"
+    },
+    "reviews": {
+      "title1": "Kunden",
+      "title2": "Bewertungen"
+    }
+  },
+  "contact": {
+    "title1": "Kontaktieren",
+    "title2": "Sie Uns",
+    "description": "Kontaktieren Sie uns fur Informationen uber Ihre Energieprojekte oder um ein Angebot anzufordern. Unser Expertenteam wird sich so schnell wie moglich bei Ihnen melden.",
+    "info": {
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "address": "Adresse",
+      "hours": "Offnungszeiten",
+      "weekdays": "Montag - Samstag"
+    },
+    "form": {
+      "title": "Kontaktieren Sie Uns",
+      "subtitle": "Fullen Sie das Formular aus, wir melden uns innerhalb von 24 Stunden",
+      "name": "Ihr Name",
+      "company": "Firmenname",
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "shipInfo": "Projektinformationen",
+      "shipInfoPlaceholder": "Projektstandort, Leistungsbedarf, Dauer...",
+      "serviceType": "Dienstleistungsart",
+      "serviceTypes": {
+        "select": "Auswahlen",
+        "repair": "Generatorvermietung",
+        "maintenance": "Wartung",
+        "painting": "Kraftwerk",
+        "engine": "Generatorverkauf",
+        "fuel": "Treibstoffversorgung",
+        "other": "Andere"
+      },
+      "message": "Ihre Nachricht",
+      "messagePlaceholder": "Geben Sie detaillierte Informationen uber Ihr Projekt an...",
+      "submit": "Nachricht Senden"
+    },
+    "whatsapp": {
+      "title": "WhatsApp",
+      "subtitle": "Fur schnelle Kommunikation",
+      "button": "Jetzt Nachricht Senden"
+    },
+    "emergency": {
+      "title": "24/7 Notfall-Support-Hotline"
+    },
+    "offices": {
+      "title1": "Unsere Buros und",
+      "title2": "Servicepunkte",
+      "description": "Wir bedienen Sie in der gesamten Turkei",
+      "headquarters": "Hauptsitz",
+      "branch": "Regionales Buro"
+    },
+    "why": {
+      "title1": "Warum",
+      "title2": "Uns Wahlen?",
+      "support": { "title": "24/7 Support", "desc": "Immer bereit fur Notfalle" },
+      "fast": { "title": "Schnelle Reaktion", "desc": "Vor-Ort-Einsatz in 2-4 Stunden" },
+      "free": { "title": "Kostenlose Inspektion", "desc": "Erste Inspektion und Angebot kostenlos" },
+      "warranty": { "title": "12 Monate Garantie", "desc": "Arbeitsgarantie fur alle Auftrage" },
+      "price": { "title": "Wettbewerbsfahige Preise", "desc": "Beste Preise am Markt" },
+      "team": { "title": "Expertenteam", "desc": "50+ zertifizierte Fachleute" }
+    },
+    "map": {
+      "show": "Auf Karte Anzeigen"
+    }
+  },
+  "footer": {
+    "description": "Ihr zuverlassiger Partner fur Generator-, Kraftwerks-, Treibstoffversorgungs- und technische Wartungsdienstleistungen.",
+    "quickLinks": "Schnelllinks",
+    "services": "Dienstleistungen",
+    "contact": "Kontakt",
+    "copyright": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen"
+  },
+  "common": {
+    "completed": "Abgeschlossen",
+    "ongoing": "In Bearbeitung",
+    "learnMore": "Mehr Erfahren",
+    "viewAll": "Alle Anzeigen",
+    "quality": "Qualitat und Zuverlassigkeit",
+    "isoStandards": "ISO-zertifizierte Servicestandards",
+    "days": "Tage"
+  }
+}

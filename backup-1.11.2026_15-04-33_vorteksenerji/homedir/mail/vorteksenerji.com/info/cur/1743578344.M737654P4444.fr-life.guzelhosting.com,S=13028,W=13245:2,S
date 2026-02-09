@@ -1,0 +1,217 @@
+Return-Path: <istanbulsolarexfuari2025+bncBDW7D6725AKRBPWJWO7QMGQEZLCRGFQ@dinamikajans.net>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id yOiqK+jk7GdcEQAAOB6+FQ
+	(envelope-from <istanbulsolarexfuari2025+bncBDW7D6725AKRBPWJWO7QMGQEZLCRGFQ@dinamikajans.net>)
+	for <info@vorteksenerji.com>; Wed, 02 Apr 2025 10:19:04 +0300
+Return-path: <istanbulsolarexfuari2025+bncBDW7D6725AKRBPWJWO7QMGQEZLCRGFQ@dinamikajans.net>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Wed, 02 Apr 2025 10:19:04 +0300
+Received: from mail-yw1-f197.google.com ([209.85.128.197]:53488)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <istanbulsolarexfuari2025+bncBDW7D6725AKRBPWJWO7QMGQEZLCRGFQ@dinamikajans.net>)
+	id 1tzsNM-000000002Ik-2M2a
+	for info@vorteksenerji.com;
+	Wed, 02 Apr 2025 10:19:04 +0300
+Received: by mail-yw1-f197.google.com with SMTP id 00721157ae682-702649e94cdsf51687677b3.2
+        for <info@vorteksenerji.com>; Wed, 02 Apr 2025 00:18:44 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1743578303; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=QbZvZGgkH5uPSo1xm9KrC41oWJRPygru44BqtVYIPlb9u6Feg7kwrqzg/5QQw2Zg+3
+         B5f3+wHf7kexDMqjOXQYv4rurj09sSWU41nwi0QTNcKebNKBde7Rx+LqT/Sp3yp4TTk+
+         jgMaqxq/F/C7LvYUdiluhiEglmweplJp+yQLR6jsOmolF2s2VuSXvS+u0Hp5AWfqlkM5
+         Lebm4/t5LrYApvNqC+RCP2f3J6otqUxNSSUsv8WJ6TFYkwRErOiHnFPTB9efkZpSOBvM
+         Z4LUHSNrOt92lq82enVm1YZJGtIIikSZcOWdOXGyfofIIjFBCezjvs77Zgl5au5xcBu0
+         xKYg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:precedence:reply-to:to:subject:message-id:date
+         :from:mime-version;
+        bh=wS3qZ77Kb2xMpT+WJS2YoKD9yb5uHW9RNioqSHNNKZE=;
+        fh=ebJgikconZg/NxpOuIZV5NsF9nJjiK7ZtJwP/9LyBoI=;
+        b=RdlWngPTkUv1rOLg98ldGEUTYGtAt2U/QhmKx1RLyjtG7r7P0SLEOcHCvWX/N65Jjz
+         zwVa4mamvIrjwG2fVoW+Zs1RljldD/mOharHaYqCiE8g21X9A0Fb4VpXYTMsjWd/SIsG
+         EODXwCgKchmkSBoJMwIQDRoezs2TqZ1qnpngCe4xDmXrWdhz4FLwDbMvq85fOB4u16f5
+         1Agy/y6HDXpS47unm0483eAAMJtXs7DVkzITbKjeHTe0l3CZlfO8DVRj6V0CrWMExZ1l
+         VTdmS0ydtyLhEqB1o0L6ufwiaoB7CnqeKN1NThP419EA/6oUkp9IZ/54JjpW5OzuwU66
+         jWyA==;
+        darn=vorteksenerji.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@dinamikajans-net.20230601.gappssmtp.com header.s=20230601 header.b=ZOANA7TM;
+       spf=pass (google.com: domain of serdar@dinamikajans.net designates 209.85.220.41 as permitted sender) smtp.mailfrom=serdar@dinamikajans.net;
+       dara=pass header.i=@dinamikajans.net
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1743578303; x=1744183103;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :x-spam-checked-in-group:list-id:mailing-list:precedence:reply-to
+         :x-original-authentication-results:x-original-sender:to:subject
+         :message-id:date:from:mime-version:x-beenthere:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=wS3qZ77Kb2xMpT+WJS2YoKD9yb5uHW9RNioqSHNNKZE=;
+        b=tZDjCK3vHrmm5cAbAlsTrJd+HaOfLjZQtiJZMB8qFu0d4+XWerSgJ5A6IPf2AMac9N
+         gKMONyBYahmtA4le9pIpt2p/a/YDV2BT4bmFKij5c7D5r0roezRMn+DBcnz5koIteEG0
+         ksGhqveRyH3GfGPK3VZxMPmQYmc0TTPDUmg8AllEi3HuAMn+FAk2Y6cDq997rzWTOnsC
+         VOYrnhusjwSeop5fOwrVHifMes0Wzsr/u/wPiWraztwrAsBNgDnF4dsKYUkCAjRatycq
+         +CuZ39ClAjbMt+LLaswOjjkqgRVfS4M+gW0U98TL0HdXEZ3MGhWuf0VF9WDfcmsrwXuE
+         N++w==
+X-Forwarded-Encrypted: i=2; AJvYcCUir+XKGYixS36QRVvFpXl/ZW401n+EvI7e9dhG/DYJs4reG1hobYE4aWVrwTP/BPNsh6Qs@vorteksenerji.com
+X-Gm-Message-State: AOJu0YxwjwfG9Xq00k9cnsgBxGpAZY382yCrs9RHEoIcDoiZuKJNm1r9
+	qAUc+tyOuDFUbMRfxyYKKKmsAtAcbH4pcfuorn/hIIyEI+yISz6yp38AXw3YWsJKS8dg5qI=
+X-Google-Smtp-Source: AGHT+IGnBgNAxeFQUB6Bp+hVx1Nmw3G4KaRr7wZ2lTCj6xigixPcZpL8hDKwu+En34PBqIfCOia0FQ==
+X-Received: by 2002:a05:6902:1684:b0:e69:371d:5c7e with SMTP id 3f1490d57ef6-e6b8397b264mr21042831276.8.1743578302948;
+        Wed, 02 Apr 2025 00:18:22 -0700 (PDT)
+X-BeenThere: istanbulsolarexfuari2025@dinamikajans.net; h=ARLLPAIoB3zZ3Mc5NKU+yMkit1TTs5WaJS1lcg4S9Ha0lew2FQ==
+Received: by 2002:a25:7e03:0:b0:e6d:e007:ed3b with SMTP id 3f1490d57ef6-e6de007f1d6ls995392276.2.-pod-prod-05-us;
+ Wed, 02 Apr 2025 00:18:21 -0700 (PDT)
+X-Received: by 2002:a05:6902:e01:b0:e6b:7c8f:5cbd with SMTP id 3f1490d57ef6-e6b839a205dmr20258426276.16.1743578301214;
+        Wed, 02 Apr 2025 00:18:21 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1743578301; cv=none;
+        d=google.com; s=arc-20240605;
+        b=AK4v/m3lpFInuavVniN9cnKUgH5FDsI6lhOUJqDPfFYjxX9vAqPjqDVgPGkc+/RoZv
+         eCI1rS5ojycPUjerrEwl12gFsMyHNN3ydlMzmxL5390ciltaRjrwAjIKugDgmUewwjmH
+         5wXUsFnW/10QbbUWNA914B3clt0KuCCBrFgmrjbLE97QIjf9a3IbhiMGsGDnFTbQyr+u
+         Szt9V+KFpV1YSM4f5na1dEDBN93QpH2uiTkrfjydn1HMNaUrLjP1PjZlKn03pcwNfhTQ
+         s14fzUzoUO6tmDzAdAW5Z2/cu8Z7WIom4jRiEpMTOhmZ+eElH3p8QltqyAGUAd2HogNz
+         SkFQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=wS3qZ77Kb2xMpT+WJS2YoKD9yb5uHW9RNioqSHNNKZE=;
+        fh=l7oEX2mvoZMKvnPQ90/H7va8WFrO3J2deg7zBX2kC1Q=;
+        b=UD3ObC509uwNeZNeRX2s/jQJprvHo5ZZ1M6kJ1JeeODit9Rw62vPScY3x5/QwIeGhh
+         NQiGEv5/mtm8P3L1r9j80NBe9H30G9RZt/Fr97nQz9/5Jv8soZARc0ZipSIIQpqESaA/
+         xHQyX5fL9BC8IlGbTpH0HpsFS4MTwACvJHUBGUL1DKL5+cTEgRChyQ3tTlV+krLomTpN
+         29UQtnQkcMbSY0SfJVVI/B88iYrHXCDVuE5terciL7Q71e3Wmc4f1KEdmh2gN5Lcdcpe
+         XntQN3Yl6NYj6BehJlKnh0U0Vu6HzPhYdYmkSaOhEHswfCwR4dBMiHKeWq+wbHhLDDE9
+         3GhA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@dinamikajans-net.20230601.gappssmtp.com header.s=20230601 header.b=ZOANA7TM;
+       spf=pass (google.com: domain of serdar@dinamikajans.net designates 209.85.220.41 as permitted sender) smtp.mailfrom=serdar@dinamikajans.net;
+       dara=pass header.i=@dinamikajans.net
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 3f1490d57ef6-e6b71069dd0sor6327079276.0.2025.04.02.00.18.21
+        for <istanbulsolarexfuari2025@dinamikajans.net>
+        (Google Transport Security);
+        Wed, 02 Apr 2025 00:18:21 -0700 (PDT)
+Received-SPF: pass (google.com: domain of serdar@dinamikajans.net designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Gm-Gg: ASbGncv8tt9lRXHdQVeP8WRcFKqlzvZhSG5CJlY1kezrF+gTLd6IZfcl3JpCG7okcnS
+	zes2RnSgNNdyUvwuSZNiqk+puFg7PBVjJmBggbNiGlxMKog+UhtTTlU0XPjjwScXz4sNdT1KoCp
+	Dqeykv55IifXaPL3MF7SjrVHWFKw==
+X-Received: by 2002:a05:6902:4792:b0:e6d:e2b5:eb29 with SMTP id
+ 3f1490d57ef6-e6de2b5ecacmr7041384276.30.1743578300576; Wed, 02 Apr 2025
+ 00:18:20 -0700 (PDT)
+MIME-Version: 1.0
+From: Serdar Demir <serdar@dinamikajans.net>
+Date: Wed, 2 Apr 2025 10:18:08 +0300
+X-Gm-Features: AQ5f1JqNNAj1cD76ovzKi86eZtn5zcJe1ycsqcqxF9XpnBZlSvbutRZWrolGCvU
+Message-ID: <CAOKcXAf_ZxfJTbvJHADt6Dswv7h+AS+y6KZLr-D-SM9u7=VO7A@mail.gmail.com>
+Subject: =?UTF-8?Q?Dinamik_Ajans_=2D_Solarex_Fuar=C4=B1_Hizmetlerimiz_Hk=2E=28Bay?=
+	=?UTF-8?Q?ram_Tebri=C4=9Fi_ve_Mesai_Bilgilendirmesi=29?=
+To: =?UTF-8?Q?=C4=B0STANBUL_SOLAREX_FUARI_2025?= <istanbulsolarexfuari2025@dinamikajans.net>
+Content-Type: multipart/alternative; boundary="0000000000003e97860631c6756f"
+X-Original-Sender: serdar@dinamikajans.net
+X-Original-Authentication-Results: mx.google.com;       dkim=pass
+ header.i=@dinamikajans-net.20230601.gappssmtp.com header.s=20230601
+ header.b=ZOANA7TM;       spf=pass (google.com: domain of serdar@dinamikajans.net
+ designates 209.85.220.41 as permitted sender) smtp.mailfrom=serdar@dinamikajans.net;
+       dara=pass header.i=@dinamikajans.net
+Reply-To: istanbulsolarexfuari2025+owners@dinamikajans.net
+Precedence: list
+Mailing-list: list istanbulsolarexfuari2025@dinamikajans.net; contact istanbulsolarexfuari2025+owners@dinamikajans.net
+List-ID: <istanbulsolarexfuari2025.dinamikajans.net>
+X-Spam-Checked-In-Group: istanbulsolarexfuari2025@dinamikajans.net
+X-Google-Group-Id: 616128168976
+List-Post: <https://groups.google.com/a/dinamikajans.net/group/istanbulsolarexfuari2025/post>,
+ <mailto:istanbulsolarexfuari2025@dinamikajans.net>
+List-Help: <https://support.google.com/a/dinamikajans.net/bin/topic.py?topic=25838>,
+ <mailto:istanbulsolarexfuari2025+help@dinamikajans.net>
+List-Archive: <https://groups.google.com/a/dinamikajans.net/group/istanbulsolarexfuari2025/>
+List-Subscribe: <https://groups.google.com/a/dinamikajans.net/group/istanbulsolarexfuari2025/subscribe>,
+ <mailto:istanbulsolarexfuari2025+subscribe@dinamikajans.net>
+List-Unsubscribe: <mailto:googlegroups-manage+616128168976+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/a/dinamikajans.net/group/istanbulsolarexfuari2025/subscribe>
+
+--0000000000003e97860631c6756f
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Say=C4=B1n Yetkili,
+
+Dinamik Ajans ailesi olarak =C3=B6ncelikle ge=C3=A7mi=C5=9F bayram=C4=B1n=
+=C4=B1z=C4=B1 en i=C3=A7ten
+dileklerimizle kutlar, sevdiklerinizle birlikte nice mutlu bayramlar
+dileriz. =F0=9F=98=8A
+
+Bug=C3=BCn itibar=C4=B1yla ajans=C4=B1m=C4=B1z yeniden mesaiye ba=C5=9Flam=
+=C4=B1=C5=9Ft=C4=B1r. Fuar, organizasyon,
+davet ve di=C4=9Fer etkinlikleriniz i=C3=A7in ihtiya=C3=A7 duyabilece=C4=9F=
+iniz geni=C5=9F bir
+hizmet yelpazesi sunmaktay=C4=B1z.
+
+Hizmetlerimiz:
+ * Hostes ve Model Temini
+ * Terc=C3=BCmanl=C4=B1k Hizmetleri
+ * Catering ve Kokteyl Organizasyonlar=C4=B1
+ * Kiral=C4=B1k Ekipmanlar (masa, sandalye, vb.)
+ * Prod=C3=BCksiyon Hizmetleri (foto=C4=9Fraf, video, vb.)
+ * Stand, Sahne ve Desk Tasar=C4=B1m & Kurulumu
+ * Ses ve I=C5=9F=C4=B1k Sistemleri Kiralama ve Teknik Destek
+
+Organizasyonel ihtiya=C3=A7lar=C4=B1n=C4=B1zla ilgili taleplerinizi bize il=
+etmeniz
+halinde, size =C3=B6zel sunum ve detayl=C4=B1 tekliflerimizi memnuniyetle p=
+ayla=C5=9F=C4=B1r=C4=B1z.
+=C4=B0=C5=9Fbirli=C4=9Fi dile=C4=9Fiyle, mutlu ve verimli bir g=C3=BCn ge=
+=C3=A7irmenizi dileriz.
+
+Sayg=C4=B1lar=C4=B1m=C4=B1zla,
+
+
+
+
+
+*FounderSerdar Demir+905426855246*
+
+*Assistant & Regional ManagerMs. Leyla =C3=87=C4=B1nar Whatsapp Number+9054=
+66855246*
+
+--0000000000003e97860631c6756f
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Say=C4=B1n Yetkili,<br><br>Dinamik Ajans ailesi olara=
+k =C3=B6ncelikle ge=C3=A7mi=C5=9F bayram=C4=B1n=C4=B1z=C4=B1 en i=C3=A7ten =
+dileklerimizle kutlar, sevdiklerinizle birlikte nice mutlu bayramlar dileri=
+z.=C2=A0=F0=9F=98=8A<br><br>Bug=C3=BCn itibar=C4=B1yla ajans=C4=B1m=C4=B1z =
+yeniden mesaiye ba=C5=9Flam=C4=B1=C5=9Ft=C4=B1r. Fuar, organizasyon, davet =
+ve di=C4=9Fer etkinlikleriniz i=C3=A7in ihtiya=C3=A7 duyabilece=C4=9Finiz g=
+eni=C5=9F bir hizmet yelpazesi sunmaktay=C4=B1z.<br><br>Hizmetlerimiz:<br>=
+=C2=A0* Hostes ve Model Temini<br>=C2=A0* Terc=C3=BCmanl=C4=B1k Hizmetleri<=
+br>=C2=A0* Catering ve Kokteyl Organizasyonlar=C4=B1<br>=C2=A0* Kiral=C4=B1=
+k Ekipmanlar (masa, sandalye, vb.)<br>=C2=A0* Prod=C3=BCksiyon Hizmetleri (=
+foto=C4=9Fraf, video, vb.)<br>=C2=A0* Stand, Sahne ve Desk Tasar=C4=B1m &am=
+p; Kurulumu<br>=C2=A0* Ses ve I=C5=9F=C4=B1k Sistemleri Kiralama ve Teknik =
+Destek<br><br>Organizasyonel ihtiya=C3=A7lar=C4=B1n=C4=B1zla ilgili taleple=
+rinizi bize iletmeniz halinde, size =C3=B6zel sunum ve detayl=C4=B1 teklifl=
+erimizi memnuniyetle payla=C5=9F=C4=B1r=C4=B1z.<br>=C4=B0=C5=9Fbirli=C4=9Fi=
+ dile=C4=9Fiyle, mutlu ve verimli bir g=C3=BCn ge=C3=A7irmenizi dileriz.<br=
+><br>Sayg=C4=B1lar=C4=B1m=C4=B1zla,</div><div><div dir=3D"ltr" class=3D"gma=
+il_signature" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div dir=
+=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr=
+"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div =
+dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div style=
+=3D"font-size:12.8px"><div style=3D"font-size:12.8px"><div style=3D"text-al=
+ign:left;color:rgb(34,34,34);font-size:small"><b style=3D"font-size:12.8px"=
+><br>Founder<br>Serdar Demir<br>+905426855246<br><br></b><b style=3D"font-s=
+ize:12.8px">Assistant &amp; Regional Manager<br>Ms. Leyla =C3=87=C4=B1nar=
+=C2=A0Whatsapp Number<br>+905466855246</b><b style=3D"font-size:12.8px"></b=
+></div><div style=3D"color:rgb(34,34,34);font-size:small"><div dir=3D"ltr">=
+<div dir=3D"ltr"><div style=3D"text-align:left;font-size:12.8px"><img width=
+=3D"420" height=3D"182" src=3D"https://ci3.googleusercontent.com/mail-sig/A=
+IorK4wop6QP5I1flO2fNXX9ddyUb0MXoMCTQdvnvqTdvKI7SBrYG8qr1zk0TOkPrT2I2iXBBu1d=
+fVs"></div></div></div></div></div></div></div></div></div></div></div></di=
+v></div></div></div></div></div></div></div></div></div></div></div>
+
+--0000000000003e97860631c6756f--

@@ -1,0 +1,97 @@
+Return-Path: <>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id iG3YGJLn+GeBPAAAOB6+FQ
+	(envelope-from <>)
+	for <info@vorteksenerji.com>; Fri, 11 Apr 2025 12:57:38 +0300
+Return-path: <>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Fri, 11 Apr 2025 12:57:38 +0300
+Received: from mailnull by fr-life.guzelhosting.com with local (Exim 4.98.1)
+	id 1u3B8k-000000006bj-1ahM
+	for info@vorteksenerji.com;
+	Fri, 11 Apr 2025 12:57:38 +0300
+X-Failed-Recipients: rafhen860@hotmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@fr-life.guzelhosting.com>
+To: info@vorteksenerji.com
+References: <20250324193628.8F62AC81D4767681@natwest.co.uk> <6feedb9d465ca5bf6a1116beca5c6e4c@vorteksenerji.com>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1744365458-eximdsn-884645836
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1u3B8k-000000006bj-1ahM@fr-life.guzelhosting.com>
+Date: Fri, 11 Apr 2025 12:57:38 +0300
+
+--1744365458-eximdsn-884645836
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  rafhen860@hotmail.com
+    host pmg.guzel.net.tr [2a06:41c0::35]
+    SMTP error from remote mail server after pipelined end of data:
+    550 5.7.1 This message is blocked due to security reason
+
+--1744365458-eximdsn-884645836
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; fr-life.guzelhosting.com
+
+Action: failed
+Final-Recipient: rfc822;rafhen860@hotmail.com
+Status: 5.0.0
+Remote-MTA: dns; pmg.guzel.net.tr
+Diagnostic-Code: smtp; 550 5.7.1 This message is blocked due to security reason
+
+--1744365458-eximdsn-884645836
+Content-type: message/rfc822
+
+Return-path: <info@vorteksenerji.com>
+Received: from [127.0.0.1] (port=59520 helo=fr-life.guzelhosting.com)
+	by fr-life.guzelhosting.com with esmtpa (Exim 4.98.1)
+	(envelope-from <info@vorteksenerji.com>)
+	id 1u3B8i-000000006ay-2NMj
+	for rafhen860@hotmail.com;
+	Fri, 11 Apr 2025 12:57:36 +0300
+MIME-Version: 1.0
+Date: Fri, 11 Apr 2025 12:57:36 +0300
+From: info@vorteksenerji.com
+To: rafhen860@hotmail.com
+Subject: Re: MY PROPOSAL
+In-Reply-To: <20250324193628.8F62AC81D4767681@natwest.co.uk>
+References: <20250324193628.8F62AC81D4767681@natwest.co.uk>
+User-Agent: Roundcube Webmail/1.6.9
+Message-ID: <6feedb9d465ca5bf6a1116beca5c6e4c@vorteksenerji.com>
+X-Sender: info@vorteksenerji.com
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+Content-Transfer-Encoding: 7bit
+
+Hello
+
+What is the topic?
+
+  On 2025-03-25 05:36, Walsh Philip wrote:
+> Good Day,
+> 
+> How are you doing today? My name is Walsh Philip, I live in the
+> United Kingdom and work with NatWest Bank UK.
+> 
+> I am glad to be connected with you. I have a business proposal I
+> would like to discuss with you in private. It involves a business
+> opportunity that will be of huge financial benefit to both of
+> us.Further details will be shared after I receive your response.
+> 
+> Kindly reply with your full name and your country of
+> Origin/residence.
+> 
+> Yours Truly,
+> 
+> Walsh Philip.
+> Operational Manager.
+
+--1744365458-eximdsn-884645836--

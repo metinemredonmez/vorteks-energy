@@ -1,0 +1,175 @@
+Return-Path: <richa@mobinexlabs.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id 2H8VM6crWWjEFAAAOB6+FQ
+	(envelope-from <richa@mobinexlabs.com>)
+	for <info@vorteksenerji.com>; Mon, 23 Jun 2025 13:25:43 +0300
+Return-path: <richa@mobinexlabs.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Mon, 23 Jun 2025 13:25:43 +0300
+Received: from mail-pf1-f196.google.com ([209.85.210.196]:46440)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <richa@mobinexlabs.com>)
+	id 1uTeMx-000000006qV-2kDh
+	for info@vorteksenerji.com;
+	Mon, 23 Jun 2025 13:25:43 +0300
+Received: by mail-pf1-f196.google.com with SMTP id d2e1a72fcca58-748d982e92cso2477944b3a.1
+        for <info@vorteksenerji.com>; Mon, 23 Jun 2025 03:25:23 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=mobinexlabs-com.20230601.gappssmtp.com; s=20230601; t=1750674302; x=1751279102; darn=vorteksenerji.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=AnPqWMXz4vgcIDSGQOpvGJhn9lYVzM7miaTQrzB6sII=;
+        b=QDT/RagP3Tbrc/bWPeFI7lZfyhlWbumiR18xpgaZ9Cyu+lUKJtZpHlOmZWGmBZ5Qap
+         QwN9FL85bVnRvyQV2K89OUv2/qgTwkgmT/HDhEktST55kVs4emozuIjB7DBW9wVhfim3
+         1x+nBrQGGXc3EGSwgD0i/Cq/E4y0iM8UloErUI1K9oNa75H0r1GbvQh59k32SFSyNOPu
+         ce8bE/KyvQxooSazR/yBUpIK5X6Jhn7RULfqauRvXAhIKRQSE+SJEUI3A37MtNLlmZ2g
+         b3xta43kZNGsNaY42rBcIqth3+3iANCDAJDF1fYZxjfcEhiFy/cGYVcDfCbVsVZKS0fk
+         pkog==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1750674302; x=1751279102;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=AnPqWMXz4vgcIDSGQOpvGJhn9lYVzM7miaTQrzB6sII=;
+        b=rtPgqS1VtNqd3Zw30hD88R1P9RO5UA5t1l15/0iB/smChjpgyvM4T8qdR11K+RXiXN
+         YoJcdSCVsv18LPvhDxgmfyuJbleuFN4tJdQ0Brr43ptUGC3vRV5GiwECdist0Xly0Hro
+         LFAfS7FGwAzm4v4VGU6uBgqv5NlpaL+DA7R1OCJ1dZCCzf8wyAulCk5Y6lsxhYQnmHe7
+         sJ5ixiEjmBmoIigTTnE7d/6/g8JwAxlKzEqR6xZPbKOU07R9dDSgD+LFj+GzmQKU/1bv
+         ppmclQdYEjDCrqGTHJsm9ilEuzqoMVeE6gL07k8kknPFd1JMe4JJh6D3EN/oxLVPZOhS
+         EmdQ==
+X-Gm-Message-State: AOJu0Yx2WUIQxH/e6F+oukn22ZCWttBKZamUjaAO9m0Uq5IB2C/tBh6F
+	+2QJ38iZpuKhJL5IE8C8QZErNhuy1APuv+37bQnliwWyIhKg+ew9MrGWqawF5FFs25ygSz0wYSh
+	Fj8XDMkU=
+X-Gm-Gg: ASbGncucgMn43JBKbajkBkFF0JbMprfn91naa0s6VVcJe0lm4mH/fU+neH69JlOlH84
+	HIFCqcr16g4QvP8VK95+VdhtJA3qKuHXdohmRhbtcYASuMdZjBx7H/OOjGBrXfC6v1M3EFeTZTw
+	mQDfevQ5Kuq9gIZJ6n0knC9az7+4cflqTubY8tm2txW1wxHHpOBkeldAWeh1+czJbVK1ZGCzkwH
+	YwDh+jYg9vWF8B5/GKr9sn3WtHU637U1F3k68o7WLZZuWDKo8gXIUleqwPhquvptC0mu7+Ftrky
+	GD3S0Q81imwGLdHi7sHKhxcc/NXN7K6WhJ7yfCzMKUolsvHetTFXEBCKzrHrQ2WpBkoibYJ3L62
+	wzA==
+X-Google-Smtp-Source: AGHT+IFTp0shD7MZnWYMKGiL0VBLUX1RejTlmDCnzyz2c8HnyuvlaMKm3qQI4vDCkLQHsSvTsGYieQ==
+X-Received: by 2002:a05:6a20:729d:b0:21f:5409:32f4 with SMTP id adf61e73a8af0-22026be01f0mr19618203637.8.1750674301610;
+        Mon, 23 Jun 2025 03:25:01 -0700 (PDT)
+Received: from DESKTOPVGTL7SH ([2401:4900:1c64:12a1:783d:7e5c:a248:c616])
+        by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-7490a689159sm8384695b3a.145.2025.06.23.03.25.00
+        for <info@vorteksenerji.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 23 Jun 2025 03:25:01 -0700 (PDT)
+From: "  Richa" <richa@mobinexlabs.com>
+To: <info@vorteksenerji.com>
+Subject: 1st page of google.
+Date: Mon, 23 Jun 2025 15:52:16 +0530
+Message-ID: <150901dbe429$13ae8c80$3b0ba580$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_150A_01DBE457.2D66C880"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdvkKBPGJZSfZT5rSNOpXwJomwKTug==
+Content-Language: en-us
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_150A_01DBE457.2D66C880
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hey,
+
+
+I was checking your website and saw you have a good design and it looks
+great, but it's not ranking on Google and other major search engines.
+
+
+I'm an SEO Expert and I helped over 250 businesses rank on the (1st Page on
+Google, Yahoo and Bing). My rates are very affordable.
+
+
+May I send you quote? If interested.
+
+
+Thanks!
+
+Richa,
+
+
+
+SEO Marketing Specialists [INDIA]
+
+ 
+
+ 
+
+
+------=_NextPart_000_150A_01DBE457.2D66C880
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.xmsonospacing, li.xmsonospacing, div.xmsonospacing
+	{mso-style-name:x_msonospacing;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3Dxmsonospacing>Hey,</p><p =
+class=3Dxmsonospacing><br>I was checking your website and saw you have a =
+good design and it looks great, but it's not ranking on Google and other =
+major search engines.</p><p class=3Dxmsonospacing><br>I&#8217;m an SEO =
+Expert and I helped over 250 businesses rank on the (1st Page on Google, =
+Yahoo and Bing). My rates are very affordable.</p><p =
+class=3Dxmsonospacing><br>May I send you quote? If interested.</p><p =
+class=3Dxmsonospacing><br>Thanks!</p><p class=3Dxmsonospacing><b> =
+Richa</b>,<br><br></p><p class=3Dxmsonospacing><b><span =
+style=3D'font-size:10.5pt;font-family:"Segoe UI","sans-serif"'>SEO =
+Marketing Specialists [INDIA]</span></b></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_000_150A_01DBE457.2D66C880--
+

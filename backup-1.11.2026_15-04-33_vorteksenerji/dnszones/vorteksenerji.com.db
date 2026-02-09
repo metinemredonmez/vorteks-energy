@@ -1,0 +1,58 @@
+; cPanel first:110.0.22 (update_time):1756116447 Cpanel::ZoneFile::VERSION:1.3 hostname:fr-life.guzelhosting.com latest:110.0.71
+; Zone file for vorteksenerji.com
+$TTL 14400
+vorteksenerji.com.	86400	IN	SOA	ns1.guzelhosting.com.	metinemredonmez.hotmail.com.	(
+						2025082501 ;Serial Number
+						3600 ;refresh
+						10800 ;retry
+						1209600 ;expire
+						86400	)
+vorteksenerji.com.	86400	IN	NS	ns1.guzelhosting.com.
+vorteksenerji.com.	86400	IN	NS	ns2.guzelhosting.com.
+vorteksenerji.com.	86400	IN	NS	ns11.guzelhosting.com.
+vorteksenerji.com.	86400	IN	NS	ns12.guzelhosting.com.
+vorteksenerji.com.	14400	IN	A	151.80.64.2
+vorteksenerji.com.	14400	IN	MX	0	vorteksenerji.com.
+mail	14400	IN	CNAME	vorteksenerji.com.
+www	14400	IN	CNAME	vorteksenerji.com.
+ftp	14400	IN	A	151.80.64.2
+vorteksenerji.com.	14400	IN	TXT	"v=spf1 ip4:164.132.163.200 +a +mx ~all"
+cpcalendars	14400	IN	A	151.80.64.2
+_caldavs._tcp	14400	IN	SRV	0	0	2080	fr-life.guzelhosting.com.
+_caldavs._tcp	14400	IN	TXT	path=/
+_caldav._tcp	14400	IN	SRV	0	0	2079	fr-life.guzelhosting.com.
+_caldav._tcp	14400	IN	TXT	path=/
+autodiscover	14400	IN	A	151.80.64.2
+_carddav._tcp	14400	IN	SRV	0	0	2079	fr-life.guzelhosting.com.
+_carddav._tcp	14400	IN	TXT	path=/
+cpcontacts	14400	IN	A	151.80.64.2
+cpanel	14400	IN	A	151.80.64.2
+webmail	14400	IN	A	151.80.64.2
+webdisk	14400	IN	A	151.80.64.2
+whm	14400	IN	A	151.80.64.2
+_autodiscover._tcp	14400	IN	SRV	0	0	443	cpanelemaildiscovery.cpanel.net.
+_carddavs._tcp	14400	IN	SRV	0	0	2080	fr-life.guzelhosting.com.
+_carddavs._tcp	14400	IN	TXT	path=/
+autoconfig	14400	IN	A	151.80.64.2
+default._domainkey	14400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5YJutR8sqjD6uwN+PscGurexwQH0qdiz+WIMxQI+0J0ATQgVmE4MXW3z8KI6dndRoxOP0o9YNwxwex+FbBhB4u9wX3NuxH+Zz/iQ++mpPe1BYeiqPNbo/N9EmL0IeIzpUymYjChwaGKAtVqkBzmWGT79Ec622DGwRJinOoOsuDT5VSTAs1fLea8p85EtA5dtX" pTub+3+6g+/+cY8uOlpP/0cu8KCZ95ZZDs3zglllQnIhjIGrMHbKCehulO0OAkhcFEIIF6gEsU/Dpjn3WHic0LpB6Yl+DUAQURQ7VAmP7OcOx5Vyls3dZRZEpH/Ucd7mPuYOHpSZYLX3lkPx51l6QIDAQAB\;
+en	14400	IN	A	151.80.64.2
+www.en	14400	IN	A	151.80.64.2
+default._domainkey.en	14400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoKkZw/ujVCKuKhqaHZX3TwIjaKqd1ie7WzJxWoMs5PEzU01L4cK45yePS1qXJk8mudfAgqPXFQQP6vK7gwCLAFeT3ZOWq3L4nLPLQ/9Xa7eFEHGahV4LnhLsjlyqYV48IdOpbuc5oGJEsSk9CrNRq3UgyyUrN5ozxnVNpgyAXfnkUZIeZM5vXgkmFCD0/cHSO" 4EmLcB5E+k17D0KNYzYzZ2ZajyDk7TwaeiE4AjTt3jCkBZl9FEaOgrsDxh3jLzz8IIh+7lwNTcQ+lBW6AaelWLLwSAlsUcQY6fbW824M+LPIt8tAwETjPE3i7t3L8/mIB8EnePsHgPcmjBPT3obAwIDAQAB\;
+en	14400	IN	TXT	"v=spf1 ip4:164.132.163.200 +a +mx ~all"
+_caldav._tcp.en	14400	IN	SRV	0	0	2079	fr-life.guzelhosting.com.
+_caldav._tcp.en	14400	IN	TXT	path=/
+autoconfig.en	14400	IN	A	151.80.64.2
+_carddavs._tcp.en	14400	IN	SRV	0	0	2080	fr-life.guzelhosting.com.
+_carddavs._tcp.en	14400	IN	TXT	path=/
+_caldavs._tcp.en	14400	IN	SRV	0	0	2080	fr-life.guzelhosting.com.
+_caldavs._tcp.en	14400	IN	TXT	path=/
+_autodiscover._tcp.en	14400	IN	SRV	0	0	443	cpanelemaildiscovery.cpanel.net.
+cpcontacts.en	14400	IN	A	151.80.64.2
+_carddav._tcp.en	14400	IN	SRV	0	0	2079	fr-life.guzelhosting.com.
+_carddav._tcp.en	14400	IN	TXT	path=/
+autodiscover.en	14400	IN	A	151.80.64.2
+webmail.en	14400	IN	A	151.80.64.2
+cpcalendars.en	14400	IN	A	151.80.64.2
+whm.en	14400	IN	A	151.80.64.2
+cpanel.en	14400	IN	A	151.80.64.2
+webdisk.en	14400	IN	A	151.80.64.2

@@ -1,0 +1,2344 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202512 will be lost/reset.
+# Last config file used to build this data file was /home/vorteksenerji/tmp/awstats/ssl/awstats.vorteksenerji.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2094                
+POS_TIME 2776                
+POS_VISITOR 39037               
+POS_DAY 67266               
+POS_DOMAIN 3724                
+POS_LOGIN 4921                
+POS_ROBOT 5076                
+POS_WORMS 6316                
+POS_EMAILSENDER 6447                
+POS_EMAILRECEIVER 6590                
+POS_SESSION 68173               
+POS_FILESIZE 69606               
+POS_REQUESTTIME 69758               
+POS_SIDER 68385               
+POS_FILETYPES 6725                
+POS_DOWNLOADS 6998                
+POS_OS 7069                
+POS_BROWSER 7549                
+POS_SCREENSIZE 11479               
+POS_UNKNOWNREFERER 11553               
+POS_UNKNOWNREFERERBROWSER 12516               
+POS_ORIGIN 13264               
+POS_SEREFERRALS 13411               
+POS_PAGEREFS 13617               
+POS_SEARCHWORDS 13970               
+POS_KEYWORDS 14122               
+POS_MISC 2440                
+POS_ERRORS 14181               
+POS_CLUSTER 4777                
+POS_SIDER_404 14346               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20260101003810 173 37593 14598370614955
+FirstTime 20251201011615
+LastTime 20251231230128
+LastUpdate 20260101151203 173 0 172 0 0
+TotalVisits 933                 
+TotalUnique 670                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 745                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 9 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 66 148 24721659 152 231 8808441
+1 85 144 11654177 191 308 2211963
+2 63 186 39591657 190 294 5988345
+3 98 914 169904286 192 234 2617532
+4 47 379 64483641 154 205 1489755
+5 63 353 49187826 220 310 2194322
+6 33 105 9652633 218 298 4456332
+7 31 31 268873 169 205 1419401
+8 82 608 109203649 164 180 687206
+9 82 192 21746970 146 171 470681
+10 57 295 27012543 149 165 414982
+11 88 160 16112838 145 197 1534423
+12 65 120 11107442 137 161 1233362
+13 108 134 1588775 225 263 982636
+14 82 507 87146126 132 180 2290084
+15 98 223 43488061 194 259 2239652
+16 84 89 933444 162 222 2736513
+17 72 200 24022690 131 160 2032735
+18 163 386 45163748 190 229 3380510
+19 127 187 14776554 132 153 3462860
+20 38 61 828072 150 191 2817291
+21 68 173 22179849 159 192 1797972
+22 164 365 16242415 207 298 9089105
+23 47 107 14074364 168 212 2635626
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 68
+us 846 3607 580765206
+it 310 351 9384798
+id 101 101 500640
+ru 83 169 13379020
+in 60 215 32378229
+zz 51 93 9664426
+gb 38 38 337228
+fr 24 24 57040
+nl 23 37 976135
+tr 23 44 1633271
+vn 22 22 159738
+ro 22 22 73878
+de 21 84 14134292
+se 20 77 11231902
+ao 19 19 29775
+jp 17 30 8536449
+kh 17 17 36331
+cn 15 73 5959370
+gr 14 14 36620
+ca 13 85 14215506
+eu 13 211 36997304
+sc 12 40 1701832
+mt 11 11 25088
+au 11 11 183796
+pl 11 11 23001
+rs 1 1 3289
+pk 1 1 10168
+at 2 2 116694
+il 1 1 3328
+ir 8 227 37503341
+cz 3 3 48344
+no 2 2 34956
+za 2 2 13095
+bz 2 16 839795
+pt 3 3 7934
+si 5 5 10335
+cr 2 2 6656
+cl 6 116 21236841
+kz 1 1 200
+md 1 1 412
+kw 1 1 10168
+ba 1 1 3328
+sa 2 2 6155
+hu 3 3 7022
+mx 3 3 31363
+br 7 7 70489
+lt 2 2 32709
+py 4 94 1635398
+uz 2 2 4730
+ip 2 2 58766
+ma 6 6 17286
+es 8 8 17558
+pa 2 2 456
+iq 1 1 29383
+bd 1 1 3328
+bj 2 2 6172
+sk 1 1 3442
+am 1 1 200
+ua 3 45 9571375
+dk 1 1 29383
+mu 3 58 10618421
+be 8 25 430244
+sg 3 3 4546
+np 1 1 10168
+ar 1 1 3166
+bg 2 2 180232
+ng 2 2 4457
+eg 1 1 412
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 29
+Googlebot/ 458 7597834 20251231110454 40
+AhrefsBot/ 184 1803777 20251231225950 77
+bingbot/ 163 43151994 20251231144448 38
+MJ12bot/ 84 1238332 20251230095924 42
+bot[\s_+:,\.\;\/\\-] 51 108376 20251231104207 39
+yandex 50 893746 20251229224630 0
+Apache\-HttpClient/ 48 10054 20251229021405 0
+YandexBot/ 45 147703 20251230150642 42
+facebookexternalhit/ 44 45672 20251231194538 44
+checker 26 870526 20251229214619 0
+Go\-http\-client/ 26 481547 20251229104812 1
+unknown 23 14679 20251229143834 23
+robot 22 2310 20251230072830 22
+no_user_agent 19 1927951 20251229025951 0
+crawl 17 1836902 20251230030429 0
+SemrushBot/ 9 70418 20251219201333 7
+Googlebot\-Image/ 9 1152540 20251226225343 0
+GPTBot/ 6 88376 20251230072857 0
+Applebot/ 5 725 20251223004631 5
+Barkrowler 5 35282 20251229194519 4
+[\s_+:,\.\;\/\\-]bot 3 93452 20251231151812 0
+link 3 69549 20251223051407 1
+scrapy 2 69396 20251229075724 0
+DuckDuckBot 2 35304 20251224055521 0
+(firefox/)([0-9]\.|[0-1][0]\.) 2 145798 20251223212226 0
+nutch 1 34670 20251202200812 0
+curl 2 64087 20251213021804 0
+sitemap 2 1095 20251204133817 1
+BW/ 2 29488 20251229222137 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+jpeg 93 14837815 0 0
+svg 3 2277 0 0
+js 1538 32030722 0 0
+woff 101 4530648 0 0
+html 494 14447460 0 0
+jpg 187 51662560 0 0
+Unknown 215 220770 0 0
+php 1101 1871045 0 0
+png 1719 697878063 0 0
+css 616 7565260 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 0 44 45672
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 29
+macosx12 3 3
+winxp 2 2
+macosx7 1 1
+Unknown 481 410
+win8 2 2
+android 3 3
+androidmarshmallow 65 9
+macos12 1 1
+win7 153 24
+macosx9 1 1
+macosx15 480 47
+win8.1 12 12
+android13 302 16
+linuxubuntu 4 4
+macosx14 6 6
+bsdopenbsd 1 1
+macosx11 4 4
+win10 2710 730
+linux 1543 528
+ios_iphone 100 32
+macosx6 4 4
+androidlollipop 3 3
+androidkitkat 4 4
+macosx 31 31
+macosx10 4 4
+android12 132 14
+androidoreo 2 2
+win11 12 12
+winnt 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 189
+safari17.0 3 3
+chrome102.0.5005.63 1 1
+safari15.4 13 0
+chrome123.0.0.0 2 2
+chrome140.0.0.0 302 16
+chrome92.4 1 1
+chrome108.0.0.0 5 4
+chrome106.0.5249.62 1 1
+chrome137.0.0.0 1 1
+chrome105.0.5195.54 1 1
+chrome104.0.5112.81 1 1
+chrome94.4 1 1
+chrome36.0.1985.125 1 1
+firefox125.0 2 2
+chrome143.0.0.0 69 14
+chrome120.0.0.0 148 31
+safari6.1.6 1 1
+chrome83.0.4103.116 4 4
+firefox51.0 1 1
+chrome100.0.4896.127 1 1
+safari5.0.3 3 3
+opera116.0.0.0 2 2
+chrome138.0.7204.23 228 12
+safari9.1.3 1 1
+chrome114.0.0.0 134 16
+safari1.2.4 1 1
+chrome119.0.0.0 488 433
+chrome104.0.5112.79 1 1
+chrome118.0.5993.80 1 1
+chrome106.0.5249.65 1 1
+firefox115 1 1
+chrome103.0.5060.53 2 2
+chrome81.0.4044.138 1 1
+chrome106.0.5249.60 1 1
+chrome56.0.2924.87 1 1
+chrome101.0.4951.64 2 2
+Unknown 416 375
+firefox54.0 1 1
+chrome112.0.5615.136 1 1
+chrome142.0.7444.162 52 1
+opera76.0.0.0 1 1
+chrome86.0.4240.183 1 1
+chrome117.0.5938.132 555 26
+chrome115.0.0.0 59 59
+firefox131.0 4 4
+firefox93.0 1 1
+chrome107.0.5304.62 3 3
+chrome87.0.4280.141 10 10
+chrome88.0.4324.182 2 2
+chrome29.0.1547.66 1 1
+chrome109.0.5384.0 2 2
+chrome106.0.5249.168 1 1
+chrome106.0.5249.103 4 4
+chrome131.0.0.0 648 23
+chrome83.0.4103.61 133 6
+chrome79.0.3945.79 361 15
+firefox98.0 1 1
+minefield 1 1
+chrome107.0.5304.87 2 2
+firefox126.0 2 2
+firefox87.0 1 1
+chrome95.3 1 1
+chrome126.0.6478.71 1 1
+edge18 2 2
+firefox121.0 8 8
+chrome92.9 1 1
+firefox133.0 3 3
+safari11.1.2 1 1
+firefox23.0 1 1
+firefox57.0 62 3
+firefox114.0 1 1
+chrome117.0.0.0 85 10
+chrome35.0.1916.153 1 1
+chrome142.0.7444.60 2 2
+chrome78.0.3904.108 210 210
+netscape5.0 61 61
+chrome142.0.0.0 145 28
+chrome60.0.3112.90 1 1
+edge109 2 2
+safari17.1.2 5 5
+chrome124.0.6367.207 11 11
+chrome135.0.0.0 1 1
+chrome105.0.5195.53 1 1
+chrome80.0.3987.149 1 1
+chrome122.0.0.0 5 5
+chrome80.0.3987.87 1 1
+chrome134.0.0.0 3 3
+chrome102.0.5005.61 1 1
+chrome139.0.0.0 28 10
+firefox71.0 1 1
+chrome74.0.3729.131 1 1
+chrome128.0.0.0 6 6
+chrome107.0.5304.66 1 1
+chrome103.0.0.0 4 4
+safari16.3 6 6
+firefox60.0 2 2
+safari17.10 1 1
+chrome103.0.5060.134 6 6
+chrome59.0.6133.1363 2 2
+chrome102.0.5005.115 1 1
+chrome107.0.5304.91 1 1
+safari13.0.3 11 11
+chrome125.0.0.0 348 19
+safari18.3.1 2 2
+firefox142.0 8 4
+safari18.5 1 1
+edge113 1 1
+chrome62.0.1828.86 1 1
+chrome139.0.7258.5 93 3
+chrome58.0.3029.110 2 2
+chrome124.0.0.0 3 3
+chrome124.0.0 2 2
+chrome104.0.5112.80 4 4
+chrome66.0.3359.117 1 1
+chrome129.0.0.0 237 13
+chrome132.0.0.0 1 1
+chrome138.0.0.0 85 2
+chrome90.0.4430.85 44 44
+chrome99.0.4844.51 59 3
+safari17.1 2 2
+chrome71.0.2623.112 1 1
+firefox127.0 4 4
+chrome121.0.0.0 5 5
+chrome106.0.5249.61 2 2
+chrome111.0 1 1
+chrome120.0 6 6
+chrome61.0.1468.90 1 1
+safari9.0.3 1 1
+firefox139.0 2 2
+safari 1 1
+chrome106.0.5249.91 1 1
+chrome60.0.3112.113 18 18
+chrome116.0.0.0 240 17
+firefox33.0 2 2
+chrome141.0.0.0 100 44
+chrome104.0.5112.101 1 1
+safari18.3 16 16
+safari9.1.2 2 2
+chrome106.0.5249.165 3 3
+chrome105.0.5195.52 1 1
+chrome93.8 1 1
+chrome44.0.2403.157 8 8
+firefox115.0 2 2
+chrome104.0.5112.102 3 3
+chrome103.0.5060.66 1 1
+chrome77.0.3865.120 1 1
+chrome45.0.2454.84 7 7
+firefox24.0 1 1
+chrome63.0.3239.132 5 3
+firefox52.0 2 2
+chrome92.6 1 1
+firefox123 4 4
+firefox45.0 8 8
+chrome118.0.0.0 117 7
+chrome133.0.6943.127 9 9
+firefox137.0 2 2
+chrome57.0.247.32 1 1
+chrome102.0.5005.62 3 3
+chrome91.0.4472.114 2 2
+chrome55.0.2883.95 1 1
+chrome74.0.3729.169 3 3
+chrome133.0.0.0 2 2
+safari18.1.1 1 1
+safari16.6 4 4
+chrome127.0.6533.119 4 0
+firefox62.0 1 1
+chrome57.0.51.91 1 1
+mozilla 41 11
+chrome109.0.0.0 1 1
+chrome107.0.5304.63 3 3
+firefox68.0 1 1
+safari16.1 2 2
+chrome127.0.0.0 24 2
+chrome104.0.0.0 4 4
+chrome106.0.5249.119 2 1
+firefox120.0 1 1
+safari5.1.9 1 1
+chrome72.0.3626.121 7 7
+chrome130.0.0.0 17 1
+chrome103.0.5060.114 1 1
+safari10.0 58 3
+chrome105.0.0.0 7 5
+firefox113.0 1 1
+chrome108.0.5359.19 2 2
+chrome107.0.5304.88 1 1
+firefox145.0 1 1
+chrome91.0.4472.124 10 10
+safari17.3.1 1 1
+safari17.5 6 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 19
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20251230031213
+Python/3.14_aiohttp/3.13.2 20251217184444
+Mozila/5.0 20251231055240
+WordPress/5.0;_https://vorteksenerji.com 20251219133610
+Python-xmlrpc/3.13 20251222154351
+python-requests/2.25.1 20251219234649
+Mozilla/5.0_(compatible;_ips-agent) 20251201011615
+okhttp/5.3.0 20251222083355
+Python/3.11_aiohttp/3.11.11 20251203224642
+Python-xmlrpc/3.10 20251231045828
+GoogleOther 20251231202028
+python-requests/2.31.0 20251230180444
+Mozilla/5.0 20251231114950
+WordPress/6.8.3;_https://vorteksenerji.com 20251231230128
+\ 20251218055333
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20251216213403
+ALittle_Client 20251217183736
+Mozilla/5.0_... 20251221152308
+python-requests/2.32.5 20251230083336
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 15
+python-requests/2.32.5 20251230083336
+ALittle_Client 20251217183736
+\ 20251218055333
+WordPress/6.8.3;_https://vorteksenerji.com 20251231230128
+python-requests/2.31.0 20251230180444
+GoogleOther 20251231202028
+Python-xmlrpc/3.10 20251231045828
+Python/3.11_aiohttp/3.11.11 20251203224642
+okhttp/5.3.0 20251222083355
+python-requests/2.25.1 20251219234649
+Python-xmlrpc/3.13 20251222154351
+WordPress/5.0;_https://vorteksenerji.com 20251219133610
+Mozila/5.0 20251231055240
+Python/3.14_aiohttp/3.13.2 20251217184444
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20251230031213
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1102 1314
+From1 18 18
+From2 319 320
+From3 8 8
+From4 464 4407
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+www_google_com 318 318
+bing_com_catchall 1 1
+www_bing_com 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+http://mail.vorteksenerji.com 2 2
+https://151.80.64.2 2 2
+http://151.80.64.2:80 1 1
+https://mail.vorteksenerji.com 1 1
+https://www.optimalegezondheid.com/wp-admin/plugins.php 1 1
+https://www.quora.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+405 2 84
+302 5 0
+403 14 13662
+400 1 21
+401 230 182210
+500 1 0
+404 3511 4766820
+301 155 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 917
+/271960654.shtml 1 -
+/403218532.shtml 1 -
+/513391714.shtml 1 -
+/541747142.shtml 1 -
+/baysak-enerji-nigde/ 5 -
+/karteks-enerji-edirne/ 15 -
+/575114172.shtml 1 -
+/554490420.shtml 1 -
+/92269318.shtml 1 -
+/https%3A/vorteksenerji.com/wp-json/ 1 -
+/library/webuploader/0.1.5/webuploader.js 1 -
+/gizlilik-guvenlik/ 3 -
+/223679098.shtml 1 -
+/81312392.shtml 1 -
+/89093538.shtml 1 -
+/293210444.shtml 1 -
+/211928712.shtml 1 -
+/230598302.shtml 2 -
+/.sitemap.xml 1 -
+/328769286.shtml 1 -
+/greatest-no-deposit-gambling-establishment-incentive-codes-to-own-november-2024/ 1 -
+/db_vorteksenerji.sql 1 -
+/236253984.shtml 1 -
+/afyon-bor-bes-enerji/ 18 -
+/570047280.shtml 1 -
+/241033368.shtml 1 -
+/database.sql 1 -
+/303993934.shtml 3 -
+/93632944.shtml 1 -
+/353583050.shtml 1 -
+/371464612.shtml 1 -
+/332760254.shtml 1 -
+/445480462.shtml 1 -
+/558246454.shtml 1 -
+/500753002.shtml 1 -
+/ads.txt 1 -
+/static/admin/js/plugins/webuploader/0.1.5/webuploader.js 1 -
+/494489324.shtml 1 -
+/260323370.shtml 1 -
+/437787198.shtml 1 -
+/wonky-wabbits-position-comment-gamble-100-percent-free-demonstration-2024/vorteksenerji 1 -
+/https%3A/vorteksenerji.com/pir-enerji-2/ 1 -
+/_next/data 6 -
+/sitemap-news.xml.gz 1 -
+/96816096.shtml 1 -
+/97796572.shtml 1 -
+/345734586.shtml 2 -
+/97558146.shtml 1 -
+/statics/webuploader/0.1.5/webuploader.js 1 -
+/sitemap-8.xml 90 -
+/330319152.shtml 1 -
+/387240498.shtml 1 -
+/52586618.shtml 1 -
+/369182978.shtml 1 -
+/167435200.shtml 1 -
+/384640510.shtml 1 -
+/wp-content/themes/torofilm/readme.txt 1 -
+/251609860.shtml 1 -
+/https%3A/vorteksenerji.com/bor-bes-enerji/ 1 -
+/515154010.shtml 1 -
+/213446956.shtml 2 -
+/352509648.shtml 1 -
+/419864896.shtml 1 -
+/wp-json/oembed/1.0/embed 4 -
+/486477900.shtml 1 -
+/258259016.shtml 1 -
+/289947752.shtml 1 -
+/https%3A/vorteksenerji.com/wp-content/themes/betheme/assets/jplayer/css/jplayer.blue.monday.min.css%3Fver%3D26.2.1 1 -
+/40789672.shtml 1 -
+/33467336.shtml 1 -
+/449369580.shtml 1 -
+/100217886.shtml 1 -
+/199448110.shtml 1 -
+/sitemap_index.xml.gz 1 -
+/270986386.shtml 1 -
+/426598830.shtml 1 -
+/352591904.shtml 1 -
+/289315894.shtml 1 -
+/https%3A/vorteksenerji.com/karteks-enerji/ 1 -
+/public/style/admin/plugins/webuploader/0.1.5/webuploader.js 1 -
+/477079570.shtml 2 -
+/507933524.shtml 1 -
+/https%3A/www.bets10gg.com/ 1 -
+/https%3A/vorteksenerji.com/biz-kimiz 1 -
+/web/static//webuploader/0.1.5/webuploader.js 1 -
+/gizlilik-guvenlik/vorteksenerji 1 -
+/80942240.shtml 1 -
+/sitemap_index.xml 18 -
+/enerji-santralleri/vorteksenerji 1 https://www.google.com/
+/184361118.shtml 1 -
+/416799308.shtml 1 -
+/hello-world/feed/ 1 -
+/360839038.shtml 1 -
+/518198452.shtml 1 -
+/316954104.shtml 1 -
+/488050658.shtml 1 -
+/karteks-enerji-edirne/vorteksenerji 1 https://www.google.com/
+/501243628.shtml 2 -
+/https%3A/vorteksenerji.com/wp-content/plugins/contact-form-7/includes/css/styles.css%3Fver%3D5.9.8 1 -
+/279895060.shtml 1 -
+/plugin/ueditor/ueditor.config.js/x.php 1 -
+/static/web/UEditor/ueditor.config.js/x.php 1 -
+/%7Cvorteks%7CEd198K2mr!!wp-login.php 1 -
+/340392408.shtml 1 -
+/102467704.shtml 1 -
+/255491024.shtml 1 -
+/399585494.shtml 1 -
+/314009960.shtml 1 -
+/396190106.shtml 1 -
+/264741914.shtml 1 -
+/303549286.shtml 1 -
+/378730688.shtml 1 -
+/492015630.shtml 1 -
+/sitemap-10.xml 86 -
+/64876518.shtml 1 -
+/sitemap-index.xml 17 -
+/wp-json/wp/v2/pages/87 2 -
+/532190702.shtml 1 -
+/271736972.shtml 1 -
+/+90%20542%20347%2052%2007 4 -
+/111236698.shtml 1 -
+/250393480.shtml 1 -
+/182575154.shtml 1 -
+/531810656.shtml 1 -
+/542779028.shtml 1 -
+/581335170.shtml 1 -
+/app/app/webuploader/0.1.5/webuploader.js 1 -
+/425651722.shtml 1 -
+/karteks-enerji/ 7 -
+/bor-bes-enerji/ 30 -
+/550391394.shtml 1 -
+/135405024.shtml 1 -
+/380748288.shtml 1 -
+/iletisim 13 http://vorteksenerji.com
+/sitemap-1.xml 82 -
+/182167754.shtml 1 -
+/523748986.shtml 1 -
+/366600450.shtml 2 -
+/userfuns.php 2 www.google.com
+/218373586.shtml 1 -
+/188744742.shtml 1 -
+/545191418.shtml 1 -
+/495893302.shtml 1 -
+/everest-enerji/ 7 -
+/55948250.shtml 1 -
+/294198874.shtml 1 -
+/370322534.shtml 1 -
+/14458246.shtml 1 -
+/wp-json/wp/v2/posts 1 https://mail.vorteksenerji.com
+/sitemap-18.xml 88 -
+/51730884.shtml 1 -
+/https%3A/vorteksenerji.com/wp-content/themes/betheme/css/responsive.css%3Fver%3D26.2.1 1 -
+/wp-json/mcp/v1 1 -
+/sitemap-index.xml.gz 1 -
+/587598654.shtml 1 -
+/473418208.shtml 2 -
+/300545002.shtml 1 -
+/category/uncategorized/ 2 -
+/523500666.shtml 1 -
+/111586868.shtml 1 -
+/362337882.shtml 1 -
+/7057340.shtml 2 -
+/258698814.shtml 1 -
+/76627874.shtml 1 -
+/enerji-santralleri/ 6 -
+/533894022.shtml 1 -
+/47586074.shtml 1 -
+/110888080.shtml 1 -
+/vorteksenerji 9 -
+/173466078.shtml 1 -
+/196191238.shtml 1 -
+/173508564.shtml 1 -
+/304588544.shtml 1 -
+/321092706.shtml 1 -
+/services/cepingka/lib/webuploader/0.1.5/server/webuploader.js 1 -
+/sitemap-3.xml 87 -
+/572163626.shtml 1 -
+/205430682.shtml 1 -
+/527596588.shtml 2 -
+/161214008.shtml 1 -
+/519228786.shtml 1 -
+/sitemap_news.xml.gz 1 -
+/https%3A/vorteksenerji.com/biz-kimiz/ 1 -
+/374159466.shtml 2 -
+/sitemap.xml 224 -
+/295143654.shtml 1 -
+/500766970.shtml 1 -
+/479360040.shtml 1 -
+/86580462.shtml 2 -
+/257580210.shtml 1 -
+/sitemap.txt 16 -
+/24987790.shtml 1 -
+/196136336.shtml 1 -
+/128195596.shtml 1 -
+/jquery/UI/H-ui.admin/lib/webuploader/0.1.5/server/webuploader.js 1 -
+/25116606.shtml 1 -
+/352878636.shtml 1 -
+/350692256.shtml 1 -
+/142105590.shtml 1 -
+/https%3A/vorteksenerji.com/everest-enerji-kayseri/ 1 -
+/198945068.shtml 1 -
+/static/plugin/webuploader-0.1.5/webuploader.js 2 -
+/https%3A/vorteksenerji.com/everest-enerji/ 1 -
+/191249088.shtml 1 -
+/admin/lib/webuploader/0.1.5/webuploader.js 2 -
+/504356164.shtml 1 -
+/269241356.shtml 1 -
+/263048100.shtml 1 -
+/553545252.shtml 1 -
+/sitemap.html 16 -
+/70989652.shtml 1 -
+/420261626.shtml 1 -
+/style/admin/plugins/webuploader/0.1.5/webuploader.js 1 -
+/wonky-wabbits-position-comment-gamble-100-percent-free-demonstration-2024/+90%20542%20347%2052%2007 1 -
+/231185734.shtml 1 -
+/wp-content/plugins/wc-designer-pro/assets/css/wcdp-design.min.css 4 -
+/tel%3A%2B905423475207 1 -
+/373102748.shtml 1 -
+/361016742.shtml 1 -
+/sitemap-17.xml 85 -
+/326323140.shtml 1 -
+/183771164.shtml 1 -
+/555088134.shtml 1 -
+/76877746.shtml 1 -
+/168200918.shtml 1 -
+/292615058.shtml 1 -
+/564497716.shtml 1 -
+/viagraedit/webuploader/0.1.5/webuploader.js 1 -
+/373211388.shtml 1 -
+/563727342.shtml 1 -
+/566123630.shtml 2 -
+/543326496.shtml 1 -
+/everest-enerji-kayseri/ 18 -
+/371313098.shtml 1 -
+/275267772.shtml 1 -
+/210345478.shtml 1 -
+/349325526.shtml 1 -
+/405236908.shtml 1 -
+/201911328.shtml 1 -
+/sitemap_news.xml 1 -
+/68541372.shtml 1 -
+/wp-json/ 3 -
+/195061964.shtml 1 -
+/https%3A/vorteksenerji.com/iletisim/ 1 -
+/290280462.shtml 1 -
+/100001576.shtml 1 -
+/254690580.shtml 1 -
+/https%3A/vorteksenerji.com/wp-content/themes/betheme/assets/animations/animations.min.css%3Fver%3D26.2.1 1 -
+/public/static/libs/webuploader/0.1.5/webuploader.js 1 -
+/karteks-enerji/vorteksenerji 1 -
+/478834688.shtml 1 -
+/182879540.shtml 2 -
+/513191894.shtml 1 -
+/315402880.shtml 2 -
+/shell.php 1 -
+/202302626.shtml 1 -
+/150031266.shtml 1 -
+/397585548.shtml 1 -
+/afyon-bor-bes-enerji/vorteksenerji 2 -
+/277470836.shtml 1 -
+/223261028.shtml 1 -
+/98468588.shtml 1 -
+/pir-enerji/vorteksenerji 1 https://www.google.com/
+/216575982.shtml 2 -
+/gizlilik-guvenlik 7 -
+/servislerimiz/ 5 -
+//wp-json/wp/v2/users/ 17 -
+/343018586.shtml 1 -
+/sitemap-11.xml 89 -
+/https%3A/vorteksenerji.com/hukum-sartlar 1 -
+/ 5 -
+/348605204.shtml 1 -
+/170822828.shtml 1 -
+/552064450.shtml 1 -
+/568616918.shtml 1 -
+/161556612.shtml 1 -
+/446823136.shtml 1 -
+/381406142.shtml 1 -
+/187953998.shtml 1 -
+/406099238.shtml 2 -
+/425900818.shtml 1 -
+/88828534.shtml 1 -
+/460519730.shtml 1 -
+/139299768.shtml 1 -
+/136169190.shtml 1 -
+/297274744.shtml 2 -
+/everest-enerji/%2B90%20542%20347%2052%2007 1 https://www.google.com/
+/358252630.shtml 2 -
+/283747318.shtml 1 -
+/246453728.shtml 1 -
+/179152412.shtml 3 -
+/18004372.shtml 1 -
+/72472200.shtml 2 -
+/plugins/webuploader/0.1.5/webuploader.js 1 -
+/116252374.shtml 2 -
+/https%3A/vorteksenerji.com/enerji-santralleri/ 1 -
+/SiteMap.aspx 14 -
+/526763746.shtml 2 -
+/Public/Plugin/h-ui/lib/webuploader/0.1.5/server/webuploader.js 1 -
+/388847012.shtml 1 -
+/sitemap-12.xml 92 -
+/265637612.shtml 1 -
+/567530518.shtml 1 -
+/503290328.shtml 1 -
+/https%3A/vorteksenerji.com/karteks-enerji-edirne/ 1 -
+/541408030.shtml 1 -
+/505055922.shtml 1 -
+/218941812.shtml 1 -
+/357248292.shtml 1 -
+/https%3A/fonts.googleapis.com/css%3Ffamily%3DRoboto%3A1%2C300%2C400%2C400italic%2C700%7CLato%3A1%2C300%2C400%2C400italic%2C700%26display%3Dswap%26ver%3D6.8.3 1 -
+/37820890.shtml 1 -
+/sitemap-4.xml 88 -
+/427587648.shtml 2 -
+/https%3A/vorteksenerji.com/gemi-marine/ 1 -
+/403243170.shtml 1 -
+/418176320.shtml 1 -
+/521003886.shtml 1 -
+/538114104.shtml 1 -
+/508354310.shtml 1 -
+/433421228.shtml 1 -
+/Content/webuploader/0.1.5/webuploader.js 1 -
+/233172100.shtml 1 -
+/238389924.shtml 1 -
+/shell 1 -
+/api/actions 6 -
+/150312178.shtml 1 -
+/login 3 -
+/378726032.shtml 1 -
+/368219574.shtml 1 -
+/iletisim/+90%20542%20347%2052%2007 1 -
+/112852524.shtml 1 -
+/https%3A/fonts.googleapis.com/css%3Ffamily%3DRoboto%3A100%2C400%26display%3Dswap 1 -
+/512739098.shtml 1 -
+/542410816.shtml 1 -
+/hello-world/ 2 -
+/245251316.shtml 1 -
+/Public/Admin/lib/webuploader/0.1.5/server/webuploader.js 1 -
+/197360670.shtml 1 -
+/enhancecp 2 -
+/contact/ 1 -
+/339037318.shtml 1 -
+/web/dist/static/webuploader/0.1.5/webuploader.js 1 -
+/347942306.shtml 1 -
+/387998844.shtml 1 -
+/341021162.shtml 1 -
+/239448388.shtml 1 -
+/62093588.shtml 1 -
+/100143390.shtml 1 -
+/193545854.shtml 1 -
+/141069436.shtml 1 -
+/static/admin/webuploader/0.1.5/webuploader.js 1 -
+/199355766.shtml 1 -
+/149175726.shtml 1 -
+/https%3A/vorteksenerji.com/wp-json/wp/v2/pages/87 1 -
+/276644396.shtml 1 -
+/140813744.shtml 1 -
+/341331174.shtml 1 -
+/469569636.shtml 1 -
+/static/webuploader/0.1.5/webuploader.js 1 -
+/149259146.shtml 1 -
+/397764222.shtml 1 -
+/303627468.shtml 1 -
+/550619732.shtml 1 -
+/488655744.shtml 1 -
+/419085404.shtml 1 -
+/67630542.shtml 1 -
+/273112238.shtml 1 -
+/540349760.shtml 1 -
+/everest-enerji/+90%20542%20347%2052%2007 1 -
+/public/js/webuploader/0.1.5/webuploader.js 1 -
+/static/common/lib/webuploader/0.1.5/webuploader.js 1 -
+/api/action 6 -
+/365971308.shtml 1 -
+/100329824.shtml 1 -
+/173072452.shtml 1 -
+/sitemap-6.xml 84 -
+/109797073.html 1 -
+/579145686.shtml 1 -
+/9205114.shtml 1 -
+/99345424.html 2 -
+/sitemap-19.xml 88 -
+/533211918.shtml 1 -
+/337125642.shtml 1 -
+/iletisim/ 9 http://vorteksenerji.com
+/156929130.shtml 1 -
+/https%3A/vorteksenerji.com/ana-sayfa/feed/ 1 -
+/575250942.shtml 1 -
+/source/plugin/iscwo_kaifu/webuploader/0.1.5/webuploader.js 1 -
+/5-added-bonus-no-deposit-expected-bet-100-on-the-slots-to-discover-another-5-extra/ 2 -
+/556709780.shtml 1 -
+/152814584.shtml 1 -
+/26719628.shtml 1 -
+/173605564.shtml 1 -
+/8191658.shtml 1 -
+/includes/ueditor/ueditor.config.js/x.php 1 -
+/71033108.shtml 1 -
+/386324624.shtml 1 -
+/291833626.shtml 1 -
+/269221568.shtml 1 -
+/417993572.shtml 1 -
+/535196344.shtml 1 -
+/429330738.shtml 1 -
+/Public/webuploader/0.1.5/webuploader.js 1 -
+/427181024.shtml 1 -
+/wp-json/contact-form-7/v1/contact-forms/88/feedback 22 https://vorteksenerji.com/
+/75137566.shtml 1 -
+/228862390.shtml 1 -
+/136247760.shtml 1 -
+/584126636.shtml 1 -
+/res/webuploader/0.1.5/webuploader.js 1 -
+/483489912.shtml 1 -
+/113411244.shtml 1 -
+/admin/include//webuploader/0.1.5/webuploader.js 1 -
+/382205034.shtml 1 -
+/443844072.shtml 1 -
+/https%3A/vorteksenerji.com/wp-content/themes/betheme/css/be.css%3Fver%3D26.2.1 1 -
+/171085116.shtml 1 -
+/563325180.shtml 1 -
+/493135980.shtml 1 -
+/public/lib/webuploader/0.1.5/server/webuploader.js 1 -
+/352667952.shtml 1 -
+/520504530.shtml 1 -
+/8027534.shtml 1 -
+/318770914.shtml 1 -
+/245829242.shtml 1 -
+/191689080.shtml 1 -
+/%23 1 -
+/472271086.shtml 1 -
+/91949800.shtml 1 -
+/Theme/assets/webuploader/0.1.5/webuploader.js 1 -
+/332047110.shtml 1 -
+/541983628.shtml 1 -
+/140555530.shtml 1 -
+/132370088.shtml 1 -
+/247383570.shtml 1 -
+/363005048.shtml 1 -
+/include/webuploader/0.1.5/webuploader.js 1 -
+/189191330.shtml 1 -
+/https%3A/vorteksenerji.com/pir-enerji/ 1 -
+/553512272.shtml 1 -
+/https%3A/vorteksenerji.com/baysak-enerji-nigde/ 1 -
+/template/admin/public/js/webuploader/0.1.5/webuploader.js 1 -
+/339918272.shtml 2 -
+/sitemap-news.xml 1 -
+/260822338.shtml 1 -
+/manage/assets/lib/webuploader/0.1.5/webuploader.js 2 -
+/includes/webuploader/0.1.5/webuploader.js 1 -
+/https%3A/en.vorteksenerji.com/ 1 -
+/481554180.shtml 1 -
+/284720616.shtml 1 -
+/app/admincp/ui/webuploader/0.1.5/webuploader.js 1 -
+/https%3A/vorteksenerji.com/wp-content/uploads/betheme/css/post-87.css%3Fver%3D1765715828 1 -
+/Tpl/Home/default/Public/Hui/lib/webuploader/0.1.5/server/webuploader.js 1 -
+/everest-enerji-kayseri/vorteksenerji 3 -
+/karteks-enerji/%2B90%20542%20347%2052%2007 1 https://www.google.com/
+/feed/ 8 -
+/index.html 3 -
+/225846466.shtml 1 -
+/218758094.shtml 1 -
+/445820544.shtml 1 -
+/https%3A/vorteksenerji.com/feed/ 1 -
+/449217290.shtml 1 -
+/128692818.shtml 1 -
+/lib/webuploader/0.1.5/webuploader.js 1 -
+/121204806.shtml 1 -
+/352216514.shtml 1 -
+/public/admin/js/webuploader/0.1.5/webuploader.js 1 -
+/https%3A/vorteksenerji.com/servislerimiz/ 1 -
+/131557616.shtml 1 -
+/334997074.shtml 1 -
+/535240964.shtml 2 -
+/https%3A/vorteksenerji.com/ 1 -
+/309052484.shtml 1 -
+/209259078.shtml 1 -
+/98263530.shtml 1 -
+/378616034.shtml 2 -
+/391183742.shtml 1 -
+/62914208.shtml 1 -
+/sitemap 1 -
+/440259534.shtml 1 -
+/573111704.shtml 1 -
+/156440056.shtml 1 -
+/584774984.shtml 1 -
+/249000172.shtml 1 -
+/11246576.shtml 1 -
+/425443172.shtml 1 -
+/https%3A/vorteksenerji.com/iletisim 1 -
+/public/plugins/webuploader/0.1.5/webuploader.js 1 -
+/88774990.shtml 2 -
+/Public//webuploader/0.1.5/webuploader.js 1 -
+/528044534.shtml 1 -
+/498068042.shtml 1 -
+/182680690.shtml 1 -
+/13363892.shtml 1 -
+/203496696.shtml 1 -
+/https%3A/vorteksenerji.com/wp-content/plugins/revslider/public/assets/css/rs6.css%3Fver%3D6.5.31 1 -
+/482407004.shtml 1 -
+/dump.sql 1 -
+/390511726.shtml 1 -
+/523080462.shtml 1 -
+/86103416.shtml 2 -
+/12585952.shtml 1 -
+/583206688.shtml 1 -
+/460725176.shtml 1 -
+/504254896.shtml 1 -
+/18763688.shtml 1 -
+/438655542.shtml 1 -
+/327017272.shtml 1 -
+/411027808.shtml 1 -
+/8353822.html 1 -
+/comments/feed/ 4 -
+/49052326.shtml 1 -
+/10488230.shtml 1 -
+/503602280.shtml 1 -
+/73704294.shtml 1 -
+/389799358.shtml 1 -
+/sy/base/frame/plugs/webuploader-0.1.5/webuploader.js 2 -
+/327220972.shtml 1 -
+/195942142.shtml 1 -
+/postnews.php 5 www.google.com
+/213882680.shtml 1 -
+/500110668.shtml 1 -
+/389359754.shtml 2 -
+/579890258.shtml 1 -
+/422659466.shtml 1 -
+/535540500.shtml 1 -
+/sitemap-7.xml 88 -
+/60658182.shtml 1 -
+/res/plugins/webuploader/0.1.5/webuploader.js 1 -
+/87545612.shtml 1 -
+/456520808.shtml 1 -
+/547938652.shtml 1 -
+/513908336.shtml 1 -
+/352171506.shtml 1 -
+/440082024.shtml 1 -
+/394091608.shtml 1 -
+/582463668.shtml 1 -
+/ana-sayfa/feed/ 4 -
+/246802928.shtml 1 -
+/510977966.shtml 1 -
+/503693072.shtml 1 -
+/317793930.shtml 1 -
+/common/static/plugin/ueditor/1.4.3.3/ueditor.config.js 1 -
+/%2B90%20542%20347%2052%2007 2 -
+/440555772.shtml 1 -
+/app/app/ueditor/ueditor.config.js/x.php 2 -
+/wp-login.php:vorteks:Ed1982mr!! 6 -
+/353579752.shtml 1 -
+/380572136.shtml 1 -
+/574369988.shtml 1 -
+/webshell.php 1 -
+/210047882.shtml 1 -
+/197416736.shtml 1 -
+/278293784.shtml 1 -
+/378210768.shtml 1 -
+/413475894.shtml 1 -
+/511379740.shtml 1 -
+/209841466.shtml 1 -
+/117234646.html 1 -
+/569508542.shtml 1 -
+/14250084.shtml 1 -
+/https%3A/vorteksenerji.com/afyon-bor-bes-enerji/ 1 -
+/384200712.shtml 1 -
+/112278672.shtml 2 -
+/sitemap-14.xml 83 -
+/307834552.shtml 1 -
+/576850666.shtml 1 -
+/279893314.shtml 1 -
+/250723862.shtml 1 -
+/Public/admin/lib/webuploader/0.1.5/webuploader.js 2 -
+/ewebeditor/webuploader/0.1.5/webuploader.js 1 -
+/129969726.shtml 1 -
+/477996026.shtml 1 -
+/100214782.shtml 1 -
+/139096650.shtml 1 -
+/vorteksenerji.sql 1 -
+/286853258.shtml 1 -
+/218210626.shtml 2 -
+/352548254.shtml 1 -
+/411017914.shtml 1 -
+/435857286.shtml 3 -
+/565314262.shtml 1 -
+/363112718.shtml 2 -
+/475575294.shtml 1 -
+/biz-kimiz/ 8 -
+/webshell 1 -
+/314503496.shtml 1 -
+/sitemap-2.xml 83 -
+/public/platform/js/webuploader/0.1.5/webuploader.js 1 -
+/include/ueditor/ueditor.config.js/x.php 2 -
+/290657210.shtml 1 -
+/545957718.shtml 1 -
+/585469116.shtml 1 -
+/480219266.shtml 1 -
+/272715702.shtml 1 -
+/295126582.shtml 1 -
+/293704562.shtml 1 -
+/118531486.shtml 1 -
+/378243748.shtml 1 -
+/news_sitemap.xml 15 -
+/456689200.shtml 1 -
+/101792830.html 2 -
+/286876926.shtml 1 -
+/43091482.shtml 1 -
+/556262416.shtml 1 -
+/511241224.shtml 2 -
+/79944110.shtml 1 -
+/579982602.shtml 1 -
+/225986340.shtml 1 -
+/233917642.shtml 1 -
+/sitemap-20.xml 87 -
+/13497364.shtml 2 -
+/347328490.shtml 1 -
+/359336896.shtml 1 -
+/144405460.shtml 1 -
+/188524358.shtml 1 -
+/gemi-marine/ 21 -
+/247639262.shtml 1 -
+/pir-enerji/ 6 -
+/https%3A/vorteksenerji.com/xmlrpc.php%3Frsd 1 -
+/108831433.html 1 -
+/362612974.shtml 1 -
+/sitemap/sitemap-index.xml 1 -
+/wp-json/wp/v2/users 40 https://www.google.com
+/148938076.shtml 1 -
+/426921840.shtml 1 -
+/92794088.shtml 1 -
+/pir-enerji-2/ 5 -
+/345371806.shtml 1 -
+/297741314.shtml 1 -
+/ueditor/ueditor.config.js/x.php 2 -
+/264742690.shtml 1 -
+/270597222.shtml 1 -
+/280514308.shtml 1 -
+/240391228.shtml 1 -
+/459259700.shtml 1 -
+/165320794.shtml 1 -
+/202563168.shtml 1 -
+/276962750.shtml 1 -
+/374774640.shtml 2 -
+/001/lib/webuploader/0.1.5/server/webuploader.js 1 -
+/388901138.shtml 1 -
+/532488880.shtml 2 -
+/354606400.shtml 1 -
+/public/static/admin/webuploader/0.1.5/webuploader.js 1 -
+/464969896.shtml 1 -
+/348481432.shtml 1 -
+/214778572.shtml 1 -
+/+90 1 -
+/302132698.shtml 1 -
+/489080604.shtml 1 -
+/451440142.shtml 1 -
+/390294834.shtml 1 -
+/192454216.shtml 2 -
+/static/admin/lib/webuploader/0.1.5/webuploader.js 1 -
+/513380462.shtml 2 -
+/26144030.shtml 1 -
+/385353072.shtml 1 -
+/491899230.shtml 1 -
+//wp-includes/wlwmanifest.xml 17 -
+/54278880.shtml 1 -
+/68809868.shtml 1 -
+/17590764.shtml 1 -
+/218445366.shtml 1 -
+/352761072.shtml 1 -
+/350696912.shtml 1 -
+/331411760.shtml 1 -
+/39824910.shtml 1 -
+/446950982.shtml 1 -
+/568245990.shtml 1 -
+/415783136.shtml 2 -
+/https%3A/vorteksenerji.com/wp-json/oembed/1.0/embed%3Furl%3Dhttps%3A/vorteksenerji.com/ 1 -
+/359750310.shtml 1 -
+/326307038.shtml 1 -
+/85893856.html 2 -
+/sitemap-13.xml 83 -
+/398961008.shtml 1 -
+/352871458.shtml 2 -
+/470291704.shtml 1 -
+/87943700.shtml 1 -
+/95605924.shtml 1 -
+/297440420.shtml 1 -
+/512519102.shtml 2 -
+/335322218.shtml 1 -
+/558912650.shtml 1 -
+/283753720.shtml 1 -
+/514147150.shtml 1 -
+/146262428.shtml 1 -
+/100730628.shtml 1 -
+/520601918.shtml 1 -
+/494740554.shtml 3 -
+/383789238.shtml 1 -
+/webuploader/0.1.5/webuploader.js 1 -
+/231856004.shtml 1 -
+/503960792.shtml 1 -
+/165249014.shtml 1 -
+/466513166.shtml 1 -
+/localhost.sql 1 -
+/61059374.shtml 1 -
+/294009724.shtml 1 -
+/146887496.shtml 1 -
+/464068184.shtml 1 -
+/298132030.shtml 1 -
+/cerez-politikasi/ 1 -
+/82254844.shtml 1 -
+/224871034.shtml 1 -
+/214203362.shtml 1 -
+/352759714.shtml 1 -
+/202337546.shtml 1 -
+/450727386.shtml 1 -
+/489313598.shtml 2 -
+/97353187.html 2 -
+/577932604.shtml 1 -
+/user/login 1 -
+/190821512.shtml 1 -
+/%20vorteksenerji 2 -
+/wonky-wabbits-position-comment-gamble-100-percent-free-demonstration-2024/feed/ 1 -
+/sitemap-9.xml 93 -
+/550680842.shtml 1 -
+/61035512.shtml 1 -
+/211875750.shtml 1 -
+/login/admin 1 -
+/plugin/webuploader/0.1.5/webuploader.js 1 -
+/236525972.shtml 2 -
+/278713406.shtml 1 -
+/vorteksenerji.com.sql 1 -
+/250604746.shtml 1 -
+/backup.sql 1 -
+/80691010.shtml 4 -
+/static/hui/lib/webuploader/0.1.5/server/webuploader.js 1 -
+/532496834.shtml 1 -
+/550300602.shtml 1 -
+/534512688.shtml 1 -
+/411305810.shtml 1 -
+/public/static/lib/webuploader/0.1.5/webuploader.js 1 -
+/385669098.shtml 1 -
+/336246628.shtml 1 -
+/sitemap-16.xml 86 -
+/45520750.shtml 1 -
+/373195868.shtml 1 -
+/227440564.shtml 1 -
+/355211098.shtml 1 -
+/568241334.shtml 1 -
+/116689456.shtml 1 -
+/tel:%2B905423475207 1 -
+/354172616.shtml 1 -
+/546636912.shtml 1 -
+/450931280.shtml 1 -
+/477459810.shtml 1 -
+/356666098.shtml 1 -
+/569107738.shtml 1 -
+/Data/editor/webuploader/0.1.5/webuploader.js 1 -
+/144780462.shtml 2 -
+/570912714.shtml 1 -
+/fitnes-vash-put-k-zdorovomu-obrazu-zhizni/ 1 -
+/50938394.shtml 1 -
+/527213244.shtml 1 -
+/471272762.shtml 1 -
+/33324940.shtml 1 -
+/static/common/user/webuploader/0.1.5/webuploader.js 1 -
+/559907094.shtml 1 -
+/wp-json/contact-form-7/v1/contact-forms/88/feedback/schema 83 https://vorteksenerji.com/
+/202421160.shtml 1 -
+/334989120.shtml 1 -
+/415118880.shtml 1 -
+/242999946.shtml 1 -
+/574851108.shtml 1 -
+/https%3A/vorteksenerji.com/wp-content/themes/betheme/fonts/fontawesome/fontawesome.css%3Fver%3D26.2.1 1 -
+/https%3A/vorteksenerji.com/wp-json/oembed/1.0/embed%3Furl%3Dhttps%3A/vorteksenerji.com/%26format%3Dxml 1 -
+/static/common/js/webuploader/0.1.5/webuploader.js 1 -
+/Public/Js/webuploader/0.1.5/webuploader.js 1 -
+/news-sitemap.xml 16 -
+/262929178.shtml 1 -
+/bor-bes-enerji/%2B90%20542%20347%2052%2007 1 https://www.google.com/
+/103965384.shtml 1 -
+/106884114.shtml 1 -
+/554246368.shtml 2 -
+/388525942.shtml 1 -
+/276395882.shtml 1 -
+/sitemap.xml.gz 1 -
+/246812822.shtml 1 -
+/105074288.shtml 1 -
+/226734210.shtml 1 -
+/390873730.shtml 1 -
+/90907826.shtml 1 -
+/369922506.shtml 1 -
+/93840769.html 2 -
+/207176294.shtml 1 -
+/1.sql 1 -
+/276698716.shtml 1 -
+/506208864.shtml 1 -
+/biz-kimiz 7 -
+/104514016.shtml 1 -
+/155151508.shtml 1 -
+/580010926.shtml 1 -
+/86554466.shtml 1 -
+/wonky-wabbits-position-comment-gamble-100-percent-free-demonstration-2024/ 2 -
+/582050836.shtml 1 -
+/110989930.shtml 1 -
+/465150510.shtml 1 -
+/https%3A/vorteksenerji.com/comments/feed/ 1 -
+/517135332.shtml 1 -
+/290434692.shtml 1 -
+/wp-json/hc/v1/themehunk-import 4 -
+/favicon.png 4 -
+/90412738.shtml 1 -
+/237299062.shtml 1 -
+/548993624.shtml 2 -
+/155084384.shtml 1 -
+/128220234.shtml 1 -
+/376489406.shtml 1 -
+/369482126.shtml 1 -
+/385331538.shtml 1 -
+/482209512.shtml 1 -
+/203617170.shtml 1 -
+/243988570.shtml 1 -
+/10126032.shtml 1 -
+/45242360.shtml 1 -
+/cerezler 5 -
+/221479526.shtml 1 -
+/209076718.shtml 1 -
+/376473304.shtml 1 -
+/79953810.shtml 1 -
+/https%3A/vorteksenerji.com/gizlilik-guvenlik 1 -
+/358731616.shtml 1 -
+/10371830.shtml 1 -
+/466147864.shtml 11 -
+/499679600.shtml 1 -
+/gemi-marine/vorteksenerji 1 https://www.google.com/
+/515569946.shtml 1 -
+/57988936.shtml 1 -
+/253961528.shtml 2 -
+/100040764.shtml 1 -
+/189912816.shtml 1 -
+/195971048.shtml 1 -
+/569145956.shtml 1 -
+/178722508.shtml 2 -
+/552683698.shtml 1 -
+/553369100.shtml 1 -
+/328228608.shtml 1 -
+/276756334.shtml 1 -
+/516150976.shtml 1 -
+/author/vorteks/ 22 -
+/90661252.shtml 1 -
+/489075754.shtml 1 -
+/88617268.shtml 1 -
+/85448666.shtml 1 -
+/386763840.shtml 1 -
+/84680038.shtml 1 -
+/144691804.shtml 1 -
+/75548070.shtml 1 -
+/Public/ueditor/ueditor.config.js/x.php 2 -
+/309876402.shtml 1 -
+/https%3A/vorteksenerji.com/wp-includes/css/dist/block-library/style.min.css%3Fver%3D6.8.3 1 -
+/90388294.shtml 1 -
+/100129422.shtml 1 -
+/55634746.shtml 1 -
+/85733070.shtml 2 -
+/168284144.shtml 1 -
+/197360864.shtml 1 -
+/18207684.shtml 1 -
+/258646822.shtml 1 -
+/https%3A/vorteksenerji.com/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css%3Fver%3D7.6.7 1 -
+/hukum-sartlar/ 2 -
+/475302918.shtml 2 -
+/apps 6 -
+/44345110.shtml 1 -
+/43594330.shtml 1 -
+/525684912.shtml 1 -
+/iletisim/vorteksenerji 1 -
+/322379896.shtml 1 -
+/https%3A/vorteksenerji.com/cerezler 1 -
+/345354928.shtml 1 -
+/176705490.shtml 1 -
+/546991350.shtml 1 -
+/212363272.shtml 1 -
+/225161258.shtml 1 -
+/178130808.shtml 1 -
+/478543494.shtml 1 -
+/360879778.shtml 1 -
+/378404380.shtml 1 -
+/js/webuploader/0.1.5/webuploader.js 1 -
+/377808218.shtml 1 -
+/518940114.shtml 1 -
+/180733318.shtml 1 -
+/168337494.shtml 1 -
+/2025.sql 1 -
+/522985014.shtml 1 -
+/Public/static/webuploader/0.1.5/webuploader.js 1 -
+/413738376.shtml 1 -
+/83242886.shtml 1 -
+/bukmekerskaia-kontora-1xbet-ofitsialnyi-sait-registratsiia-vkhod-i-rabochee-zerkalo-1khbet/ 1 -
+/207335956.shtml 1 -
+/hekenews/public/static/hui/lib%20/webuploader/0.1.5/server/webuploader.js 1 -
+/215208864.shtml 1 -
+/352548060.shtml 1 -
+/public/static/common/lib/webuploader/0.1.5/webuploader.js 1 -
+/238747272.shtml 1 -
+/hukum-sartlar 9 -
+/379747636.shtml 1 -
+/51699650.shtml 2 -
+/243510554.shtml 1 -
+/53069872.shtml 1 -
+/519318608.shtml 1 -
+/142349448.shtml 1 -
+/sitemap-15.xml 83 -
+/sitemap-5.xml 87 -
+/569696140.shtml 1 -
+/331036370.shtml 1 -
+/302729248.shtml 1 -
+/520947626.shtml 1 -
+/310587994.shtml 1 -
+/public/static/common/lib/ueditor/ueditor.config.js/x.php 1 -
+/378736120.shtml 1 -
+/161256688.shtml 1 -
+/123272652.shtml 3 -
+/80666760.shtml 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 745
+151.80.64.2 300 300 555209 20251231230128
+34.145.147.161 26 26 304020 20251216182927
+34.28.142.70 13 13 152010 20251231174426
+34.148.168.97 13 13 152010 20251212183751
+136.116.29.34 13 13 152010 20251216153025
+34.182.72.211 13 13 152010 20251218091952
+34.82.153.216 13 13 152010 20251229142507
+104.196.69.12 13 13 152010 20251211195606
+34.34.121.1 13 13 152010 20251229151128
+136.117.22.109 13 13 152010 20251212183525
+34.73.62.14 13 13 152005 20251214192657
+34.145.36.251 13 13 152010 20251212183225
+34.6.118.76 13 13 152010 20251229145319
+35.227.94.34 13 13 152010 20251212190610
+34.73.229.135 13 13 152010 20251214192358
+34.123.237.218 12 12 151600 20251216184051
+34.122.147.229 11 175 35112202 20251217184945
+104.207.54.225 11 11 25063 20251230024653
+209.50.162.100 10 10 12198 20251231194555
+209.50.167.173 10 10 12238 20251230140127
+104.207.51.196 10 10 12238 20251230033340
+209.50.173.234 10 10 12238 20251230134320
+209.50.189.225 10 10 12238 20251230032615
+104.207.60.30 10 10 12236 20251231222111
+209.50.170.152 10 10 12238 20251230014729
+179.36.130.227 1 1 3166 20251202221102
+159.65.183.160 1 2 49092 20251205170609
+115.246.156.155 2 2 4462 20251202121255
+185.224.132.247 1 1 34700 20251222032151
+93.158.90.68 1 1 34701 20251227033801
+23.129.64.154 1 1 228 20251213022354
+103.253.24.18 1 1 228 20251226191015
+185.247.137.156 0 1 14391 
+185.61.222.172 1 1 412 20251225002759
+38.154.97.94 2 2 58742 20251215114245
+66.249.92.38 3 22 2285333 20251228145448
+141.255.88.82 1 1 3434 20251215165808
+194.180.237.50 1 1 29383 20251223182106
+159.89.198.0 4 4 8634 20251221103448
+172.81.132.94 1 1 228 20251225235500
+205.169.39.28 3 58 15486121 20251203035321
+43.135.145.77 1 1 34728 20251217171048
+140.213.104.67 1 1 990 20251215222654
+31.134.11.64 8 8 10219 20251210002041
+102.41.170.194 1 1 10168 20251207134956
+35.170.56.62 2 22 497105 20251223060154
+139.59.118.68 5 5 14880 20251229181927
+66.249.92.2 0 18 3159664 
+93.158.90.52 1 1 34728 20251224041250
+102.216.154.100 1 1 145389 20251230001718
+178.128.95.192 2 2 6652 20251230162821
+54.161.205.217 3 57 13735488 20251202195635
+104.28.193.120 3 3 10133 20251230023624
+43.133.14.237 1 1 34725 20251208061114
+159.65.137.165 1 1 3328 20251216130744
+104.207.53.33 2 2 4423 20251230134236
+172.84.186.190 2 2 6178 20251217020039
+87.236.176.238 1 1 34702 20251212062026
+205.169.39.189 0 16 8397114 
+62.204.49.130 2 2 4457 20251210002012
+170.168.30.120 2 2 6139 20251217175853
+34.217.137.51 3 61 12242182 20251215084419
+156.146.60.132 3 58 10618419 20251223223311
+185.247.137.181 0 1 10569 
+180.252.248.234 1 1 3328 20251230083336
+154.192.19.21 1 1 3326 20251230165503
+216.26.255.199 2 2 6179 20251223215338
+157.90.70.224 0 11 1829855 
+188.26.193.232 2 2 4471 20251227042119
+209.50.177.212 1 1 29367 20251201115655
+65.111.9.222 5 5 13577 20251226184213
+209.50.167.137 1 1 1705 20251223215341
+170.205.30.121 1 1 990 20251221152308
+93.103.167.197 4 4 8630 20251227150321
+104.28.225.120 1 1 3289 20251204000725
+104.207.53.86 1 1 1705 20251223215326
+196.251.100.112 2 2 13095 20251219234649
+188.241.176.252 5 5 7426 20251231030100
+209.50.186.238 2 2 4463 20251216104807
+86.38.36.134 1 1 29384 20251226163108
+3.145.63.103 2 2 69547 20251229214533
+62.109.145.66 1 1 34703 20251229092737
+31.223.143.42 1 1 3328 20251201232010
+198.244.177.113 1 1 228 20251227182914
+205.169.39.217 0 16 9936444 
+49.12.172.234 0 11 1829855 
+104.207.40.243 1 1 29384 20251209190245
+107.172.42.89 2 2 6174 20251208070117
+67.205.188.16 0 1 1349 
+146.247.229.2 1 1 34728 20251221164407
+205.169.39.212 0 16 8397114 
+181.121.191.128 3 93 1632070 20251202221257
+188.166.176.81 1 1 3328 20251216144545
+45.10.167.92 1 1 200 20251227160736
+88.127.5.135 2 2 4456 20251228133916
+185.213.83.129 1 1 3328 20251224192911
+193.151.191.210 1 1 29384 20251215041541
+178.128.214.241 1 1 3329 20251219113326
+66.249.92.129 1 23 3417793 20251221090811
+185.185.173.174 1 1 3147 20251219131737
+164.90.188.5 1 2 49094 20251201171551
+142.93.33.240 1 2 49060 20251231171531
+87.236.176.96 0 1 634 
+205.169.39.11 3 57 13877975 20251208104721
+78.21.5.66 2 2 4456 20251228034824
+43.166.131.228 1 1 34726 20251218134806
+193.19.82.12 1 1 0 20251211164614
+104.248.150.217 1 1 3327 20251216154635
+104.207.39.52 3 3 9202 20251213000934
+205.169.39.70 0 15 8328324 
+91.98.178.13 0 5 396170 
+105.117.128.150 2 2 4457 20251230165530
+196.18.164.155 6 20 850916 20251228225007
+85.74.107.56 2 2 6654 20251222214509
+65.111.20.216 1 1 3025 20251226173117
+113.167.86.44 1 1 3147 20251219131729
+185.247.137.115 0 1 10569 
+138.199.60.173 6 6 11857 20251229083634
+94.129.156.215 1 1 10168 20251207134943
+205.169.39.105 4 79 11102345 20251203043549
+45.3.37.98 1 1 1705 20251230201810
+216.26.253.65 2 2 4463 20251230113244
+193.163.92.84 1 1 29383 20251224081831
+45.250.255.32 2 2 6208 20251217210633
+77.160.59.136 4 4 3960 20251224203221
+87.236.176.132 0 1 14294 
+217.156.65.7 1 1 34702 20251228115727
+45.141.119.175 1 1 228 20251225091819
+216.26.224.192 3 3 9206 20251211184815
+185.247.137.120 0 1 6154 
+205.169.39.184 4 79 11102314 20251211145618
+45.3.52.126 1 1 1705 20251223215340
+205.169.39.6 2 68 17302484 20251218001234
+65.19.141.115 1 1 29366 20251218161822
+54.184.211.85 1 1 145384 20251211183913
+103.121.16.13 1 1 990 20251228052117
+204.8.96.179 1 1 228 20251224184212
+109.242.137.24 3 3 5379 20251229105027
+51.79.214.85 2 2 6650 20251220102721
+146.70.198.188 5 5 7424 20251231202100
+5.75.163.255 1 1 34678 20251227220003
+64.176.187.5 4 4 8958 20251215223039
+180.163.29.103 1 1 145389 20251216001141
+2.124.207.201 2 2 4463 20251229021436
+114.10.121.165 1 1 3327 20251219230657
+104.207.57.31 2 2 4475 20251230005435
+104.234.233.31 1 1 3328 20251226094340
+125.166.13.178 3 3 9979 20251218012040
+66.249.66.197 1 1 29358 20251231202028
+213.232.123.60 1 1 29367 20251223183431
+104.28.156.217 1 1 3328 20251227174140
+216.26.234.94 2 2 4463 20251230111628
+178.63.212.218 0 11 1829855 
+34.221.21.250 1 1 34695 20251216132038
+216.26.239.65 2 2 4436 20251231194508
+216.26.244.16 2 2 4423 20251231194510
+103.121.16.45 1 1 3327 20251221095650
+91.98.176.88 0 22 3659710 
+14.179.47.226 1 1 200 20251219131741
+87.236.176.134 0 1 6154 
+114.10.115.152 7 7 12954 20251215223837
+87.236.176.83 0 1 14391 
+88.172.147.245 2 2 4471 20251219184334
+194.99.24.185 2 2 6178 20251228024506
+45.126.185.178 1 1 3328 20251202121237
+185.213.83.52 1 1 3328 20251211095938
+172.84.126.32 2 2 6136 20251214212323
+83.54.184.255 2 2 4463 20251215165708
+34.123.170.104 3 57 10612405 20251203035209
+104.207.42.3 2 2 4463 20251230024651
+14.177.206.154 2 2 6135 20251219122624
+205.169.39.58 0 16 9936444 
+104.244.78.232 1 1 228 20251215234404
+204.8.96.104 1 1 228 20251223090602
+14.255.199.142 1 1 29363 20251219133551
+157.245.44.16 3 3 5117 20251220154922
+182.8.66.217 9 9 25715 20251228225032
+95.18.10.80 2 2 1980 20251227155412
+176.220.32.61 1 1 3130 20251202221105
+46.106.7.0 6 6 8278 20251231114950
+92.40.171.185 1 1 990 20251228062957
+54.209.161.103 3 57 13735487 20251222083431
+216.26.255.215 9 9 20522 20251230130010
+15.206.195.241 1 1 34689 20251216182501
+192.99.100.106 2 2 69404 20251227130648
+157.22.17.207 1 1 29385 20251216073232
+151.43.176.251 1 1 3328 20251218045954
+192.36.198.147 1 1 34702 20251229014321
+124.108.54.86 1 1 3325 20251214070910
+140.213.14.70 2 2 6800 20251218095849
+205.169.39.44 3 58 15486120 20251203035128
+147.185.132.234 1 1 145384 20251230002653
+121.43.150.118 2 2 29681 20251213092509
+45.145.93.133 1 1 228 20251205102120
+103.121.16.61 1 1 990 20251228061149
+216.26.251.41 1 1 1705 20251230184658
+103.124.165.252 5 5 7425 20251222161731
+87.236.176.87 0 1 634 
+24.236.81.156 1 1 29384 20251226163110
+71.85.189.23 1 1 990 20251230180444
+157.15.40.86 1 1 3328 20251230070421
+205.169.39.50 3 57 13878001 20251203044538
+41.250.192.63 3 3 7751 20251221171200
+78.244.149.48 1 1 3328 20251217121406
+193.202.80.176 1 1 1705 20251216030400
+42.83.147.56 1 1 34702 20251208111702
+23.129.64.139 1 1 228 20251217160034
+103.121.16.14 1 1 3327 20251221094924
+157.85.210.166 1 1 10168 20251217184908
+66.249.92.197 1 30 17897897 20251213184202
+18.179.25.235 1 1 34719 20251218134218
+112.215.238.140 2 2 6800 20251218082915
+111.95.158.141 2 2 4463 20251215223549
+216.218.191.201 1 1 29384 20251218043226
+205.169.39.29 3 58 15486121 20251211145556
+89.210.122.66 1 1 3466 20251228133856
+171.224.179.139 1 1 990 20251227070853
+91.126.88.121 1 1 3325 20251220231325
+149.104.77.168 2 2 4462 20251224013105
+191.101.157.52 3 58 10618421 20251223050539
+82.144.240.173 2 2 4463 20251229021438
+35.232.250.106 1 1 34702 20251215131305
+67.205.129.139 0 1 436 
+140.213.0.57 2 2 6797 20251231203555
+18.130.54.107 1 1 34793 20251212145347
+190.2.220.78 2 2 6656 20251202121249
+24.199.109.71 1 2 49091 20251230132148
+193.187.128.189 1 1 29359 20251217164205
+157.230.21.191 1 2 49094 20251213164538
+23.129.64.217 1 1 228 20251220114111
+147.45.192.197 1 1 34701 20251203224642
+3.86.225.58 2 2 58765 20251214152453
+187.56.15.47 1 1 29384 20251223214600
+194.103.212.184 1 1 34727 20251223075651
+185.211.96.160 1 1 29384 20251228082725
+109.245.168.244 1 1 3289 20251220213929
+188.166.218.129 1 1 3328 20251216142018
+34.116.218.63 3 58 12220529 20251211145655
+83.53.92.116 2 2 4462 20251201232016
+107.172.195.133 2 2 58767 20251214153627
+134.209.162.29 2 2 31320 20251212091022
+146.190.116.11 1 2 49094 20251209162230
+195.88.232.97 1 1 3468 20251219184313
+157.245.100.25 1 2 49093 20251203175249
+37.186.41.121 1 1 412 20251224063334
+152.53.210.225 1 1 34724 20251215094731
+65.111.26.176 2 2 4463 20251230014126
+194.180.233.25 2 2 4463 20251208193317
+188.4.121.34 1 1 3473 20251215165733
+66.249.92.167 0 15 876796 
+178.239.122.193 1 1 34696 20251203200134
+104.207.47.194 2 2 6179 20251221002230
+167.235.32.159 0 5 886357 
+93.159.4.9 2 2 4462 20251220231359
+177.244.65.25 1 1 29383 20251223214558
+192.165.45.205 1 1 34701 20251214020339
+38.240.225.49 2 2 55128 20251207162847
+124.248.183.139 1 1 3290 20251216080602
+87.236.176.84 0 1 6632 
+182.11.129.86 6 6 11857 20251229081934
+157.245.193.184 6 6 19919 20251229104811
+5.133.192.188 1 1 34677 20251220034504
+44.214.106.157 1 6 76784 20251220230424
+154.199.69.125 1 1 412 20251224134335
+159.223.119.0 1 2 49060 20251221170838
+185.244.192.175 1 1 228 20251225090953
+5.255.98.198 1 1 228 20251223232130
+157.22.75.233 1 1 3027 20251227084556
+81.242.139.189 1 1 3482 20251201232018
+223.233.80.90 2 2 824 20251205094011
+114.72.45.60 1 1 3325 20251228062954
+91.231.222.128 6 6 208346 20251230085429
+89.19.35.102 2 2 6208 20251206011034
+94.63.145.234 1 1 3472 20251227190135
+51.77.116.148 1 1 3328 20251216011437
+79.127.164.200 1 1 10168 20251229203957
+91.98.178.79 0 4 37237 
+159.65.221.105 1 1 12100 20251219200442
+216.26.253.17 9 9 20600 20251230024711
+103.121.16.17 1 1 3325 20251228052111
+14.231.106.99 1 1 29384 20251219131715
+185.35.202.222 1 1 228 20251231130828
+18.208.184.59 1 1 34703 20251224125003
+216.26.249.17 2 2 4463 20251230113245
+182.9.35.107 1 1 3327 20251221213811
+93.185.162.144 1 1 990 20251218085406
+151.67.99.86 2 2 4470 20251222214526
+193.32.248.148 3 3 2970 20251209201731
+154.213.165.15 2 2 4463 20251230134237
+143.244.137.133 1 2 49093 20251227170428
+146.70.134.111 1 1 990 20251210133509
+34.165.13.211 1 1 228 20251227011343
+209.50.163.229 2 2 4463 20251230014655
+89.187.162.182 1 1 3473 20251215221808
+87.236.176.149 0 1 14294 
+88.162.70.137 2 2 4458 20251226221338
+177.157.124.149 1 1 990 20251231125701
+185.213.83.94 1 1 990 20251229121038
+87.236.176.123 0 1 634 
+139.59.96.248 3 3 9975 20251218171233
+180.163.28.55 1 1 145389 20251216032531
+112.215.45.160 2 2 6800 20251226054952
+185.201.161.100 1 1 3485 20251230013106
+178.43.132.167 5 5 4950 20251218184935
+209.141.40.68 1 1 228 20251204044603
+77.243.90.137 2 2 4422 20251210002010
+185.188.237.67 2 2 4456 20251228133851
+77.220.194.170 1 1 3025 20251227000222
+52.28.255.177 4 4 3960 20251225045654
+114.124.180.238 2 2 6656 20251230012401
+68.174.17.78 1 1 3327 20251224102645
+154.213.161.20 2 2 4463 20251230032527
+72.13.62.26 1 1 34702 20251201011615
+167.71.225.41 1 2 49093 20251225173328
+157.22.73.92 4 4 13312 20251230013132
+54.184.84.125 1 1 145389 20251224191744
+13.56.227.201 1 1 34702 20251224154300
+35.183.111.40 1 1 34719 20251220111626
+86.19.186.60 1 1 3468 20251226221316
+104.164.126.171 1 1 29384 20251214153653
+159.146.121.106 3 3 7791 20251215223628
+104.164.126.21 2 2 58768 20251214151033
+87.236.176.141 0 1 14391 
+216.26.253.136 1 1 1705 20251221002233
+178.128.109.101 2 2 905 20251231045828
+23.234.70.223 1 1 29384 20251212110432
+93.70.88.156 1 1 3482 20251229021439
+87.236.176.2 0 1 6632 
+87.121.84.105 1 1 145536 20251217183736
+80.85.246.214 1 1 29384 20251225224352
+93.158.90.67 1 1 34726 20251218103424
+154.213.162.20 2 2 4461 20251231185431
+104.200.66.21 1 1 29384 20251229230730
+185.136.132.171 1 1 3326 20251214174955
+14.178.2.88 1 1 3147 20251219122634
+103.57.207.3 1 1 10168 20251224115008
+205.169.39.126 4 78 11033578 20251208104810
+204.8.96.180 1 1 228 20251223070725
+142.111.236.104 1 1 3482 20251219120445
+36.37.209.178 4 4 13608 20251215222740
+44.227.127.2 3 62 11291833 20251206012533
+152.67.108.186 1 1 3328 20251230084116
+103.77.106.121 4 4 13457 20251230113908
+77.71.132.218 2 2 4462 20251227190128
+104.167.25.136 2 2 4474 20251216151906
+157.22.16.241 1 1 29328 20251223200022
+130.49.9.242 1 1 1705 20251216013308
+94.154.113.156 2 44 9571147 20251216214454
+216.26.231.157 1 1 1705 20251230201622
+18.117.117.187 4 4 138806 20251203053440
+182.253.116.24 2 2 6650 20251220190223
+147.93.129.190 1 1 145389 20251224120648
+185.247.137.97 0 1 6154 
+65.111.28.72 1 1 3148 20251216094329
+123.17.223.109 1 1 3147 20251219122642
+5.133.192.128 1 2 49093 20251224204029
+66.249.66.2 1 1 29382 20251218150728
+34.221.122.172 3 60 10634061 20251225083726
+157.22.44.96 1 1 29383 20251215035610
+116.202.224.156 0 33 5489565 
+130.255.93.118 1 1 29383 20251223214600
+5.249.95.122 2 2 4462 20251217121543
+205.169.39.114 1 21 421173 20251203042759
+64.227.152.81 1 2 49093 20251207161603
+178.20.31.98 1 1 1705 20251216013309
+216.26.231.203 1 1 3025 20251226200839
+193.56.28.22 2 2 4463 20251230014122
+199.115.195.205 2 2 6178 20251214095434
+134.209.147.219 1 2 49093 20251223160749
+52.21.63.167 1 1 228 20251228003203
+103.196.9.200 2 21 449311 20251214153708
+94.102.55.18 2 2 69465 20251220042827
+188.126.89.40 3 58 10618397 20251215091529
+91.98.176.86 0 16 1878670 
+156.146.60.82 3 58 10618419 20251217052007
+196.18.165.208 6 20 850916 20251228224751
+103.77.107.199 5 5 16561 20251227191509
+212.192.221.153 2 2 6656 20251218063519
+49.51.195.195 1 1 34728 20251217175949
+43.135.132.224 0 13 8308274 
+87.236.176.29 1 1 34701 20251212053733
+113.173.7.91 1 1 29385 20251219133535
+193.24.211.66 1 1 200 20251226235537
+91.107.219.25 3 55 12112031 20251205185436
+93.158.90.30 1 1 34726 20251225103252
+104.245.242.181 2 2 4475 20251217221201
+104.207.52.86 2 2 6812 20251220044929
+118.99.80.140 7 7 19045 20251229094653
+185.247.137.47 0 1 6154 
+38.135.24.176 1 1 228 20251203190635
+93.158.91.245 1 1 34727 20251217062338
+216.73.161.179 1 1 990 20251228180956
+34.151.198.67 1 1 228 20251230063604
+194.55.137.63 1 1 990 20251219175255
+181.177.126.89 2 16 839795 20251228225512
+192.36.226.103 1 1 34702 20251201120433
+159.223.234.205 2 22 497104 20251226204624
+131.117.154.16 1 1 3290 20251227042039
+179.43.159.78 1 1 228 20251226151223
+104.207.40.113 2 2 4423 20251230032525
+136.0.143.145 2 2 6180 20251216023609
+90.12.255.148 1 1 3325 20251228133848
+91.98.178.18 0 8 2196828 
+51.211.49.27 2 2 6155 20251219133555
+162.243.34.78 3 3 4127 20251220160410
+195.136.137.205 1 1 3468 20251219184236
+154.16.81.247 3 58 10618421 20251218083136
+140.213.14.245 2 2 6797 20251219011625
+212.119.40.76 2 2 4462 20251218054640
+136.111.181.174 1 1 34701 20251208230114
+180.163.29.206 1 1 34701 20251224063340
+103.253.27.207 2 2 4318 20251229232427
+192.99.4.98 3 62 12174106 20251223212224
+185.213.83.23 2 2 6656 20251217055631
+139.59.133.87 1 1 145448 20251217184444
+91.98.176.89 0 16 691583 
+3.231.70.17 2 2 69401 20251231192123
+110.138.95.228 1 1 990 20251230072009
+35.94.125.126 6 120 21268105 20251230082456
+66.249.66.3 1 1 29366 20251205130229
+104.207.57.208 2 2 4422 20251231222031
+14.161.37.155 2 2 6160 20251219133541
+209.50.178.72 2 2 4475 20251230014652
+159.223.87.65 1 1 3327 20251225183311
+31.94.0.109 2 2 4462 20251227190131
+31.134.15.207 2 2 4463 20251208193313
+185.247.137.201 0 1 6154 
+45.148.232.156 1 1 3027 20251205004921
+43.130.26.3 1 1 34727 20251215131003
+66.249.92.166 4 27 6856874 20251221090815
+185.247.226.95 1 1 228 20251219220425
+66.249.92.130 0 13 468952 
+91.90.123.9 9 9 11567 20251215162740
+205.169.39.172 4 79 11102369 20251203042851
+185.247.137.148 0 1 6632 
+200.97.107.116 1 1 990 20251230180249
+65.111.24.99 9 9 20600 20251230011609
+14.184.171.57 1 1 200 20251219122646
+16.52.81.186 2 2 69404 20251213090942
+185.81.144.193 4 4 13230 20251229113040
+85.232.128.78 1 1 3325 20251220213859
+100.31.196.219 1 1 34703 20251207104949
+103.196.9.12 2 2 58771 20251214151749
+190.211.254.185 1 1 228 20251231134440
+68.167.134.246 1 1 29383 20251229230730
+46.250.243.29 1 1 228 20251212063910
+168.119.215.103 0 16 2163086 
+14.160.208.66 1 1 29384 20251219122620
+104.28.211.189 2 2 6656 20251230150707
+23.20.232.47 3 57 13735488 20251204151256
+209.38.234.83 1 2 49093 20251219170120
+92.118.61.61 1 1 3328 20251231055240
+199.244.88.219 1 1 34701 20251221141139
+45.135.2.86 1 1 412 20251218220141
+46.101.80.192 1 1 34701 20251212044000
+91.98.178.15 0 24 8544400 
+161.178.130.164 1 1 10168 20251220212654
+49.43.179.89 1 1 412 20251223134332
+172.81.131.156 1 1 228 20251220142746
+159.89.238.162 0 1 68790 
+154.28.229.83 1 1 29368 20251214151744
+65.111.22.84 2 2 4438 20251230140046
+104.28.213.128 3 3 9984 20251216012700
+66.249.92.199 0 11 759637 
+208.84.101.5 3 3 4476 20251230075949
+87.236.176.26 1 1 34703 20251212064616
+88.163.62.139 2 2 4471 20251227190140
+220.158.201.16 2 2 4463 20251215222428
+46.101.42.216 5 5 7424 20251222110810
+103.231.62.222 10 10 12781 20251222154352
+156.146.57.112 3 59 12226541 20251216052922
+49.47.8.22 2 2 6652 20251230165516
+204.8.96.111 1 1 228 20251215190319
+3.110.218.71 4 4 138809 20251218150514
+185.247.137.49 1 1 34707 20251216174809
+205.169.39.190 0 16 8397114 
+104.207.62.129 10 10 12238 20251230005520
+45.3.32.166 10 10 12237 20251216151941
+204.8.96.150 1 1 228 20251212185854
+45.3.62.110 2 2 4423 20251230134640
+217.160.202.182 2 2 69404 20251231130907
+205.185.121.177 1 1 228 20251225063014
+66.249.92.39 1 13 1075219 20251213184153
+193.19.82.13 3 3 69404 20251217112636
+45.133.73.123 1 1 228 20251226191943
+104.245.240.91 2 2 4462 20251218054643
+187.61.115.78 1 1 29327 20251202221054
+23.191.200.14 1 1 228 20251229010009
+104.207.49.210 2 2 4463 20251230034614
+185.47.174.220 1 1 3328 20251214001728
+87.236.176.112 0 1 6632 
+43.159.136.201 1 1 34728 20251218144526
+147.45.116.17 1 1 228 20251225200318
+216.218.147.201 1 52 783509 20251231102933
+23.94.74.183 2 2 6942 20251219122854
+194.59.31.122 2 2 69405 20251218214919
+54.81.1.73 1 6 76807 20251222083354
+159.65.164.232 1 2 49091 20251229172239
+5.182.36.207 2 2 6658 20251228223250
+46.151.186.85 1 1 3327 20251219184230
+185.247.137.71 0 1 14391 
+185.247.137.90 0 1 6632 
+179.73.199.23 2 2 6472 20251228155601
+151.45.163.202 1 1 3472 20251220231356
+66.249.66.66 1 1 29384 20251212025456
+138.199.136.184 0 38 6375922 
+188.166.177.104 4 4 13450 20251218013739
+104.28.157.114 1 1 3326 20251229085227
+14.152.91.232 3 59 5221775 20251216051446
+167.253.19.233 0 14 8322665 
+159.223.163.8 1 2 49092 20251202160900
+166.1.131.204 1 1 29359 20251224064239
+93.158.90.66 1 1 34688 20251219181510
+216.26.225.166 2 2 4463 20251230011546
+159.223.44.225 2 2 6614 20251222110008
+51.44.184.112 1 1 34719 20251216113618
+65.111.30.234 1 1 3025 20251226201018
+104.207.47.87 2 2 4463 20251216104806
+103.170.159.133 2 2 4457 20251230165523
+113.167.70.161 1 1 3133 20251219133558
+45.3.35.26 2 2 4476 20251230111625
+20.85.236.169 1 1 34700 20251219124128
+47.254.173.155 1 1 228 20251220124805
+3.27.59.18 1 1 34720 20251213085248
+174.73.21.135 1 1 3325 20251218224145
+199.244.88.222 0 2 7266 
+100.29.119.42 2 2 69405 20251231081559
+52.87.190.60 1 1 34719 20251216180446
+43.130.100.35 1 1 34726 20251216180343
+157.22.16.52 1 1 1705 20251217182926
+115.231.78.12 4 6 278277 20251209100034
+155.212.38.108 1 1 29383 20251215061753
+5.2.79.179 1 1 228 20251231172021
+182.3.51.0 1 1 990 20251218193118
+104.207.49.213 9 9 20600 20251230014143
+91.98.176.10 3 55 13857951 20251215033621
+104.207.49.42 9 9 20590 20251231185453
+104.207.35.178 1 1 1705 20251221002237
+65.111.29.14 4 4 8918 20251231223936
+182.2.177.83 4 4 8914 20251230211346
+5.49.138.142 2 2 4462 20251217121548
+4.43.184.113 8 8 277607 20251230230541
+209.50.165.70 10 10 12238 20251230134721
+100.31.39.37 1 6 76807 20251202195554
+103.81.64.148 8 8 107076 20251228224802
+185.88.100.91 2 2 6175 20251228122223
+104.167.19.183 1 1 1705 20251223215341
+49.12.126.247 0 24 8544400 
+167.235.93.252 0 7 1442020 
+188.26.198.28 1 1 3325 20251228034820
+208.115.228.149 1 1 3473 20251216022537
+66.249.92.131 0 3 2503 
+104.28.211.187 2 2 6716 20251213122155
+138.199.24.5 3 59 12226540 20251219171705
+103.4.250.242 1 1 29383 20251214151007
+92.40.171.184 1 1 3466 20251228062956
+194.15.115.212 1 1 228 20251225093311
+103.4.251.101 1 1 29384 20251214153617
+166.88.171.169 1 1 412 20251218220141
+103.78.226.70 6 6 13383 20251222094301
+119.73.113.21 1 1 10168 20251207134958
+193.42.245.121 2 43 8807049 20251230065912
+35.198.239.214 1 1 34724 20251212102233
+65.111.24.233 1 1 1705 20251223215325
+77.243.90.59 7 7 16204 20251208193323
+123.19.54.250 2 2 6174 20251219131720
+77.220.194.244 1 1 1705 20251229095512
+209.50.181.185 2 2 4422 20251231223934
+116.202.146.229 3 66 15687804 20251215033732
+46.4.198.155 3 55 12112087 20251215023120
+41.85.173.140 2 2 6172 20251230052940
+88.177.192.131 2 2 4472 20251229021442
+204.8.96.140 1 1 228 20251224192543
+161.35.32.38 2 4 98185 20251211192322
+156.239.156.174 1 1 412 20251225002841
+66.249.92.4 1 7 1761681 20251221090803
+89.149.88.94 1 1 412 20251218082758
+205.169.39.139 4 79 11102350 20251211145618
+112.215.45.11 2 2 6800 20251218105341
+54.80.26.74 1 1 145389 20251218105238
+170.168.97.140 4 4 13316 20251228223037
+216.26.235.52 2 2 4463 20251230134643
+156.146.57.115 3 58 10618421 20251223120512
+138.199.140.203 0 22 3659710 
+14.175.5.143 1 1 200 20251219133602
+175.100.29.224 1 1 3327 20251216162046
+185.89.43.110 2 2 6172 20251227160745
+104.207.43.104 1 1 1705 20251223215326
+142.132.252.61 0 11 1829855 
+104.28.194.108 1 1 3326 20251223171301
+98.98.33.24 2 2 31320 20251219212807
+140.213.14.17 2 2 6793 20251230212520
+49.43.91.34 1 1 10168 20251217184905
+87.236.176.201 0 1 14294 
+88.248.187.159 2 2 4462 20251202121324
+34.239.124.9 1 1 29383 20251218054654
+173.211.52.88 2 2 6181 20251216143035
+103.220.218.7 1 1 3326 20251229094658
+141.94.206.106 1 1 228 20251230150937
+216.26.240.4 2 2 6211 20251222075532
+104.207.53.144 2 2 4476 20251230034611
+66.249.92.200 1 1 7536 20251206170058
+80.94.92.106 2 2 456 20251231135408
+14.191.49.201 1 1 3133 20251219133550
+62.19.243.37 1 1 3327 20251222214442
+13.203.46.164 1 1 34703 20251225121827
+91.98.178.82 4 45 2471271 20251215020716
+154.199.69.8 1 1 412 20251224134335
+66.249.92.40 0 6 1708168 
+23.94.28.183 2 2 6650 20251220181038
+213.232.122.46 1 1 29366 20251216073404
+88.10.180.135 1 1 3328 20251215165704
+140.235.168.207 2 44 9571145 20251230051734
+193.128.108.254 1 1 145384 20251218135750
+206.189.112.208 1 1 3473 20251215165731
+93.177.94.27 2 2 4462 20251217221206
+91.98.176.8 0 31 3740137 
+199.244.88.225 1 1 34702 20251204142932
+68.183.217.84 1 1 3325 20251225081336
+37.187.5.192 1 1 228 20251212063908
+87.236.176.79 1 2 40854 20251211131953
+181.127.203.8 1 1 3328 20251228004511
+66.249.66.199 1 1 29384 20251225051231
+191.101.157.144 3 58 10618420 20251202081732
+65.108.100.186 1 1 34700 20251205022539
+206.189.120.3 1 1 12110 20251224064349
+114.124.179.203 8 8 7920 20251222194156
+104.28.193.122 6 6 20110 20251231000831
+197.253.210.120 1 1 3327 20251222200302
+49.51.73.183 1 1 34728 20251205091043
+185.61.218.195 4 4 13312 20251228025339
+159.65.36.208 1 1 12102 20251210203847
+5.77.198.163 1 1 200 20251230052936
+180.241.30.244 8 8 24575 20251217031621
+140.213.102.64 1 1 3328 20251215222706
+103.4.76.210 1 1 3327 20251221035341
+129.212.230.50 7 7 9412 20251222085935
+2a06:98c0:3600::103 2 2 58766 20251215125807
+185.247.137.31 0 1 634 
+18.134.245.164 1 1 34766 20251218012803
+205.169.39.32 0 16 9936444 
+192.36.109.125 1 1 34728 20251220131049
+36.76.194.185 8 8 116080 20251228225038
+146.190.216.220 0 1 952 
+92.20.148.38 2 2 4424 20251215165825
+146.70.117.179 2 2 3643 20251204030227
+46.193.1.193 2 2 4463 20251215165737
+66.249.92.198 0 20 1759305 
+34.72.176.129 4 115 11261726 20251208104744
+204.8.96.107 2 2 456 20251223083151
+177.37.232.108 1 1 3326 20251230165508
+114.122.102.106 8 8 12957 20251228230520
+90.231.56.134 1 1 29386 20251212033303
+91.137.249.3 1 1 3328 20251227190125
+103.60.12.197 7 7 8697 20251218135257
+103.121.16.51 1 1 3328 20251229191057
+89.149.52.31 2 2 6208 20251209220652
+81.171.60.32 2 16 839795 20251215224214
+159.223.88.143 3 3 7640 20251218162220
+62.211.228.252 2 2 4461 20251222214517
+157.22.47.201 1 1 29383 20251224113651
+66.249.92.3 0 16 294147 
+90.193.66.45 1 1 3329 20251229021406
+31.170.83.148 1 1 3442 20251228034826
+165.22.245.32 1 1 0 20251231131432
+87.236.176.88 0 1 10569 
+87.236.176.186 0 1 10569 
+148.222.185.150 2 2 1980 20251223073607
+138.199.142.69 3 69 12558484 20251215030218
+205.169.39.46 3 57 13878001 20251203040056
+88.210.10.79 2 23 455325 20251218055331
+140.213.6.213 2 2 6798 20251217233548
+85.13.130.189 1 1 218 20251224162445
+5.133.192.168 1 2 49091 20251213203211
+31.184.236.104 1 1 228 20251228011556
+185.247.137.242 1 1 34701 20251216213402
+209.50.188.21 2 2 4461 20251231185429
+35.230.35.19 3 3 147910 20251202153508
+89.147.111.87 1 1 228 20251213211914
+159.223.84.222 3 3 9978 20251229091347
+164.90.171.218 2 2 6171 20251231230128
+39.194.2.195 1 1 3327 20251221223045
+5.183.252.120 1 1 1705 20251216024612
+185.247.137.80 0 1 14294 
+156.146.57.105 3 58 10618397 20251214080223
+185.247.137.130 0 1 14391 
+82.153.138.125 1 1 228 20251211191011
+193.187.92.171 1 1 29368 20251217151049
+209.50.160.168 10 10 12236 20251231224019
+18.138.63.53 1 1 228 20251227110949
+78.118.142.142 1 1 3325 20251220213950
+143.110.222.138 1 2 49094 20251217172627
+209.50.180.61 2 2 4461 20251231222032
+193.233.221.106 8 8 10256 20251217221240
+3.239.86.56 1 6 76807 20251204151225
+54.85.51.253 1 1 228 20251202060253
+195.142.255.18 9 29 508232 20251231051117
+23.129.64.182 1 1 228 20251217121012
+66.249.92.168 0 6 140906 
+35.223.5.154 1 1 34701 20251218012145
+77.204.106.29 2 2 4462 20251218050014
+138.199.136.174 0 16 2163086 
+35.233.209.211 5 64 7365106 20251215180112
+115.127.96.235 1 1 3328 20251202121246
+5.254.26.34 2 2 6179 20251229181624
+185.213.83.171 1 1 3328 20251217084155
+142.93.216.229 1 1 12101 20251205121455
+147.185.132.231 1 1 10168 20251230031213
+125.166.0.218 1 1 3326 20251230211051
+45.89.70.31 1 1 145389 20251209050158
+84.115.226.139 1 1 116282 20251205074549
+45.3.40.130 2 2 4463 20251230011549
+161.178.134.238 1 1 10168 20251218170515
+18.212.38.45 3 57 13735488 20251220230506
+87.236.176.128 0 1 634 
+88.230.89.227 0 1 1095170 
+216.26.230.37 2 2 4463 20251230125955
+185.12.250.58 2 2 69402 20251230133758
+178.218.144.64 1 1 228 20251230120756
+23.137.105.27 3 3 4462 20251218094826
+44.251.73.58 3 60 10634062 20251210084850
+209.50.178.122 1 1 3025 20251226173134
+68.183.45.209 5 5 7425 20251222020030
+23.137.105.248 1 1 228 20251211091347
+87.236.176.130 0 1 10569 
+5.253.30.23 1 1 200 20251219175642
+159.69.136.106 0 11 1829855 
+31.134.5.97 7 7 16282 20251218054652
+35.95.128.22 1 1 145389 20251221134806
+89.161.98.50 1 1 3326 20251226221314
+185.62.56.249 1 1 228 20251228212558
+104.207.54.61 2 2 6179 20251223215326
+34.53.47.137 5 64 7365113 20251218110316
+209.50.173.22 1 1 1705 20251219085753
+154.213.164.34 10 10 12238 20251230111710
+34.227.115.19 1 1 34720 20251214222721
+51.20.191.125 1 1 34719 20251211003837
+172.232.24.161 1 1 228 20251230113803
+91.163.111.217 2 2 6656 20251217121522
+65.111.27.20 10 10 12238 20251230034650
+14.167.168.81 3 3 6456 20251219133610
+205.169.39.30 6 114 27756001 20251211145558
+209.50.169.158 9 9 20600 20251230113302
+116.202.240.113 0 5 48815 
+176.63.2.146 1 1 3466 20251228133858
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20251201 10 11 161213 9
+20251202 31 236 26318912 20
+20251203 48 615 121920773 25
+20251204 16 77 13906004 12
+20251205 30 137 26411241 20
+20251206 13 127 21918538 9
+20251207 13 14 205167 12
+20251208 32 217 25755071 17
+20251209 16 33 9915804 9
+20251210 24 145 47400567 13
+20251211 56 432 76611345 26
+20251212 76 91 1196174 22
+20251213 25 82 10868836 18
+20251214 58 132 11817065 24
+20251215 101 908 149208545 49
+20251216 146 310 28478809 59
+20251217 74 185 23494465 40
+20251218 124 329 27499343 54
+20251219 63 121 12819955 44
+20251220 53 170 24665185 36
+20251221 33 90 10962986 25
+20251222 63 122 13931932 25
+20251223 50 295 44816776 35
+20251224 36 37 607133 28
+20251225 32 90 10825421 26
+20251226 37 57 745736 25
+20251227 42 90 28442796 33
+20251228 103 199 13621069 46
+20251229 113 115 852829 40
+20251230 268 423 38377084 88
+20251231 125 177 1335518 44
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+2mn-5mn 5
+5mn-15mn 17
+30mn-1h 36
+15mn-30mn 10
+30s-2mn 33
+1h+ 11
+0s-30s 821
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 33
+/wp-login.php 487 1673741 296 200
+/ 342 14258691 271 206
+/wp-cron.php 284 0 215 213
+//xmlrpc.php 193 108047 0 16
+/wp-admin/ 93 91694 2 81
+/xmlrpc.php 84 23483 73 72
+/login/admin 68 72050 30 22
+/admin 56 55440 0 28
+/admin/login 55 57640 22 15
+/wp-content/themes/betheme/fonts/mfn/icons.woff 51 4153848 2 4
+/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff 50 376800 3 50
+/wp-admin/plugins.php 26 28052 0 9
+/admin/ 25 24750 0 1
+/administrator 20 19800 0 0
+/wp-login.php/ 17 56485 8 0
+/wp-admin/plugin-install.php 15 17177 0 3
+/login/admin/ 8 7920 0 0
+/admin/login/ 7 6930 0 0
+/wp-admin 6 5940 4 6
+/wp-login.php/wp-login.php 4 13316 1 0
+/admin/login:metinemredonmez@hotmail.com:Ed1982mr!! 4 3960 1 0
+/login/admin:super_admin:12345678 3 2970 1 1
+/login/admin:super_admin:1234S5678 2 1980 0 1
+/app/admincp/ui/ueditor/ueditor.config.js/x.php 2 1980 2 1
+/admin/ueditor/ueditor.config.js/x.php 1 990 0 1
+/admin/lib/ueditor/ueditor.config.js/x.php 1 990 0 0
+/index.php 1 299 0 1
+/wp-content/ 1 0 1 1
+/wp-admin/profile.php 1 990 0 0
+/administrator/index.php 1 990 0 1
+/administrator/ 1 990 0 0
+/admin123 1 990 0 0
+/phpmyadmin/index.php 1 990 1 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+500-1K 1202
+100-500 685
+44-100 172
+5K+ 3300
+0-44 530
+1K-2K 4167
+2K-5K 1329
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

@@ -1,0 +1,578 @@
+Return-Path: <info.74c0sgfvfdweb@yenilemehizmeti.co.uk>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id mOlPKbfvjWgjfgAAOB6+FQ
+	(envelope-from <info.74c0sgfvfdweb@yenilemehizmeti.co.uk>)
+	for <info@vorteksenerji.com>; Sat, 02 Aug 2025 14:00:07 +0300
+Return-path: <info.74c0sgfvfdweb@yenilemehizmeti.co.uk>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Sat, 02 Aug 2025 14:00:07 +0300
+Received: from ded741.hostwindsdns.com ([192.119.108.34]:59521 helo=server.yenilemehizmeti.co.uk)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.98.1)
+	(envelope-from <info.74c0sgfvfdweb@yenilemehizmeti.co.uk>)
+	id 1ui9yA-000000000vp-3s9F
+	for info@vorteksenerji.com;
+	Sat, 02 Aug 2025 14:00:07 +0300
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=dkim; d=yenilemehizmeti.co.uk;
+ h=From:To:Subject:Message-ID:Content-Transfer-Encoding:Date:MIME-Version:
+ Content-Type; i=info.74c0sgfvfdweb@yenilemehizmeti.co.uk;
+ bh=ucaJEa0PccFOAOdgFcDFw+Xs7NfwRG8okZPWbNIB1bw=;
+ b=qIrtjt2aXR2UCkYxrVNYjD4rvOD8+Z26lRvABB9QafLrd1wowSFLm4GhYir7bUtoBeUNnDprx5pU
+   pfW3TQC3T5WHP39I65oZ90mj0xC7G4Bz+6o7UK71goob8xTJhPfUMZdAJDeDSdPNhU+jBoaRjNQ2
+   cRQ/R04JpepNOabo2CY=
+X-Priority: 3
+From: =?UTF-8?Q?Posta_ve_Telgraf_Te=C5=9Fkilat=C4=B1?=
+ <info.74c0sgfvfdweb@yenilemehizmeti.co.uk>
+To: info@vorteksenerji.com
+Subject: =?UTF-8?Q?Paketiniz_Teslim_Edilemedi_=E2=80=93_?=
+ =?UTF-8?Q?=C5=9Eimdi_=C3=96deme_Yap=C4=B1n?=
+Message-ID: <23081f06-4a38-0663-c221-9e2d682fb0f8@yenilemehizmeti.co.uk>
+Content-Transfer-Encoding: quoted-printable
+Date: Sat, 02 Aug 2025 10:59:24 +0000
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<html><head></head><body style=3D"
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+"><table style=3D"width:620px">
+	<tbody>
+		<tr>
+			<td style=3D"text-align:center">
+			<table style=3D"width:500px">
+				<tbody>
+					<tr>
+						<td>
+						<table style=3D"width:100%">
+							<tbody>
+								<tr>
+									<td>
+									<table =
+style=3D"width:100%">
+										<tbody>
+											<tr>
+												<td style=3D"text-align:left"><img src=3D"data:image/webp;base6=
+4,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
+oQiXEKO4pwAAA=3D=3D" style=3D"width:160px"></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table =
+style=3D"width:620px">
+	<tbody>
+		<tr>
+			<td style=3D"height:4px; =
+text-align:center">
+			<table style=3D"width:500px">
+				<tbody>
+					<tr>
+						<td style=3D"height:4px"><img src=3D"data:image/png;base64,=
+iVBORw0KGgoAAAANSUhEUgAAAfQAAAAECAMAAABP7T0VAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSB=
+JbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZW=
+dpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sb=
+nM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5=
+LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmR=
+mPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZX=
+NjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhc=
+C8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1s=
+bnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiM=
+iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpIiB4bX=
+BNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjE0NTU2NzI4OUMzMzExRTdBM0E0RDAwMzFGQ0VFMkUxI=
+iB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjE0NTU2NzI5OUMzMzExRTdBM0E0RDAwMzFGQ0VF=
+MkUxIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MTQ1NTY=
+3MjY5QzMzMTFFN0EzQTREMDAzMUZDRUUyRTEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MT=
+Q1NTY3Mjc5QzMzMTFFN0EzQTREMDAzMUZDRUUyRTEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvc=
+mRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4oQyppAAAAD1BMVEX+/v76=
++/v09fbz9PX///+gJsIuAAAALElEQVR42uyTAQ0AAAyCUN8/84MoEWAQixs1IAcveVt2o1loQ2z=
+0vtVfgAEAgkYfE38rwU4AAAAASUVORK5CYII=3D" style=3D"width:500px"></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<table style=3D"width:620px">
+	<tbody>
+		<tr>
+			<td =
+style=3D"text-align:center">
+			<table style=3D"width:500px">
+				<tbody>
+					<tr>
+						<td>
+						<table style=3D"width:100%">
+							<tbody>
+								<tr>
+									<td>
+									<table style=3D"width:100%">
+										<tbody>
+											<tr>
+												<td style=3D"text-align:left"=
+><img src=3D"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUQAAAAwCAMAAABe=
+8POXAAAAXVBMVEX///8An9rQ1dgIo9wnruAYqd71/P7a3uCB0e7d8/vA6Pbz9fWX2fFEuuUTp93=
+w+v3U2dvk9fz3+PnO7fjI6/ir4POh3PI4teM1suGx4vTw8vNwyuvj5uhQvubo6uyP+KNtAAACIk=
+lEQVRo3uzW6YrCMBQF4HNz06T7plPr+v6POWCHNGoXJanQod9PhQMNN/cE/4Y6njOZM+cyOx8VN=
+h8rmiuTha9Ngc0nVMj0gsNtHD+QBjQoSLF5T9XSqLbC5g37gCYEe2xmNUyTuMFmRkOztlOcsWfq=
+cZbGkVJRnGYPP283elIV2FVcwChS+58KX7MLM8kss3C3muzWfhSOPx1b+FTftC5LrW81nv1IMuQ=
+PXHwtO7VKeLK2U3hz0sLQJ9iiAz04RHC1fLYypyQrDKikOWMFP2otHugaRpzTkzyGo+Wzw37pza=
+3MEF4kpXhSJuY7mV5wDCfLZxds6ne2vLmAB4kYkOAuymlAHsHJ4tnNG2MW+nws1qUYUHY3+kCDD=
+nCzdPa1X3jza/MKd1oM0vfupBGOPbpwtuK+eucLnBVcncSIEwBJIyTcLJt9tNfd/OI8ehzESwIk=
+F3sUdzRqByfLZp+pk2FSRp0zHNV9IT9XdY2Q1i1970HeCl+Sl7K+IaN1izEppk4gPLnAuJj7LGn=
+dIkyKqMOeB9EeRQ2mdVOYpOiP8AQW0Sl/27cXE4BBGIqi3cD9t+0GQXihjXLuCIIkeZ/jH3E9Je=
+uLR/Sdt6i/s8GyRT1YrDh7lCuOZbth2Xb25WcfAaJBgCCF5VIYUbZBlGUP5PYAoyo3qlimuWXKv=
+I/NezGSPEZyBfMCTSciWifkOQVxY8H3KahgKAONQS1NQXIQP1Z1X8GLLmnalfkKAAAAAElFTkSu=
+QmCC" style=3D"width:162px"></td>
+											</tr>
+											<tr>
+												<td style=3D"text-align:left"><strong>Teslimat =
+giri=C5=9Fimi</strong></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table style=3D"width:620px">
+	<tbody>
+		<tr>
+			<td style=3D"text-align:center">
+			<table style=3D"width:500px">
+				<tbody>
+					<tr>
+						<td>
+						<table style=3D"width:100%">
+							<tbody>
+								<tr>
+									<td>
+									<table =
+style=3D"width:100%">
+										<tbody>
+											<tr>
+												<td style=3D"text-align:left">=C4=B0tibaren <strong> Posta ve =
+Telgraf Te=C5=9Fkilat=C4=B1 </strong><br>
+												Takip numaras=C4=B1 =
+<strong> 33VFJ8854645698727309 </strong> <br> Miktar <strong> 12.00 TRY =
+</strong></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table style=3D"width:583px">
+	<tbody>
+		<tr>
+			<td =
+style=3D"text-align:center">
+			<table style=3D"width:500px">
+				<tbody>
+					<tr>
+						<td>
+						<table style=3D"width:100%">
+							<tbody>
+								<tr>
+									<td>
+									<table style=3D"width:100%">
+										<tbody>
+											<tr>
+												<td style=3D"text-align:left"=
+>=C3=96deme yap=C4=B1lmamas=C4=B1 nedeniyle paketinizin teslim =
+edilemedi=C4=9Fini =C3=BCz=C3=BClerek bildiriyoruz. Paket =C5=9Fu anda =
+yak=C4=B1ndaki bir teslim alma noktas=C4=B1ndan eri=C5=9Filebilir =
+durumdad=C4=B1r..<br>
+												<br>
+												<strong>Teslimat =
+i=C3=A7in =C3=B6demeyi almak ve tamamlamak i=C3=A7in l=C3=BCtfen =
+a=C5=9Fa=C4=9F=C4=B1daki ba=C4=9Flant=C4=B1y=C4=B1 kullan=C4=B1n: =
+</strong><br>
+												&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<a href=3D"https://ticket-delevrypost-tr.s3.=
+us-east-1.amazonaws.com/HSVvvnUgqcYka2eaCRAw9ds8v7SdiS4h1K86hiyMNYwVxIpbADI=
+jx2LD9p5CtEmfvM9mHX7jGaGOPEps.html" style=3D"background-color: rgb(0 159 =
+218); color: #FFFFFF; border: none; padding: 0px 20px; text-align: center; =
+text-decoration: none; display: inline-block; font-size: 16px; =
+border-radius: 10px; cursor: pointer; outline: none;"><p style=3D" color: =
+#FFFFFF; ">TESL=C4=B0MAT =C4=B0=C3=87=C4=B0N =C3=96DEME YAPIN</p></a>
+
+									<table style=3D"width:100%">
+										<tbody>
+											<tr>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table style=3D"width:620px">
+	<tbody>
+		<tr>
+			<td =
+style=3D"text-align:center">
+			<table style=3D"width:500px">
+				<tbody>
+					<tr>
+						<td>
+						<table style=3D"width:100%">
+							<tbody>
+								<tr>
+									<td>
+									<table style=3D"width:100%">
+										<tbody>
+											<tr>
+												<td style=3D"text-align:left"=
+>=C3=96demenizin ba=C5=9Far=C4=B1l=C4=B1 olmas=C4=B1 durumunda, paketinizin=
+ belirtilen saatten sonra teslim al=C4=B1nmaya haz=C4=B1r =
+olaca=C4=9F=C4=B1n=C4=B1 l=C3=BCtfen unutmay=C4=B1n. Herhangi bir gecikme =
+ya=C5=9Famamak i=C3=A7in l=C3=BCtfen hemen harekete ge=C3=A7in.</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table style=3D"width:620px">
+	<tbody>
+		<tr>
+			<td =
+style=3D"text-align:center">
+			<table style=3D"width:480px">
+				<tbody>
+					<tr>
+						<td>
+						<table style=3D"width:100%">
+							<tbody>
+								<tr>
+									<td>
+									<table style=3D"width:100%">
+										<tbody>
+											<tr>
+												<td>
+												<table =
+style=3D"width:100%">
+													<tbody>
+														<tr>
+															<td style=3D"border-top:solid 2px #d0d5d8;text-align:left">.=
+<br>
+															<br>
+															Posta ve Telgraf =
+Te=C5=9Fkilat=C4=B1, bu e-posta ileti=C5=9Fiminin b=C3=BCt=C3=BCnl=C3=BC=
+=C4=9F=C3=BCn=C3=BCn korundu=C4=9Funu veya ileti=C5=9Fimin hatalardan, =
+vir=C3=BCslerden veya parazitlerden ari oldu=C4=9Funu beyan veya garanti =
+etmez.<br>
+															<br>
+															L=C3=BCtfen bunun otomatik =
+olarak olu=C5=9Fturulmu=C5=9F bir e-posta oldu=C4=9Funu ve =
+yan=C4=B1tlar=C4=B1n yan=C4=B1tlanmayaca=C4=9F=C4=B1n=C4=B1 unutmay=C4=B1n.=
+</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table style=3D"width:620px">
+	<tbody>
+		<tr>
+			<td =
+style=3D"text-align:center">
+			<table style=3D"width:500px">
+				<tbody>
+					<tr>
+						<td>
+						<table style=3D"width:100%">
+							<tbody>
+								<tr>
+									<td>
+									<table style=3D"width:100%">
+										<tbody>
+											<tr>
+												<td style=3D"border-top:solid=
+ 2px #d0d5d8">
+												<table style=3D"width:100%">
+													<tbody>
+														<tr>
+															<td =
+style=3D"border-right:solid 1px #9b9b9b; text-align:center; width:125px"><a=
+ href=3D"#">Yard=C4=B1m &amp; Destek </a></td>
+															<td =
+style=3D"border-right:solid 1px #9b9b9b; text-align:center; width:125px"><a=
+ href=3D"#">=C5=9Eartlar &amp; ve ko=C5=9Fullar </a></td>
+															<td style=3D"border-right:solid 1px #9b9b9b; =
+text-align:center; width:125px"><a href=3D"#">Gizlilik politikas=C4=B1 =
+</a></td>
+															<td style=3D"text-align:center; width:125px"><a =
+href=3D"#">Takip hizmetimiz</a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</body></html>

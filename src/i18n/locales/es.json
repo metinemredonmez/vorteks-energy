@@ -1,0 +1,246 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre Nosotros",
+    "services": "Servicios",
+    "projects": "Proyectos",
+    "gallery": "Galeria",
+    "contact": "Contacto",
+    "getQuote": "Solicitar Presupuesto"
+  },
+  "hero": {
+    "title1": "Barcos y Yates",
+    "title2": "Reparacion y Mantenimiento",
+    "title3": "Servicios",
+    "subtitle": "Con 15 anos de experiencia, ofrecemos servicios profesionales de mantenimiento, reparacion y combustible para sus embarcaciones.",
+    "cta1": "Presupuesto Gratuito",
+    "cta2": "Nuestros Servicios"
+  },
+  "about": {
+    "subtitle": "SOBRE NOSOTROS",
+    "title1": "Su Socio Confiable",
+    "title2": "en la Industria Maritima",
+    "description1": "En Vorteks Energy, hemos estado brindando servicios integrales a propietarios de barcos y yates en la industria maritima desde 2009. Con mas de 15 anos de experiencia y mas de 50 empleados expertos, realizamos todas las operaciones de mantenimiento y reparacion necesarias para mantener sus embarcaciones funcionando al maximo rendimiento.",
+    "description2": "Poniendo la satisfaccion del cliente en primer lugar, nunca comprometemos nuestros estandares de calidad y confiabilidad en cada proyecto. Brindamos soporte 24/7 a flotas que operan en los principales puertos de Turquia y aguas internacionales.",
+    "stats": {
+      "projects": "Proyectos Completados",
+      "experience": "Anos de Experiencia",
+      "satisfaction": "Satisfaccion del Cliente",
+      "team": "Personal Experto"
+    },
+    "mission": {
+      "title": "Nuestra Mision",
+      "description": "Garantizar que las embarcaciones de nuestros clientes operen de manera segura y eficiente proporcionando los servicios de mas alta calidad en la industria maritima."
+    },
+    "vision": {
+      "title": "Nuestra Vision",
+      "description": "Convertirnos en la empresa lider de mantenimiento y reparacion de barcos en Turquia y aguas internacionales, estableciendo tendencias con soluciones innovadoras."
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "description": "Calidad, confiabilidad, enfoque al cliente, mejora continua y conciencia ambiental son nuestros valores fundamentales."
+    },
+    "commitment": {
+      "title": "Nuestro Compromiso",
+      "description": "Ofrecemos entrega puntual, precios competitivos y garantia de mano de obra impecable en cada proyecto."
+    },
+    "timeline": {
+      "title": "Nuestra Historia",
+      "subtitle": "Nuestra transformacion y logros desde 2009 hasta hoy"
+    },
+    "certifications": {
+      "title1": "Nuestras Certificaciones y",
+      "title2": "Documentos Aprobados",
+      "description": "Nuestras certificaciones que demuestran que brindamos servicios con estandares internacionales son la base de la garantia de calidad que ofrecemos a nuestros clientes."
+    },
+    "team": {
+      "title1": "Nuestro Equipo",
+      "title2": "Experto",
+      "description": "Nuestro equipo profesional de mas de 50 ingenieros, tecnicos y gerentes experimentados"
+    }
+  },
+  "services": {
+    "subtitle": "NUESTROS SERVICIOS",
+    "title1": "Soluciones Maritimas",
+    "title2": "Integrales",
+    "description": "Ofrecemos todos los servicios que necesita para sus barcos y yates bajo un mismo techo.",
+    "repair": {
+      "title": "Reparacion de Barcos",
+      "description": "Todo tipo de servicios de reparacion y mantenimiento de barcos. Reparacion de casco, reparacion mecanica y sistemas electricos."
+    },
+    "engine": {
+      "title": "Mantenimiento de Motores",
+      "description": "Mantenimiento de motores diesel y gasolina, revision y reemplazo de piezas. Optimizacion de rendimiento."
+    },
+    "fuel": {
+      "title": "Suministro de Combustible",
+      "description": "Suministro de combustible marino de calidad y servicios portuarios. Soporte de reabastecimiento 24/7."
+    },
+    "paint": {
+      "title": "Pintura y Revestimiento",
+      "description": "Pintura antifouling, revestimiento de casco y procesos de proteccion. Soluciones duraderas."
+    },
+    "yacht": {
+      "title": "Mantenimiento de Yates",
+      "description": "Paquetes de mantenimiento especiales para yates de lujo. Servicios de renovacion interior y exterior."
+    },
+    "electrical": {
+      "title": "Sistemas Electricos",
+      "description": "Instalacion, reparacion y modernizacion de sistemas electricos de barcos. Soluciones de automatizacion."
+    },
+    "getQuote": "Solicitar Presupuesto",
+    "process": {
+      "title1": "Nuestro Proceso",
+      "title2": "de Trabajo",
+      "step1": { "title": "Contacto", "desc": "Contactenos, cuentenos sus necesidades" },
+      "step2": { "title": "Inspeccion", "desc": "Nuestro equipo experto inspecciona su embarcacion" },
+      "step3": { "title": "Presupuesto", "desc": "Estimacion detallada de precio y tiempo" },
+      "step4": { "title": "Aprobacion", "desc": "Aprobacion del presupuesto" },
+      "step5": { "title": "Ejecucion", "desc": "Mano de obra profesional" },
+      "step6": { "title": "Entrega", "desc": "Control de calidad y entrega" }
+    },
+    "faq": {
+      "title1": "Preguntas",
+      "title2": "Frecuentes"
+    }
+  },
+  "projects": {
+    "title1": "Historias de",
+    "title2": "Exito",
+    "description": "Con 15 anos de experiencia, hemos completado con exito mas de 500 proyectos. Cada proyecto es un testimonio de nuestros estandares de calidad y nuestra filosofia de satisfaccion del cliente.",
+    "stats": {
+      "total": "Proyectos Totales",
+      "thisYear": "Este Ano",
+      "ongoing": "En Curso",
+      "planned": "Planificados"
+    },
+    "distribution": "Distribucion de Proyectos",
+    "featured": {
+      "title1": "Proyectos",
+      "title2": "Destacados"
+    },
+    "sectors": {
+      "title1": "Industrias que",
+      "title2": "Atendemos",
+      "cargo": { "title": "Transporte de Carga", "desc": "Buques de contenedores y carga seca" },
+      "tanker": { "title": "Flotas de Tanques", "desc": "Tanques de petroleo y quimicos" },
+      "passenger": { "title": "Buques de Pasajeros", "desc": "Ferris y cruceros" },
+      "fishing": { "title": "Embarcaciones Pesqueras", "desc": "Flotas de pesca comercial" },
+      "yacht": { "title": "Yates de Lujo", "desc": "Yates a motor y veleros" },
+      "offshore": { "title": "Offshore", "desc": "Plataformas marinas" }
+    },
+    "cta": {
+      "title": "Realicemos Su Proyecto",
+      "description": "Desea obtener un servicio profesional para su barco o yate? Contacte a nuestro equipo de expertos.",
+      "button1": "Solicitar Presupuesto",
+      "button2": "Ver Galeria"
+    }
+  },
+  "gallery": {
+    "title1": "Galeria de",
+    "title2": "Proyectos",
+    "description": "Vea imagenes de nuestros proyectos completados",
+    "categories": {
+      "all": "Todos",
+      "repair": "Reparacion de Barcos",
+      "yacht": "Mantenimiento de Yates",
+      "engine": "Mantenimiento de Motores",
+      "paint": "Trabajos de Pintura"
+    },
+    "featured": {
+      "title1": "Proyectos",
+      "title2": "Destacados"
+    },
+    "stats": {
+      "projects": "Proyectos Completados",
+      "customers": "Clientes Satisfechos",
+      "experience": "Anos de Experiencia",
+      "team": "Personal Experto"
+    },
+    "reviews": {
+      "title1": "Resenas de",
+      "title2": "Clientes"
+    }
+  },
+  "contact": {
+    "title1": "Pongase en",
+    "title2": "Contacto con Nosotros",
+    "description": "Contactenos para obtener informacion sobre sus proyectos o para solicitar un presupuesto. Nuestro equipo de expertos se comunicara con usted lo antes posible.",
+    "info": {
+      "phone": "Telefono",
+      "email": "Correo Electronico",
+      "address": "Direccion",
+      "hours": "Horario de Atencion",
+      "weekdays": "Lunes - Sabado"
+    },
+    "form": {
+      "title": "Contactenos",
+      "subtitle": "Complete el formulario, nos comunicaremos en 24 horas",
+      "name": "Su Nombre",
+      "company": "Nombre de la Empresa",
+      "phone": "Telefono",
+      "email": "Correo Electronico",
+      "shipInfo": "Informacion del Barco/Yate",
+      "shipInfoPlaceholder": "Nombre del barco, tipo, longitud...",
+      "serviceType": "Tipo de Servicio",
+      "serviceTypes": {
+        "select": "Seleccionar",
+        "repair": "Reparacion de Barcos",
+        "maintenance": "Mantenimiento",
+        "painting": "Trabajos de Pintura",
+        "engine": "Mantenimiento de Motores",
+        "fuel": "Suministro de Combustible",
+        "other": "Otro"
+      },
+      "message": "Su Mensaje",
+      "messagePlaceholder": "Proporcione informacion detallada sobre su proyecto...",
+      "submit": "Enviar Mensaje"
+    },
+    "whatsapp": {
+      "title": "WhatsApp",
+      "subtitle": "Para comunicacion rapida",
+      "button": "Enviar Mensaje Ahora"
+    },
+    "emergency": {
+      "title": "Linea de Soporte de Emergencia 24/7"
+    },
+    "offices": {
+      "title1": "Nuestras Oficinas y",
+      "title2": "Puntos de Servicio",
+      "description": "Le atendemos en los principales puertos de Turquia",
+      "headquarters": "Sede Central",
+      "branch": "Oficina Regional"
+    },
+    "why": {
+      "title1": "Por Que",
+      "title2": "Elegirnos?",
+      "support": { "title": "Soporte 24/7", "desc": "Siempre listos para emergencias" },
+      "fast": { "title": "Respuesta Rapida", "desc": "Intervencion en sitio en 2-4 horas" },
+      "free": { "title": "Inspeccion Gratuita", "desc": "Primera inspeccion y presupuesto gratis" },
+      "warranty": { "title": "12 Meses de Garantia", "desc": "Garantia de mano de obra en todos los trabajos" },
+      "price": { "title": "Precios Competitivos", "desc": "Mejores precios del mercado" },
+      "team": { "title": "Equipo Experto", "desc": "50+ profesionales certificados" }
+    },
+    "map": {
+      "show": "Mostrar en Mapa"
+    }
+  },
+  "footer": {
+    "description": "Su socio confiable en reparacion de barcos y yates, mantenimiento y servicios maritimos.",
+    "quickLinks": "Enlaces Rapidos",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "copyright": "Todos los derechos reservados.",
+    "privacy": "Politica de Privacidad",
+    "terms": "Terminos de Uso"
+  },
+  "common": {
+    "completed": "Completado",
+    "ongoing": "En Progreso",
+    "learnMore": "Saber Mas",
+    "viewAll": "Ver Todo",
+    "quality": "Calidad y Confiabilidad",
+    "isoStandards": "Estandares de servicio certificados ISO",
+    "days": "dias"
+  }
+}

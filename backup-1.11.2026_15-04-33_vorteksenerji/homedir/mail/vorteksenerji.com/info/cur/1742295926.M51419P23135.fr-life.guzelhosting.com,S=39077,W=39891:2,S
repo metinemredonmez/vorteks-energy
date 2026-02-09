@@ -1,0 +1,814 @@
+Return-Path: <erdem.unalan@radisson.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id COnAAnZT2WdfWgAAOB6+FQ
+	(envelope-from <erdem.unalan@radisson.com>)
+	for <info@vorteksenerji.com>; Tue, 18 Mar 2025 14:05:26 +0300
+Return-path: <erdem.unalan@radisson.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Tue, 18 Mar 2025 14:05:26 +0300
+Received: from repost01.tmes.trendmicro.eu ([18.185.115.14]:37057)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.98.1)
+	(envelope-from <erdem.unalan@radisson.com>)
+	id 1tuUlB-000000000UD-48hn
+	for info@vorteksenerji.com;
+	Tue, 18 Mar 2025 14:05:26 +0300
+Received: from 40.93.12.23_.trendmicro.com (unknown [172.21.176.117])
+	by repost01.tmes.trendmicro.eu (Postfix) with SMTP id 9A33A1000219F;
+	Tue, 18 Mar 2025 11:04:44 +0000 (UTC)
+X-TM-MAIL-RECEIVED-TIME: 1742295881.121000
+X-TM-MAIL-UUID: 633e41c2-da3b-4081-9cfb-60242f122f8a
+Received: from BN1PR04CU002.outbound.protection.outlook.com (unknown [40.93.12.23])
+	by repre01.tmes.trendmicro.eu (Trend Micro Email Security) with ESMTPS id 1DAC810006A5C;
+	Tue, 18 Mar 2025 11:04:41 +0000 (UTC)
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=fRQ+5QWH04kWcxW1S03KLvVByft4tqTAxUIBsRDRerZ51+dcJbRcPww/hD7Dq2k0wvqXl0Gp/eO3WEeyX0TjSp/8IdCr6eEY9A5+vzXD2pnMuI4GI+sJEMduM6+PnKq1J+8LpfuNxit2AB9qbpGqiMZFSVP0ZXnEH4EQsZbDwj0qyNDJOA/55JspV0UUODdwJZC5LKXe7u1GaI+PS0fUnrW1Wa1Lb9+9vYdZgHuRJXok/gVh2uVxETHcQCWyB4bvCAWdlbpGSvkvrh8Rv6k+UMf7N9yy30QDPI9hmenrl8xKRCRRCj6gdZoHHQ4jgpsJpGbcpNmQa7jbqVyrBYCrPw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=lfpemT8JafZbvgY2y6t5+/rWgZfNwiGq2GEHT2u+rc0=;
+ b=o9BSQkSe7gSJR3wCku7ii3fcNIeLldYVnLVMYX7hdzkYXB+hpHGXNRDHbdo+yY71HWWYSxx7MxbdIfvqJH9x4C6szbzj58ZzpJOzp+hwRDTR3wEbDd7rY6HDktmkPmI7vnN7/k4JC3QxmRRKTvaABA2giLiCwRuzceucK0KlVc8xFP5WoU043IyGzROO3T4bf0Vjs2XFgE0v3hUIj1Eou6+qz+s1ZN+jumLTLKusmhh2S38vb+DnMxIbknPM1jOsNycW3VFWabFcN+Jp8ei8/TK8zi28m8+ebHULG47OZ7NACY1b7IsRw+FG/RSYywLfWXJwzwqZRqspwTGxGfbKGQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=radisson.com; dmarc=pass action=none header.from=radisson.com;
+ dkim=pass header.d=radisson.com; arc=none
+Received: from MWHPR05MB3551.namprd05.prod.outlook.com (2603:10b6:301:45::26)
+ by PH0PR05MB8512.namprd05.prod.outlook.com (2603:10b6:510:af::6) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8511.26; Tue, 18 Mar
+ 2025 11:04:38 +0000
+Received: from MWHPR05MB3551.namprd05.prod.outlook.com
+ ([fe80::2b9d:314b:df06:d5be]) by MWHPR05MB3551.namprd05.prod.outlook.com
+ ([fe80::2b9d:314b:df06:d5be%4]) with mapi id 15.20.8534.031; Tue, 18 Mar 2025
+ 11:04:38 +0000
+From: "Unalan, Erdem" <erdem.unalan@radisson.com>
+Subject:
+ =?iso-8859-9?Q?Radisson_Hotel_Istanbul_Merter_/_Solarex_2025_Fuar=FD?=
+Thread-Topic:
+ =?iso-8859-9?Q?Radisson_Hotel_Istanbul_Merter_/_Solarex_2025_Fuar=FD?=
+Thread-Index: AduU0Su/kXaoKZu7QgqcPCbrLC0otAAAJUpwAL65KbAAABg6gAAHBftQ
+Date: Tue, 18 Mar 2025 11:04:38 +0000
+Message-ID:
+ <MWHPR05MB35516C85B165E1F37774D922E6DE2@MWHPR05MB3551.namprd05.prod.outlook.com>
+References:
+ <MWHPR05MB3551C14DF763832FC994D9D6E6D22@MWHPR05MB3551.namprd05.prod.outlook.com>
+  <MWHPR05MB3551BA7F274C6172438855BFE6DE2@MWHPR05MB3551.namprd05.prod.outlook.com> 
+Accept-Language: en-US
+Content-Language: tr-TR
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=radisson.com;
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: MWHPR05MB3551:EE_|PH0PR05MB8512:EE_
+x-ms-office365-filtering-correlation-id: 8e6410eb-babd-4873-df96-08dd660cacee
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam:
+ BCL:0;ARA:13230040|376014|366016|7416014|1800799024|32042699012|13003099007|8096899003|4053099003|38070700018|27013499003;
+x-microsoft-antispam-message-info:
+ =?iso-8859-9?Q?OtMH9WAoKDVy/BrH0Bhq7RjyLFRIQnMB9fffpa8VSe5R+RDTjsGEKNpFmv?=
+ =?iso-8859-9?Q?EU4vtU/lgjnhozSgcL0Dr8w9/aaWu5rXFTXhuA5TYI0CAPpljpxIyX/vI7?=
+ =?iso-8859-9?Q?zKlG3DS/vnWy0sjHcc+0uH040zI6UddaDQRqk7v4eWCNwBHvib46jkJRKU?=
+ =?iso-8859-9?Q?GwAW8sf11GPVVhDRCOuY4ISCOeRvuDzmoRFozoEF2oMw8pMj8oUfZY9srW?=
+ =?iso-8859-9?Q?EleXLglwHyTI8pS2eHdr2DH1WhrG5DNf+Qk+9GyIrY2qpr5Hqq8DSJCUsa?=
+ =?iso-8859-9?Q?jfxZHEpCW/bkwKuUEiAjGWKGT4IAtHk/Wo85hAjPJTzoDQBQiBNp67IPFI?=
+ =?iso-8859-9?Q?26nZ0ueIWl84hvJ8i4zUBzkN09MgBYDdi6WntlWdJ26gqftLkoegYRwkyL?=
+ =?iso-8859-9?Q?ZBRQ2xYFS1j7SV0Kkd4cfCKLA8l0ggoezEC8tgc4+p/mfl89pASSUMATAr?=
+ =?iso-8859-9?Q?EL4x2mSj7pBya2FVqL2BWwBV/HyKnKKAbKhCngR7q8IDAm9knBV59pEwPp?=
+ =?iso-8859-9?Q?+912o8bDvMqgHj6j19/f/zd/Z/udyfHnS4fjrHnSFvy1o6Ti/hG5W6NHlj?=
+ =?iso-8859-9?Q?Htsof2ph6ILaS9lXhfvVKi5JkHVxM3aEYbEr8g2NXy0D83DISV14qPVubm?=
+ =?iso-8859-9?Q?6/10ReVoEA5OcN8m4Y9JjXp9JHsmYqwIKwLQK4A99VBZoXMhJ61uWHm17q?=
+ =?iso-8859-9?Q?NzhrO8ZIpTUZKIzGiv2FhwwDE2ga6i7FWKR/7jPdhaYe68R7Q7jG2vOaSz?=
+ =?iso-8859-9?Q?8Js1KyYWb5CcQW1obdyFaMzGsbOa6b6G9cQ+uL4Bq0FAF5EM25SvphrS1c?=
+ =?iso-8859-9?Q?RjfrA+FDN5BiwGW5dWecCZw46bUXd8PmL/pjFzBjrlf8bd3zezOFCBpnpa?=
+ =?iso-8859-9?Q?KDQhTKye40wLyFicHun1qYolTOYeBL9g85x/JU1ym+TphQQBDHbS1f/uoe?=
+ =?iso-8859-9?Q?CsR0UJGkNu3xbAn6WuT9fzgSFK1D4DM2OYynNqP4krJHPad0d291NtuVt0?=
+ =?iso-8859-9?Q?VmSXYimXO1yMdjVR+VVmukVFpbKTi7WBD0Edrr20W17j9jIVZrrUj3po37?=
+ =?iso-8859-9?Q?Nb81x2fdT/KKCin/OS+mAt4sMQ13isL9PTQWVr5A8YR0b+IUtPA1dzspR5?=
+ =?iso-8859-9?Q?YNT+ytVI+ks5elBHQEzjimoZ13Gz+UuhKJ4C+mJkeruQVjJoDz2uCXq5y2?=
+ =?iso-8859-9?Q?RDlF2FCmp4Uo7kZ+E/SJfTZcPdFwS3rbEGIzFUJdg652dvtSonhbPqfJAx?=
+ =?iso-8859-9?Q?ZHD2zUHa9GHoCIkCiurBi6hsQHgLFz6JPy3o0J3TPMXxX5jXvzVnx6hpbb?=
+ =?iso-8859-9?Q?frCx8GmQmMwu27i75O9A+CyXsnRbc3rDhS3PnkCgRU6FvLwjZKvNNQdcF5?=
+ =?iso-8859-9?Q?++hlJChR07yeLIhjTVAAV1fEkuK9/4HrX1xMegm07e14bmwVykApCDxIFL?=
+ =?iso-8859-9?Q?3Aj7a/GeaKIGaJK7V/FH+2t/KTy4HnkmD+m7xmALFhr1O+vShu0gbJZeNI?=
+ =?iso-8859-9?Q?8=3D?=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:tr;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:MWHPR05MB3551.namprd05.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230040)(376014)(366016)(7416014)(1800799024)(32042699012)(13003099007)(8096899003)(4053099003)(38070700018)(27013499003);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-9?Q?PIwM5C5BMeIHq7d7ClNtqZ+YXH8T093KYlJFBoG5iomlUJ1gHW1jYs31eG?=
+ =?iso-8859-9?Q?7z8xSbk5WdP5hM995Rzk0TBDklk+o8Y1dDz4c0D8xY/RkyYQtDUtmZDHWj?=
+ =?iso-8859-9?Q?hJkgrzAe5B6in/i0yItvYW9sTI26yUDVLJFhdg9fDryPrfXAOk1KlYz5UY?=
+ =?iso-8859-9?Q?alTTpuMQNtv3/1atq3J/3YRPZ58BzwEhK7dbu6wg7NctQRaRgKdwVHPdTi?=
+ =?iso-8859-9?Q?nsSWYVoxD7rUwUAnEVHF+4T+AIg0kyZq+eor7HrJGNzWNre/hMzljT18FY?=
+ =?iso-8859-9?Q?b9IncgcN7BJPf55eniqdOguoHjRMu/o+0ds77/6VvSHD8cwgfenwbdzEoK?=
+ =?iso-8859-9?Q?eUqR+Ip+cn2qy/2LhnrmAuBZZ29OfK22aN6KspY0fMBZSrIGhkxuq0TiLJ?=
+ =?iso-8859-9?Q?3czn69vfMMA07EBQejAjgdvMtVXXFhqL73mQXyXl7gBgF3XJcZBPUDKqw6?=
+ =?iso-8859-9?Q?KQgjHf/3tPwRG9KkpaGE+JoiyLYd/t4XfQoW0JyQJrx+CDbUQRvljKNfRg?=
+ =?iso-8859-9?Q?SSh1OvkPow+e9fzRUb8WNVlzluBMKj5FC+5VrrHLL0UxfX9BVLpE+nocjH?=
+ =?iso-8859-9?Q?Hp5pgAMj3dxSPt08RfGJr0P/c1pyeIvAGbcXwLmHChj94VpNsiE1D56wnx?=
+ =?iso-8859-9?Q?6CB4DaJKdO6uIgnTMrE6b/67OIjHd7B38hfddEEkC7mZMV8ofIFaFTjsGY?=
+ =?iso-8859-9?Q?grJBFYcOOEyasNXzgUhYyqE8Q0oQ5tAYrc3N/CeGRncHJ05B7Y9Kg/Eb7h?=
+ =?iso-8859-9?Q?2dXKFY8z+cwWuWvFJjZvHBnK3MW+B7nzCwFhDThFyMKs3So8D8LieaFtQz?=
+ =?iso-8859-9?Q?wfO9gEqilwemxr9Yb0i8/t5M4Rm9BithV2JK5Zx32nVu3VPMRadPQ1idh8?=
+ =?iso-8859-9?Q?prlLagVzhLqhCWuiPh4BYBjxPvGAdj6qrCbz+e+SUhUgZhLjJ1UBdWXhb7?=
+ =?iso-8859-9?Q?kbYrPwURrZpU0U3hKdmcI+L8TSgMWhwOPHlAZrIAcLnfLjeM+cKN8Y9u+n?=
+ =?iso-8859-9?Q?UmvXICkgtL0kePv7Co7JOofTvMfftVu+QapvrwDv4/uHrWz1AGipaSrdPg?=
+ =?iso-8859-9?Q?1h/lxrS6kj1I2/2RE/kDIveDabFJ36kHzQ4G9aKE/mAwiAimLPjc/McHsu?=
+ =?iso-8859-9?Q?/BASAQpkoIvNUy8EuN1lEoUE6pLQ/RUuAhkk6z4JjaKVtKx2pvpAjP82FD?=
+ =?iso-8859-9?Q?y/nskOjXhKcB21snQr2JlxtSvevemg6tJuwUjHElCWqvrrqpB8MAF9LLfj?=
+ =?iso-8859-9?Q?9IXCQBjfmfVhFt4A4ccDR6AUVJX0DJmIrnrS7K2kDO8FezYEevjtEnTxKi?=
+ =?iso-8859-9?Q?v7HwechDuChagAZknrTTgc8/G/k7buxDOB2hqEs2KG+IUbzUqByo9F/GvS?=
+ =?iso-8859-9?Q?n06zCsKPrRP0D6O6AgMdCAlgvkQnl9p2gn+tK6IsGglzr3hsfzVRiZ6LGx?=
+ =?iso-8859-9?Q?PHGxrTRKVEH8EDCb68j/MFCvnx/l6uHjWYaf8r8gRBLiOJ5v+aw88vzwF6?=
+ =?iso-8859-9?Q?LTfb+MOMTyDwcjGFaXfBlHPylwSeqW/J4eI8gLQjmvCSUwq/i+iQbd3KKR?=
+ =?iso-8859-9?Q?lP6RKWHMOLTE+B7NZ4B+HHrLhTWYDKbsD6Zr0KHvzuGSFvTY3H6NtgAErv?=
+ =?iso-8859-9?Q?BruxsQ3P/r0fFe90CyGeiZg+IBIuhnrFpd?=
+Content-Type: multipart/related;
+	boundary="_004_MWHPR05MB35516C85B165E1F37774D922E6DE2MWHPR05MB3551namp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-MS-Exchange-AntiSpam-ExternalHop-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-ExternalHop-MessageData-0:
+	6G7Z/T7wxqqomkM8i90j2ct5kJiFyhQtBErFwUENnW7LymoaqfNK79o/bxU1KcxZWJSr69B0L1K1up3MUXAht/FjC8YAlDXjNGedp7mTa7WgBOUCDDM0bJcdN00IuMcfgX8OXW7tDKlKFKpD/gYnkVkAHrV+cZs+94Cvc3aeTbEuVTiY6SDKFvUL/U9ztxjKruzMeHNb9FxMWztWnjhBq/6rsWy176ehWTSEsCRJyns65NuSy1eMOB++9Pgi3WZq4o+tiNko9p8Kpab/cBFbY2YlfJxwA93wsE1ZFmR5fQYvzxRteRyQbux3D9+1c6kDs93hfzoYtjtMCWfiBPSN1FwTb0v6dPM8erk247KEQd5eP8WAR30HHYuORGEJxRKap2Gq8ySm1St03/th78dHEJ/sEPIFcqsCUeEWiRSDDDgC5pkUkmMIRY5gNN968IcQudfUqH+vN7JV7f5SVgW+5lgD5IonZSszqce68xyNa25kAqGurBL/3fpiiLuOCJLggy4H6UD5+NjlJ14iBTCzD0DJdDoR5stClfsDE0SvaU9ooCDVF+/pFplSTpknDGs4Sld/MDCDP7d0Z+gfaisMDwwJClQJ4KFmC8wyuvAJOSY=
+X-OriginatorOrg: Radisson.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: MWHPR05MB3551.namprd05.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 8e6410eb-babd-4873-df96-08dd660cacee
+X-MS-Exchange-CrossTenant-originalarrivaltime: 18 Mar 2025 11:04:38.3083
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 1e69e311-af1f-4162-b24e-16bb3f962d34
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: EJ/u72uZG4E3k2l5TZhmtBRxG4vrPRP88IyadDeB6S+jutvqTY84pr54wSPnMk3lw5zcH923iMmHgOHcmCp3RKl2Elc4DgYNAFnm5DAFES4=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PH0PR05MB8512
+X-TM-AS-ERS: 40.93.12.23-0.0.0.0
+X-TMASE-Version: StarCloud-1.3-9.1.1032-29056.007
+X-TMASE-Result: 10--18.797900-8.000000
+X-TMASE-MatchedRID: zB2B6H9c9DdHfdxEEtlq60WDYc7mWY0QAEL1BmVkcjOz+8dWqlDfqofn
+	7Pob4DxX/kXRuW+z8YcioT4wfcySycaGbqa81v79ttbhY5k0BSePlcP9wURDBpD5R4fbgPPguG6
+	6kelcSYtf8uabCwvqCma2YvW2FsDfF0FQE4Bbal1xP0Qoz9Z7h1rJp/0y4AzxN287XSspfsHZiu
+	F4xauH4oMQbcAbrtDGFh9jH0HnLzgnFbk2KPuAbJhkMQ/G5KXk+n7lUrOL4qELbzdebe9iy9kdG
+	AQmpW7STYy7eCAjSArXapu9U9HJJJ6zEBuZwjLLV8uvk93f7Ufaxam/kIlAkRERyafywvMogELP
+	yiKJ0F5kRnU63AJ/vlPMTitGDQrE+PkrcJxuJqxKbGAWfebwy/4HMKRDK5w1ozGHI/td22hXCXs
+	1lf6SbBHY68nvDzEqugV0vTGcEeEnJXyOMzsRRshQ7+2qZmcrvm0YoJgrURlCY/h+I+CKMdODEc
+	l93f0P5JrN9/h+EXVI7lIrHBEYQUecsOaaz334+YrbZSVVg252ici3Qiz8yNao7EQsiezqyw0W9
+	yoFUBaN4P4XksxlV/stDblai66/rabfIpDFvKVh0hm7mtUDG2LK5A5md0r9mhSzMRC1G9k=
+X-TMASE-XGENCLOUD: f39db943-d0d4-9278-9653-3a191578820e-0-0-200-0
+X-TM-Addin-Auth: D6ERGrAKKvGA8aw/41fPkilFTh5ddejDNNQCPqL8Yh73r4UmJiRzVhIJh7z
+	GSlv7MQm4fi0CgYzhHyJuHIXDZ/MZMpY+F3SEZIKKeme/R+Uu1FOzptvl+h42kWTGqYOHL4U8ft
+	Suf+9PU+3NgPh4VNnwz9XdzhOKsSFn1EAYp01UtgbeceEEa+ethuR1QxlVmp3e2x9BcRt0fQTV8
+	8k6afjDTYOR7elVOMb5zN6+nTaOCH3G77YPccpk47MBSHPx5H+8sFn8MfKOK1wp3lQr2bKYYQEO
+	13uYcqT2kp2S+CUOGichY2CzJ5dUr3sVUhBFtj3yPiIuTcm0iuir3WPnaA==.rsAW7eiUHtF9Bc
+	Cppf40qfbnlXaa15gZpfb78T7A6wUDfhyK1Lrv7xakPuO6fXPs2GFTsa7ueWLzcB2mrLYIZKLUG
+	0bNWRCgukt690a81Pq8BFql7QXKPMHnC065ZZGSPbBb1+XgE0+2wzG7queiQLYCFPlTBt5g2YUG
+	aE9Yb73OkW090LjxRSyd3w5GziuyzTdf/8JgplRrKJBZCy5iAa67kc8iSTJH4NsNjrZ5Hf2YhtG
+	bpR3nkSD3Mzu3vhjXFdfrnxw6k1bIC3QX6S5bKyi5QRKiBc/cuTuQUMPeIlTg9+TL/iLFqVotT/
+	aIN6KZGdG0RrPEpaLbSgGvyw6PXg==
+X-TM-Addin-ProductCode: EMS
+X-TM-Deliver-Signature: 027D4565E260C942C7182863A524AB3D
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=radisson.com;
+	s=TM-DKIM-20210701223024; t=1742295884;
+	bh=+RqTVd2jjcWGYbukyjis/WDd8yryEXaBVyTDDOl4ojE=; l=27197;
+	h=From:Date;
+	b=TXScDXj8kS9yMpMcZuKm/H2R8nI1KdfZkHo7VyMTaGY2g5tQjaAoiByksdIBlFNrN
+	 /e1jbkKtkiWyYr4HsW8PBsAANZqFz85HeAL172U31JvdiHprcFbib/KelgeUIBvdF+
+	 Ucl4KtoFSVsGxiaA4Vu2TfJr3ZA8PnQ6nXtnopGe56KWBNixUuUGMLX5eIdKzJ4WF3
+	 wh0mciraVRP4Q2WPJ0qZBLU3/DI9/xwrClX8X6XDMDgEE61YobRMI59Dd65QOKOBgd
+	 anC85way94dqCaSLv4BLbN2qvXwZx2KGNYeuDo9NaOTc0lGthLDeAG6GkmkKCQ5eEM
+	 L/lGW1LGM/K6w==
+
+--_004_MWHPR05MB35516C85B165E1F37774D922E6DE2MWHPR05MB3551namp_
+Content-Type: multipart/alternative;
+	boundary="_000_MWHPR05MB35516C85B165E1F37774D922E6DE2MWHPR05MB3551namp_"
+
+--_000_MWHPR05MB35516C85B165E1F37774D922E6DE2MWHPR05MB3551namp_
+Content-Type: text/plain; charset="iso-8859-9"
+Content-Transfer-Encoding: quoted-printable
+
+Merhaba,
+
+
+
+Radisson Hotel Istanbul Merter'den g=FCzel bir g=FCn dileklerimizle...
+
+
+
+10 - 12 Nisan 2025 tarihlerinde Istanbul Fuar Merkezi'nde ger=E7ekle=FEecek=
+ olan "17. Uluslararas=FD Solarex =DDstanbul Fuar=FD" i=E7in uygulayacak ol=
+du=F0umuz konaklama fiyatlar=FDm=FDz a=FEa=F0=FDda bilgilerinize sunulmu=FE=
+tur;
+
+
+
+Tek Ki=FEilik Standart Oda                 :   85.-EUR (vergiler dahil)
+
+=C7ift Ki=FEilik Standart Oda                 : 100.-EUR (vergiler dahil)
+
+
+
+=B7         Fiyatlar=FDm=FDza a=E7=FDk b=FCfe kahvalt=FD, %10 KDV + %2 kona=
+klama vergisi dahildir.
+
+
+
+=DCcretsiz Hizmetlerimiz;
+
+=B7         T=FCm odalarda =E7ay - kahve ve 2 adet su (0,5 lt),
+
+=B7         T=FCm odalarda =FCt=FC ve =FCt=FC masas=FD,
+
+=B7         T=FCm odalar, genel alanlar ve toplant=FD salonlar=FDnda Wi-Fi =
+internet ile h=FDzl=FD internet eri=FEimi,
+
+=B7         Kapal=FD havuz ve fitness center kullan=FDm=FD,
+
+=B7         Otopark kullan=FDm=FD
+
+
+
+Otelimiz Istanbul Fuar Merkezi'ne 10 KM uzakl=FDktad=FDr.
+
+
+
+Taraf=FDn=FDza hen=FCz oda blokaj=FD yap=FDlmam=FD=FE olup, yukar=FDda beli=
+rtilen fiyatlar=FDm=FDz 28 Mart 2025 tarihine kadar ger=E7ekle=FEtirilecek =
+rezervasyonlar i=E7in ge=E7erlidir. Tarih de=F0i=FEikli=F0i yap=FDlmas=FD d=
+urumunda fiyatlar de=F0i=FEiklik g=F6sterebilir. Rezervasyon detaylar=FDn=
+=FD iletmeniz halinde m=FCsaitlik do=F0rultusunda rezervasyonunuz memnuniye=
+tle ger=E7ekle=FEtirilecektir.
+
+
+
+Sayg=FDlar=FDmla,
+
+
+
+[cid:image001.jpg@01DB9356.428B5660]
+
+
+
+Erdem =DCNALAN | Corporate Sales Manager
+
+Radisson Hotel, Istanbul Merter
+
+T:  +90 212 506 6000
+
+M: +90 530 421 8330
+
+erdem.unalan@radisson.com<mailto:erdem.unalan@radisson.com>  |  radissonhot=
+els.com/radisson
+
+Maltepe Mah. Eski =C7=FDrp=FDc=FD Yolu Sk. NO:2/4 Zeytinburnu / ISTANBUL
+
+
+
+
+
+--_000_MWHPR05MB35516C85B165E1F37774D922E6DE2MWHPR05MB3551namp_
+Content-Type: text/html; charset="iso-8859-9"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+9">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.NormalWebChar1
+	{mso-style-name:"Normal \(Web\) Char1\,Normal \(Web\) Char Char\,Normal \(=
+Web\) Char Char Char1\,Normal \(Web\) Char Char Char Char Char1\,Normal \(W=
+eb\) Char Char Char Char Char Char\,Normal \(Web\) Char Char Char\,Normal \=
+(Web\) Char Char1\,\666E\901A\(\7F51\7AD9\) Char\,Normal \(Web\) Char Char =
+Char Char Ch";
+	mso-style-priority:99;
+	mso-style-link:"wordsection1\,m_\,9034989704951977135gmail";
+	font-family:"Times New Roman",serif;
+	mso-fareast-language:TR;}
+p.wordsection1, li.wordsection1, div.wordsection1
+	{mso-style-name:"wordsection1\,m_\,9034989704951977135gmail";
+	mso-style-priority:99;
+	mso-style-link:"Normal \(Web\) Char1\,Normal \(Web\) Char Char\,Normal \(W=
+eb\) Char Char Char1\,Normal \(Web\) Char Char Char Char Char1\,Normal \(We=
+b\) Char Char Char Char Char Char\,Normal \(Web\) Char Char Char\,Normal \(=
+Web\) Char Char1\,\666E\901A\(\7F51\7AD9\) Char\,Normal \(Web\) Char Char C=
+har Char Ch";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.xxwordsection1, li.xxwordsection1, div.xxwordsection1
+	{mso-style-name:x_x_wordsection1;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.E-postaStili21
+	{mso-style-type:personal;
+	font-family:"Arial",sans-serif;
+	color:black;}
+span.E-postaStili22
+	{mso-style-type:personal;
+	font-family:"Arial",sans-serif;
+	color:black;}
+span.E-postaStili23
+	{mso-style-type:personal;
+	font-family:"Arial",sans-serif;
+	color:black;}
+span.E-postaStili24
+	{mso-style-type:personal;
+	font-family:"Arial",sans-serif;
+	color:black;}
+span.E-postaStili25
+	{mso-style-type:personal;
+	font-family:"Arial",sans-serif;
+	color:black;}
+span.E-postaStili26
+	{mso-style-type:personal;
+	font-family:"Arial",sans-serif;
+	color:black;}
+span.E-postaStili27
+	{mso-style-type:personal;
+	font-family:"Arial",sans-serif;
+	color:black;}
+span.E-postaStili28
+	{mso-style-type:personal;
+	font-family:"Arial",sans-serif;
+	color:black;}
+span.E-postaStili29
+	{mso-style-type:personal-compose;
+	font-family:"Arial",sans-serif;
+	color:black;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:659967513;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1136387678 69140481 69140483 69140485 69140481 6914=
+0483 69140485 69140481 69140483 69140485;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:53.45pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:89.45pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:125.45pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:161.45pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:197.45pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:233.45pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:269.45pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:305.45pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:341.45pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:1660037535;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-301441518 69140481 69140483 69140485 69140481 69140=
+483 69140485 69140481 69140483 69140485;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:54.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:90.0pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:126.0pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:162.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:198.0pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:234.0pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:270.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:306.0pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:342.0pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"TR" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"wordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><span =
+style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;color:bla=
+ck;mso-fareast-language:EN-US">Merhaba,</span><span style=3D"font-size:9.0p=
+t;font-family:&quot;Arial&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><span =
+style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif"><o:p>&nb=
+sp;</o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><span =
+style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;color:bla=
+ck">Radisson Hotel Istanbul Merter&#8217;den g=FCzel bir g=FCn dileklerimiz=
+le...</span><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sa=
+ns-serif"><o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><span =
+style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif"><o:p>&nb=
+sp;</o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0cm;margin-bottom:.0001pt;text-al=
+ign:justify">
+<b><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;=
+color:black">10 &#8211; 12 Nisan 2025</span></b><span style=3D"font-size:9.=
+0pt;font-family:&quot;Arial&quot;,sans-serif;color:black"> tarihlerinde</sp=
+an><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif"=
+>
+ Istanbul Fuar Merkezi<span style=3D"color:#1F497D">&#8217;</span>nde ger=
+=E7ekle=FEecek olan<b> &#8220;17. Uluslararas=FD Solarex =DDstanbul Fuar=FD=
+&#8221;
+</b>i=E7in uygulayacak oldu=F0umuz konaklama fiyatlar=FDm=FDz a=FEa=F0=FDda=
+ bilgilerinize sunulmu=FEtur;<o:p></o:p></span></p>
+<p class=3D"xxwordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><spa=
+n style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;mso-far=
+east-language:EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"xxwordsection1" style=3D"margin:0cm;margin-bottom:.0001pt;text-=
+align:justify">
+<b><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif"=
+>Tek Ki=FEilik Standart Oda&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;&nbsp; 85.-EUR (ver=
+giler dahil)</span></b><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"xxwordsection1" style=3D"margin:0cm;margin-bottom:.0001pt;text-=
+align:justify">
+<b><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif"=
+>=C7ift Ki=FEilik Standart Oda&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 100.-EUR (vergiler da=
+hil)<o:p></o:p></span></b></p>
+<p class=3D"xxwordsection1" style=3D"margin:0cm;margin-bottom:.0001pt;text-=
+align:justify">
+<span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif"><o=
+:p>&nbsp;</o:p></span></p>
+<p class=3D"xxwordsection1" style=3D"mso-margin-top-alt:0cm;margin-right:14=
+.2pt;margin-bottom:0cm;margin-left:53.45pt;margin-bottom:.0001pt;text-inden=
+t:-18.0pt;mso-list:l0 level1 lfo2">
+<![if !supportLists]><span style=3D"font-size:9.0pt;font-family:Symbol"><sp=
+an style=3D"mso-list:Ignore">=B7<span style=3D"font:7.0pt &quot;Times New R=
+oman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D"font-size:9.0pt;font-family:&=
+quot;Arial&quot;,sans-serif">Fiyatlar=FDm=FDza
+<b>a=E7=FDk b=FCfe kahvalt=FD, %10 KDV + %2 konaklama vergisi dahildir.</b>=
+<o:p></o:p></span></p>
+<p class=3D"xxwordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><spa=
+n style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif"><o:p>&=
+nbsp;</o:p></span></p>
+<p class=3D"xxwordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><b><=
+u><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif">=
+=DCcretsiz Hizmetlerimiz;</span></u></b><span style=3D"font-size:9.0pt;font=
+-family:&quot;Arial&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"xxwordsection1" style=3D"mso-margin-top-alt:0cm;margin-right:0c=
+m;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-indent:-1=
+8.0pt;mso-list:l1 level1 lfo4">
+<![if !supportLists]><span style=3D"font-size:9.0pt;font-family:Symbol"><sp=
+an style=3D"mso-list:Ignore">=B7<span style=3D"font:7.0pt &quot;Times New R=
+oman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D"font-size:9.0pt;font-family:&=
+quot;Arial&quot;,sans-serif">T=FCm odalarda =E7ay - kahve ve 2 adet su (0,5=
+ lt),<o:p></o:p></span></p>
+<p class=3D"xxwordsection1" style=3D"margin-left:54.0pt;text-indent:-18.0pt=
+;mso-list:l1 level1 lfo4">
+<![if !supportLists]><span style=3D"font-size:9.0pt;font-family:Symbol"><sp=
+an style=3D"mso-list:Ignore">=B7<span style=3D"font:7.0pt &quot;Times New R=
+oman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D"font-size:9.0pt;font-family:&=
+quot;Arial&quot;,sans-serif">T=FCm odalarda =FCt=FC ve =FCt=FC masas=FD,<o:=
+p></o:p></span></p>
+<p class=3D"xxwordsection1" style=3D"margin-left:54.0pt;text-indent:-18.0pt=
+;mso-list:l1 level1 lfo4">
+<![if !supportLists]><span style=3D"font-size:9.0pt;font-family:Symbol"><sp=
+an style=3D"mso-list:Ignore">=B7<span style=3D"font:7.0pt &quot;Times New R=
+oman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D"font-size:9.0pt;font-family:&=
+quot;Arial&quot;,sans-serif">T=FCm odalar, genel alanlar ve toplant=FD salo=
+nlar=FDnda Wi-Fi internet ile h=FDzl=FD internet eri=FEimi,<o:p></o:p></spa=
+n></p>
+<p class=3D"xxwordsection1" style=3D"margin-left:54.0pt;text-indent:-18.0pt=
+;mso-list:l1 level1 lfo4">
+<![if !supportLists]><span style=3D"font-size:9.0pt;font-family:Symbol"><sp=
+an style=3D"mso-list:Ignore">=B7<span style=3D"font:7.0pt &quot;Times New R=
+oman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D"font-size:9.0pt;font-family:&=
+quot;Arial&quot;,sans-serif">Kapal=FD havuz ve fitness center kullan=FDm=FD=
+,<o:p></o:p></span></p>
+<p class=3D"xxwordsection1" style=3D"mso-margin-top-alt:0cm;margin-right:0c=
+m;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-indent:-1=
+8.0pt;mso-list:l1 level1 lfo4">
+<![if !supportLists]><span style=3D"font-size:9.0pt;font-family:Symbol"><sp=
+an style=3D"mso-list:Ignore">=B7<span style=3D"font:7.0pt &quot;Times New R=
+oman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D"font-size:9.0pt;font-family:&=
+quot;Arial&quot;,sans-serif">Otopark kullan=FDm=FD<o:p></o:p></span></p>
+<p class=3D"xxwordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><spa=
+n style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif"><o:p>&=
+nbsp;</o:p></span></p>
+<p class=3D"xxwordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><b><=
+span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif">Ote=
+limiz Istanbul Fuar Merkezi&#8217;ne 10 KM uzakl=FDktad=FDr</span></b><span=
+ style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif">.<o:p><=
+/o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><span =
+style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif"><o:p>&nb=
+sp;</o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><span =
+style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif">Taraf=FD=
+n=FDza hen=FCz oda blokaj=FD yap=FDlmam=FD=FE olup, yukar=FDda belirtilen f=
+iyatlar=FDm=FDz
+<b><span style=3D"color:black">28</span> Mart 2025 tarihine kadar</b> ger=
+=E7ekle=FEtirilecek rezervasyonlar i=E7in ge=E7erlidir. Tarih de=F0i=FEikli=
+=F0i yap=FDlmas=FD durumunda fiyatlar de=F0i=FEiklik g=F6sterebilir. Rezerv=
+asyon detaylar=FDn=FD iletmeniz halinde m=FCsaitlik do=F0rultusunda
+ rezervasyonunuz memnuniyetle ger=E7ekle=FEtirilecektir.<o:p></o:p></span><=
+/p>
+<p class=3D"wordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><span =
+style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif"><o:p>&nb=
+sp;</o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><span =
+style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif">Sayg=FDl=
+ar=FDmla,<o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><span =
+style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;color:bla=
+ck;mso-fareast-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><span =
+style=3D"font-family:&quot;Arial&quot;,sans-serif;color:black"><img width=
+=3D"151" height=3D"57" id=3D"Resim_x0020_1" src=3D"cid:image001.jpg@01DB94E=
+A.6A906E30" alt=3D"cid:image001.jpg@01DB9356.428B5660"></span><span style=
+=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:black=
+"><o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><b><sp=
+an style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,sans-serif;color=
+:black"><o:p>&nbsp;</o:p></span></b></p>
+<p class=3D"wordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><b><sp=
+an style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color=
+:black">Erdem =DCNALAN | Corporate Sales Manager</span></b><span style=3D"f=
+ont-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black"><o:p>=
+</o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><b><sp=
+an style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color=
+:black">Radisson Hotel, Istanbul Merter</span></b><span style=3D"font-size:=
+10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black"><o:p></o:p></s=
+pan></p>
+<p class=3D"wordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><b><sp=
+an style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color=
+:black">T:&nbsp;
+</span></b><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sa=
+ns-serif;color:black">+90 212 506 6000<o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><b><sp=
+an style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color=
+:black">M:</span></b><span style=3D"font-size:10.0pt;font-family:&quot;Aria=
+l&quot;,sans-serif;color:black"> +90 530 421 8330<o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><a hre=
+f=3D"mailto:erdem.unalan@radisson.com"><span style=3D"font-size:10.0pt;font=
+-family:&quot;Arial&quot;,sans-serif;color:#467886">erdem.unalan@radisson.c=
+om</span></a><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,=
+sans-serif;color:black">&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href=3D"radisson=
+hotels.com/radisson"><b><span style=3D"font-size:10.0pt;font-family:&quot;A=
+rial&quot;,sans-serif;color:black">radissonhotels.com/radisson</span></b></=
+a><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;=
+color:black"><o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><span =
+style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:bl=
+ack">Maltepe Mah. Eski =C7=FDrp=FDc=FD Yolu Sk. NO:2/4 Zeytinburnu / ISTANB=
+UL<o:p></o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><span =
+style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;color:bla=
+ck;mso-fareast-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"wordsection1" style=3D"margin:0cm;margin-bottom:.0001pt"><span =
+style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;color:bla=
+ck;mso-fareast-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+</div>
+</body>
+</html>
+
+--_000_MWHPR05MB35516C85B165E1F37774D922E6DE2MWHPR05MB3551namp_--
+
+--_004_MWHPR05MB35516C85B165E1F37774D922E6DE2MWHPR05MB3551namp_
+Content-Type: image/jpeg; name="image001.jpg"
+Content-Description: image001.jpg
+Content-Disposition: inline; filename="image001.jpg"; size=2821;
+	creation-date="Fri, 14 Mar 2025 11:07:53 GMT";
+	modification-date="Tue, 18 Mar 2025 11:04:37 GMT"
+Content-ID: <image001.jpg@01DB94EA.6A906E30>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAA5AJcDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2XcB3
+qOO4hmJEU0bkddrA15N4p0X4heNLmWNYY9M01WIjgNwFLDsWK5J/lXKSfB/xlYgyW4hdhz+5ucN+
+GcUAfRGRRXzlb+LvHPgS4SPUPtflA48q+UujfRv8DXr/AIG+IeneNIDGgNtqEa7pLZjnI/vKe4/l
+QB19FJS0AFFJRmgDyn4r+Jr/AMKeK9BvrGV8CJ/Nh3HZKu4ZBFemaXqEOq6bbX1scw3EayIfYjNe
+LfH5867pKZ6WzHH1b/61eqeEbKTTvAul2q/61LNcBj/ERn+ZoA2be+tbppVt7iGVoW2yCNwxQ+hx
+0NT1wnw48BXHhFb271C7Wa9vSC6Rk7EAJPXueetdzuAoAdRSGqGna5p+rXN3b2F0k8lm4jn2chGP
+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
+UtFACUUtFACYopaKAEopaKAEpaKKACiiigD/2Q==
+
+--_004_MWHPR05MB35516C85B165E1F37774D922E6DE2MWHPR05MB3551namp_--
+

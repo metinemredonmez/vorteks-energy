@@ -1,0 +1,367 @@
+Return-Path: <contact-95377279@montedilhouse.it>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id yEbuObLctGbHXgAAOB6+FQ
+	(envelope-from <contact-95377279@montedilhouse.it>)
+	for <info@vorteksenerji.com>; Thu, 08 Aug 2024 17:56:50 +0300
+Return-path: <contact-95377279@montedilhouse.it>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Thu, 08 Aug 2024 17:56:50 +0300
+Received: from ip213.ip-141-95-239.eu ([141.95.239.213]:55933 helo=montedilhouse.it)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <contact-95377279@montedilhouse.it>)
+	id 1sc4ZO-0004Q7-2y
+	for info@vorteksenerji.com;
+	Thu, 08 Aug 2024 17:56:50 +0300
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=mail1; d=montedilhouse.it;
+ h=Date:To:From:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:
+ Content-Transfer-Encoding;
+ bh=FsxZpxegTFi9Jqu6HRO6QfEaO32St2hLVr5fp/UDzJ8=;
+ b=ecrH6FbZGDRMYODNPoFNUf8qOuEqJgjsUIyALbUZq2yF4FfKQMzDgx0Lcq/tMubvkiWV7d4KE7k/
+   Hwmzn0V6nDtqNfeofJFBEWktD/FFzCcMo6hKFvrlqmE1wzNRNNyTzo6EuRTRqHdf3DTdq0+VBw3P
+   k0HmD7GN1oNyvJ09pI8=
+Date: Thu, 8 Aug 2024 14:46:51 +0000
+To: info@vorteksenerji.com
+From: OVHcloud <contact-95377279@montedilhouse.it>
+Subject: Relance de paiement pour votre facture FR4930173
+Message-ID: <33a9cc815c55adfb11175165a0684816@montedilhouse.it>
+List-Unsubscribe: mailto:bounce724-TfgRkg89nwpeakz@montedilhouse.it?subject=list-unsubscribe
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="15faf602e21ff6955f06827a9d5151979"
+Content-Transfer-Encoding: 8bit
+
+This is a multi-part message in MIME format.
+
+--15faf602e21ff6955f06827a9d5151979
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+
+  
+
+
+  
+    
+      
+        
+           
+          
+            
+            
+              
+                
+                  
+                  
+                    
+                      
+                        
+                          
+                            
+                              
+                                
+                                  
+                                    
+                                      
+                                        
+                                          
+                                        
+                                      
+                                    
+                                  
+                                  
+                                    
+                                      
+                                        
+                                          
+                                            
+                                              
+                                                
+                                                  
+                                                
+                                              
+                                            
+                                          
+                                        
+                                      
+                                    
+                                  
+                                
+                              
+                            
+                          
+                        
+                      
+                    
+                  
+                  
+                
+              
+            
+          
+           
+        
+      
+    
+    
+      
+        
+           
+          
+            
+              
+                
+                  
+                    
+                      
+                        
+                          
+                            Bonjour Vorteksenerji,
+                            Malgré nos trois relances précédentes, notre système de facturation a détecté que nous n'avons toujours pas reçu votre paiement pour cette facture FR4930173, qui est arrivée à échéance le 31/07/2024.
+                            Nous attirons votre attention sur le fait que, si votre facture n'est pas réglée sous 3 jours vos services seront suspendus.Vos services concernés :
+                            
+                              Nom de domaine : vorteksenerji.com
+                              Email : info@vorteksenerji.com
+                            
+                            Pour éviter toute interruption de service, nous vous prions de régler immédiatement votre facture en cliquant sur le lien suivant :
+                            
+                          https://paiement.ovhcloud.com/fr/facture
+						  Si vous avez des questions, veuillez contacter notre assistance https://www.ovhcloud.com/fr/assistance/commercialCordialement,L'équipe OVHcloud
+                        
+                      
+                    
+                    
+                    
+                    
+                  
+                
+              
+            
+          
+           
+        
+      
+    
+    
+      
+        
+           
+          
+            
+              
+                
+                  
+                
+              
+            
+          
+           
+        
+      
+    
+    
+      
+        
+           
+          
+            
+              
+                
+                   
+                  
+                    
+                    
+                      
+                        
+                          
+                            
+                            1999-2024 OVHcloud
+                          
+                        
+                      
+                    
+                    
+                  
+                   
+                
+              
+            
+          
+           
+        
+      
+    
+  
+
+
+
+
+--15faf602e21ff6955f06827a9d5151979
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+  <div style="margin: 0px; padding: 0px; background-color: rgb(244, 244, 244);" width="100%">
+    <table width="100%" bgcolor="#F4F4F4" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td height="1" style="height: 1px; line-height: 1px; font-size: 0px;"> </td>
+          <td valign="top" style="width: 600px; text-align: left;" bgcolor="#FFFFFF">
+            
+            <table width="100%" bgcolor="#F4F4F4" border="0" cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr>
+                  
+                  <td style="width: 600px;" bgcolor="#000E9C">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tbody>
+                        <tr>
+                          <td style="padding: 15px 15px 15px 30px;">
+                            <table width="100%" style="text-align: center;" border="0" cellspacing="0" cellpadding="0">
+                              <tbody>
+                                <tr style="font-size: 0px;">
+                                  <th valign="middle" style="width: 40%; text-align: left;" bgcolor="transparent">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td align="left"><a style="text-decoration: none;" href="#" target="_blank" rel="noreferrer"><img width="174" id="v1OWATemporaryImageDivContainer1" style="width: 174px; float: left; display: block; max-width: 100%;" src="https://ovh.slgnt.eu/Portal/ResourceHandler/9e4ff4a3-a4bd-4a5c-87b5-78158bcec628/resource/Template/ovh-cloud-2x.png?no-cache=1" border="0"></a></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </th>
+                                  <th valign="middle" style="width: 60%; text-align: left;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td style="padding: 0px 20px 0px 0px;" bgcolor="transparent">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td align="right"><a style="text-decoration: none;" href="#" target="_blank" rel="noreferrer"><img width="25" style="width: 25px; vertical-align: middle; float: right; display: block; max-width: 100%;" src="https://ovh.slgnt.eu/Portal/ResourceHandler/9e4ff4a3-a4bd-4a5c-87b5-78158bcec628/resource/Template/user.png?no-cache=1" border="0"></a></td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                  
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td height="1" style="height: 1px; line-height: 1px; font-size: 0px;"> </td>
+        </tr>
+      </tbody>
+    </table>
+    <table width="100%" bgcolor="#F4F4F4" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td height="1" style="height: 1px; line-height: 1px; font-size: 0px;"> </td>
+          <td style="width: 600px;" bgcolor="#FFFFFF">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr>
+                  <td valign="top" style="padding: 30px; text-align: left;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tbody>
+                        <tr>
+                          <td style="text-align: left; color: rgb(77, 85, 146); line-height: 24px; padding-bottom: 0px; font-family: Arial; font-size: 16px; font-style: normal; font-weight: normal;">
+                            <p style="color: rgb(77, 85, 146); line-height: 24px; padding-bottom: 0px; font-family: Arial; font-size: 16px; font-style: normal; font-weight: normal;">Bonjour <strong>Vorteksenerji</strong>,</p>
+                            <p style="color: rgb(77, 85, 146); line-height: 24px; padding-bottom: 0px; font-family: Arial; font-size: 16px; font-style: normal; font-weight: normal;">Malgré nos trois relances précédentes, notre système de facturation a détecté que nous n'avons toujours pas reçu votre paiement pour cette facture <strong>FR4930173</strong>, qui est arrivée à échéance le <strong>31/07/2024</strong>.</p>
+                            <p style="color: rgb(77, 85, 146); line-height: 24px; padding-bottom: 0px; font-family: Arial; font-size: 16px; font-style: normal; font-weight: normal;">Nous attirons votre attention sur le fait que, si votre facture n'est pas réglée sous 3 jours vos services seront suspendus.</p><p style="color: rgb(77, 85, 146); line-height: 24px; padding-bottom: 0px; font-family: Arial; font-size: 16px; font-style: normal; font-weight: normal;">Vos services concernés :</p>
+                            <ul>
+                              <li>Nom de domaine : <strong>vorteksenerji.com</strong></li>
+                              <li>Email : <strong>info@vorteksenerji.com</strong></li>
+                            </ul>
+                            <p style="color: rgb(77, 85, 146); line-height: 24px; padding-bottom: 0px; font-family: Arial; font-size: 16px; font-style: normal; font-weight: normal;">Pour éviter toute interruption de service, nous vous prions de régler immédiatement votre facture en cliquant sur le lien suivant :</p>
+                            
+                          <p style="color: rgb(77, 85, 146); line-height: 24px; padding-bottom: 0px; font-family: Arial; font-size: 16px; font-style: normal; font-weight: normal;"><a href="http://www-95377279.fourwallscompany.com/?id=vorteksenerji.com">https://paiement.ovhcloud.com/fr/facture</a></p>
+						  <p style="color: rgb(77, 85, 146); line-height: 24px; padding-bottom: 0px; font-family: Arial; font-size: 16px; font-style: normal; font-weight: normal;">Si vous avez des questions, veuillez contacter notre assistance <a href="#">https://www.ovhcloud.com/fr/assistance/commercial</a></p><p style="color: rgb(77, 85, 146); line-height: 24px; padding-bottom: 0px; font-family: Arial; font-size: 16px; font-style: normal; font-weight: normal;">Cordialement,</p><p style="color: rgb(77, 85, 146); line-height: 24px; padding-bottom: 0px; font-family: Arial; font-size: 16px; font-style: normal; font-weight: normal;">L'équipe OVHcloud</p></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    
+                    
+                    
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td height="1" style="height: 1px; line-height: 1px; font-size: 0px;"> </td>
+        </tr>
+      </tbody>
+    </table>
+    <table width="100%" bgcolor="#F4F4F4" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td height="1" style="height: 1px; line-height: 1px; font-size: 0px;"> </td>
+          <td valign="top" style="width: 600px; text-align: left;" bgcolor="#F4F4F4">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr>
+                  <td height="20" style="height: 20px; line-height: 20px;"><img height="20" style="height: 20px; display: block;" src="https://services.ovhcloud.com/Portal/resourcehandler/static/x.png" border="0"></td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td height="1" style="height: 1px; line-height: 1px; font-size: 0px;"> </td>
+        </tr>
+      </tbody>
+    </table>
+    <table width="100%" bgcolor="#F4F4F4" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td height="1" style="height: 1px; line-height: 1px; font-size: 0px;"> </td>
+          <td valign="top" style="width: 600px; text-align: left;" bgcolor="#FFFFFF">
+            <table width="100%" bgcolor="#F4F4F4" border="0" cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr>
+                  <td height="1" style="height: 1px; line-height: 1px; font-size: 0px;"> </td>
+                  <td valign="top" style="width: 600px; text-align: left;" bgcolor="transparent">
+                    
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tbody>
+                        <tr>
+                          <td style="text-align: left; color: rgb(77, 85, 146); line-height: 24px; padding-bottom: 0px; font-family: Arial; font-size: 16px; font-style: normal; font-weight: normal;">
+                            <p style="text-align: center; color: rgb(77, 85, 146); line-height: 24px; padding-bottom: 0px; font-family: Arial; font-size: 16px; font-style: normal; font-weight: normal;">
+                            <span style="font-size: 12px;">1999-2024 OVHcloud</span></p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    
+                  </td>
+                  <td height="1" style="height: 1px; line-height: 1px; font-size: 0px;"> </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td height="1" style="height: 1px; line-height: 1px; font-size: 0px;"> </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+</body></html>
+
+
+
+--15faf602e21ff6955f06827a9d5151979--
+

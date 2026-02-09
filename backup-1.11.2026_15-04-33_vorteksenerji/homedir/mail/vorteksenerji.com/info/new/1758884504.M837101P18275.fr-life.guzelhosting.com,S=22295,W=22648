@@ -1,0 +1,353 @@
+Return-Path: <solarvesolarexfuari2020+bncBDAZJKU47QBBB27E3HDAMGQEQ4VQAQQ@dinamikajans.net>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id iCiMMZhy1mhjRwAAOB6+FQ
+	(envelope-from <solarvesolarexfuari2020+bncBDAZJKU47QBBB27E3HDAMGQEQ4VQAQQ@dinamikajans.net>)
+	for <info@vorteksenerji.com>; Fri, 26 Sep 2025 14:01:44 +0300
+Return-path: <solarvesolarexfuari2020+bncBDAZJKU47QBBB27E3HDAMGQEQ4VQAQQ@dinamikajans.net>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Fri, 26 Sep 2025 14:01:44 +0300
+Received: from mail-pl1-f197.google.com ([209.85.214.197]:61628)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <solarvesolarexfuari2020+bncBDAZJKU47QBBB27E3HDAMGQEQ4VQAQQ@dinamikajans.net>)
+	id 1v26Cu-000000000wV-29BS
+	for info@vorteksenerji.com;
+	Fri, 26 Sep 2025 14:01:44 +0300
+Received: by mail-pl1-f197.google.com with SMTP id d9443c01a7336-2681642efd9sf16871305ad.2
+        for <info@vorteksenerji.com>; Fri, 26 Sep 2025 04:01:24 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1758884462; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=a0Wrun4wH5TXEDtiLEU3hScO0Urye0NM6BWY1S/NaZcjJH3xgP/h42Vviirny29vSa
+         GkCG8F7EYbPdsSwOhL35++vrIiUFZJtFtstV2BDxwL1SRYizDzY2RhLNgRJDMZBrNzeS
+         9bVl5dmGYZ7VyLz3MO4ysr9Tnwu7rTtgQLb+w7xMKZ61aqwo6dwIKeZfEOfzGb9ERA+2
+         FJZ2Kg/F5X+MD4SdzNNL0PrGYzyf6xskBa4Kouo0MwB/X+9nBm3E68BwjM0ml7PFMVXO
+         zV7AmKJfHBrosrepXV5Ydns8s0Ieh2z21z8YEqE6eWfJAhe0soe6tU7333DX2keRPyFV
+         idnA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:precedence:reply-to:to:subject:message-id:date
+         :from:mime-version:dkim-signature;
+        bh=+EsE/VTl6gKJtDLRIoGe72f5FTNmSUsIAQ0Tto+h/F4=;
+        fh=jjhzJbTdHtiFIHL9SxIjEsbqKQJxWqjJdI7QCmVOFuQ=;
+        b=OG3484WQIUgdl1n+CnDFxFj0/zBQvhtKHggpNyiXavr/y+XWlflUTdk3eWG0ODBjSI
+         3iV+ju0qts3zBuZYZnWFfMMmNUiT6/jxDY4BfF9GWO+PzveMDTpvwRcQ3IaT7m+qDQGw
+         rB/1ffnIE8+IEj5JFOSPKB6xFC+kh3ajEkdgHYXFesUIRtcGkpe7vTeWbK2B6Oay5MCL
+         X3+dX2c6X09eBsHkQKLCnBmzb8RmnLAnQbmNeE1DtQqvRfmUp61ZGj33GezMTX78qdx9
+         yYmL4LSKV+DXobQwWPmL8Ky0R1BWF293EUlh3hxtpfCSkL4J9UNM7NzbaDsS/3y2W9Ku
+         +d6g==;
+        darn=vorteksenerji.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@dinamikajans-net.20230601.gappssmtp.com header.s=20230601 header.b=eiDfKW+D;
+       spf=pass (google.com: domain of dogan@dinamikajans.net designates 209.85.220.41 as permitted sender) smtp.mailfrom=dogan@dinamikajans.net;
+       dara=pass header.i=@dinamikajans.net
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=dinamikajans-net.20230601.gappssmtp.com; s=20230601; t=1758884462; x=1759489262; darn=vorteksenerji.com;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:precedence:reply-to
+         :x-original-authentication-results:x-original-sender:to:subject
+         :message-id:date:from:mime-version:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=+EsE/VTl6gKJtDLRIoGe72f5FTNmSUsIAQ0Tto+h/F4=;
+        b=zEczfquBRRrAg/6at+VHszaEd/Xlywr0g7TTSusj8lwopncK2uP6Ncys69uJ8kH9d+
+         b56XXUkwYVzrv0p8IqlJpkL0TQSNalFOfSOSsKQ192NXFxFBEJ0y2mwuTr95lqlBXrHY
+         p3dtDxOd1KOEMSFsaEKJ4NC/7L5AhrvgmqSsLpbPFnX/xtcF8USetJW1tqGJbYLK4C+e
+         Jz3B3zbrXDGxqxYFjzVedJSgNrWq19zqo2sp0ylkecbn/Q8w5mbqEr6rv7ODOCqvFj+j
+         HkG+xPB4JSek7OC+9kKRib7PBn17gTpUWOYEOvxitlnxmzBCCCLwua0GWh5F/EIFEfF/
+         q/ig==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1758884462; x=1759489262;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :x-spam-checked-in-group:list-id:mailing-list:precedence:reply-to
+         :x-original-authentication-results:x-original-sender:to:subject
+         :message-id:date:from:mime-version:x-beenthere:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=+EsE/VTl6gKJtDLRIoGe72f5FTNmSUsIAQ0Tto+h/F4=;
+        b=N/s9LA0GsmV3QmZHqAxy/zTP9lqmVJ98VpU/9i5vhaVxz/PPfAMwNppzorxqMb6WYz
+         kTxlI4DHYTjZFNleqtcGapfK7jWCbB2AZI7sd1Gc+/pTRqU5HtrhaRSXKnlgkGvHdrjp
+         XcU62JnNALFMEr9I1ELRpVFsLO0OuXcrhnHki4qQ3CspmCAtm+DoDSEw9BEXfvwG/ePa
+         vZ05vis7Gbo092sq1HvA/qv5Jaej1vOSGvEdXMHRwgFdp+p7mLDLyvSBiES3sJrpm0qz
+         KGPm4xwKtvOrOGlH0hHZC0xE6DxbpWnrjsMRt6UcF/pLqw1S2H+xICBrgBjQmu8oioYl
+         qoWA==
+X-Forwarded-Encrypted: i=2; AJvYcCWfWtF5Ih+n9HoL/PuPQeCSxDMSS1yb9T9DQGlG1811u/c/kr56A/xK1w67gydLZ27sBMGm@vorteksenerji.com
+X-Gm-Message-State: AOJu0YzH03EZ7x1RWbL0byuBO9VIOMVVTBBOUMTieMSi68EW6Wg0YJWG
+	VjP+td+QRCFN0nOccoR1F8MZ2S7JWkoU12Rsjea7/M1jDaFhnXJ80vlCi3eQgJOz02Q=
+X-Google-Smtp-Source: AGHT+IExaoPGqyATET8U0IsAogai3xfuuzapRYyZMkhhL5YDLiVhipi+Tc/yk2nx+z088nbR7AvHSg==
+X-Received: by 2002:a17:903:1b63:b0:269:aecc:a454 with SMTP id d9443c01a7336-27ed49b3025mr82756565ad.11.1758884461406;
+        Fri, 26 Sep 2025 04:01:01 -0700 (PDT)
+X-BeenThere: solarvesolarexfuari2020@dinamikajans.net; h="ARHlJd7SG8gNqtHRFYiQ8+7e2Mg4IHqfBlQAmNIZKVBkbAHK7w=="
+Received: by 2002:a17:903:1b6b:b0:267:ec6d:9ab1 with SMTP id
+ d9443c01a7336-27ed563fadfls20789735ad.2.-pod-prod-09-us; Fri, 26 Sep 2025
+ 04:00:57 -0700 (PDT)
+X-Received: by 2002:a17:903:2352:b0:26c:4085:e3f5 with SMTP id d9443c01a7336-27ed4a56c51mr63961575ad.50.1758884456931;
+        Fri, 26 Sep 2025 04:00:56 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1758884456; cv=none;
+        d=google.com; s=arc-20240605;
+        b=kojFeIeQOpwKYqDweWOWjQN5wdD6/elJCB3G1TwCaNyHd9wRZZwyF2bsi9phfnzt3m
+         ISh/k61R/2GsBJl993kQkd4X7xtn2HXsLARcgpQhnOkAFdZBCIWvmemYcznHmWTm8xIc
+         SrqRmHAOsMXyQT8J3IFTY35pPE7O9i8jQd+jxi50oI/b3VM2th/TSJOlMOrzSwfqhGeb
+         J1A9naNRxoncgDVeLyEEMMVaPMnbclCjPW6o8g5YTo5X+uZPBfHN2cnHR54AGSAY7wVl
+         aUtLdM+P/7nMySot4coUzNma9ll/yZYvJ7V8cCUzxaEvh/gOgFFNYQsS/j5uq3oUbrab
+         tsBg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=+EsE/VTl6gKJtDLRIoGe72f5FTNmSUsIAQ0Tto+h/F4=;
+        fh=DQMeFSDoJauvCdWEALbaSSEgBVf1fltmt6exqBdGZ2I=;
+        b=JGff1kto9mhJgRVDYCFoOOw2V2kOse2HXUtumooThUQD8G+4goKM/yGEOJOzVaMPjl
+         RFIRIyTDUyYzUffFfmLzUY0prZbupecqt9u64dZziVL5CmhW7b6yG+ukFo53h1AxCZvV
+         9ubsiSNVgK4h2eUEuYXIGRzvhHEwNAd9beA1Ww4l3Q9rB4pliujplhF+EiMe86CvRAQ/
+         JbCDixx3Yg/PkpUWh0Qv4VKTuE9wyvGteKusnDQwW3Dn+NKZnNf7deFQdp+dGrNVxd8s
+         ILN49AyQuIzq2Yfc/cWKdokxVktKPh24hvxnFFplRk+sG9zaGtXBs1wy9As7iLGkUjJ/
+         DkjQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@dinamikajans-net.20230601.gappssmtp.com header.s=20230601 header.b=eiDfKW+D;
+       spf=pass (google.com: domain of dogan@dinamikajans.net designates 209.85.220.41 as permitted sender) smtp.mailfrom=dogan@dinamikajans.net;
+       dara=pass header.i=@dinamikajans.net
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id d9443c01a7336-27ed688239csor35125055ad.12.2025.09.26.04.00.56
+        for <solarvesolarexfuari2020@dinamikajans.net>
+        (Google Transport Security);
+        Fri, 26 Sep 2025 04:00:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of dogan@dinamikajans.net designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Gm-Gg: ASbGncuO5AMoKhPIxIgrg8cxR9JReD6OVijhAQSDepPz6+odzmudF37ME7reDC7YsHG
+	7LVJarKOb4CtyDqLqoajA85NLG2ppnCwFL/ZTuN7ObS2xwOSMqRttUI0GRrMmHyTJ1N7/b0zqds
+	ui8OCHZGWiQ5i2QNaYY3mk5qcsJLGdnYD0uZBKfSR6LuVhRbseDQYl38maI2I3gSpmn25rHPpB1
+	itglQ==
+X-Received: by 2002:a17:903:845:b0:269:b2e5:ee48 with SMTP id
+ d9443c01a7336-27ed4a5a7bcmr50808195ad.52.1758884455995; Fri, 26 Sep 2025
+ 04:00:55 -0700 (PDT)
+MIME-Version: 1.0
+From: Dinamik Ajans <dogan@dinamikajans.net>
+Date: Fri, 26 Sep 2025 14:00:00 +0300
+X-Gm-Features: AS18NWAXc0noexN0rotlbV-HmXQHM-JadeCg6iVGXmSaFlxzcTXQDzqPk7t0SEI
+Message-ID: <CAAXPk+0keQTWbETiEoGpYKvbf2DhYm7crMFnBBossrpAO7_A7w@mail.gmail.com>
+Subject: =?UTF-8?B?RnVhciAtIEtvbmdyZSAtIEJheWlpIFRvcGxhbnTEsXPEsSB2ZSBEacSfZXIgT3JnYW5peg==?=
+	=?UTF-8?B?YXN5b25sYXLEsW7EsXogxLBsZSDEsGxnaWxpIMSwaHRpeWHDp2xhcsSxbsSxeiBIay4=?=
+To: SOLAR VE SOLAREX FUARI GENEL <solarvesolarexfuari2020@dinamikajans.net>
+Content-Type: multipart/alternative; boundary="000000000000337263063fb23317"
+X-Original-Sender: dogan@dinamikajans.net
+X-Original-Authentication-Results: mx.google.com;       dkim=pass
+ header.i=@dinamikajans-net.20230601.gappssmtp.com header.s=20230601
+ header.b=eiDfKW+D;       spf=pass (google.com: domain of dogan@dinamikajans.net
+ designates 209.85.220.41 as permitted sender) smtp.mailfrom=dogan@dinamikajans.net;
+       dara=pass header.i=@dinamikajans.net
+Reply-To: solarvesolarexfuari2020+owners@dinamikajans.net
+Precedence: list
+Mailing-list: list solarvesolarexfuari2020@dinamikajans.net; contact solarvesolarexfuari2020+owners@dinamikajans.net
+List-ID: <solarvesolarexfuari2020.dinamikajans.net>
+X-Spam-Checked-In-Group: solarvesolarexfuari2020@dinamikajans.net
+X-Google-Group-Id: 746032344018
+List-Post: <https://groups.google.com/a/dinamikajans.net/group/solarvesolarexfuari2020/post>,
+ <mailto:solarvesolarexfuari2020@dinamikajans.net>
+List-Help: <https://support.google.com/a/dinamikajans.net/bin/topic.py?topic=25838>,
+ <mailto:solarvesolarexfuari2020+help@dinamikajans.net>
+List-Archive: <https://groups.google.com/a/dinamikajans.net/group/solarvesolarexfuari2020/>
+List-Subscribe: <https://groups.google.com/a/dinamikajans.net/group/solarvesolarexfuari2020/subscribe>,
+ <mailto:solarvesolarexfuari2020+subscribe@dinamikajans.net>
+List-Unsubscribe: <mailto:googlegroups-manage+746032344018+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/a/dinamikajans.net/group/solarvesolarexfuari2020/subscribe>
+
+--000000000000337263063fb23317
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Merhaba,
+
+Bu y=C4=B1l d=C3=BCzenleyece=C4=9Finiz fuarlar i=C3=A7in herhangi bir ihtiy=
+ac=C4=B1n=C4=B1z bulunuyor mu?
+
+
+   -
+
+   *Catering hizmeti* i=C3=A7in masa say=C4=B1s=C4=B1 ve stand=C4=B1n=C4=B1=
+zda su ba=C4=9Flant=C4=B1s=C4=B1 olup
+   olmad=C4=B1=C4=9F=C4=B1n=C4=B1 belirtmeniz yeterli olacakt=C4=B1r. Bu bi=
+lgilere g=C3=B6re size =C3=B6zel bir
+   teklif haz=C4=B1rlayabiliriz.
+   -
+
+   *Personel temini* i=C3=A7in ise servis hostesi, terc=C3=BCman, kar=C5=9F=
+=C4=B1lama modeli,
+   maskot veya host gibi hangi pozisyonlarda deste=C4=9Fe ihtiyac=C4=B1n=C4=
+=B1z oldu=C4=9Funu
+   bildirmeniz yeterlidir. =C4=B0stedi=C4=9Finiz g=C3=B6revler i=C3=A7in uy=
+gun adaylar=C4=B1n listesini
+   size iletece=C4=9Fiz.
+   -
+
+   Ayr=C4=B1ca *kiral=C4=B1k ekipman, m=C3=BCzik ekipleri , animasyon ve =
+=C3=B6=C4=9Fle yeme=C4=9Fi
+   tedari=C4=9Fi* gibi bir=C3=A7ok konuda bizden hizmet ve teklif alabilirs=
+iniz.
+   -
+
+   Firman=C4=B1z=C4=B1n =C3=BCr=C3=BCn ve tan=C4=B1t=C4=B1m reklamlar=C4=B1=
+ i=C3=A7in sizlere hizmet verebiliriz.
+
+
+   Fuar d=C4=B1=C5=9F=C4=B1nda organizasyon talepleriniz var ise o konulard=
+a da sizlere
+   =C3=A7ok h=C4=B1zl=C4=B1 bir =C5=9Fekilde bir organizasyon =C5=9Femas=C4=
+=B1 olu=C5=9Fturarak yard=C4=B1mc=C4=B1
+   olabilir. =C4=B0htiya=C3=A7lar=C4=B1n=C4=B1zla ilgili detaylar=C4=B1 pay=
+la=C5=9Ft=C4=B1=C4=9F=C4=B1n=C4=B1z takdirde size
+   yard=C4=B1mc=C4=B1 olmaktan memnuniyet duyar=C4=B1z.
+
+*NOT:Her fuar =C3=B6ncesinde fuarc=C4=B1l=C4=B1k firmalar=C4=B1n=C4=B1n sos=
+yal mecralardan
+a=C3=A7=C4=B1klad=C4=B1=C4=9F=C4=B1 kat=C4=B1l=C4=B1mc=C4=B1 listeleri =C3=
+=BCzerinden, siz de=C4=9Ferli firmalar=C4=B1m=C4=B1z ile
+ileti=C5=9Fime ge=C3=A7erek, mail adresleriniz call center ekibimiz taraf=
+=C4=B1ndan
+al=C4=B1nmaktad=C4=B1r. Bilgilendirme listesinden =C3=A7=C4=B1kmak istedi=
+=C4=9Finiz takdirde, bu
+maili DEL=C4=B0ST-L=C4=B0STEDEN =C3=87IKAR .. gibi k=C4=B1sa bir yaz=C4=B1y=
+la cevaplaman=C4=B1z yeterli
+olacakt=C4=B1r.*
+
+Te=C5=9Fekk=C3=BCrler, sevgiler.
+Owner
+Serdar Demir
++905426855246
+
+Assistant & Regional Manager
+Mr. Do=C4=9Fan Orbay Whatsapp Number
++905426855273
+
+--000000000000337263063fb23317
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr"><div><p style=3D"color:rgb(27,28,29);font=
+-family:&quot;Google Sans Text&quot;,sans-serif;background:none 0% 0%/auto =
+repeat scroll padding-box border-box rgba(0,0,0,0);border:0px none rgb(27,2=
+8,29);clear:none;columns:auto;direction:ltr;float:none;isolation:auto;margi=
+n:0px 0px 16px;opacity:1;outline:rgb(27,28,29) none 0px;padding:0px;quotes:=
+auto;speak:normal;zoom:1;line-height:1.15">Merhaba,</p><p style=3D"backgrou=
+nd:none 0% 0%/auto repeat scroll padding-box border-box rgba(0,0,0,0);borde=
+r:0px none rgb(27,28,29);clear:none;columns:auto;direction:ltr;float:none;i=
+solation:auto;margin:0px 0px 8px;opacity:1;outline:rgb(27,28,29) none 0px;p=
+adding:0px;quotes:auto;speak:normal;zoom:1;line-height:1.15"></p><div style=
+=3D"color:rgb(27,28,29);font-family:&quot;Google Sans Text&quot;,sans-serif=
+"><span style=3D"background-color:rgba(0,0,0,0)">Bu y=C4=B1l d=C3=BCzenleye=
+ce=C4=9Finiz fuarlar i=C3=A7in herhangi bir ihtiyac=C4=B1n=C4=B1z bulunuyor=
+ mu?</span></div><div><span style=3D"color:rgb(27,28,29);font-family:&quot;=
+Google Sans Text&quot;,sans-serif"><br></span></div><p></p><ul style=3D"bac=
+kground:none 0% 0%/auto repeat scroll padding-box border-box rgba(0,0,0,0);=
+border:0px none rgb(27,28,29);clear:none;columns:auto;direction:ltr;float:n=
+one;isolation:auto;margin:0px 0px 16px;opacity:1;outline:rgb(27,28,29) none=
+ 0px;padding:0px 0px 0px 27px;quotes:auto;speak:normal;zoom:1;line-height:1=
+.15"><li style=3D"margin:0px 0px 8px;color:rgb(27,28,29);font-family:&quot;=
+Google Sans Text&quot;,sans-serif;background:none 0% 0%/auto repeat scroll =
+padding-box border-box rgba(0,0,0,0);border:0px none rgb(27,28,29);clear:no=
+ne;columns:auto;direction:ltr;float:none;isolation:auto;opacity:1;outline:r=
+gb(27,28,29) none 0px;padding:0px 0px 0px 4px;quotes:auto;speak:normal;zoom=
+:1;line-height:1.15"><p style=3D"background:none 0% 0%/auto repeat scroll p=
+adding-box border-box rgba(0,0,0,0);border:0px none rgb(27,28,29);clear:non=
+e;columns:auto;direction:ltr;float:none;isolation:auto;margin:0px 0px 8px;o=
+pacity:1;outline:rgb(27,28,29) none 0px;padding:0px 0px 0px 4px;quotes:auto=
+;speak:normal;zoom:1;line-height:1.15"><b style=3D"background:none 0% 0%/au=
+to repeat scroll padding-box border-box rgba(0,0,0,0);border:0px none rgb(2=
+7,28,29);clear:none;columns:auto;direction:ltr;display:inline;float:none;is=
+olation:auto;margin:0px;opacity:1;outline:rgb(27,28,29) none 0px;padding:0p=
+x;quotes:auto;speak:normal;zoom:1;line-height:1.15">Catering hizmeti</b>=C2=
+=A0i=C3=A7in masa say=C4=B1s=C4=B1 ve stand=C4=B1n=C4=B1zda su ba=C4=9Flant=
+=C4=B1s=C4=B1 olup olmad=C4=B1=C4=9F=C4=B1n=C4=B1 belirtmeniz yeterli olaca=
+kt=C4=B1r. Bu bilgilere g=C3=B6re size =C3=B6zel bir teklif haz=C4=B1rlayab=
+iliriz.</p></li><li style=3D"margin:0px 0px 8px;color:rgb(27,28,29);font-fa=
+mily:&quot;Google Sans Text&quot;,sans-serif;background:none 0% 0%/auto rep=
+eat scroll padding-box border-box rgba(0,0,0,0);border:0px none rgb(27,28,2=
+9);clear:none;columns:auto;direction:ltr;float:none;isolation:auto;opacity:=
+1;outline:rgb(27,28,29) none 0px;padding:0px 0px 0px 4px;quotes:auto;speak:=
+normal;zoom:1;line-height:1.15"><p style=3D"background:none 0% 0%/auto repe=
+at scroll padding-box border-box rgba(0,0,0,0);border:0px none rgb(27,28,29=
+);clear:none;columns:auto;direction:ltr;float:none;isolation:auto;margin:0p=
+x 0px 8px;opacity:1;outline:rgb(27,28,29) none 0px;padding:0px 0px 0px 4px;=
+quotes:auto;speak:normal;zoom:1;line-height:1.15"><b style=3D"background:no=
+ne 0% 0%/auto repeat scroll padding-box border-box rgba(0,0,0,0);border:0px=
+ none rgb(27,28,29);clear:none;columns:auto;direction:ltr;display:inline;fl=
+oat:none;isolation:auto;margin:0px;opacity:1;outline:rgb(27,28,29) none 0px=
+;padding:0px;quotes:auto;speak:normal;zoom:1;line-height:1.15">Personel tem=
+ini</b>=C2=A0i=C3=A7in ise servis hostesi, terc=C3=BCman, kar=C5=9F=C4=B1la=
+ma modeli, maskot veya host gibi hangi pozisyonlarda deste=C4=9Fe ihtiyac=
+=C4=B1n=C4=B1z oldu=C4=9Funu bildirmeniz yeterlidir. =C4=B0stedi=C4=9Finiz =
+g=C3=B6revler i=C3=A7in uygun adaylar=C4=B1n listesini size iletece=C4=9Fiz=
+.</p></li><li style=3D"margin:0px 0px 8px;color:rgb(27,28,29);font-family:&=
+quot;Google Sans Text&quot;,sans-serif;background:none 0% 0%/auto repeat sc=
+roll padding-box border-box rgba(0,0,0,0);border:0px none rgb(27,28,29);cle=
+ar:none;columns:auto;direction:ltr;float:none;isolation:auto;opacity:1;outl=
+ine:rgb(27,28,29) none 0px;padding:0px 0px 0px 4px;quotes:auto;speak:normal=
+;zoom:1;line-height:1.15"><p style=3D"background:none 0% 0%/auto repeat scr=
+oll padding-box border-box rgba(0,0,0,0);border:0px none rgb(27,28,29);clea=
+r:none;columns:auto;direction:ltr;float:none;isolation:auto;margin:0px 0px =
+8px;opacity:1;outline:rgb(27,28,29) none 0px;padding:0px 0px 0px 4px;quotes=
+:auto;speak:normal;zoom:1;line-height:1.15">Ayr=C4=B1ca=C2=A0<b style=3D"ba=
+ckground:none 0% 0%/auto repeat scroll padding-box border-box rgba(0,0,0,0)=
+;border:0px none rgb(27,28,29);clear:none;columns:auto;direction:ltr;displa=
+y:inline;float:none;isolation:auto;margin:0px;opacity:1;outline:rgb(27,28,2=
+9) none 0px;padding:0px;quotes:auto;speak:normal;zoom:1;line-height:1.15">k=
+iral=C4=B1k ekipman, m=C3=BCzik ekipleri , animasyon ve =C3=B6=C4=9Fle yeme=
+=C4=9Fi tedari=C4=9Fi</b>=C2=A0gibi bir=C3=A7ok konuda bizden hizmet ve tek=
+lif alabilirsiniz.</p></li><li style=3D"margin:0px 0px 8px;background:none =
+0% 0%/auto repeat scroll padding-box border-box rgba(0,0,0,0);border:0px no=
+ne rgb(27,28,29);clear:none;columns:auto;direction:ltr;float:none;isolation=
+:auto;opacity:1;outline:rgb(27,28,29) none 0px;padding:0px 0px 0px 4px;quot=
+es:auto;speak:normal;zoom:1;line-height:1.15"><p style=3D"background:none 0=
+% 0%/auto repeat scroll padding-box border-box rgba(0,0,0,0);border:0px non=
+e rgb(27,28,29);clear:none;columns:auto;direction:ltr;float:none;isolation:=
+auto;margin:0px 0px 8px;opacity:1;outline:rgb(27,28,29) none 0px;padding:0p=
+x 0px 0px 4px;quotes:auto;speak:normal;zoom:1;line-height:1.15"></p><div st=
+yle=3D"color:rgb(27,28,29);font-family:&quot;Google Sans Text&quot;,sans-se=
+rif"><span style=3D"background-color:rgba(0,0,0,0)">Firman=C4=B1z=C4=B1n =
+=C3=BCr=C3=BCn ve tan=C4=B1t=C4=B1m reklamlar=C4=B1 i=C3=A7in sizlere hizme=
+t verebiliriz.</span></div><div><span style=3D"color:rgb(27,28,29);font-fam=
+ily:&quot;Google Sans Text&quot;,sans-serif"><br></span></div><span style=
+=3D"background-color:rgba(0,0,0,0)"><div><span style=3D"color:rgb(27,28,29)=
+;font-family:&quot;Google Sans Text&quot;,sans-serif"><br></span></div><spa=
+n style=3D"color:rgb(27,28,29);font-family:&quot;Google Sans Text&quot;,san=
+s-serif"><div><span style=3D"background-color:rgba(0,0,0,0);font-family:Ari=
+al,Helvetica,sans-serif;color:rgb(34,34,34)"><span style=3D"color:rgb(27,28=
+,29);font-family:&quot;Google Sans Text&quot;,sans-serif">Fuar d=C4=B1=C5=
+=9F=C4=B1nda organizasyon talepleriniz var ise o konularda da sizlere =C3=
+=A7ok h=C4=B1zl=C4=B1 bir =C5=9Fekilde bir organizasyon =C5=9Femas=C4=B1 ol=
+u=C5=9Fturarak yard=C4=B1mc=C4=B1 olabilir.=C2=A0</span></span>=C4=B0htiya=
+=C3=A7lar=C4=B1n=C4=B1zla<span style=3D"background-color:rgba(0,0,0,0)">=C2=
+=A0ilgili detaylar=C4=B1 payla=C5=9Ft=C4=B1=C4=9F=C4=B1n=C4=B1z takdirde si=
+ze yard=C4=B1mc=C4=B1 olmaktan memnuniyet duyar=C4=B1z.</span></div></span>=
+</span></li></ul><b style=3D"background-color:rgba(0,0,0,0);font-family:&qu=
+ot;comic sans ms&quot;,sans-serif;font-size:x-small"><u><font color=3D"#000=
+000">NOT:Her fuar =C3=B6ncesinde fuarc=C4=B1l=C4=B1k firmalar=C4=B1n=C4=B1n=
+ sosyal mecralardan a=C3=A7=C4=B1klad=C4=B1=C4=9F=C4=B1 kat=C4=B1l=C4=B1mc=
+=C4=B1 listeleri =C3=BCzerinden, siz de=C4=9Ferli firmalar=C4=B1m=C4=B1z il=
+e ileti=C5=9Fime ge=C3=A7erek, mail adresleriniz call center ekibimiz taraf=
+=C4=B1ndan al=C4=B1nmaktad=C4=B1r. Bilgilendirme listesinden =C3=A7=C4=B1km=
+ak istedi=C4=9Finiz takdirde, bu maili DEL=C4=B0ST-L=C4=B0STEDEN =C3=87IKAR=
+ .. gibi k=C4=B1sa bir yaz=C4=B1yla cevaplaman=C4=B1z yeterli olacakt=C4=B1=
+r.</font></u></b></div><div><font color=3D"#000000" face=3D"comic sans ms, =
+sans-serif" size=3D"1"><b><u><br></u></b></font><p style=3D"color:rgb(27,28=
+,29);font-family:&quot;Google Sans Text&quot;,sans-serif;background:none 0%=
+ 0%/auto repeat scroll padding-box border-box rgba(0,0,0,0);border:0px none=
+ rgb(27,28,29);clear:none;columns:auto;direction:ltr;float:none;isolation:a=
+uto;margin:0px 0px 16px;opacity:1;outline:rgb(27,28,29) none 0px;padding:0p=
+x;quotes:auto;speak:normal;zoom:1;line-height:1.15">Te=C5=9Fekk=C3=BCrler, =
+sevgiler.</p></div></div><div><div dir=3D"ltr" class=3D"gmail_signature" da=
+ta-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div style=3D"color:rgb(3=
+4,34,34)"><span style=3D"font-size:12.8px;font-weight:bold"><div style=3D"t=
+ext-align:center">Owner</div></span><span style=3D"font-size:12.8px;font-we=
+ight:bold"><div style=3D"text-align:center">Serdar Demir</div></span><span =
+style=3D"font-size:12.8px;font-weight:bold"><div style=3D"text-align:center=
+">+905426855246</div></span><div style=3D"text-align:center"><br></div><spa=
+n style=3D"font-size:12.8px;font-weight:bold"><div style=3D"text-align:cent=
+er">Assistant &amp; Regional Manager</div></span><span style=3D"font-size:1=
+2.8px;font-weight:bold"><div style=3D"text-align:center">Mr. Do=C4=9Fan Orb=
+ay Whatsapp Number</div></span><div style=3D"text-align:center"><span style=
+=3D"font-size:12.8px;font-weight:bold">+905426855273</span></div></div><div=
+ style=3D"color:rgb(34,34,34)"><div dir=3D"ltr"><div dir=3D"ltr"><div style=
+=3D"text-align:center;font-size:12.8px"><img width=3D"420" height=3D"182" s=
+rc=3D"https://ci3.googleusercontent.com/mail-sig/AIorK4wop6QP5I1flO2fNXX9dd=
+yUb0MXoMCTQdvnvqTdvKI7SBrYG8qr1zk0TOkPrT2I2iXBBu1dfVs"></div></div></div></=
+div></div></div></div></div>
+
+--000000000000337263063fb23317--

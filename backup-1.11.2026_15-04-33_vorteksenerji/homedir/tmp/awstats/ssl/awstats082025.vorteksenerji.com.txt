@@ -1,0 +1,853 @@
+AWSTATS DATA FILE 7.9 (build 20230108)
+# If you remove this file, all statistics for date 202508 will be lost/reset.
+# Last config file used to build this data file was /home/vorteksenerji/tmp/awstats/ssl/awstats.vorteksenerji.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2057                
+POS_TIME 2743                
+POS_VISITOR 3731                
+POS_DAY 6256                
+POS_DOMAIN 6541                
+POS_LOGIN 7069                
+POS_ROBOT 7224                
+POS_WORMS 8031                
+POS_EMAILSENDER 8162                
+POS_EMAILRECEIVER 8305                
+POS_SESSION 8381                
+POS_FILESIZE 13201               
+POS_SIDER 8568                
+POS_FILETYPES 10019               
+POS_DOWNLOADS 10275               
+POS_OS 10346               
+POS_BROWSER 10597               
+POS_SCREENSIZE 11454               
+POS_UNKNOWNREFERER 11528               
+POS_UNKNOWNREFERERBROWSER 11973               
+POS_ORIGIN 12355               
+POS_SEREFERRALS 12492               
+POS_PAGEREFS 12655               
+POS_SEARCHWORDS 12837               
+POS_KEYWORDS 12989               
+POS_MISC 2407                
+POS_ERRORS 13048               
+POS_CLUSTER 6925                
+POS_SIDER_404 13352               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250901001149 2550 612043 14516008154004
+FirstTime 20250826134921
+LastTime 20250831234431
+LastUpdate 20250907150638 2550 0 2549 0 0
+TotalVisits 135                 
+TotalUnique 61                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 62                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 2 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 4 37840 29 32 1318583
+1 17 17 152649 177 185 3185354
+2 6 6 38772 67 72 1005727
+3 7 7 0 103 106 2307268
+4 20 238 14155829 52 80 2216876
+5 6 6 290778 20 24 647176
+6 15 15 361886 50 58 1638785
+7 5 5 214839 55 59 1428275
+8 8 8 6186 57 61 1178405
+9 25 80 17068333 52 103 2565178
+10 9 9 138675 23 26 838131
+11 17 48 836351 60 62 1274064
+12 18 18 101582 69 75 2172826
+13 6 6 151574 82 84 1688652
+14 11 11 259732 56 63 2007216
+15 7 8 83797 54 58 1383458
+16 11 11 138791 57 92 2387082
+17 32 138 18134227 123 133 2360587
+18 7 9 111098 34 55 7490261
+19 11 11 319471 63 70 1322649
+20 6 6 1038 29 31 678454
+21 6 8 29820 64 74 1903591
+22 21 132 22238578 44 53 1698963
+23 26 26 709308 54 66 1374192
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 62
+151.80.64.2 123 123 138791 20250831234431
+47.251.67.0 16 16 417780 20250828230757
+69.160.160.54 13 69 14164592 20250827171635
+149.56.150.169 11 11 1332972 20250830094409
+78.163.141.117 8 62 9957932 20250831220827
+3.138.184.23 7 38 697449 20250831113342
+196.251.83.160 7 7 243081 20250831143023
+4.43.184.114 6 6 872329 20250830073834
+196.251.84.145 6 6 208354 20250831143014
+149.56.150.23 6 61 15545077 20250830094442
+165.227.126.252 5 5 7435 20250827013010
+146.70.198.158 5 5 138675 20250828102101
+47.82.0.12 5 5 1661 20250827063732
+188.17.169.166 4 56 11565461 20250828041329
+212.154.30.36 4 58 12132324 20250831220701
+83.20.229.194 3 3 6987 20250827122700
+45.85.161.223 3 3 22505 20250827191427
+157.245.70.112 3 6 147284 20250830225405
+156.228.112.175 3 3 72741 20250830014955
+31.56.240.36 3 54 900872 20250828041409
+34.83.166.185 3 3 291528 20250826230712
+156.244.31.240 3 81 920191 20250828042525
+43.135.179.137 3 53 3924048 20250830170443
+92.172.170.204 2 2 4475 20250827122711
+82.29.244.28 2 2 6185 20250828044612
+157.245.65.19 0 2 28782 
+159.65.145.241 1 1 3336 20250831171426
+45.174.95.210 1 1 10168 20250831174138
+156.228.93.148 2 2 6186 20250831045613
+178.20.212.141 1 1 3030 20250830025925
+154.6.115.107 2 2 6188 20250827193316
+154.213.160.135 2 2 6186 20250831082957
+196.251.73.52 1 1 34727 20250828091226
+192.198.117.101 2 2 6185 20250829175007
+185.102.112.67 2 2 3329 20250829174210
+188.143.244.138 1 1 34704 20250830151808
+67.205.141.62 1 2 49093 20250831155311
+163.171.167.182 1 1 990 20250829010342
+156.228.83.12 1 1 1705 20250831182743
+156.242.34.22 2 2 6185 20250829131047
+176.201.215.218 1 1 3335 20250827122658
+80.233.36.245 1 1 3335 20250827122654
+190.62.15.58 1 1 34704 20250830021653
+54.189.58.80 1 38 744827 20250828041237
+164.90.219.177 1 1 12107 20250829044500
+103.219.169.196 1 1 10168 20250827144543
+196.251.70.40 2 2 290778 20250828191829
+67.227.35.71 1 1 145389 20250827134449
+156.233.94.116 2 2 6186 20250830120504
+213.108.2.66 2 2 6216 20250829174212
+156.228.177.221 1 1 34703 20250830014952
+93.158.91.33 1 1 34724 20250831111121
+143.244.141.2 1 2 49094 20250827181612
+5.133.192.128 1 2 49093 20250826185301
+79.6.226.149 2 2 4475 20250827122714
+178.175.140.185 1 1 10168 20250828181600
+198.235.24.212 1 1 145389 20250827050053
+79.116.209.45 1 1 3335 20250827122650
+122.8.45.192 2 2 6185 20250829174212
+106.207.236.83 1 1 10168 20250831174147
+179.1.14.72 1 1 34704 20250828014411
+205.210.31.145 1 1 10168 20250827091705
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 6
+20250826 12 13 341659 6
+20250827 74 131 15055012 36
+20250828 63 281 15281285 24
+20250829 43 43 431629 22
+20250830 56 164 21428303 23
+20250831 53 195 23043266 24
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 22
+it 126 126 146601
+us 67 253 34126172
+ca 23 23 574998
+za 16 16 776940
+eg 14 92 1047897
+tr 12 120 22090256
+ru 9 61 11609710
+gb 8 8 145850
+jp 3 53 3924048
+ir 3 54 900872
+pl 3 3 6987
+in 3 3 30504
+se 2 3 83817
+ao 2 2 6186
+cn 2 2 6185
+fr 2 2 4475
+co 1 1 34704
+md 1 1 10168
+rs 1 1 3030
+ie 1 1 3335
+sv 1 1 34704
+ro 1 1 3335
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 17
+AhrefsBot/ 181 6955072 20250831211957 13
+Googlebot/ 86 960791 20250831234432 14
+MJ12bot/ 54 796136 20250831201408 27
+bingbot/ 51 1066183 20250831041111 3
+yandex 27 454548 20250830222655 0
+SemrushBot/ 22 366755 20250831175548 11
+YandexBot/ 20 356601 20250831022652 9
+Barkrowler 12 186462 20250831132313 1
+facebookexternalhit/ 10 10380 20250831023826 10
+bot[\s_+:,\.\;\/\\-] 9 735 20250831160538 7
+no_user_agent 6 730372 20250831214959 0
+unknown 5 3364 20250830094441 5
+crawl 5 616259 20250830022330 0
+Googlebot\-Image/ 4 682775 20250830175838 0
+(firefox/)([0-9]\.|[0-1][0]\.) 3 436167 20250831083848 0
+checker 1 34703 20250826214509 0
+YandexImages/ 1 207899 20250827230625 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+30mn-1h 15
+1h+ 12
+0s-30s 97
+30s-2mn 6
+15mn-30mn 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 37
+/wp-cron.php 119 0 63 63
+/ 73 3992625 44 34
+/wp-login.php 36 163718 23 21
+/wp-json/contact-form-7/v1/contact-forms/88/feedback/schema 9 1692 0 4
+/wp-content/themes/betheme/fonts/mfn/icons.woff 7 570136 0 0
+/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff 4 30144 0 2
+/hukum-sartlar/ 3 188568 0 1
+/wp-admin/plugins.php 3 3108 0 1
+/karteks-enerji-edirne/ 3 193361 0 0
+/pir-enerji-2/ 2 54166 0 0
+/wp-sitemap.xml 2 775 1 0
+/karteks-enerji/ 2 55001 0 0
+/baysak-enerji-nigde/ 2 55575 0 0
+/wp-admin/ 2 1980 0 2
+/gemi-marine/ 2 56051 0 0
+/biz-kimiz/ 2 150819 0 0
+/servislerimiz/ 2 159682 0 0
+/wp-json/wp/v2/users 2 616 1 1
+/everest-enerji-kayseri/ 2 156818 0 0
+/bor-bes-enerji/ 2 151955 0 0
+/everest-enerji/ 2 54191 0 0
+/iletisim/ 2 146362 0 0
+/pir-enerji/ 2 54063 0 0
+/afyon-bor-bes-enerji/ 2 54137 0 1
+/bukmekerskaia-kontora-1xbet-ofitsialnyi-sait-registratsiia-vkhod-i-rabochee-zerkalo-1khbet/ 2 36671 0 0
+/wp-sitemap-taxonomies-category-1.xml 1 197 0 0
+/wp-login.php/ 1 3337 1 0
+/administrator/ 1 990 1 1
+/enerji-santralleri/ 1 25507 0 0
+/wp-sitemap-posts-post-1.xml 1 529 0 0
+/gizlilik-guvenlik/ 1 33711 0 0
+//wp-json/wp/v2/users/ 1 750 0 1
+/wp-admin/profile.php 1 1705 0 1
+/admin/login 1 1705 1 1
+/wp-sitemap-users-1.xml 1 189 0 1
+/wp-sitemap-posts-page-1.xml 1 518 0 0
+/wp-admin/plugin-install.php 1 990 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 102 1228860 0 0
+jpeg 7 905422 0 0
+xml 6 2208 0 0
+png 183 60111314 0 0
+php 160 169521 0 0
+Unknown 12 4013 0 0
+js 220 3756341 0 0
+jpg 14 3166495 0 0
+html 112 5626320 0 0
+woff 11 600280 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 0 10 10380
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+androidmarshmallow 14 14
+macosx15 42 11
+win7 6 6
+macosx12 1 1
+linuxubuntu 1 1
+android10 1 1
+Unknown 200 145
+ios_iphone 53 3
+android12 1 1
+linux 210 22
+winxp 4 4
+win10 293 91
+win8.1 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 39
+chrome133.0.0.0 56 4
+chrome115.0.0.0 22 22
+chrome134.0.0.0 24 19
+chrome16.0.912.63 2 2
+chrome78.0.3904.108 3 3
+chrome80.0.3987.162 1 1
+chrome9.0.597.94 1 1
+chrome131.0.0.0 2 2
+chrome124.0.6367.207 1 1
+chrome127.0.0.0 1 1
+chrome114.0.0.0 2 2
+chrome12.0.742.91 1 1
+chrome105.0.0.0 2 1
+chrome72.0.2558.104 3 3
+firefox47.0 2 2
+firefox117.0 81 3
+chrome57.0.353.12 1 1
+chrome79.0.3945.130 12 12
+msie9.0 1 1
+opera120.0.0.0 54 3
+chrome74.0.3734.38 1 1
+chrome80.0.3987.132 57 1
+chrome136.0.0.0 38 1
+chrome121.0.0.0 37 6
+firefox139.0 4 2
+chrome119.0.0.0 10 10
+msie8.0 1 1
+chrome139.0.0.0 126 18
+mozilla 71 16
+chrome128.0.0.0 19 19
+chrome95.0.4638.69 3 3
+chrome57.0.1889.70 1 1
+Unknown 129 129
+chrome58.0.33.12 1 1
+safari15.4 53 3
+chrome101.0.4951.54 1 1
+chrome62.0.1434.24 1 1
+firefox126.0 1 1
+chrome59.0.568.80 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Mozila/5.0 20250831171426
+WordPress/6.8.2;_https://vorteksenerji.com 20250831234431
+Google 20250828014411
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250827091705
+Mozilla/5.0_(compatible;_Dataprovider.com) 20250830094445
+python-requests/2.31.0 20250831113342
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+Mozila/5.0 20250831171426
+WordPress/6.8.2;_https://vorteksenerji.com 20250831234431
+python-requests/2.31.0 20250831113342
+Google 20250828014411
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20250827091705
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 235 241
+From1 0 0
+From2 4 4
+From3 1 1
+From4 61 581
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://mail.vorteksenerji.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+206 1 1
+405 1 0
+301 432 12720
+302 1 0
+404 741 32156367
+401 35 28070
+403 1 1242
+500 5 6150
+END_ERRORS
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+5K+ 1276
+2K-5K 157
+500-1K 130
+100-500 268
+1K-2K 100
+0-44 587
+44-100 31
+END_FILESIZE
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 391
+/42531511.html 1 -
+/74343382.html 1 -
+/33493651.html 1 -
+/32466196.html 1 -
+/66854719.html 1 -
+/44433034.html 1 -
+/117381754.html 1 -
+/35945542.html 1 -
+/63737956.html 1 -
+/103171246.html 1 -
+/61024609.html 2 -
+/64859011.html 1 -
+/38451292.html 1 -
+/7308583.html 1 -
+/64327987.html 1 -
+/466147864.shtml 1 -
+/50547766.html 1 -
+/120416617.html 1 -
+/.039153571998490.php 2 -
+/6069007.html 1 -
+/80313424.html 1 -
+/37045225.html 1 -
+/76543372.html 1 -
+/36549730.html 1 -
+/26765488.html 1 -
+/117151069.html 1 -
+/72805456.html 1 -
+/18755317.html 1 -
+/18690733.html 1 -
+/sitemap-17.xml 17 -
+/17284393.html 1 -
+/82305154.html 1 -
+/26982016.html 1 -
+/59230102.html 1 -
+/webshell.php 1 -
+/10560988.html 1 -
+/gizlilik-guvenlik/+90%20542%20347%2052%2007 1 -
+/90359551.html 1 -
+/22076284.html 1 -
+/99710035.html 1 -
+/baysak-enerji-nigde/+905423475207 1 -
+/29824882.html 1 -
+/21337936.html 1 -
+/9745888.html 1 -
+/10010854.html 1 -
+/36795664.html 1 -
+/94743268.html 1 -
+/115492321.html 1 -
+/29065591.html 1 -
+/afyon-bor-bes-enerji/vorteksenerji 2 -
+/42771322.html 1 -
+/gemi-marine/vorteksenerji 1 -
+/karteks-enerji-edirne/+90%20542%20347%2052%2007 1 -
+/31367020.html 1 -
+/24209818.html 1 -
+/90712150.html 1 -
+/19888540.html 1 -
+/77745742.html 2 -
+/110247367.html 1 -
+/index.html 4 -
+/112374973.html 1 -
+/31416316.html 1 -
+/38738566.html 1 -
+/117084418.html 1 -
+/51294109.html 1 -
+/114738724.html 1 -
+/28860256.html 1 -
+/19281076.html 1 -
+/29886268.html 2 -
+/35497822.html 1 -
+/96543118.html 1 -
+/87076804.html 2 -
+/66840913.html 1 -
+/14989399.html 1 -
+/58178545.html 1 -
+/81270406.html 1 -
+/55084441.html 1 -
+/41616025.html 1 -
+/65722081.html 1 -
+/59692915.html 1 -
+/22743340.html 1 -
+/15561295.html 1 -
+/25001401.html 2 -
+/10911208.html 1 -
+/15192511.html 1 -
+/71469277.html 1 -
+/30134230.html 1 -
+/29449975.html 1 -
+/96908548.html 1 -
+/76184728.html 1 -
+/14034874.html 1 -
+/47139205.html 1 -
+/62142349.html 1 -
+/vorteksenerji 2 -
+/106555861.html 1 -
+/45197200.html 1 -
+/76923154.html 1 -
+/29718802.html 1 -
+/33769966.html 1 -
+/20334778.html 1 -
+/41420089.html 1 -
+/115779478.html 2 -
+/63687256.html 1 -
+/19569988.html 1 -
+/32637562.html 1 -
+/77706040.html 1 -
+/29237191.html 1 -
+/60241528.html 1 -
+/karteks-enerji-edirne/vorteksenerji 1 -
+/54164392.html 1 -
+/7404211.html 1 -
+/25674424.html 1 -
+/38794531.html 1 -
+/119029270.html 1 -
+/.099087117492741.php 2 -
+/86216971.html 1 -
+/82521136.html 1 -
+/77543722.html 3 -
+/gizlilik-guvenlik/vorteksenerji 1 -
+/13102540.html 1 -
+/30585304.html 1 -
+/114741064.html 1 -
+/60528490.html 1 -
+/24959398.html 1 -
+/119453551.html 1 -
+/9247234.html 1 -
+/32559991.html 1 -
+/82973965.html 1 -
+/iletisim/vorteksenerji 1 -
+/13438135.html 1 -
+/18240634.html 1 -
+/30969766.html 1 -
+/7284871.html 1 -
+/65775121.html 1 -
+/63350374.html 1 -
+/85991434.html 1 -
+/baysak-enerji-nigde/vorteksenerji 2 -
+/13768231.html 1 -
+/62941537.html 1 -
+/73114219.html 1 -
+/80037850.html 1 -
+/sitemap-16.xml 18 -
+/112014067.html 1 -
+/63819856.html 1 -
+/76478671.html 1 -
+/72982867.html 1 -
+/106936618.html 1 -
+/74391937.html 1 -
+/9262327.html 1 -
+/sitemap-9.xml 18 -
+/20001796.html 1 -
+/llms.txt 1 -
+/21240085.html 1 -
+/73057474.html 1 -
+/33353992.html 1 -
+/121051303.html 1 -
+/64811743.html 1 -
+/96232756.html 1 -
+/93568354.html 1 -
+/53226754.html 1 -
+/115088749.html 1 -
+/14644561.html 1 -
+/humans.txt 1 -
+/36737047.html 1 -
+/15720766.html 1 -
+/47266384.html 1 -
+/43487323.html 1 -
+/121921783.html 1 -
+/101412034.html 1 -
+/25963024.html 1 -
+/98947507.html 1 -
+/62346982.html 1 -
+/95773336.html 1 -
+/95616088.html 1 -
+/117030871.html 1 -
+/51257254.html 1 -
+/115412371.html 1 -
+/82523398.html 1 -
+/37206841.html 1 -
+/9658723.html 1 -
+/ads.txt 1 -
+/109894768.html 1 -
+/28606639.html 1 -
+/60791818.html 1 -
+/34843714.html 1 -
+/36066403.html 1 -
+/39574648.html 1 -
+/25377868.html 1 -
+/32741029.html 1 -
+/23721304.html 1 -
+/387240498.shtml 2 -
+/50981641.html 1 -
+/83925058.html 1 -
+/101466790.html 1 -
+/34686700.html 1 -
+/111835954.html 1 -
+/sitemap-15.xml 19 -
+/113548795.html 1 -
+/42561775.html 1 -
+/65324593.html 1 -
+/113039260.html 1 -
+/36190111.html 1 -
+/12024073.html 1 -
+/sitemap-3.xml 17 -
+/81957937.html 1 -
+/64630822.html 1 -
+/101815528.html 1 -
+/31363861.html 1 -
+/112886497.html 1 -
+/7513996.html 1 -
+/72805573.html 1 -
+/pir-enerji-2/+905423475207 1 -
+/24124096.html 1 -
+/60026287.html 1 -
+/42137494.html 1 -
+/index/login/signIn 1 -
+/karteks-enerji/vorteksenerji 1 -
+/109642399.html 1 -
+/12935425.html 1 -
+/50293798.html 2 -
+/44551594.html 1 -
+/10179607.html 1 -
+/9824395.html 1 -
+/sitemap-19.xml 17 -
+/12399604.html 1 -
+/42053683.html 1 -
+/111867115.html 1 -
+/53798143.html 1 -
+/49008670.html 1 -
+/17408920.html 1 -
+/115930330.html 1 -
+/bor-bes-enerji/+90%20542%20347%2052%2007 1 -
+/78052009.html 1 -
+/79903729.html 1 -
+/122437948.html 1 -
+/23426386.html 1 -
+/116108248.html 1 -
+/25159273.html 1 -
+/77986840.html 1 -
+/77335579.html 1 -
+/hukum-sartlar/vorteksenerji 1 -
+/.well-known/security.txt 1 -
+/94445737.html 1 -
+/61125580.html 1 -
+/72616891.html 1 -
+/35961103.html 1 -
+/111437530.html 1 -
+/49684150.html 1 -
+/sitemap-6.xml 17 -
+/32878426.html 1 -
+/gemi-marine/+905423475207 1 -
+/64573063.html 1 -
+/22250575.html 1 -
+/114445210.html 1 -
+/46924861.html 2 -
+/72873745.html 1 -
+/35347750.html 1 -
+/36849718.html 1 -
+/62891968.html 1 -
+/44245249.html 1 -
+/32316319.html 1 -
+/70735531.html 1 -
+/11797054.html 1 -
+/87449605.html 1 -
+/18435049.html 1 -
+/baysak-enerji-nigde/+90%20542%20347%2052%2007 1 -
+/94326358.html 1 -
+/111265228.html 1 -
+/118377424.html 1 -
+/25190785.html 1 -
+/37599844.html 1 -
+/109052719.html 2 -
+/74774761.html 1 -
+/83259913.html 1 -
+/shell.php 1 -
+/26322994.html 1 -
+/36999517.html 1 -
+/39427150.html 1 -
+/7438453.html 1 -
+/38337529.html 1 -
+/115591810.html 1 -
+/10647724.html 1 -
+/sitemap-14.xml 18 -
+/19808083.html 1 -
+/sitemap-12.xml 16 -
+/23872819.html 1 -
+/50071888.html 1 -
+/85160890.html 1 -
+/about/ 1 -
+/95607196.html 1 -
+/76818556.html 1 -
+/95616400.html 1 -
+/sitemap-7.xml 19 -
+/sitemap-4.xml 17 -
+/7846666.html 1 -
+/26099056.html 1 -
+/116021083.html 1 -
+/44700613.html 1 -
+/94693699.html 1 -
+/24977026.html 1 -
+/58600720.html 1 -
+/111954709.html 1 -
+/sitemap-11.xml 17 -
+/61711672.html 1 -
+/54946771.html 1 -
+/44756071.html 1 -
+/31386988.html 1 -
+/82064914.html 1 -
+/47576512.html 1 -
+/67475053.html 1 -
+/97307167.html 1 -
+/33494665.html 1 -
+/84457174.html 1 -
+/afyon-bor-bes-enerji/+90%20542%20347%2052%2007 1 -
+/74688571.html 1 -
+/118920577.html 1 -
+/security.txt 1 -
+/104539327.html 1 -
+/47536537.html 1 -
+/sitemap-5.xml 20 -
+/5989096.html 1 -
+/101210521.html 1 -
+/93726928.html 1 -
+/39428593.html 1 -
+/85171537.html 1 -
+/16243756.html 1 -
+/103841617.html 1 -
+/sitemap-8.xml 17 -
+/70568026.html 1 -
+/111063637.html 1 -
+/everest-enerji-kayseri/+90%20542%20347%2052%2007 1 -
+/94847905.html 1 -
+/sitemap-20.xml 17 -
+/117909424.html 1 -
+/29489443.html 1 -
+/110398804.html 1 -
+/sitemap-13.xml 17 -
+/106705894.html 1 -
+/49256944.html 1 -
+/50707276.html 1 -
+/109335508.html 1 -
+/16062952.html 1 -
+/sitemap-1.xml 18 -
+/59417068.html 1 -
+/sitemap-18.xml 18 -
+/29954713.html 1 -
+/114597193.html 1 -
+/29767552.html 1 -
+/34450711.html 1 -
+/bor-bes-enerji/vorteksenerji 1 -
+/everest-enerji/vorteksenerji 1 -
+/58377133.html 1 -
+/38967652.html 1 -
+/23446237.html 1 -
+/118057312.html 1 -
+/23101750.html 1 -
+/sitemap-2.xml 16 -
+/6118342.html 1 -
+/106096519.html 1 -
+/95912956.html 1 -
+/31559017.html 1 -
+/86344111.html 1 -
+/81949864.html 1 -
+/39875338.html 1 -
+/43366696.html 1 -
+/121693633.html 1 -
+/9496912.html 1 -
+/sitemap-10.xml 17 -
+/35839033.html 1 -
+/244030668.shtml 1 -
+/117819490.html 1 -
+/shell 1 -
+/38686072.html 1 -
+/27122728.html 1 -
+/29947030.html 1 -
+/62202799.html 1 -
+/74752570.html 1 -
+/55616635.html 1 -
+/32563150.html 1 -
+/51072160.html 1 -
+/65424979.html 1 -
+/65929249.html 1 -
+/8124424.html 1 -
+/111202750.html 1 -
+/59000002.html 1 -
+/69984391.html 1 -
+/46992955.html 1 -
+/67575595.html 1 -
+/11833753.html 1 -
+/50276053.html 1 -
+/585278996.shtml 1 -
+END_SIDER_404

@@ -1,0 +1,205 @@
+Return-Path: <TashaGreer654@outlook.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id aFm2I83DIWitcwAAOB6+FQ
+	(envelope-from <TashaGreer654@outlook.com>)
+	for <info@vorteksenerji.com>; Mon, 12 May 2025 12:47:57 +0300
+Return-path: <TashaGreer654@outlook.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Mon, 12 May 2025 12:47:57 +0300
+Received: from mail-mw2nam12olkn2085.outbound.protection.outlook.com ([40.92.23.85]:44513 helo=NAM12-MW2-obe.outbound.protection.outlook.com)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.98.1)
+	(envelope-from <TashaGreer654@outlook.com>)
+	id 1uEPlN-000000001Kw-1Fkj
+	for info@vorteksenerji.com;
+	Mon, 12 May 2025 12:47:57 +0300
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=txCSRQ+i3gyvZ63ialAi4CHLeGLA4e+KydOYoI7CFsHQgtnEfinSMqT5uG0D5sNAFQ2be3oDmivaXasV/wfCeR6+LqztFyDYvZoGReSAsh9ENf8MABEttOeq3eKCNFMgl1Tyet0c3sZ9pUo9r4QQfCzo545sRSkB1kmBsx0Kx+xekiJS9WQiJIveRwe3cAzwqcO+atSq/tACxbIRZAqNINwv+a2yMUdWWpQ+SvkuVTptDC7lbvOm7Iov3WYQZ0u50Hq9hyCYQ/UhW6sLN7IYJxcKpoHK2ajd8cXDP32qnquIrilA/Y/zD40vfF5Rvyo8nILyFKYK1ld82iRRaNuaNA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=JlSFCKy6j7F0MZJhfi4wZkdrVRRMnA82RqyVu+fVJPY=;
+ b=bp7u8DWcFeAg98hzY0pQ7KSS8NFyjX4knRirHj2Ky/7AjwTgM7YsUBYcUlZCCWczPDlPcQ3GMuxH5Hdym1le1HLhiyvKRmisYW+2R3Dd4N1r8in7tfuKFa7P0Nbl9ye4aEoEgHX0duPjr7LMOyAN0fV8NF4vM5zwmCwReH3JbZT3fRoK+eE4oVppy4P+BDdZYJoTRexxt8h0DOQb/pNj6zWCauoMwQF6D/QdG5+/PRndzQ4lLZdWSRlJXaA/idILtyIxse69G6OUIm/JOTMZdXsupqFK7gfW3LjDu1uPHrLdrBrDECVvfFpCBaPr9TrWM/A5GnzCNRr23WePt55ypA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=JlSFCKy6j7F0MZJhfi4wZkdrVRRMnA82RqyVu+fVJPY=;
+ b=YjWSteOkaQ3K1VxNHlYWob705qtM+oFJwbm8BPFnAj4PrNfqaGoSlNvkX3wO3F+Cun7zThmcs/kU+h0UXf2+UXNkZdBhB9hedMz8qIOk55l8sY02FIxvMeuxrWfuMhkc605KDnhO1znzwD0TcG8R6Vgifcm20w5ZlPumiPEVx0WBSFudu6mGy1LpapyrNl0l4zCyqwbMP1jTWbPYYDmWFdjeJgXiIw/UGJT6J3cZzlpMXUyHQqa4FRDGkyQpN4t7mYzxzo/H+h121yIj+xvPhKoD43i+M6Q/Si4Jf+XxEn0tbmpjwNf9pkmMjv1N+gthtqWDikGYgctxmnDoM4gHKQ==
+Received: from PH7PR14MB6042.namprd14.prod.outlook.com (2603:10b6:510:205::13)
+ by DS0PR14MB6335.namprd14.prod.outlook.com (2603:10b6:8:134::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8722.28; Mon, 12 May
+ 2025 09:47:13 +0000
+Received: from PH7PR14MB6042.namprd14.prod.outlook.com
+ ([fe80::f5c:232f:d8b0:8d12]) by PH7PR14MB6042.namprd14.prod.outlook.com
+ ([fe80::f5c:232f:d8b0:8d12%5]) with mapi id 15.20.8722.021; Mon, 12 May 2025
+ 09:47:13 +0000
+From: Tasha greer <TashaGreer654@outlook.com>
+Subject: Recommendations?
+Thread-Topic: Recommendations?
+Thread-Index: AQHbwyJiYKFOlPdYbkO+qmY6TdiLBg==
+Date: Mon, 12 May 2025 09:47:12 +0000
+Message-ID:
+ <PH7PR14MB60422DED74B836A42815EA39E397A@PH7PR14MB6042.namprd14.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: PH7PR14MB6042:EE_|DS0PR14MB6335:EE_
+x-ms-office365-filtering-correlation-id: fd69220d-acf6-43a6-6d46-08dd9139f845
+x-ms-exchange-slblob-mailprops:
+ 2xtDbzDEsjLBzGdz9rbdcH+fupeB/Sfef2RiLNmKXuxoLN509d/KzEDCeIGZf8X8QROJPoaF9U8r8zQJ6Sc6mULeW+TCqRnoPjVZ9ttgBfzFDUQEHoeH65eK28MJu4YHurboPTtrVpxf7s3BqPUpNIZqB67CAq17tiJDSKR9f9ul1NGEYgzYcHcuwzuy/ayq5aGr2HyXUN7P9BJVYgnTH1LewlrqA44ImYXEjCpaR4lnfFgoJfdikwGe87Vv1g+wGHOfkciHtHYVJfmDUaYWUwjdM0WgZhNKFb0Qcici1slK4O3CTeqtnvlbo0W+kQwLixQ8TurrFHadyLeBbQ5dNaRM2zRKdAxsvH2upQAE8S/BTkDdGA/K9+t5xJKUXxGUcA9k9bPQUp2N2GG0RwgKwh8UiR/dVVP8m2QIjD5t54vD9j833VSzdT3eaDZE8LVXzXGQQLXuGlXfcbMFknnFQsf7Ueit1mhpuijO33w6n27ptjBbJEhZGJKRhU5BCSRsAfw0HmV8i6sg0TceCfSmg9s1xcRBq8FeTgwYTq5gd8TH/NXmBYqqYWVj8sWsV6y7m/fktqtvByV30k3j2DzAGQ==
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|6115599003|461199028|15030799003|15080799009|19110799006|8062599006|7092599006|8060799009|3412199025|440099028|102099032;
+x-microsoft-antispam-message-info:
+ =?iso-8859-1?Q?fsLYF2DDwp94s1CrClNg3jTOcU3/TTWxUMOhgBoMIVIc1vRpwY+/LnQt4K?=
+ =?iso-8859-1?Q?/43X+8YABz1iNn36PMT/oDojmJ1DZ3r7FP0xce863FDiPBdVao0uieZAPZ?=
+ =?iso-8859-1?Q?vm1fcDIN5+fjwvGAf0Bgx9pPVXfZ9snqgH4F5UbyQEh8sLXJQoPrRUAPaz?=
+ =?iso-8859-1?Q?WDZ9Vl+2HFxlku6UhKAqmQ+8mWtf5Tle7KbqyP+m6cvT24rgw5uIzLoP+o?=
+ =?iso-8859-1?Q?z7Kb289W9DqJYDfS6lXGHydNodY02eOrauSwHfGNGB2NudW7pdA6OYPJX3?=
+ =?iso-8859-1?Q?FF5J3MqUeBN9oL9d6j6GN+2BkuOaSlxTFJZpAXZz7Eje1WJ/s8qTmm12g7?=
+ =?iso-8859-1?Q?OqyydftCeiK5jHJhIC4D0gpY5wB6FLrEf9iHgvPa0umCi/30WhvPGhj1+d?=
+ =?iso-8859-1?Q?z6yNkvi5nNu+VmpDbzMdsU7CAEXLsFBU39ZJAb5y3TKRbHOmad+yTsUzf/?=
+ =?iso-8859-1?Q?XJPu/Sf0jysiDXM7kSwDxuf0u0YoLdewLP6ly53LJmsyfpL4MSRnCyJDWj?=
+ =?iso-8859-1?Q?Ukcr+qQHJOApJG9olpmN6lgP2HxCjDq4Quq4THxPcUFd5ght2mcQLTfAU5?=
+ =?iso-8859-1?Q?pp2VXQ8obPN1+p4/ZDlaz+M3gebpGk9gNO7CNO511v+hAo8WV0K0P1qONI?=
+ =?iso-8859-1?Q?0Eolm9XP777E0JMrs9dLPOj18orIJ+9KGe3NTV/1iysUXEZL1H81dB549W?=
+ =?iso-8859-1?Q?endGlSuDEckUuFB2m4flm0o6YOwVC/NearJJqFGsUBjbMlkYrj2h4NyZNI?=
+ =?iso-8859-1?Q?fmNci5YzDmm3uRs1nOjE6AWas/UjpEOULWN5E/mqFhKTc2AkjyGw83FkQ6?=
+ =?iso-8859-1?Q?K+nlhnFJj6ltswwRKWASSSnsHuvZIinELGw/AKVTZ5qVOU1Gm6UHLimYg+?=
+ =?iso-8859-1?Q?eTqIofj06bCx4PfogFh5p6ZLt5Pn2EsbRAJXmLNix2WDlxiklzLWneUFQL?=
+ =?iso-8859-1?Q?IdH2uFCuWBRHWs2DxDE1YZZMECtrbGJNc27YopcZJl/F/+nBNnicnx4e2u?=
+ =?iso-8859-1?Q?4eqIPjfRWiD4ZngMwF9XVpvhSiSikCJoUIooRQwN3LdvgmlruQyeUa5RU1?=
+ =?iso-8859-1?Q?2w3sbWqHR7tj7xY2ngFCE3UtdZGXEhrdu0oFm3SyxKvkofULu9ia7Yy5KA?=
+ =?iso-8859-1?Q?OLGZhKAFcBd8NGYe+ywFfZ26UlmKdnMezGA6lFwFTvzLekwXDVGPBZwWSx?=
+ =?iso-8859-1?Q?wp56OBj5k79/LvKg4DkZ6ulGO98EsveKR3k=3D?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?NmJg6ykpoe3gdB81aJt84ivCl5Fnoqx0xti31wQxAju0BClaeSRUWw17A8?=
+ =?iso-8859-1?Q?kn2TkGeJigMoBhMJl3TzEezqZGPlJyNyknib8moLRrJ5SN5cjcWIzBF/kc?=
+ =?iso-8859-1?Q?ZMd4KY/0CaBa/Pc4lcy1iRfeR/tkaqs1TLVzovsN+fRmegk617CylNwZjg?=
+ =?iso-8859-1?Q?un5LOLN4twfwD0zPUPr+BdWEH+1P6hBjAtOHWvI9ap7UV/PSboDbwqCkgu?=
+ =?iso-8859-1?Q?If1keUWiKlHoCxvYHmFvfUHaZ67DlKr1qyur9A2AYHx9lnezuBj3i/GQxB?=
+ =?iso-8859-1?Q?TrDH6ss2hOg7OgC/pfPI1tDN0oSftlf/Qm3B1pdbDH2usRp/ic2YkeBuo6?=
+ =?iso-8859-1?Q?WNX4WRXrzvFtAMwxYXwxNnv+pOUUdwEcstUVl1pxBFwIFKgB61TmQs/nzM?=
+ =?iso-8859-1?Q?wwJj9JUcBM1iaBMcdEkkjS4lWUHzdewcuzcD+gI41rgIb4vf3zxdIMAhUB?=
+ =?iso-8859-1?Q?3YeMBoejAdKM3OQJltmQ70wBrPMzNkkhHRgbTB03SIgSyj53Fosw9kGfPc?=
+ =?iso-8859-1?Q?JbmXaVQlSJcP5hZynpXjKyjvE1Z4M4qgrbpLdNErwsyWCZ4o8TQ05LtJN0?=
+ =?iso-8859-1?Q?ktHsxPs3MDr5TBxPbHdJo+o9nq1EqmsZXEb+aZ2YHz4p35LjHvKJ31STnV?=
+ =?iso-8859-1?Q?uPg0+uPcBX0VPtFJe3jWcz2VfDpp4+nz1D5Zxm429sIcqLU+EXcbEnNmQG?=
+ =?iso-8859-1?Q?mRLN26QnG3iQgnFjRgGI1L4ti4LRkD/1qbBzZF7LN9rlLyG/tdws5phZiw?=
+ =?iso-8859-1?Q?RtS9mFw3S65FKRL31+76/jHqZ0prwiKVo1kxmZQyq4RtPueom2gPVwTaO4?=
+ =?iso-8859-1?Q?JB0lCOvTXoQCUgrhBPCgqduOM2kmvtd3cKdzULEBKNfoJLKq5jcWCfG8jG?=
+ =?iso-8859-1?Q?4HIc0sschHgY7ihb5aVszczKBL8RAwtNPS55NHSooA4NsYETZV5qnXmcOY?=
+ =?iso-8859-1?Q?qFNTEFLmpqxjNQnt6HKmw2keKZJdbuQ/mJogoSCUeQQHRrc+fbgjxQyMSv?=
+ =?iso-8859-1?Q?FVJ/elCcGgrIY2LmxuguXoCpddY+QW+gWFGX5eu0Vrw+umDs6EqmCvvA6d?=
+ =?iso-8859-1?Q?5Gf+pDAWWKLcauYf29eivcjYX2tavqRNuBrtFDpFZ7uLff0j3COEZA1rOg?=
+ =?iso-8859-1?Q?Pjp2zWgB/J8zc2fKYpSs2MJkOnju0oVxjNgL0aA5S4ybPBCCdROmo4G6AA?=
+ =?iso-8859-1?Q?8cl5yeIvSljJ4m0Lm63ySj8sQDgbcETcl4bftDT2Fqp0LZsP67E557KKxU?=
+ =?iso-8859-1?Q?kfoAZRvdz53w867IZIrE9Gci2XJiqA+isrOsemF6p4XN9IWCPtCUK1JleR?=
+ =?iso-8859-1?Q?H7aRv5oFr5xyUnwKOPzBPK73H3NtoPaUog8aWLhpQfzXeyQ=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_PH7PR14MB60422DED74B836A42815EA39E397APH7PR14MB6042namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: PH7PR14MB6042.namprd14.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: fd69220d-acf6-43a6-6d46-08dd9139f845
+X-MS-Exchange-CrossTenant-originalarrivaltime: 12 May 2025 09:47:12.0459
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DS0PR14MB6335
+
+--_000_PH7PR14MB60422DED74B836A42815EA39E397APH7PR14MB6042namp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+I hope you are doing well,
+
+I was reviewing your website and noticed that website affecting your online=
+ presence and Google ranking.
+
+I'd like to send you quote of the website.
+
+May I go ahead and show you quote+ 4-5 recommendations?
+
+Regards,
+
+
+--_000_PH7PR14MB60422DED74B836A42815EA39E397APH7PR14MB6042namp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div class=3D"elementToProof" style=3D"line-height: normal; margin: 0cm 0cm=
+ 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Cal=
+ibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+Hi,</div>
+<div class=3D"elementToProof" style=3D"line-height: normal; margin: 0cm 0cm=
+ 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Cal=
+ibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+&nbsp;</div>
+<div class=3D"elementToProof" style=3D"line-height: normal; margin: 0cm 0cm=
+ 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Cal=
+ibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+I hope you are doing well,</div>
+<div class=3D"elementToProof" style=3D"line-height: normal; margin: 0cm 0cm=
+ 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Cal=
+ibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+&nbsp;</div>
+<div class=3D"elementToProof" style=3D"line-height: normal; margin: 0cm 0cm=
+ 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Cal=
+ibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+I was reviewing your website and noticed that website affecting your online=
+ presence and Google ranking.</div>
+<div class=3D"elementToProof" style=3D"line-height: normal; margin: 0cm 0cm=
+ 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Cal=
+ibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+&nbsp;</div>
+<div class=3D"elementToProof" style=3D"line-height: normal; margin: 0cm 0cm=
+ 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Cal=
+ibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+I'd like to send you quote of the website.</div>
+<div class=3D"elementToProof" style=3D"line-height: normal; margin: 0cm 0cm=
+ 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Cal=
+ibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+&nbsp;</div>
+<div class=3D"elementToProof" style=3D"line-height: normal; margin: 0cm 0cm=
+ 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Cal=
+ibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+May I go ahead and show you quote+ 4-5&nbsp;recommendations?</div>
+<div class=3D"elementToProof" style=3D"line-height: normal; margin: 0cm 0cm=
+ 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Cal=
+ibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+&nbsp;</div>
+<div class=3D"elementToProof" style=3D"line-height: normal; margin: 0cm 0cm=
+ 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Cal=
+ibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+Regards,</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+</body>
+</html>
+
+--_000_PH7PR14MB60422DED74B836A42815EA39E397APH7PR14MB6042namp_--

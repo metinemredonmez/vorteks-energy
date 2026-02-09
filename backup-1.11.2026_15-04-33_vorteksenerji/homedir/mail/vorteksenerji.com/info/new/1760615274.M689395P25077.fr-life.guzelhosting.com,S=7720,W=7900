@@ -1,0 +1,180 @@
+Return-Path: <misty@siliconsavvytech.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id KCDGKGrb8Gj1YQAAOB6+FQ
+	(envelope-from <misty@siliconsavvytech.com>)
+	for <info@vorteksenerji.com>; Thu, 16 Oct 2025 14:47:54 +0300
+Return-path: <misty@siliconsavvytech.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Thu, 16 Oct 2025 14:47:54 +0300
+Received: from mail-pg1-f195.google.com ([209.85.215.195]:54467)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <misty@siliconsavvytech.com>)
+	id 1v9MSY-000000008Nd-1xP6
+	for info@vorteksenerji.com;
+	Thu, 16 Oct 2025 14:47:54 +0300
+Received: by mail-pg1-f195.google.com with SMTP id 41be03b00d2f7-b556284db11so525652a12.0
+        for <info@vorteksenerji.com>; Thu, 16 Oct 2025 04:47:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=siliconsavvytech-com.20230601.gappssmtp.com; s=20230601; t=1760615232; x=1761220032; darn=vorteksenerji.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=Id0PNN4bJGsE+XzflpCeyKSv88RDvea4zSr3qSoe4Tw=;
+        b=Q3jrhrOWhdOWR7ryRqIUg7WdCHdEjHSOpi57+tqWtitLZ30Ik6795WN2MGRKPcfzRU
+         1Bn6zBeqF+PNM+OK3JQ2indzdDAPkedcZz5BXugRNx1keCtk3ueWm0fn4UBH7huMCxYf
+         ssHVzk7q7b0c6LmVqJFqKhFqvJJTkM1vuSE6afmuFSjr02l07u5Y/vkDPaDkJu1m1aSn
+         npONXLmvZu2vLMm8vL6v0uHS1wNogApF3oj90REh/04wcUgcTUBaUQN0GGPA4MO1xvDU
+         jPntYmwlWMuqk9V1E+qkIRAV/I/xWhWjlvl5Xkv8RjHkoAhB3TREQab8E64/oH33y3aW
+         oGNQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1760615232; x=1761220032;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=Id0PNN4bJGsE+XzflpCeyKSv88RDvea4zSr3qSoe4Tw=;
+        b=AELfHaAF5+G7O52PJpzjt4dikemOQxJ281C8d7nrutXsxEyu7VATGU5WliCwZ5GfXI
+         ri5QPTk5S6Cz1i5xQwlyAg3RA3VRs9WTpmNna4Uf0395FXVf8km4swk9yDny6TH730EW
+         q/p1vNNdcsiB2Je/LEO9iZVpBhMoAGpgpH4+v8DUExn6aAygpwxE3Xk6Y+6uYWN6p9vE
+         ifrhWbcKhtrBtaXYQKm1+C3syTiUE7DU/oYOg9z69qtv1ODBNEibV2hDEdAK/XjCD/Az
+         2chrrTwOYXuMpunfgfbsR9Otv2GxSFYbNpGc19heuGHBM8vpoQAz3rOi8MX+xCwECkj9
+         aJgA==
+X-Gm-Message-State: AOJu0YzW0A+lfcjJcCHTnM+VMtloVGa3Tu0BdDf+FyUImxgRjLkmszc2
+	CDTutafvEo24xD/TKATT7xDuYpPHGKt2fLTkbZkI+DCHXo9+rkaAm8aAAw7fD+GCsfeMcKghT8n
+	QiT+3vXo=
+X-Gm-Gg: ASbGncsRlJITw4YMDMxSjr03oWz7ak/oyVNzm1tGlEeiL4LfyTB4PmH22cK4EC6Uaw/
+	fgSfdhnpGBKUVIibeTe5SX5hnISx6e9GLz/KOJtR5+isJJ4MXwkbrczfp0nqUvsleJZH/T+dhEH
+	j18F8HS1FeSwzz/bS/RK3jaUiz4BDpfDhPTVA6C/RyXQf6lPli+WFtJDSqpdFTsK7rwMIBkA5o+
+	dbe4U7C1lCmFhMWLwj5QWEH1OEhvR2nBMODmZM2ranXBL3GfEqUmcCLRha6nGqJQ0cAtr85zWVl
+	CBXxCNcNHmzLW/vJlyk6dL1kiyOTE/WUt4nNfVV6cdKnj8tzRmdH2dFoYqigKaMZmLbNfNbkM35
+	tReP866yE4V3+mF2E/S2GavgoPqJOAeTaC/eWkTVs97tWqSXjIIVAT55B2IKAsuEhUwz+Cy3sFX
+	w8Sso=
+X-Google-Smtp-Source: AGHT+IEayg2ZDqdBV+bzJ3zycWuLVZEMIcc/0GPDM7nn/acMlEFV3i8thdp4002Z80n01Arg+2DWgg==
+X-Received: by 2002:a17:903:19c3:b0:290:2a14:2ed5 with SMTP id d9443c01a7336-2902a143d44mr345560165ad.4.1760615231329;
+        Thu, 16 Oct 2025 04:47:11 -0700 (PDT)
+Received: from Mobrilz ([122.161.78.214])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-29099afbdb5sm27066255ad.104.2025.10.16.04.47.09
+        for <info@vorteksenerji.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 16 Oct 2025 04:47:10 -0700 (PDT)
+From: "Misty" <misty@siliconsavvytech.com>
+To: <info@vorteksenerji.com>
+Subject: Apps Designer/Developers
+Date: Thu, 16 Oct 2025 17:01:43 +0530
+Message-ID: <101cb01dc3e92$a569bd70$f03d3850$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_101CC_01DC3EC0.BF21F970"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Adw+bXP9m0LDvc/rQQWLHjxEP3pIzw==
+Content-Language: en-us
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_101CC_01DC3EC0.BF21F970
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+
+
+I'm writing to you because I believe a custom mobile app could be a
+game-changer for your business.
+ 
+Our team has a lot of experience building high-quality iOS and Android
+applications. With over 200 global projects, we've helped businesses just
+like yours create new revenue streams and build stronger customer loyalty
+through thoughtful UI/UX design and seamless API integration.
+ 
+We'd love to hear about your goals. Could you share some of your
+requirements so we can discuss your vision? 
+
+ 
+
+We are happy to connect via email or share your WhatsApp.
+
+
+
+Best Regards,
+Misty
+
+Email Marketing Executive
+
+
+P.S.: If you'd prefer not to receive further emails from me, simply reply
+with "NO" in the subject line.
+
+
+------=_NextPart_000_101CC_01DC3EC0.BF21F970
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNoSpacing>Hello,<br><br></p><p =
+class=3DMsoNoSpacing>I'm writing to you because I believe a custom =
+mobile app could be a game-changer for your business.<br>&nbsp;<br>Our =
+team has a lot of experience building high-quality iOS and Android =
+applications. With over 200 global projects, we've helped businesses =
+just like yours create new revenue streams and build stronger customer =
+loyalty through thoughtful UI/UX design and seamless API =
+integration.<br>&nbsp;<br>We'd love to hear about your goals. Could you =
+share some of your requirements so we can discuss your vision? </p><p =
+class=3DMsoNoSpacing><o:p>&nbsp;</o:p></p><p class=3DMsoNoSpacing>We are =
+happy to connect via email or share your WhatsApp.<br><br></p><p =
+class=3DMsoNoSpacing>Best Regards,<br><b>Misty<o:p></o:p></b></p><p =
+class=3DMsoNoSpacing>Email Marketing Executive</p><p =
+class=3DMsoNoSpacing><br><span style=3D'color:red'>P.S.: If you'd prefer =
+not to receive further emails from me, simply reply with &quot;NO&quot; =
+in the subject line.</span></p></div></body></html>
+------=_NextPart_000_101CC_01DC3EC0.BF21F970--
+

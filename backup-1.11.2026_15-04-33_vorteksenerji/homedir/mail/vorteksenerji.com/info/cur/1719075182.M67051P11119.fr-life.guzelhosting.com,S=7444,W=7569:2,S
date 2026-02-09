@@ -1,0 +1,125 @@
+Return-Path: <metinemredonmez@hotmail.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id AMeyA24Bd2ZvKwAAOB6+FQ
+	(envelope-from <metinemredonmez@hotmail.com>)
+	for <info@vorteksenerji.com>; Sat, 22 Jun 2024 19:53:02 +0300
+Return-path: <metinemredonmez@hotmail.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Sat, 22 Jun 2024 19:53:02 +0300
+Received: from mail-he1eur04olkn2104.outbound.protection.outlook.com ([40.92.73.104]:14963 helo=EUR04-HE1-obe.outbound.protection.outlook.com)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <metinemredonmez@hotmail.com>)
+	id 1sL3z3-0002lH-35
+	for info@vorteksenerji.com;
+	Sat, 22 Jun 2024 19:53:02 +0300
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=B+3FUeP1a5ZmVSBTSsjSUGAO49dHrkOFdZNdQQatbiadNNlMMh5bzOKxefmh7jWiPto+iLBunTXnWiaiCOoL15zpWmiJI4hQ919eCUB1hLBlPMgfzYHF+bl4Udwkm3lr/ODzw+6ziQfYR9vmCrJVjzzFyYQ9tPXB86h9Qwsqtc8+puwclslPW/HioU08A862x+JMa+NEnia7KgTrTwsxIdaQaPiSdx8G+Ewtl1uQR+BfEwW+3WDwKyRg43xgZstj49zKWvs5ag20vEUBpBShIw+ANHK4qu3+fQEnsaYMBKxw9sNyF/ZUnzJx0XNSQ1mUGUp2AhcjLqFPgnK6gysQDg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=p+HsfzBIlGGMy7WmzfXqyHXIVfWmw0OW9JvY8Ewf3Tk=;
+ b=QitYC2iNUH/pZ8+T6TD/5DqMbI0R4bI36zmSfGUqn5VzgqVbwCNvB/Jt6RyGHt0nBYZrQRign/JMTw2/4yBU0aDM9aDCZHPX72wratx0uUVWFtcnNXttSW2Oc8+pRbWQ3cAErHdrRISxEJx36mA+Sfaw2jCHKlIVLrpHREH8LL4vGEg0pujL16/JleVBP/NWyyxhDGcQMbqvsWYoJLIi0pUU+MB55Ua1PcMo/cYWgQWW+jA50ouYzLMzCGWJslTTHX63dhTo40c3WEereva0QiapSkjnRr6zt0U9mIADeAErGI7CNvV28FPHEeK/ID+GT8uBD1GqWtq4UR1Qx0GbBw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=p+HsfzBIlGGMy7WmzfXqyHXIVfWmw0OW9JvY8Ewf3Tk=;
+ b=qNQS29cX4csWEmx3XxoSJxcffObZgkO/hsS8Aam8byzS9ukpnB2m+eyhNzJCe1hN8bBvynlvH7QYCugyfcxHvjj6Jz/p5e3enMPeG2OyzOjQ8ouHPsuuE9sNlNbukPFB/KKMvUsuarlmRh00VviW+w2RgOcpbWtyHyg0DEjEmErig+Df8BMudlVlBzHHwOZv2HgvzzgWBA4/ZVsLXQDAtsuhuaU2254YF178MeZtu6QNWUgFJ98Z0ll0D9+mQpiqD1RJnv4V7nycGGCQuhF6UzqZFQTNhJke0ToxjXKNWDh62ZTvyeFlfHQJwC52mEKzihCeGIEHyQPRRQfvkHsmEQ==
+Received: from PAWP194MB2055.EURP194.PROD.OUTLOOK.COM (2603:10a6:102:337::6)
+ by GVXP194MB2270.EURP194.PROD.OUTLOOK.COM (2603:10a6:150:1db::22) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7698.26; Sat, 22 Jun
+ 2024 16:52:15 +0000
+Received: from PAWP194MB2055.EURP194.PROD.OUTLOOK.COM
+ ([fe80::3a33:7614:4563:6c99]) by PAWP194MB2055.EURP194.PROD.OUTLOOK.COM
+ ([fe80::3a33:7614:4563:6c99%5]) with mapi id 15.20.7698.025; Sat, 22 Jun 2024
+ 16:52:15 +0000
+From: metin emre donmez <metinemredonmez@hotmail.com>
+To: "info@vorteksenerji.com" <info@vorteksenerji.com>
+Subject: test
+Thread-Topic: test
+Thread-Index: AQHaxMR/x58AaUXWVE2cbqJGtoF2Vw==
+Date: Sat, 22 Jun 2024 16:52:15 +0000
+Message-ID:
+ <PAWP194MB205531FC557D47A9E943EC20BCCA2@PAWP194MB2055.EURP194.PROD.OUTLOOK.COM>
+Accept-Language: tr-TR, en-US
+Content-Language: tr-TR
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-tmn: [HVHF/CM+1sJ4PxY33gTfCEn26GTxw/kA]
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: PAWP194MB2055:EE_|GVXP194MB2270:EE_
+x-ms-office365-filtering-correlation-id: 8589e386-c9a0-4282-0f8b-08dc92dbabd6
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|461199025|440099025|3412199022|102099029;
+x-microsoft-antispam-message-info:
+ MKLbtVj2/x/EzqbN/wj1aq7i/o8XyUfwVNt42oFHVeGKpRAnVFz+BnliKNxwFAx/gJHiW41K2FMDQYH6yko+oW61Pp3/wtrKjvw7VHRXrIOtpe6e5xvY65gVcH3oL/4ZGr4+FV/R0WZ8tI8cywxgpkobtRaqCoPMf8rvvMnXff/hOZ7n46WVx0qNOG7DPN2zhsD+CmSBilxKjNLwAB2ZUSiWYQT1fgH4hguzRNp1IBzE7W0yFG9VIUWnakXetBdGiBfhqd7EBccXQpXacJAcw4XO/JcDdU+m4MQaHU+8CZ0=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?+LijDSDWIhKaMLjnsUukZ1+KGZKh0nAFxayN4bZm+3lds9BWKfB0sYyjLAFc?=
+ =?us-ascii?Q?VT+QAHCNTUVOfV3zIsk2Qs+BXAFcOJ8aJpDL5XUOkHjleH7ARuxDd0RI6yaJ?=
+ =?us-ascii?Q?c2KZqkeuu7Mj9mgRAlQgrJ5fWwRMZ4XD0ASwvVFOFpbHVRg4mDkFGlvPIWo9?=
+ =?us-ascii?Q?xPlbmXUyyWJMDZZjRX2F/DXBPNu+o/nxYOvokMZmGHgL+duh+iNeD/fdhu2z?=
+ =?us-ascii?Q?KQoaOD/i9RV4qXZfoP2s4byIaQhWP5blxpjH9Z0Rkl79SD/nzwKH2Bn22uMl?=
+ =?us-ascii?Q?NbpizBQX5fdK3XQ12Qj/zHu9PA28SsanSVNrKXqoOb6IowyW2De3/rfF90ye?=
+ =?us-ascii?Q?ZA+REsOwOlxO4GdxiuERPXW+YRo3VN/J8K25ed0HDbWVzJCgZTOhWhVpv1KX?=
+ =?us-ascii?Q?7eo50zXjpyUHYJjHV4snmHVuvNyTg+l5fdHVMh9xj1aB6XiyZhFgIP418Lvp?=
+ =?us-ascii?Q?/VJ2ksaxmUCGPnoBDo1rH2dOlxelMSYSlZsCzRZB6/hguyI/+Qfz6aOUmObP?=
+ =?us-ascii?Q?Hpcf1YZvrsCnCHsbsiwnwhtMHYKBSkOu7ui5Cu5wNYUNU4HabIXuVvdi3MnO?=
+ =?us-ascii?Q?/KYDrK0NBY1ghctUFYjS4rHm7sLqRVjeMlM4iDH3uYc6RAtv/RYf/mHfQVbL?=
+ =?us-ascii?Q?LFdAyMLW3WR4hmHya7odowuTi1DksKvXVffsWFNFN0yG4CjBUDpV1FpXjFp8?=
+ =?us-ascii?Q?N3U0Rw5kXRh3FYKgn5Uu/tBZrElv6cSLvzQw9enA0zj8L1FbXWjZ1Y4aDlis?=
+ =?us-ascii?Q?N0a5+Rde2zTqP4AXTm6D1Kbqg0a1fyq8CuO94UGUn9EestwmXloKIDpyDbXt?=
+ =?us-ascii?Q?obFqOTa0zZmdbiJmizOVjXVyIjFFmW/LpyjO8YCjpllbhb/9Bmhiejq3Wh0B?=
+ =?us-ascii?Q?8KpnDDu0YesfVtihC8vRxP2aSWfDHDlrzHJWA2TB9CKafE62BArF6T9Sd8JU?=
+ =?us-ascii?Q?/my/W3ITP9lEyjZeOJMMRTTCzed4lIm23Zp9sRuGxHqSkqozlGKOUALZK3W5?=
+ =?us-ascii?Q?rXdHW8nQumQKtJDwh3koo+f+1xb1BL6FCpUaTZdZW3+Q0CTzKk15J3RB+BEl?=
+ =?us-ascii?Q?CJ+mJ6QXMDekv8yBRzTDUUilhD+5PjrvGkCdg/pF13R8eNNgxOBcmvVZo9fv?=
+ =?us-ascii?Q?SQGXO4WkT58uE1Fud97HQL2LfQd0MKZXCLE8evpZH1wkE/1CuwmNhBp31JKv?=
+ =?us-ascii?Q?uNz4capWyWs6q63QBt+4D2pTzQQ+AxqcYlamcygdNq82TvU51ik4w19WiEsO?=
+ =?us-ascii?Q?JAa4WwTt9VpsonIuKn74prPeGIJUTPPP28BWq6wSXw=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_PAWP194MB205531FC557D47A9E943EC20BCCA2PAWP194MB2055EURP_"
+MIME-Version: 1.0
+X-OriginatorOrg: sct-15-20-4755-11-msonline-outlook-84264.templateTenant
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: PAWP194MB2055.EURP194.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 8589e386-c9a0-4282-0f8b-08dc92dbabd6
+X-MS-Exchange-CrossTenant-originalarrivaltime: 22 Jun 2024 16:52:15.8140
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: GVXP194MB2270
+
+--_000_PAWP194MB205531FC557D47A9E943EC20BCCA2PAWP194MB2055EURP_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+terst mail
+
+--_000_PAWP194MB205531FC557D47A9E943EC20BCCA2PAWP194MB2055EURP_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+</head>
+<body>
+<div dir=3D"ltr">
+<div dir=3D"ltr" style=3D"font-family: Aptos, Arial, Helvetica, sans-serif;=
+ font-size: 12pt;">
+terst mail</div>
+<div id=3D"ms-outlook-mobile-signature" dir=3D"ltr"></div>
+</div>
+</body>
+</html>
+
+--_000_PAWP194MB205531FC557D47A9E943EC20BCCA2PAWP194MB2055EURP_--

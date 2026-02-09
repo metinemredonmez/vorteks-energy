@@ -1,0 +1,162 @@
+Return-Path: <daksh@technowebbest.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id ADuGKi6DG2hhZAAAOB6+FQ
+	(envelope-from <daksh@technowebbest.com>)
+	for <info@vorteksenerji.com>; Wed, 07 May 2025 18:58:38 +0300
+Return-path: <daksh@technowebbest.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Wed, 07 May 2025 18:58:38 +0300
+Received: from mail-pf1-f170.google.com ([209.85.210.170]:61708)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <daksh@technowebbest.com>)
+	id 1uChAM-000000006c3-29Be
+	for info@vorteksenerji.com;
+	Wed, 07 May 2025 18:58:38 +0300
+Received: by mail-pf1-f170.google.com with SMTP id d2e1a72fcca58-73972a54919so80025b3a.3
+        for <info@vorteksenerji.com>; Wed, 07 May 2025 08:58:18 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=technowebbest-com.20230601.gappssmtp.com; s=20230601; t=1746633476; x=1747238276; darn=vorteksenerji.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=/OmxU8SESVeRcOb7p9PwBWfefojP1mEEKN9LT3C6A14=;
+        b=x7IYvFhlNV9MkdWc53U5nB9YZsA25iVr01JBDHGE5rsj3qUVGot0pbw1aiZmM2WuJx
+         achUVpIHpWwyZUeeQJm6SU/QDJWb/iEO13gT9CimTDzoT3GyetLbfWoevhSzg+Afh+gi
+         R27IQ1zjOVxNwvmZdUwIsVmByNtRuiHk2eEkJl1ID2BEX/pSyi2hhzyc4qHngsTUvrHX
+         20FTUpqFEQ8K5njJQWWNq1RE0CVe9RnZcTkqLk++V6v1JaZhwNDCn0E/olwrSAEjR5cO
+         63JuQ6ZjqMQzJN3M1VltjNgWxvm2DCQ5U9tkCNijAjQfUcRGREoUwJ86OuZGSZMFdX/O
+         zaaQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1746633476; x=1747238276;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=/OmxU8SESVeRcOb7p9PwBWfefojP1mEEKN9LT3C6A14=;
+        b=nN5fuV8iMtHa6GJDa79G+XV/XItQI8Hr8Cz96R8Ujq/5zslzTFdkMi3Np+DWTJQCDQ
+         MPaAupgHO2oQb0a8YO6gWYXzesta4PsqHFVMPIx1WEHVPre9tTwIf07OUEI8GJNK+CkA
+         uMeCePg5k70jxK29LsK3C8iaKP42gBai9lHeCP1F3NlaFnuIyEJf/xO06qww3SA1DDt3
+         stOmXpvaoXKSjyqjyCUp5jzxB3fPodJykC/bwVmD4xzKBS4bA74n0nwTX6sxU4FKt4ok
+         LBlL74F4ajld2CnIzJSXQ7qIcZSxXC2D/+f5cM6SuDebdb8xJEAD4+lrPw+w06bNEuki
+         h/ig==
+X-Gm-Message-State: AOJu0YxwjfwZKKNwGesVB4KgjqhrIkfh70/vhnMfYlC1UDoQEqZi1+gd
+	KoCz71BR0mmTsYH2Wk8w1N/yHQb/krYj9pNDXL7exThwf/yuoirD06dFJjgYfmjd6MAjmH+Oviy
+	Y
+X-Gm-Gg: ASbGncuXjSUzdjjUOt9o5r1G/nyXFVwzC8BTpCa8e2A32LImrQSfZWfEw5GBlQaOrrg
+	sPkekX60hTzKwHZqWN0FcJrK5XYJvlPNJxAkV6xT9NrW1XzI+ZFEQSkNk70+9LhQlmvviWs/SJe
+	ovCbGiDYpu3YCwvn5D7SeFAWRa4Ro9qIi5keBAhrcBUR6hBcXS3j9inBVrLpUG93UPZ97bjg29o
+	rL+GmJ+dUCky6ycdq2scPti9DNlBM6qw5HI7oblcq4vtJsjWwiGEmlSCLr/pwTvELRDA4jjrh3v
+	n/oToTrRiX91r3/Pjb9JH8PCDozTYVZqPBgLf2Or/oTTltt66MThdI3vVetx
+X-Google-Smtp-Source: AGHT+IFGTrr5mcj6grnjKR1MhkBct3rQt9JZ/4ktBd/JVL2XfaHutB+SqSHl4ggxJSK9icl3MLaZ6Q==
+X-Received: by 2002:a05:6a00:ad8f:b0:736:d297:164 with SMTP id d2e1a72fcca58-7409cee42eamr4782820b3a.1.1746633476043;
+        Wed, 07 May 2025 08:57:56 -0700 (PDT)
+Received: from DESKTOP3AGUK9K ([223.181.32.239])
+        by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-74058d7a225sm11343935b3a.23.2025.05.07.08.57.52
+        for <info@vorteksenerji.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 07 May 2025 08:57:55 -0700 (PDT)
+From: "Daksh" <daksh@technowebbest.com>
+To: <info@vorteksenerji.com>
+Subject: Quote?
+Date: Wed, 7 May 2025 21:26:18 +0530
+Message-ID: <1e4c201dbbf68$cac0f970$6042ec50$@technowebbest.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_1E4D5_01DBBF96.E50BD880"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: Adu/TQO/M4WRbs0pRAeS3DvFQ6JBvA==
+Content-Language: en-us
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_1E4D5_01DBBF96.E50BD880
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi there,
+
+I was checking your website www.vorteksenerji.com, See you have a good
+design, and it looks great, but it's not ranking on Google and other major
+search engines.
+
+Do you want more targeted visitors on your website?
+
+We can place your website on Google 1st page. Yahoo, Facebook, LinkedIn,
+YouTube, Instagram, Pinterest etc.)
+
+May I send you a Price, SEO Packages? If interested.
+
+Thank you!
+Daksh,
+
+
+------=_NextPart_000_1E4D5_01DBBF96.E50BD880
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 14 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal><span =
+style=3D'font-family:"Cambria","serif";color:#222222;background:white'>Hi=
+ there,<br><br>I was checking your =
+website&nbsp;</span>www.vorteksenerji.com<span =
+style=3D'font-family:"Cambria","serif";color:#222222;background:white'>, =
+See you have a good design, and it looks great, but it&#8217;s not =
+ranking on Google and other major search engines.<br><br>Do you want =
+more targeted visitors on your website?<br><br>We can place your website =
+on Google 1st page. Yahoo, Facebook, LinkedIn, YouTube, Instagram, =
+Pinterest etc.)<br><br>May I send you a Price, SEO Packages? If =
+interested.<br><br>Thank you!<br>Daksh,</span></p></div></body></html>
+------=_NextPart_000_1E4D5_01DBBF96.E50BD880--
+

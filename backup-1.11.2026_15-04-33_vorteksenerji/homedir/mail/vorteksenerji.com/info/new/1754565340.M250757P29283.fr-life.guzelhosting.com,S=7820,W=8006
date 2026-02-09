@@ -1,0 +1,186 @@
+Return-Path: <riley@yourwebmaster.in>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id 0PaTDtyKlGhjcgAAOB6+FQ
+	(envelope-from <riley@yourwebmaster.in>)
+	for <info@vorteksenerji.com>; Thu, 07 Aug 2025 14:15:40 +0300
+Return-path: <riley@yourwebmaster.in>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Thu, 07 Aug 2025 14:15:40 +0300
+Received: from mail-pf1-f193.google.com ([209.85.210.193]:50634)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <riley@yourwebmaster.in>)
+	id 1ujyay-000000004E3-08sD
+	for info@vorteksenerji.com;
+	Thu, 07 Aug 2025 14:15:40 +0300
+Received: by mail-pf1-f193.google.com with SMTP id d2e1a72fcca58-76b8d289f73so953825b3a.1
+        for <info@vorteksenerji.com>; Thu, 07 Aug 2025 04:15:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=yourwebmaster-in.20230601.gappssmtp.com; s=20230601; t=1754565298; x=1755170098; darn=vorteksenerji.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=3Ny8w6c7FvUdAWiXg2I/bxIglH+MgSJaLeHuTgXhZMQ=;
+        b=cmmtaYaXuCyHcbPaGVs5SMnF0A+wFbnqy+DMQT4eKjE/r7qc0pT3jcaM8qJ2EJXEyQ
+         +qpezI15Tay+POH/a0UyethjxeTYHpPTqBjVbLh2NW3Jw3N68tJFGBdtU9vARx/GGj7k
+         AAAEIo1bzmXo6fN19fcnH2wMCVYq/0H8pcXh9IF1aJ8YPLk6MMNRyD6bI44BB1SmRDnO
+         DqYMTIDdSpqJQiOW2dwS9QUvEKfaaxRpz6nZsVPlcxx/dGVewlULfNGPsf0wxvli546z
+         FlWf1Owg98hbzFZVWkrAnNNr5mf+ARqQAztOG2uYEl8vyhIBPjneJKVLUQQ/qLmTjlcO
+         ab3A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1754565298; x=1755170098;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=3Ny8w6c7FvUdAWiXg2I/bxIglH+MgSJaLeHuTgXhZMQ=;
+        b=qEbLAobFngZL40KHWC/KALSJDZlgr14GY6tP87DJy9qo8k3plmKQD6rik7EfzcbzSc
+         rl5ei3hhLQiqtrU1pK/ETSFrDkR7BRcd1+/f9aX1kpA7Qr3+u2XATZ1+KGRfOWVfQ56n
+         5/pWFEyGv/5maN/sAqQ1wJ+JJTPtcfa6VgSWqszgoHpVc8iDEdVqMsG6FYzVlYr0+C/M
+         7YnR0PdJz/npo8LpulrDIk1+kUcBXmHxIvcuFvJEhD+jHPM96npGNNDcmGb8CtEXkCyk
+         5Au/3lNY41A1Egu9/Uo+yJ5O7No52yltKobydR8iG0KeNiKWFGn2hGftnS1bmsvsD5cm
+         Zcnw==
+X-Gm-Message-State: AOJu0YyYYVslF1K0togyTmdtvx2fbLa06lnQGXpGKiXbSRN4/i219jcR
+	xm+/ajd0DWz0TNYNLjSI1UCHu8wU5nfyVqaLVpt71L7pkUADqlWqlm9ilJuThrpZOArx9njGsq3
+	KFGfQ2Q0=
+X-Gm-Gg: ASbGncsqU0/r7szx+GANCUa4rsD7CqT/sue+RVjtMJPQjGuxUE08PKmUZvKSHkeWVek
+	Ft4RfQlZuu2/gOt61CozdG8aRJEch4CDUpXKXT3VEerISGaiVlXfgIUVWzDPfxk2C4XNB2YtHi6
+	Kb/VhRhrw9BsF2xAFX/M22F1Tkx99it7HI/vMaRSkkWmyH4zSS3VjYyDyo4APzUb0Erk62WJSHt
+	1DEeSUxDx1FpNwlC1uuu6I3XTGRBZSnO8m6Gb9G8Enx6dOBrbZnxazGm0VbZQ4vzLw4loEGaZPe
+	2ENuG9FoxXFtwRHdMPk8cqTANSmy5nuLLyOWXimYJdqhKKHdYBxLNTj0xSVxLkM/lPrbQy1s8xs
+	PTxYxA22xUnwOTsL0dQLT3kn3rz4=
+X-Google-Smtp-Source: AGHT+IH6NsqtBZSBPlmIVJ3yu6u79bEqj5k0/hILLMSWxTMaf/qhGNSnDovzcyGfUL7Enpi49gs15w==
+X-Received: by 2002:a05:6a20:94c9:b0:23d:9cca:e710 with SMTP id adf61e73a8af0-24031526403mr9172068637.44.1754565297856;
+        Thu, 07 Aug 2025 04:14:57 -0700 (PDT)
+Received: from Sujit ([2401:4900:1c64:58ac:3940:19f2:830f:cf8c])
+        by smtp.gmail.com with ESMTPSA id 41be03b00d2f7-b422bac12d4sm15458398a12.32.2025.08.07.04.14.56
+        for <info@vorteksenerji.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 07 Aug 2025 04:14:57 -0700 (PDT)
+From: "Riley" <riley@yourwebmaster.in>
+To: <info@vorteksenerji.com>
+Subject: Web Proposal
+Date: Thu, 7 Aug 2025 16:34:17 +0530
+Message-ID: <25db901dc078c$81bc7620$85356260$@in>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_25DBA_01DC07BA.9B74B220"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdwHc8yUhw0pg5FbSLq6yR9cjgZc7Q==
+Content-Language: en-in
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_25DBA_01DC07BA.9B74B220
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+ 
+
+I am a professional graphic designer with over 8 years of graphic design and
+web experience. I make clean, creative designs.
+
+ 
+
+I design new websites, UX-UI web design and development, graphic design,
+e-commerce platforms, other promotional related work.
+
+ 
+
+If you are interested, please share your requirement.
+
+ 
+
+It would be great if you can share your contact number WhatsApp/Skype.
+
+ 
+
+Thank you,
+Riley
+
+ 
+
+Website Manager (INDIA)
+
+
+------=_NextPart_000_25DBA_01DC07BA.9B74B220
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-GB><div =
+class=3DWordSection1><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri","sans-serif";background:white'>Hello,</spa=
+n></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri","sans-serif";background:white'>&nbsp;</spa=
+n></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri","sans-serif";background:white'>I am a =
+professional graphic designer with over 8 years of graphic design and =
+web experience. I make&nbsp;clean, creative designs.</span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Calibri","sans-serif"'>&nbsp;</span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Calibri","sans-serif";background:white'>I design =
+new websites, UX-UI web design and development, graphic design, =
+e-commerce platforms, other promotional related work.</span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Calibri","sans-serif"'>&nbsp;</span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Calibri","sans-serif";background:white'>If you are =
+interested, please share your requirement.</span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Calibri","sans-serif"'>&nbsp;</span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Calibri","sans-serif";background:white'>It would =
+be great if you can share your contact number =
+WhatsApp/Skype.</span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri","sans-serif"'>&nbsp;</span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Calibri","sans-serif"'>Thank =
+you,<br><b>Riley</b></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri","sans-serif"'>&nbsp;</span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Calibri","sans-serif"'>Website Manager =
+(INDIA)</span></p></div></body></html>
+------=_NextPart_000_25DBA_01DC07BA.9B74B220--
+

@@ -1,0 +1,226 @@
+Return-Path: <shiva@wbindia.digital>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id KLT8Dc+XwmiIRQAAOB6+FQ
+	(envelope-from <shiva@wbindia.digital>)
+	for <info@vorteksenerji.com>; Thu, 11 Sep 2025 12:35:11 +0300
+Return-path: <shiva@wbindia.digital>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Thu, 11 Sep 2025 12:35:11 +0300
+Received: from mail-pf1-f194.google.com ([209.85.210.194]:42481)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <shiva@wbindia.digital>)
+	id 1uwdhv-000000006rw-062D
+	for info@vorteksenerji.com;
+	Thu, 11 Sep 2025 12:35:11 +0300
+Received: by mail-pf1-f194.google.com with SMTP id d2e1a72fcca58-76e2ea933b7so483576b3a.1
+        for <info@vorteksenerji.com>; Thu, 11 Sep 2025 02:34:50 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=wbindia-digital.20230601.gappssmtp.com; s=20230601; t=1757583269; x=1758188069; darn=vorteksenerji.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=TAfJSmrBgtQPfq+QgHXJHtza8TY1rHUgr3vNqz5quHY=;
+        b=JFP8nR5TB16P2gzKGKkEfKPyjIHkbPap0YAXt2CMAZfXSh6tAy5CkxtkstIH0FQRVz
+         t6TZQeoyDXhrDesadihV7xgcW+7WP0TfpVcButeZVCFlKFRpwZ4Xu9viq+V67LJB10cM
+         G7ZNToPPke6Qe31WeGjrlaI5Y2S/xgJdMDYX5QHfWx06fT2YbTyIjw5GNF4l7Xw+vYIU
+         USeEpWXT7PtEi4IgKSom1dnIRYWOsNGBMxM06DvtsL84KPSXsAX4UbNarQ6jbriRL3ks
+         P5hTu0PrLIdPKE9+fUAOxzBkq1cHgMtMgQEDhbJV2G3NEheV7C4/BQwJw/eo6wpJ+dfO
+         Eprw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1757583269; x=1758188069;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=TAfJSmrBgtQPfq+QgHXJHtza8TY1rHUgr3vNqz5quHY=;
+        b=BTC4PEEvbFoQW5naO2v/BacPPtT6bDXThjP8Z/oyrEpShpA8WFsgoZRexVVvgQ0JsT
+         SMvwbq/nGXtu3beS7f2UuqhLWj7C2ygISUlSD6PwMUIZSRdk/2k1yeDsuxT1u3UZpTdV
+         1d4EaS+V2cDkezKaGFa1AIr584UDSwsunGjc2hjvebYbWcjabdKsDUdByUoqslPNfLiT
+         UUVGwHAfoKE5nQPJQO2TnxvfK472GzB+veDxJADBDmJPDvuj48BQ9dYQTz1cOf3suRNz
+         hc9wRleUekVeXY9CglV1xSh0lQMfgbZfxO6NckdH5PrgJej0IVZ1Dg/DGbVGhrcONwmY
+         /3jA==
+X-Gm-Message-State: AOJu0YzKSaJVkOH2gr+XRFyBFXsdkRhYfLhCYC4Z8+Mla/9xh6vWuD9R
+	TiDhpVl8M4VByED+jFGC+OAq+uJYT3mk8CbtehwXnrp6xMITFP4be/hNIM2uHAN5Xky0LOLyf1h
+	cpwYAtkI=
+X-Gm-Gg: ASbGncuqVSbyuXVdp5VAKwD7Nl2kACwLJ59+iYsZOHzTq+LlM2aTKr2O0qbJhYPYxvf
+	FlybuSkmC/IoBHUaSS0mYIUq/RnMMW9wHerddU+5R7rfOPfUA0TvR/QUHrLGe3PEpqe8hFyxoYo
+	hqcyGPQa4VUQxqqkFWGPTL13R343J5gxNXymr4JeVzU0O0XQLmzrQC84eLQ9cYITCq9XVEkatk5
+	skbEmxoo86/UHJgmhmPIXjoYFQAHofEUehdV5xBVDNvC3ij3vXRSQfZ/AmDEJxZpdquctodMLoh
+	aPYUg5P5CuLa/OG4WSlOBL9b4V7lHkXIzK1u9iNqd197S/mu6hBvFUrTBX8zd34PKrjP9CJg/S1
+	T8w0jCjKit8bRMW0F9HWdGQPGbKN32mii+4hGsPrh1HZR4/9yIU3G
+X-Google-Smtp-Source: AGHT+IGGsXnMI/xFVq7J4NyusRo9CJinvSnGdO4Q0jiht/PWSG0pNl4Xf6ZBVyAxwyitzY2qZmjVfQ==
+X-Received: by 2002:a05:6a21:32a5:b0:245:fc8e:ef50 with SMTP id adf61e73a8af0-25cf7143bd4mr3253331637.17.1757583268981;
+        Thu, 11 Sep 2025 02:34:28 -0700 (PDT)
+Received: from DESKTOPQPJ2HB0 ([2401:4900:1c65:3e87:fc18:3cac:df0f:81b6])
+        by smtp.gmail.com with ESMTPSA id 98e67ed59e1d1-32dd98245f2sm1461643a91.9.2025.09.11.02.34.27
+        for <info@vorteksenerji.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 11 Sep 2025 02:34:28 -0700 (PDT)
+From: "Shiva" <shiva@wbindia.digital>
+To: <info@vorteksenerji.com>
+Subject: Website design/redesign/ Upgrade ?
+Date: Thu, 11 Sep 2025 14:48:46 +0530
+Message-ID: <891001dc22ff$182c6600$48853200$@digital>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_8911_01DC232D.31E4A200"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Adwi5A7kevW/qrthRd2OtBH7cys0ow==
+Content-Language: en-us
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_8911_01DC232D.31E4A200
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi info@vorteksenerji.com,
+
+ 
+
+I hope you are fine.
+
+ 
+
+We are an India based website design and development company with PHP
+development offering services at a moderate price. We have a dedicated team
+of over 100 professionals with over 12 years of experience and live by the
+idea that design makes a difference.
+
+ 
+
+1. Do you want to create a new company website?
+
+ 
+
+2. Do you want to redesign/revamp your website with a new, modern, and
+industry-standard look?
+
+ 
+
+We use the latest technologies, user-friendly CMS, and frameworks for
+designing a professional website such as: WordPress, Magento 2.0, Core PHP,
+Laravel, Node js, Vue js, React js, Angular js and Shopify.
+
+ 
+
+Let me know if you're ready to talk about a possible website
+redesign/redesign or a new website design.
+
+ 
+
+I am waiting for your answer.
+
+ 
+
+Best regards,
+
+Shiva
+
+
+------=_NextPart_000_8911_01DC232D.31E4A200
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.xxmsonormal, li.xxmsonormal, div.xxmsonormal
+	{mso-style-name:xxmsonormal;
+	mso-style-priority:99;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style></head><body lang=3DEN-US link=3Dblue vlink=3Dpurple><div =
+class=3DWordSection1><p class=3Dxxmsonormal><span =
+style=3D'font-family:"Calibri","sans-serif";color:black'>Hi </span><span =
+style=3D'color:black'>info@vorteksenerji.com</span><span =
+style=3D'font-family:"Calibri","sans-serif";color:black'>,</span></p><p =
+class=3Dxxmsonormal><span =
+style=3D'font-family:"Calibri","sans-serif";color:black'>&nbsp;</span></p=
+><p class=3Dxxmsonormal><span =
+style=3D'font-family:"Calibri","sans-serif";color:black'>I hope you are =
+fine.</span></p><p class=3Dxxmsonormal><span =
+style=3D'font-family:"Calibri","sans-serif";color:black'>&nbsp;</span></p=
+><p class=3Dxxmsonormal><span =
+style=3D'font-family:"Calibri","sans-serif";color:black'>We are an India =
+based website design and development company with PHP development =
+offering services at a moderate price. We have a dedicated team of over =
+100 professionals with over 12 years of experience and live by the idea =
+that design makes a difference.</span></p><p class=3Dxxmsonormal><span =
+style=3D'font-family:"Calibri","sans-serif";color:black'>&nbsp;</span></p=
+><p class=3Dxxmsonormal><span =
+style=3D'font-family:"Calibri","sans-serif";color:black'>1. Do you want =
+to create a new company website?</span></p><p class=3Dxxmsonormal><span =
+style=3D'font-family:"Calibri","sans-serif";color:black'>&nbsp;</span></p=
+><p class=3Dxxmsonormal><span =
+style=3D'font-family:"Calibri","sans-serif";color:black'>2. Do you want =
+to redesign/revamp your website with a new, modern, and =
+industry-standard look?</span></p><p class=3Dxxmsonormal><span =
+style=3D'font-family:"Calibri","sans-serif";color:black'>&nbsp;</span></p=
+><p class=3Dxxmsonormal><span =
+style=3D'font-family:"Calibri","sans-serif";color:black'>We use the =
+latest technologies, user-friendly CMS, and frameworks for designing a =
+professional website such as: WordPress, Magento 2.0, Core PHP, Laravel, =
+Node js, Vue js, React js, Angular js and Shopify.</span></p><p =
+class=3Dxxmsonormal><span =
+style=3D'font-family:"Calibri","sans-serif";color:black'>&nbsp;</span></p=
+><p class=3Dxxmsonormal><span =
+style=3D'font-family:"Calibri","sans-serif";color:black'>Let me know if =
+you're ready to talk about a possible website redesign/redesign or a new =
+website design.</span></p><p class=3Dxxmsonormal><span =
+style=3D'font-family:"Calibri","sans-serif";color:black'>&nbsp;</span></p=
+><p class=3Dxxmsonormal><span =
+style=3D'font-family:"Calibri","sans-serif";color:black'>I am waiting =
+for your answer.</span></p><p class=3Dxxmsonormal><span =
+style=3D'font-family:"Calibri","sans-serif";color:black'>&nbsp;</span></p=
+><p class=3Dxxmsonormal><span =
+style=3D'font-family:"Calibri","sans-serif";color:black'>Best =
+regards,</span></p><p class=3DMsoNormal><span =
+style=3D'font-size:12.0pt;line-height:115%;color:black'>Shiva</span></p><=
+/div></body></html>
+------=_NextPart_000_8911_01DC232D.31E4A200--
+

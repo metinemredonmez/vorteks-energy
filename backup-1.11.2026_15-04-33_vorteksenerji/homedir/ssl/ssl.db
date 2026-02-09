@@ -1,0 +1,70 @@
+--- 
+files: 
+  certificate: 
+    en_vorteksenerji_com_b8e1a_a9f2f_1771207754_8550389d835f5ec84a929707ff866d9f: 
+      created: '1763435266'
+      domains: 
+        - en.vorteksenerji.com
+        - www.en.vorteksenerji.com
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: en.vorteksenerji.com ve www.en.vorteksenerji.com
+      id: en_vorteksenerji_com_b8e1a_a9f2f_1771207754_8550389d835f5ec84a929707ff866d9f
+      is_self_signed: 0
+      issuer.commonName: R13
+      issuer.organizationName: Let's Encrypt
+      key_algorithm: rsaEncryption
+      modulus: b8e1aaf83545386d24ed0a8dbd47458a4ab845096b93dd325c116a558d8d0bfc7ee5c0f5dfc2151b36e552a441a947337c9f26f376825a44e1d409ab09bdf9638c17a97355a83a07d0367dd959d90d13f1981181f928e474ff4e51c81b6f1ac89fbd0d1da0680c059f9d6c30bac63f081de05bf21c597c0e96e74071b8be1132f0d062bac9b535fe8f4d4b478e687d6feeb6eeee031cd0e58673b0a33f4ff5d91970f28a1cf323e623d41301a2ac31c87261936e6d786f0adfb95da5a6e676dc24d9734182bf378ab38dd774833f0354d33f1b8210c552777f3a4e81606725cc467e7621ea9107eb99726ec0c1c30f7eab207b0ed3788dfb305d8ba8e07a9f2f
+      modulus_length: 2048
+      not_after: '1771207754'
+      not_before: '1763431755'
+      serial: 05baf3f64326cc26ccdf2a954cd2378a843e
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: en.vorteksenerji.com
+      validation_type: dv
+    vorteksenerji_com_e796f_f9425_1770856922_5692ed2602cd4da3f0ec3dac167dd85e: 
+      created: '1763084434'
+      domains: 
+        - mail.vorteksenerji.com
+        - vorteksenerji.com
+        - www.vorteksenerji.com
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: mail.vorteksenerji.com, vorteksenerji.com ve www.vorteksenerji.com 1763084434.0
+      id: vorteksenerji_com_e796f_f9425_1770856922_5692ed2602cd4da3f0ec3dac167dd85e
+      is_self_signed: 0
+      issuer.commonName: R13
+      issuer.organizationName: Let's Encrypt
+      key_algorithm: rsaEncryption
+      modulus: e796f1ac44271a19c353b4f43105bcbf38c8451fd90cab4ae58a9589dce43797a531d576217ae2d648b354ce2615486184969655d35958a4d430d096057587adbf13f4f61a1fedcaa5f24e90b1e5474d490e3521cb062a542bee85a9ff7dfffa6f92714224cecc53ad63f023de72b6e6555fbd1ead57b068b2137389eaef67cecc787b34ea40466b4da0176ae48dc0328238d0b60b7fedc1eda5c053b2df1d636d9321c00897455a5baf557eab45dc774ec2887bb78805cf8aa5e5adb358804f48199a2fe3c5d6cd2d08e20b5bfb148b2a378ac88c7a01d30fe471dc30a64ea6fc9627a92df17beab253255b96378a5e9374bbeb13c46391216b0153737f9425
+      modulus_length: 2048
+      not_after: '1770856922'
+      not_before: '1763080923'
+      serial: 058cad866f47aed838c66225c8abff5ddcf9
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: vorteksenerji.com
+      validation_type: dv
+  key: {}
+
+indexes: 
+  certificate: 
+    modulus: 
+      b8e1aaf83545386d24ed0a8dbd47458a4ab845096b93dd325c116a558d8d0bfc7ee5c0f5dfc2151b36e552a441a947337c9f26f376825a44e1d409ab09bdf9638c17a97355a83a07d0367dd959d90d13f1981181f928e474ff4e51c81b6f1ac89fbd0d1da0680c059f9d6c30bac63f081de05bf21c597c0e96e74071b8be1132f0d062bac9b535fe8f4d4b478e687d6feeb6eeee031cd0e58673b0a33f4ff5d91970f28a1cf323e623d41301a2ac31c87261936e6d786f0adfb95da5a6e676dc24d9734182bf378ab38dd774833f0354d33f1b8210c552777f3a4e81606725cc467e7621ea9107eb99726ec0c1c30f7eab207b0ed3788dfb305d8ba8e07a9f2f: 
+        en_vorteksenerji_com_b8e1a_a9f2f_1771207754_8550389d835f5ec84a929707ff866d9f: ~
+      e796f1ac44271a19c353b4f43105bcbf38c8451fd90cab4ae58a9589dce43797a531d576217ae2d648b354ce2615486184969655d35958a4d430d096057587adbf13f4f61a1fedcaa5f24e90b1e5474d490e3521cb062a542bee85a9ff7dfffa6f92714224cecc53ad63f023de72b6e6555fbd1ead57b068b2137389eaef67cecc787b34ea40466b4da0176ae48dc0328238d0b60b7fedc1eda5c053b2df1d636d9321c00897455a5baf557eab45dc774ec2887bb78805cf8aa5e5adb358804f48199a2fe3c5d6cd2d08e20b5bfb148b2a378ac88c7a01d30fe471dc30a64ea6fc9627a92df17beab253255b96378a5e9374bbeb13c46391216b0153737f9425: 
+        vorteksenerji_com_e796f_f9425_1770856922_5692ed2602cd4da3f0ec3dac167dd85e: ~
+    subject.commonName: 
+      en.vorteksenerji.com: 
+        en_vorteksenerji_com_b8e1a_a9f2f_1771207754_8550389d835f5ec84a929707ff866d9f: ~
+      vorteksenerji.com: 
+        vorteksenerji_com_e796f_f9425_1770856922_5692ed2602cd4da3f0ec3dac167dd85e: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      en.vorteksenerji.com ve www.en.vorteksenerji.com: en_vorteksenerji_com_b8e1a_a9f2f_1771207754_8550389d835f5ec84a929707ff866d9f
+      mail.vorteksenerji.com, vorteksenerji.com ve www.vorteksenerji.com 1763084434.0: vorteksenerji_com_e796f_f9425_1770856922_5692ed2602cd4da3f0ec3dac167dd85e
+  key: 
+    friendly_name: {}
+
+    modulus:ecdsa_curve_name:ecdsa_public: {}
+

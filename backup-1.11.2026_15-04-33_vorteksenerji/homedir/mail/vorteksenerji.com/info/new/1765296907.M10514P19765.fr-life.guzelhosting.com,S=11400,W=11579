@@ -1,0 +1,179 @@
+Return-Path: <miniseo786578@outlook.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id eJbPOgpLOGk1TQAAOB6+FQ
+	(envelope-from <miniseo786578@outlook.com>)
+	for <info@vorteksenerji.com>; Tue, 09 Dec 2025 19:15:06 +0300
+Return-path: <miniseo786578@outlook.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Tue, 09 Dec 2025 19:15:07 +0300
+Received: from mail-koreacentralazolkn19013076.outbound.protection.outlook.com ([52.103.74.76]:6228 helo=SEYPR02CU001.outbound.protection.outlook.com)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.98.1)
+	(envelope-from <miniseo786578@outlook.com>)
+	id 1vT0Mk-000000005xh-1t9y
+	for info@vorteksenerji.com;
+	Tue, 09 Dec 2025 19:15:06 +0300
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=PhRCA9DOCegd+z6Gx1++3jiojZW9+q88EE0Qn3vL+TH2xCxS+4PFGXZb95HL4OPgj1aWVbYxWbUKuMOPEvf41kM9CdD5u6VPf1jyQkQhCh85+MjsvJmZ7IpJIBshC0+9sjOc+i81x4KOMvF/qbEREAn102rLMSuCYVRMC+rswanzMyerBPG5lm9+tt3Iij6LR98yFdDapfJGlsY4xW3C1QGWAbdIUeOU8b/n9gJ33NnX56nyC7S3Bozk/IO8WPJse4Ngrt7vo0eXfk7IYZJ1RZ/muYQ8oI4LDKE8iYXUNZowzBxrAojs4Q9y0DgvPEFa+sc3zgJTg3W8+RytS0Z4Tg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=Appjm+T7uAXpy+w0maCzqKmCNt5nH9iSrUpPifTv75Y=;
+ b=FZSdnQwLO4alDEMsHiOwSs48qlCLLj83WeG4wElUPpRGVwdQasmnv4RTv0NRzPlGWP9cNgQyDNRyZGE1a0SFOq14C+sR65M7UtPvtnjsIAanoDvtAh5T6JO8xBOgaZu2h+jxAju2d6Ln6CKQeUBsM4Sb51SFQgi0ynQ1SYSG/tfABxUuDBwrquyGzXGxPdPbZXv9zMwlCkDeZUE36wChnCgrCXOj0LeJNbcdZeZC/6fkSK4RzD3wTm0dv8sGB5Os6euE+9VU27suZHWc12xBGDxS/KYpL0FDxx0mdDq/x3I/xBEOvStDa2yRQXZ8o8+iMbqzgw7S6gwE45VGMdJ91w==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=Appjm+T7uAXpy+w0maCzqKmCNt5nH9iSrUpPifTv75Y=;
+ b=JzDitwlQ2APrVDlyp0qyiOgvCDlAh2YHNbfWt2iHD+0R9FAWel8expR3ibdLqqqHYgnAeKFWKp0KWarC83gA9y8LcR8ZBNHzGJYYTl7lwkCaD5QwU0kn1TwOcI5YPnJAXwC55w82OBlxK8XVuwtmiJrXo2u2q6dCm94ohddrU35iHanpfE43KGqx9qZdQUCgNomSGrahSTcuoCgJMmIocB0OZAg8zm63s0xDxtu7l28XZ3wBkSZz0GAhqGLzGMkqFBqNaz44E/ZFuh4YuV8504UK4LynTLEGwGgeJDlajQM/Z02R9oCG4nGOsZsI1TokdoLw1sBUDJbxqzky5nY0OQ==
+Received: from PUZPR01MB5095.apcprd01.prod.exchangelabs.com
+ (2603:1096:301:117::15) by TY1PPF095D4ABB6.apcprd01.prod.exchangelabs.com
+ (2603:1096:408::307) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9388.14; Tue, 9 Dec
+ 2025 16:13:39 +0000
+Received: from PUZPR01MB5095.apcprd01.prod.exchangelabs.com
+ ([fe80::37bc:2890:b130:18ec]) by PUZPR01MB5095.apcprd01.prod.exchangelabs.com
+ ([fe80::37bc:2890:b130:18ec%6]) with mapi id 15.20.9412.005; Tue, 9 Dec 2025
+ 16:13:39 +0000
+From: mini seo <miniseo786578@outlook.com>
+Subject: Email
+Thread-Topic: Email
+Thread-Index: AQHcaRzaoUFccA8KykKD1iNGP2OJSQ==
+Date: Tue, 9 Dec 2025 16:13:38 +0000
+Message-ID:
+ <PUZPR01MB5095E4A5791B90A8DEBFD43FA5A3A@PUZPR01MB5095.apcprd01.prod.exchangelabs.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: PUZPR01MB5095:EE_|TY1PPF095D4ABB6:EE_
+x-ms-office365-filtering-correlation-id: 107b2397-c98a-4297-47ed-08de373de9a2
+x-ms-exchange-slblob-mailprops:
+ TmQEXxnpNvBQ6yUILjshi4xEF9CJm0gDWKyhHo6nQv9xuHr8qYlmJV8nTeNW2gh0qk1YMgJQBh0fS4ZEyhB6A58gvZy5hoTi5Of6CGFQ+FA2ayi7dYxcn6YL2gqdd2xsuz/UdH2v4vGNZeQJrg6m/jQtN9S0z0ige5htiSUitE0qjy5Gr6yNP9GWRWdXr/P0Qf00zZAVRSlTGd3Jd0FmbV/7bMwlILMKFH9FUTyue1BWhMWYZjVDZ3fEO3C4MuC14TNkiUl/OoFEnqkz3/2751TTv1bD9HdBdb6XgoZoZrffDiOsfkAafwnIT6neLJJwZ3u8rMfeLhwY6KpHu/OjdVbEvjn59aViOUrgFsnSwspTEATML8ddI5BPv1qaREI6VThdK0qw9ZrXaSVkk17LK7beWv6uzcMgkdDboUuAmeg04uuhIPUupdYeHueulSbHn9bHl5sQK+QaFGAwae0e728mSJtihkbwtb/dp/70RMCrHY5PAt6wbOAJ7NjFU2zvUKKjwvc26ps50pHkB7885q2Zklbj5GEzwp4UvPR5i7XO5EcSWvH1Xt2sx8xlhGXe8dZBP7KF7oE=
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|15030799006|15080799012|461199028|8060799015|19110799012|39105399006|8062599012|7042599007|31061999003|102099032|43065399003|31055399003|40105399003|3412199025|440099028;
+x-microsoft-antispam-message-info:
+ =?iso-8859-1?Q?usWNaNMGN6g54r1prHI05HwebhcmaJtfn56bBEb0zsMwmJW+HbXBi694DH?=
+ =?iso-8859-1?Q?hvXo4G4f0yhFwVArUDu0Pj8NSPrqZm9pPiSKeaDvTIo4JPeuNGthlhHrPE?=
+ =?iso-8859-1?Q?5ekUDBssk0RIJpj/RkdJYZvkPy5rwRA3flpVY+F6iyibzArMLEoidkiMl4?=
+ =?iso-8859-1?Q?xreln5t5vg2n3Zpc9mdIyeNQgot+CIntmF8gR7bM6eLF+zLjl6cFVy2XiD?=
+ =?iso-8859-1?Q?wgGzPmz3fZPVceryJDAaMccenxAncs67MJkqJqeWAeDYHTgAxS+p+ZXbOW?=
+ =?iso-8859-1?Q?ex9epvx1XL38Be5XXKc6zaF+5BNT0rGdpgo1+4H2HGawuRLXZfGc4ItUrm?=
+ =?iso-8859-1?Q?NlrXvV8NMDROU1ZnnUTpTdcJSA2sdH5mjog6zxZJTRJeApb1tfrqwl8chP?=
+ =?iso-8859-1?Q?SWiTPum9NDPsnG0SfN0ypk138JB1oXKIrQRGIL9NhGiXW9DiuEfxEdZ+cl?=
+ =?iso-8859-1?Q?kDhtGoUcHU7zy+qboRXzUWJBQhwZPbD7TYyBYANrrzPAFEZkJo6EEXCUdS?=
+ =?iso-8859-1?Q?mP0MZa7ytMv2hNIN+IjQ9mXOL4YmFL4t+RGh1W4NJ5ZPVTNJamAaVyo0pM?=
+ =?iso-8859-1?Q?ESeQvp8NsP4PVm5oJ+JWdYXXYoVbXaVCOCcKkWKRfVMRb85b9v4DDMzHyr?=
+ =?iso-8859-1?Q?IH8bD+7LDYuFUexj895Q6XCHyAHJRQfidbGzKvYPqhoF62CKiPy8IKWFxL?=
+ =?iso-8859-1?Q?zUHp7bvfc1QvtqIKxWw/7ZcVxZ+Pwp0GrwKFqlZFsbdIk6Bt9Sedj3d+c+?=
+ =?iso-8859-1?Q?t55pMvRUXhasXxWNFNxGLItERCKxwupYnWhTd059R7EVEAB1+wHnGUjEos?=
+ =?iso-8859-1?Q?Wl1tFiCZwPbo2XASFA+ZjJ9Kuzp2E34Kq2dvL7QphQWz9XrbcoGe60cuy0?=
+ =?iso-8859-1?Q?qbie3FbjVc98WN0EnLxn0N8E2MH7U/0FI0JKOAcD84+USkwPjG5a9l0/CH?=
+ =?iso-8859-1?Q?rNKNBYDj4EPx7z2sX99vqYOPC2Sqp9uToh+kAiQIQou88dQkkUKENyMvMJ?=
+ =?iso-8859-1?Q?LzZZ+RZ6ACSw57pDchBFin/ZtfmW3BEPRLfmLbnh6uAqj7kZRzJ9M803TI?=
+ =?iso-8859-1?Q?RMDPYujzZRhm2qMf7Rt0jICTnYHhcG+e5Lx/teYdLfdlalgmFnNOIBrPbj?=
+ =?iso-8859-1?Q?dbxBoL0C5z6W3v5qjmabLKIsImb98lE3e7+WTUH2f9SXDJqN2kYKO7NRg3?=
+ =?iso-8859-1?Q?7zvnAwUt92u+xHkkZQH/7vKMJRtEp/B6C2CAAMeQIz3U4Pn2IKZ/wPIxbR?=
+ =?iso-8859-1?Q?GIH0TgkDZ9PUXQ9OhiWsG/heykVSKoAygQPKtHFsxotbR2F1tuyMJMf+AW?=
+ =?iso-8859-1?Q?idu4visoIan6MjBdd/HHcwi9pwMkmwjcA/v4jiRr+rLGSxU=3D?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?XlaonX6isswCQYMEEIy+H7XHuy5Znu5l/Q9L69zSe3/Bwu4RDUWdc2R6MK?=
+ =?iso-8859-1?Q?lPfXpgfflhyVoY7Mxc2nR5vYCtvcn5EnM1tw0mldEK9SakmEmNxULPxuPe?=
+ =?iso-8859-1?Q?Dbh80ojQDoZQGdiAtCvRQaJJGNBLOXdqg9PRKFuHS+GtxaH8KIWmpGUxzd?=
+ =?iso-8859-1?Q?Jpy2UVHDSk7Fbal/YEVV9nSIC4G+XkoejD3tm7FtqlmhAxmvTrwrzcIG/J?=
+ =?iso-8859-1?Q?o/+UPcM5/vObbngoqvEvf1tjMYtXRuj+NMGPgd+WY1kHnWCn6HKm/9hn3I?=
+ =?iso-8859-1?Q?9244i4ElsBukfqp2NE7DD1sfXGyarqPornW53NpRs0CcKpEd+jD4gg+dNF?=
+ =?iso-8859-1?Q?wdenFQ0jHVY9nYRzlS3Rpt7hAXCLIlh6MNaJx2t74FOR5qqqD/GWxGX/4f?=
+ =?iso-8859-1?Q?FweFy96f58cNKfxN5W59TGggKluS0mlRAsmmifnHGvf+EIOjFMCuyQkwqP?=
+ =?iso-8859-1?Q?54qIedXXg/3SU46W6jQFqr8l+kqzBh4jRblgkgBp+yNnuvfcx1jIDxQoEl?=
+ =?iso-8859-1?Q?CixyQLe2Rde/0HJl8OnZFXdPH5PFCkCakJKDCpgccyylwIh4rOCiAMe7mg?=
+ =?iso-8859-1?Q?Eun6qQPAtS1U/fR5DaWYahYXCrdOIRkjDfbgBe/DJgng1m+Uz/Fs0dPwVh?=
+ =?iso-8859-1?Q?522gBIAhPHR12jYkt4jRleHE0UV5Csu7T0TyDXoiOjC4Wq3jQL8voAYKOl?=
+ =?iso-8859-1?Q?HQbPgsrbtpaFO57apyKNkvOpxMnjalVO5D6bZEmJAI8JLw6BYQepsGn1b7?=
+ =?iso-8859-1?Q?W8ZwNs94qBHIgjwZqvQrCodBAhV8UfGtvMslxWKOQZ791298v4FrDfYeUN?=
+ =?iso-8859-1?Q?+Krvyp9VktvtsdLXx21s/fEh72YxPMpYIcSy+tr2UV7A8ulv6ku7jaNc23?=
+ =?iso-8859-1?Q?bNbtt0cJ5qgB7a+qrw1BJBj14y4EkOIlQ1wacrtah6wlV6G3+LiPWN4Rp7?=
+ =?iso-8859-1?Q?CxfN1EQjqgrk1dlCd/2bOHOUILg1jP/27834RaVbkGnBFXdvCG0f77/gM1?=
+ =?iso-8859-1?Q?7zqjR7lUzpS8BX//gCYBcQALEedSIiVnyznwCOD2r4y+i5EfNksDz1vTdN?=
+ =?iso-8859-1?Q?J2DkXuldjAQ+N3tSzR+yLAbhRX364uvovgTIrp7vYhaZgeLuUZ/za0evaX?=
+ =?iso-8859-1?Q?sx2k38XeG25yz82zgno1hlx4ZVBCwecKLsnBJMBPi4WcWU9imXQez/wRAA?=
+ =?iso-8859-1?Q?Bf7065Im3yO8BGY7Vb25xtrO8qNPubVrS73XNY1qlNLNq1EhpWRiqytEUu?=
+ =?iso-8859-1?Q?b3uylCmqPq99HrfJIp0oLW6R8xm4iWjoEXChNubj+iz38UDHQ5tzbQ/W4m?=
+ =?iso-8859-1?Q?DuoF9FKD3u8uhz0DUdzY4c3WHrmBCEnkAG9GLDFKubpz9xk=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_PUZPR01MB5095E4A5791B90A8DEBFD43FA5A3APUZPR01MB5095apcp_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: PUZPR01MB5095.apcprd01.prod.exchangelabs.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 107b2397-c98a-4297-47ed-08de373de9a2
+X-MS-Exchange-CrossTenant-originalarrivaltime: 09 Dec 2025 16:13:38.5275
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: TY1PPF095D4ABB6
+
+--_000_PUZPR01MB5095E4A5791B90A8DEBFD43FA5A3APUZPR01MB5095apcp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+Do you want rank your website on the 1st page of Google?
+We can help you in putting your website on Google top page and getting more=
+ customers.
+May I send you SEO Packages/Cost?
+Please share your what's app number for easy communication
+Thanks
+
+
+--_000_PUZPR01MB5095E4A5791B90A8DEBFD43FA5A3APUZPR01MB5095apcp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"line-height: 1.284; margin: 0cm 0cm 8pt; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);" class=3D"elementToProof">
+Hi,</div>
+<div style=3D"line-height: 1.284; margin: 0cm 0cm 8pt; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);" class=3D"elementToProof">
+Do you want rank your website on the 1st page of Google?</div>
+<div style=3D"line-height: 1.284; margin: 0cm 0cm 8pt; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);" class=3D"elementToProof">
+We can help you in putting your website on Google top page and getting more=
+ customers.</div>
+<div style=3D"line-height: 1.284; margin: 0cm 0cm 8pt; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);" class=3D"elementToProof">
+May I send you SEO Packages/Cost?</div>
+<div style=3D"line-height: 1.284; margin: 0cm 0cm 8pt; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);" class=3D"elementToProof">
+Please share your what's app number for easy communication</div>
+<div style=3D"line-height: 1.284; margin: 0cm 0cm 8pt; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);" class=3D"elementToProof">
+Thanks</div>
+<div><br>
+</div>
+</body>
+</html>
+
+--_000_PUZPR01MB5095E4A5791B90A8DEBFD43FA5A3APUZPR01MB5095apcp_--

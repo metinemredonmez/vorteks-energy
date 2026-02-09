@@ -1,0 +1,192 @@
+Return-Path: <Ericcarter.it123@outlook.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id IHYRA/Vxm2gkDQAAOB6+FQ
+	(envelope-from <Ericcarter.it123@outlook.com>)
+	for <info@vorteksenerji.com>; Tue, 12 Aug 2025 19:55:17 +0300
+Return-path: <Ericcarter.it123@outlook.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Tue, 12 Aug 2025 19:55:17 +0300
+Received: from mail-japaneastazolkn19013084.outbound.protection.outlook.com ([52.103.43.84]:8748 helo=TYDPR03CU002.outbound.protection.outlook.com)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.98.1)
+	(envelope-from <Ericcarter.it123@outlook.com>)
+	id 1ulsHM-000000000xN-37gJ
+	for info@vorteksenerji.com;
+	Tue, 12 Aug 2025 19:55:17 +0300
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=j+Ca5VzfSG/7mDumH+kRjeyhrKA3sgLdNr46z0OTXJ8NbBIE1iGK/aoPZIZnSEr+mp1hFoJdv6cnaWX5eLdwZPPwlDKWhqDbBD8GWNR4aA3GcjdR+sH/Kd3rc+l8lxlbKM2HPSrnzGcew0BOGmvtR6ca5NcaVPem8S+TQCdHsXFicvPFgssiEGnJJH7dFj++VZe2JUHsMx60bucmjtFp0MI5YHDydeAlyHXpl38AVL80LGhnvOa0wXcagoxm0gFtPRyVTWarBksV6XTo+vM6w7/QYGFgyZ0h+p6hA7f9z16bDxdSHHa5ngiJZGnSDF4VyQuTWJDMsGJSu3BtRDwQMA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=qcSl1u+pTTsPEF6ZeKWHxQQQCLnZmzrWKkJRhPzH42M=;
+ b=BdK81oBsFwLKRNBkKqnmNbvIroNsTdZEFKy8WXleNQK+g67bDE7iTJ/APlYV3SJzwx+8zVm9I+OuqRARarxIBMNcZE62qkCjYWkS0DLFRLKtHDkSWo02oKE4ZgclAqjhVdU/ZzxarQDPz6OEEl53Wk0ct0v/Pfu3MnM2C8rfV5ZG5fsDG6oSk+OTcyIYqb+d5tOCXpqfnrSNjQDeCA+UFjeRegwc712wJslwRWEVyplw4swBXuTM8nEPd7TYwCbnyRm9+R+tj2IqJaKOE+hWa7bYS9ONuJV/hgM6fq3HgttBkHP0DCJFxveVhwtRtsmkWI8Q7uWZLcoghBgihL2JEA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=qcSl1u+pTTsPEF6ZeKWHxQQQCLnZmzrWKkJRhPzH42M=;
+ b=thEu4AfxpHbB+9VCepWDox5+88gLsJRAAiuzWXenNM7s5Fwkw/DxAwyBml1zIH2YVo+7dywzQdfEy6w8HJaFoJzXS9EcYAP+5EsDu6kAJBHTCmyb0ku/pFA7guYAwNk78zy+9lAHr3ChJDITSpDPGFukcfKoaVM8BaCM2f5S8uBfMZ+x5JOIVNk/4MV09qCvgOIhiNqexpusF8DGIbPn9nwBcUcqk8+UiUndH5XOPElcVqsDXOHormaFQIcf4nZRArDnZVXzMnWp499YBjNnYi6YFDTma1mKkQ/dfmNt/9ba2JUHfIgQ/L8IX4H/lljgJim+OCsRgoZm4nkWlY0vhw==
+Received: from TYZPR02MB5595.apcprd02.prod.outlook.com (2603:1096:400:1c5::12)
+ by TYSPR02MB6374.apcprd02.prod.outlook.com (2603:1096:400:433::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9031.15; Tue, 12 Aug
+ 2025 16:54:06 +0000
+Received: from TYZPR02MB5595.apcprd02.prod.outlook.com
+ ([fe80::b075:bc43:3d06:c6eb]) by TYZPR02MB5595.apcprd02.prod.outlook.com
+ ([fe80::b075:bc43:3d06:c6eb%7]) with mapi id 15.20.9031.012; Tue, 12 Aug 2025
+ 16:54:06 +0000
+From: Eric Carter <Ericcarter.it123@outlook.com>
+Subject: Re: Sales Request?
+Thread-Topic: Sales Request?
+Thread-Index: AQHcC6mKmCymkn+6+Uu3A5vgBCqkaQ==
+Date: Tue, 12 Aug 2025 16:53:58 +0000
+Message-ID:
+ <TYZPR02MB5595E1EA2E331D02ABA84508D12BA@TYZPR02MB5595.apcprd02.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: TYZPR02MB5595:EE_|TYSPR02MB6374:EE_
+x-ms-office365-filtering-correlation-id: e9a0a42b-7c91-486c-11e8-08ddd9c0d92c
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|7071999006|31061999003|461199028|15030799006|15080799012|37102599003|8062599012|19110799012|8060799015|102099032|51005399003|440099028|41105399003|40105399003|39145399003|39105399003|3412199025;
+x-microsoft-antispam-message-info:
+ =?iso-8859-1?Q?rcIuwGAil6XK0DHtw9jSOv5TR49LNCn1BwdcYwuMTw8xYqpVICsNharO6y?=
+ =?iso-8859-1?Q?XU2P/MKR41IASi9B5wPv7WcJJ43o3mHRrJljaHSS1+5/xjGJa35f8BFI5L?=
+ =?iso-8859-1?Q?PePfhtjdg+bifTvKfCg0yCXyElxm7lyiJJWKQxVGAXvPS8uOhPaGpwKsMQ?=
+ =?iso-8859-1?Q?WF3Ba4xk4OwKv8vB6kkjj/xOreEK3m0Fj8zi9C58T8DHRjWtyYLaPiTIOZ?=
+ =?iso-8859-1?Q?DpU6Gc3ftucZQEndPv7zGRRyhbCSjrMUV0VYZ8xYu7WkxoYCBBp2QhvVPX?=
+ =?iso-8859-1?Q?9LVwYZ2S1qnyToZ5fwF8HXnd0ie9GVjoU4PSSK+f5WlC4+YGEPQENaIzVU?=
+ =?iso-8859-1?Q?pJ6GkDeySSUTs5HlxcYAHDMeatZ6km3WxkswTe02Y1u2gV5GNlE+R6iGD2?=
+ =?iso-8859-1?Q?M+QtmXKUKvBQkZOKRXYYr4SbNQVWRslDC+WluWXNrwM5ZwNtw4MGD0J93H?=
+ =?iso-8859-1?Q?UlGibHAqfguE/wYDALwq/S9UaeL6z2Bo1EedpMnuQH0wFpuD4GNTSt5SzB?=
+ =?iso-8859-1?Q?vNVY6AHkihBBAoZTNoDyFQQfm4dZG7rehQA24apm2MZSRxexRr5i0R6yMJ?=
+ =?iso-8859-1?Q?bxRVhRkt6WN3odozDScuSMqyYBCLGG1W//OH9lKTPvz7coy3U/PZdF3Nuq?=
+ =?iso-8859-1?Q?uPxIb+v/0te3B0pnmJtGow9x4nqT2iOSDiOr5bRj3OkVKNwvOKF7++0h5Q?=
+ =?iso-8859-1?Q?uXUQEy3VfYUeyAoaf8WiVBCq4n1l1g4TvgdR5yupNKXjxUKQA0cpPHjbVf?=
+ =?iso-8859-1?Q?x2Nyv0gxaalwl621pOlApqYgls+KkydU996UC64S56mPdL6cqLiQVevJQU?=
+ =?iso-8859-1?Q?8vScSuW4dMTS1ALsk3B408bSR/jMzJvzx5wLxySMZZUtEEm00ELYgB/VFr?=
+ =?iso-8859-1?Q?l63FXiTC7F7S5/79ySMa52TWEeth7UmAuV36zTHPXWKhT+qKFRE5cELkQC?=
+ =?iso-8859-1?Q?d8daS5oroatY40w92YKFnHTY++fgOH9n0+AAy2REj3vq65p590950fWfFH?=
+ =?iso-8859-1?Q?37lWf+3ihChf4ABDxdCmtzQTvYFK6/H7h1cAcWXASK12dnTXlAF1px3CzS?=
+ =?iso-8859-1?Q?71B6VRlie9e9Fcm+9YFMBAbuxEcEF15tHWRKDwQgTcPrKUk0HA4BvZ/61X?=
+ =?iso-8859-1?Q?DeVol7HixyWAwq+vAXv3ONwt54Rhw+pWI9uygBKzVIJthAXEMT6+oiq58A?=
+ =?iso-8859-1?Q?bJ0QQHmF18h6nDeQ7GxEs/pz6a9kG4D6TU1OgNQdX/AkUg5vujpX/WyfKw?=
+ =?iso-8859-1?Q?CT92f6dgNLiTyQnn6/iExefyV8wf7B4bI4DbNFds/0HVUKRhpWxBOeolKy?=
+ =?iso-8859-1?Q?BQB5MCZbiKyURgON+FhvnW0BYC9soded9A8etS+7LBYKChPLQxH6TPqnOB?=
+ =?iso-8859-1?Q?jQjSUR6lwO5rGX+rpnm1taZQqPvIQLcjseJoazQ6b1rZw9htmQVl0=3D?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?xFrif9c095sLbDAztPZv9xnYc7NsJs3znnb+6MgSE+zuX+mTXZQRBtjWuJ?=
+ =?iso-8859-1?Q?9TDgWVh0o3BNgUl2dpxDQLzL49jAuGdrsiLb3sBWd7aSDOkAoUaldxu9At?=
+ =?iso-8859-1?Q?N4CoonWBARxXwpDwu6OX5hiZUqaEfdsZiHwv+8J2Qm9o545tJe+L9bgA4R?=
+ =?iso-8859-1?Q?2VK6fe0mKqSGbY+oCwxxMF9qMItwXluGQHJlw4yK7U1I3exeiNslSwILS2?=
+ =?iso-8859-1?Q?pwabkVR3XNFj7C4YWOwZTzjtKhGIGSe+zH0qB6aGAnLIyUhH8fdsVZl39g?=
+ =?iso-8859-1?Q?HnhsPn8p6L6OESUmJkBt564qEsr7hcwG+BGt2ghtrgLhBbPHrPDx+ssmt2?=
+ =?iso-8859-1?Q?oSn5iP1jQfkotTWbOfwUID7cyLpCXdYh+JbVtqd6tx10JD0kAeqeobFtwd?=
+ =?iso-8859-1?Q?BIG+n7jPB50A7DnOptI7UcaojnUj/PkkqDsyY7WSpoEIOgLqrA2xbqJa5g?=
+ =?iso-8859-1?Q?zekXDlZV9NkwDvY8KXJJwCL38rPBovjxrpYRhnAwGe5b203/malKz/FDVd?=
+ =?iso-8859-1?Q?zADMlkECk5C4By6TtcFtom9tgI2owY56Ehtt8Ny8IM+EPQjcJf+zjlrz29?=
+ =?iso-8859-1?Q?Z0lKqWPNx/GSKCX76whnzqG5Ce+Rlf/46D/MmUIq/YdHIkOcQ3GV+ABy43?=
+ =?iso-8859-1?Q?OxfIK9OSI8Co3J21KpaBmt4gpQ0dxzo1Wj0EqaKwAciU9jqpDfV8sHK9ql?=
+ =?iso-8859-1?Q?C8vNLPGy+KwUDP2TmacZUS7S3pXovD/QBM1sOr+cBQQ6PgvqKfbxtN53JZ?=
+ =?iso-8859-1?Q?LuyPmqMoetXjBfRt6ptCdXiTx0Eqgp7hxZ7FDmVpQt8UBkQC4LumJReHB8?=
+ =?iso-8859-1?Q?CUT098alLjxCUKeGmdLQUBWRqnzgPR5OKad2Zjvd06xRP2qo8j4svqwQzJ?=
+ =?iso-8859-1?Q?Y5l0vG5ycTwcTccYCrt9OSFQaSZDJQDABFxA2YmL5f2Mfqlp8p/XBb/R4A?=
+ =?iso-8859-1?Q?PruOPPzuNhaC7kq6kTA0bQ+wd4UCVKNOZVuDq4IQZfKtxoVvbl44nOYpJF?=
+ =?iso-8859-1?Q?sdaUFDTTyjqrFEQ/L4Huhvbtzn+Xd93IWDsuHK2vLyQ0pWDl0l+s2kSiil?=
+ =?iso-8859-1?Q?wq2UuAyFzOn8Pev21MLpH70R3fTdePcU9DTakrabD0qAH8Gd+hswFNQ1Sd?=
+ =?iso-8859-1?Q?Q69Pv407edYOingDnXvlrY4VUek1ENBf9jexKfE7IJ5ARYq89JvrVaWPaC?=
+ =?iso-8859-1?Q?aksIC1WxIqdixC8cGnO6xtwqLp1ngF3u19DO4VdHQ4s6ZSLoz8na9MNqtA?=
+ =?iso-8859-1?Q?9hQ1e9nzs80lj+f0YXiboBWf7T8jrp0bOYxn4aleQb+THuuATmGeUyfM60?=
+ =?iso-8859-1?Q?7doN?=
+Content-Type: multipart/alternative;
+	boundary="_000_TYZPR02MB5595E1EA2E331D02ABA84508D12BATYZPR02MB5595apcp_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: TYZPR02MB5595.apcprd02.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: e9a0a42b-7c91-486c-11e8-08ddd9c0d92c
+X-MS-Exchange-CrossTenant-originalarrivaltime: 12 Aug 2025 16:53:58.1336
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: TYSPR02MB6374
+
+--_000_TYZPR02MB5595E1EA2E331D02ABA84508D12BATYZPR02MB5595apcp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+I found critical issue on your website, I would suggesting a few opportunit=
+ies for improving its performance, visibility, and ranking.
+
+Can I send you a errors to highlight these issue?
+
+Please reply "Yes" or "Sure"
+
+Thanks,
+
+
+
+--_000_TYZPR02MB5595E1EA2E331D02ABA84508D12BATYZPR02MB5595apcp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 11pt;=
+ color: rgb(0, 0, 0);" class=3D"elementToProof">
+Hello,</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 11pt;=
+ color: rgb(0, 0, 0);" class=3D"elementToProof">
+<br>
+</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 11pt;=
+ color: rgb(0, 0, 0);" class=3D"elementToProof">
+I found critical issue on your website, I would suggesting a few opportunit=
+ies for improving its performance, visibility, and ranking.</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 11pt;=
+ color: rgb(0, 0, 0);" class=3D"elementToProof">
+<br>
+</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 11pt;=
+ color: rgb(0, 0, 0);" class=3D"elementToProof">
+Can I send you a errors to highlight these issue?</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 11pt;=
+ color: rgb(0, 0, 0);" class=3D"elementToProof">
+<br>
+</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 11pt;=
+ color: rgb(0, 0, 0);" class=3D"elementToProof">
+Please reply &quot;Yes&quot; or &quot;Sure&quot;</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 11pt;=
+ color: rgb(0, 0, 0);" class=3D"elementToProof">
+<br>
+</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 11pt;=
+ color: rgb(0, 0, 0);" class=3D"elementToProof">
+Thanks,</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 11pt;=
+ color: rgb(0, 0, 0);" class=3D"elementToProof">
+<br>
+<br>
+</div>
+</body>
+</html>
+
+--_000_TYZPR02MB5595E1EA2E331D02ABA84508D12BATYZPR02MB5595apcp_--

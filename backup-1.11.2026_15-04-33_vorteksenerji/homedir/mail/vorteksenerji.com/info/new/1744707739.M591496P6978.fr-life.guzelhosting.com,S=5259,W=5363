@@ -1,0 +1,104 @@
+Return-Path: <postmaster@36950e6cac.nxcli.io>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id 2Aj3Ipsg/mdCGwAAOB6+FQ
+	(envelope-from <postmaster@36950e6cac.nxcli.io>)
+	for <info@vorteksenerji.com>; Tue, 15 Apr 2025 12:02:19 +0300
+Return-path: <postmaster@36950e6cac.nxcli.io>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Tue, 15 Apr 2025 12:02:19 +0300
+Received: from cloudhost-3400453.nl-west-1.nxcli.net ([185.145.13.117]:57812)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <postmaster@36950e6cac.nxcli.io>)
+	id 1u4cBP-000000002Xu-2FGD
+	for info@vorteksenerji.com;
+	Tue, 15 Apr 2025 12:02:19 +0300
+Comment: DomainKeys? See http://domainkeys.sourceforge.net/
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=default; d=36950e6cac.nxcli.io;
+  b=eqnv8nTOXltP14+66paJmJRFSzLnNZPd11GZI04FyxdiwEoHXVuPBeOMRohx4rZFaCq7SSsU21dXmCWMJWcF/+BLcdxk5rmhIKaWslMhTB4t9vBnCnGsNtu2mn37cKYd8pztQQMJ0RRpeN6eR27Db7THa5w8chA0yQijE6GCPqgBENfAFzHqWAuAzmVyDipXqZuUkTg0dEZmOZJzWFheWqZjnavoYIg3K/uoMRE4Pz54+kt6W5bbKV3b+/QT/Y7wjrRJA0ikiptvEcf/7d256okJOs26AVszJeRnzCcjyQAPmEpVXiOkyMbBd13yD1vVF4dAHQI/+Krw/l8k1XekmQ==;
+  h=Received:Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; d=36950e6cac.nxcli.io; h=
+	date:to:from:reply-to:subject:message-id:list-unsubscribe
+	:mime-version:content-type:content-transfer-encoding; s=default;
+	 bh=9FbjxenhZEGsnJMsb1uzRTaR5UTOhOTmrdTiElfobas=; b=KubUH6N1dqC+
+	aAsOwVG5BeGvscJ6FUpcVrgA89x+NMk3TgJXtsvaOPeaYKa3xReklB4nSIydLfWl
+	IkUgdGM0ZC7VmARXgeTi7dPeRmfqGWRNYYW1n6E6MQnVpJ9T8gnTlPwQzkL/pura
+	RLklO1osvG3bkGxa3F9HDYzVZD/b9CcVJmJkqyMA3D8GLwKswcqIhmbfe4B6YFWm
+	piKOFISy8CBnxShPa6HkTFOnYdvsmK6/XooTzUJu2dqZYB8bCQMFewzQsKUtljmr
+	ZNi5Aqv+b8IzjL/Xv0lvEufdY0ZIDMGiBtkeZHdPnT6BeFqqdfossjXdSg5BsoWB
+	8l8ag4YyjQ==
+Received: (qmail 7299 invoked by uid 10298); 15 Apr 2025 08:59:32 +0000
+Date: Tue, 15 Apr 2025 08:59:25 +0000
+To: info@vorteksenerji.com
+From: Netflix Billing <support@netflix-info.com>
+Reply-To: support@netflix-info.com
+Subject: Last chance to avoid Netflix interruption
+Message-ID: <d9941dc1853a0a6789c55ef854ce9f45@netflix-info.com>
+List-Unsubscribe: mailto:bounce846-UfcN2G9GQ21GqnK@netflix-info.com?subject=list-unsubscribe
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="1aa8475d0904feac7182c317f0af6c047"
+Content-Transfer-Encoding: 8bit
+
+This is a multi-part message in MIME format.
+
+--1aa8475d0904feac7182c317f0af6c047
+Content-Type: text/plain; charset=us-ascii
+
+
+
+
+
+Netflix Billing Issue
+body{background-color:#000;color:#fff;font-family:Arial,sans-serif;margin:0;padding:0}.container{max-width:600px;margin:40px auto;background-color:#141414;border-radius:8px;padding:30px}.logo{text-align:center;margin-bottom:30px}.logo img{width:120px}h1{color:#e50914;font-size:22px}p{font-size:15px;line-height:1.6}.btn{display:inline-block;margin-top:20px;padding:12px 25px;background-color:#e50914;color:#fff;text-decoration:none;border-radius:4px;font-weight:bold}.footer{margin-top:35px;font-size:13px;color:#888;text-align:center}
+
+
+
+
+
+
+We're having trouble with your current billing information
+Dear Customer,
+We were unable to process your last payment for your Netflix subscription. To avoid any interruption, please update your billing information as soon as possible.
+Click the button below to update your payment method and continue enjoying your favorite shows and movies without interruption.
+
+Update Payment
+
+If you have any questions, we're here to help 24/7. This message was sent by Netflix.
+
+
+
+
+--1aa8475d0904feac7182c317f0af6c047
+Content-Type: text/html; charset=us-ascii
+
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset=UTF-8 />
+<title>Netflix Billing Issue</title>
+<style>body{background-color:#000;color:#fff;font-family:Arial,sans-serif;margin:0;padding:0}.container{max-width:600px;margin:40px auto;background-color:#141414;border-radius:8px;padding:30px}.logo{text-align:center;margin-bottom:30px}.logo img{width:120px}h1{color:#e50914;font-size:22px}p{font-size:15px;line-height:1.6}.btn{display:inline-block;margin-top:20px;padding:12px 25px;background-color:#e50914;color:#fff;text-decoration:none;border-radius:4px;font-weight:bold}.footer{margin-top:35px;font-size:13px;color:#888;text-align:center}</style>
+</head>
+<body>
+<div class=container>
+<div class=logo>
+<img src=https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png alt="Netflix Logo" />
+</div>
+<h1>We're having trouble with your current billing information</h1>
+<p>Dear Customer,</p>
+<p>We were unable to process your last payment for your Netflix subscription. To avoid any interruption, please update your billing information as soon as possible.</p>
+<p>Click the button below to update your payment method and continue enjoying your favorite shows and movies without interruption.</p>
+<p style=text-align:center>
+<a href=https://netomtl.com/mt class=btn>Update Payment</a>
+</p>
+<p class=footer>If you have any questions, we're here to help 24/7. This message was sent by Netflix.</p>
+</div>
+</body>
+</html>
+
+
+
+--1aa8475d0904feac7182c317f0af6c047--

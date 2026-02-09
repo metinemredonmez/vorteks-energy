@@ -1,0 +1,219 @@
+Return-Path: <lorajenkins1989@gmail.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id Qs+wCpXEIWgJMAAAOB6+FQ
+	(envelope-from <lorajenkins1989@gmail.com>)
+	for <info@vorteksenerji.com>; Mon, 12 May 2025 12:51:17 +0300
+Return-path: <lorajenkins1989@gmail.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Mon, 12 May 2025 12:51:17 +0300
+Received: from mail-pg1-f169.google.com ([209.85.215.169]:46414)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <lorajenkins1989@gmail.com>)
+	id 1uEPoa-000000002s3-40QL
+	for info@vorteksenerji.com;
+	Mon, 12 May 2025 12:51:17 +0300
+Received: by mail-pg1-f169.google.com with SMTP id 41be03b00d2f7-b170c99aa49so2741010a12.1
+        for <info@vorteksenerji.com>; Mon, 12 May 2025 02:50:56 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1747043434; x=1747648234; darn=vorteksenerji.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=PBgcEmW9NCzAVm4OuDjpgm5hMEZPKEveK2i9B24GVds=;
+        b=F5/6l+tCsAOzR1+h2aajzfUhnjCCkSkyHYko2nKk0+2JgZbnYo1lwafiBIymsKFZgD
+         kI1OgDEgEbtbVeVc1qWdYAgV23+hP11g/yC+aH5yOuoIS6ACe6R8SZU5KaYy3UegpyiY
+         FkXSsvnNp99tC0G1W2TKllMumPdFBD/BR+LMvb4sj/DuuX9L6eY+h8yVWiqwI+6le/om
+         M7aTjaMyeoqTfDz3d2vmurvAmPfTRutBVrpm3eVbvD8fBMbL44uFt8r9YhUDVDPy9fir
+         yRGSKA86XrGLCTjjgSctzmA5uScYeru8aA6X4/RiEg4t+2XicyOjJ0xnToKg+lWbggKM
+         o1aQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1747043434; x=1747648234;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=PBgcEmW9NCzAVm4OuDjpgm5hMEZPKEveK2i9B24GVds=;
+        b=YmfmGh50rIJKDRRgiRFQFewBDEyhJnzMTaikDfqTstZ2CyzVCnjLTN3B64oCdpuLG6
+         tU0AkRN8551YtlAYwumIrKCNayH4uo0wkzS4baIhC/QAxXoyrvgMJuGLNR79dy39fpsy
+         ek5Io+6wuMyOy17WGMlvL8t9UQd78vw1Esp4p4vznynkx1itx1mgYdjewlvo07n4PMTA
+         4FhwcruqStWnZvbg54g/KO+4HlxCYQgyY4kOqALWrdkVHtpJhN6YiqsmMDKUO6DrM6VA
+         XRKWTZWFoPVMqotQIcpv/fRzmwWbPIVgtGc+VGpRdU3C6tzy6FSVie41VEHBS7cmyMzM
+         1g5w==
+X-Gm-Message-State: AOJu0YwGIKC8YozAebcN3BtWx6zLAE6+BDBGEBPPrWotVMahEwnBp3gS
+	ugY9jiBCnUC0Nu8IE9ibpz3O3/KKj1XSqzhGGUSVf7p5jwARTAqTLyI9MA==
+X-Gm-Gg: ASbGncu7Ef+hc0ZC4IFFXWmdOeXHSHJ36mQ/FIDHSIKcMM0CVI3x2X/3LMeoX8myhIs
+	2Id3n86B+wTz7OEJIX7+3eJBIfvrhPIIQoiqoeCnAhDSOyIiCfsbn/peHMBrPn5XL9HxelUohRb
+	k+QI0n0pfyoch5yslOK7xj8mVSRRdjw1yRty0kj5qR6Ln8StSdWZlgeEmDhs6j4VNPM74Id4G0I
+	8qnassvVQrCe3aijRUGuHvIF4Q8S7RwPPWBZFR7L+UKMohaDqyRkqN10JZkKcqAiuVAJrB6naN1
+	72e5/C09prvErJaJC0CvlX/fZ2ShluC1of3jYRNUJeGz2gOhdcVB8Eh+ybnxn6f2JqO+0yCbaQ=
+	=
+X-Google-Smtp-Source: AGHT+IFalbB6EVn23RaIRRx5ppq52TxmdrJahkTel311rIUSzHvEIivWfAf8onbFKULCbgrDn94afQ==
+X-Received: by 2002:a17:903:230e:b0:223:325c:89f6 with SMTP id d9443c01a7336-22fc8b1b1a6mr197455875ad.10.1747043434214;
+        Mon, 12 May 2025 02:50:34 -0700 (PDT)
+Received: from DESKTOP92IDHI8 ([2401:4900:1c23:5640:7ce0:fcfd:95d1:4ec2])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-22fc828b37asm58665175ad.187.2025.05.12.02.50.33
+        for <info@vorteksenerji.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 12 May 2025 02:50:33 -0700 (PDT)
+From: "Laura" <lorajenkins1989@gmail.com>
+To: <info@vorteksenerji.com>
+Subject: Re:1st page on Google!
+Date: Mon, 12 May 2025 15:19:42 +0530
+Message-ID: <082101dbc323$4dfe8880$e9fb9980$@gmail.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0822_01DBC351.67B7FD00"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AdvDIl9WFxG9ebrESFmOACgJj03a5w==
+Content-Language: en-gb
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0822_01DBC351.67B7FD00
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+Good Morning!!
+
+I'd like to follow-up to my last mail.
+
+Please let me know if you are interested so that we can schedule a call or
+please share your WhatsApp number for easy communication.
+
+Thanks,
+
+_______________________________
+
+From: Laura
+
+Sent: Monday, May 05, 2025 02:56 PM
+
+To: info@vorteksenerji.com
+
+Subject: 1st page on Google!
+
+ 
+
+Hi,
+
+I was checking your website www.vorteksenerji.com, See you have a good
+design, and it looks great, but it's not ranking on Google and other major
+search engines.
+
+Do you want more targeted visitors on your website?
+
+We can place your website on Google 1st page. Yahoo, Bing etc.)
+
+May I send you a Price, SEO Packages? If interested.
+
+Thank you!
+
+Laura,
+
+
+------=_NextPart_000_0822_01DBC351.67B7FD00
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 14 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Comic Sans MS";
+	panose-1:3 15 7 2 3 3 2 2 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-language:EN-US;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-GB><div =
+class=3DWordSection1><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>Hi,<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>Good Morning!!<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>I&#8217;d like to follow-up to my last =
+mail.<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>Please let me know if you are interested so that we can schedule a =
+call or please share your WhatsApp number for easy =
+communication.<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>Thanks,<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>_______________________________<o:p></o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-family:"Comic Sans MS"'>From: =
+Laura<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-family:"Comic Sans MS"'>Sent: Monday, May 05, 2025 02:56 =
+PM<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-family:"Comic Sans MS"'>To: =
+info@vorteksenerji.com<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-family:"Comic Sans MS"'>Subject: 1<sup>st</sup> page on =
+Google!<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-family:"Comic Sans MS"'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:normal'><span =
+style=3D'font-family:"Comic Sans MS"'>Hi,<o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:normal'><span =
+style=3D'font-family:"Comic Sans MS"'>I was checking your website =
+www.vorteksenerji.com, See you have a good design, and it looks great, =
+but it&#8217;s not ranking on Google and other major search =
+engines.<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>Do you want more targeted visitors on your =
+website?<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>We can place your website on Google 1st page. Yahoo, Bing =
+etc.)<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>May I send you a Price, SEO Packages? If =
+interested.<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>Thank you!<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>Laura,<o:p></o:p></span></p></div></body></html>
+------=_NextPart_000_0822_01DBC351.67B7FD00--
+

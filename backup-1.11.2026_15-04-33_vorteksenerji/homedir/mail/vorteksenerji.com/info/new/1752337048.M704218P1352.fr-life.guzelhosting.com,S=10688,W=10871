@@ -1,0 +1,183 @@
+Return-Path: <sumankumari090@outlook.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id KFeiKZiKcmhIBQAAOB6+FQ
+	(envelope-from <sumankumari090@outlook.com>)
+	for <info@vorteksenerji.com>; Sat, 12 Jul 2025 19:17:28 +0300
+Return-path: <sumankumari090@outlook.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Sat, 12 Jul 2025 19:17:28 +0300
+Received: from mail-koreacentralazolkn19013083.outbound.protection.outlook.com ([52.103.74.83]:22723 helo=SEYPR02CU001.outbound.protection.outlook.com)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.98.1)
+	(envelope-from <sumankumari090@outlook.com>)
+	id 1uacum-000000000JF-1040
+	for info@vorteksenerji.com;
+	Sat, 12 Jul 2025 19:17:28 +0300
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=Wm9NlT2u0ZoNvUjMGmXNi3p/x9FKbewnhLYWAQIJ5LPlgXdqbQCDnPSbBxsC5WO5UP9oQBV+M+1CBbJIsldnn/z0LLgte+J6CTCey3Sng9zg8DOpBVvYpxStHa6H4i1zastuWMmxjTxzJcE5SN9YGHfrKo+ZPJdORNfK985lPhkGuacQverJJpIJ2cO3LlPRE4Lhw5ZC1ZhbwBTNUMOdcrx5M75so1YXRxrlKgTw0lrJNrDo3pjXsPsf9NBChBJQABsnRxb+LDPel6gylAbjl3Y5gsJEa5lUfZjSGhHuB2sLL5f57txAd6WE7MW2KwdiA+ud+7P88MaSNUz1iXOQ2g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=u0XbUmx4+W7MIp8Xaa6Cugeosukg8bAjUMhMNGkEC08=;
+ b=YRcHzLLBt6qrZeDBp887kEG+6m6LJOMlwCStOaU9UqjjvK9M12YG01/fWtxEjj6zifG/ZUvMtGvCl7tXnyljqXnEgkmOU2LPpIzvpZJRTfPLHGWg+kxEGfABUre0rdA77kvnfal57iWUFHl2OksQNhQYGHcYoG3zPTgN94CaJP/Dl7JK06YNtB1CXjrTflikoh32kAYNSzEjb1VgmJgNDtv0+T/X7x9jX63UFnRQBaVoE9ozd/e0ReuTuBlNRP5zUpn1V0yoFQwAo7UZLB2FpQzA3iKK53ChNQ4OBf9nZCtvhmQY3uy33w9u1WC38fiJZSAwDgvIYYKAbSZ66Cbawg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=u0XbUmx4+W7MIp8Xaa6Cugeosukg8bAjUMhMNGkEC08=;
+ b=pFKqBC55lTOX7x0VbKWpkfh8sfsZvOvOaBpMoy0jpYeM+mP6xmU/hd53AmswgPvMoYTgT6dtQkBR8J6P+dGU8DZ0j3MQC6yHkiPL+A1SMdnMuCtxsvToIRWB7WOZ42ee79ZO2bSsv9qcg4C/Zmkztm+nZtXvhP2Pp87Tvb+UrLFMUnU8PlUWQAw6ABIJOdylMgfi7VzH1C7h3XFRdCbqgEdJXOcGPaPm6NIU3EKyWWO6a6YuH6ngFOHpfyGm3+119X76TPquHeF3DylH5hxJV7KlkQDS9sS7JF2kSEMUHp/kn+CQvcqFq+HMs0UkG0KkzcrBynZkNwZLn0lCeKkagQ==
+Received: from TYZPR04MB8269.apcprd04.prod.outlook.com (2603:1096:405:e4::14)
+ by JH0PR04MB7175.apcprd04.prod.outlook.com (2603:1096:990:3f::10) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8901.29; Sat, 12 Jul
+ 2025 16:16:01 +0000
+Received: from TYZPR04MB8269.apcprd04.prod.outlook.com
+ ([fe80::bd7c:162d:e814:c272]) by TYZPR04MB8269.apcprd04.prod.outlook.com
+ ([fe80::bd7c:162d:e814:c272%5]) with mapi id 15.20.8901.028; Sat, 12 Jul 2025
+ 16:16:00 +0000
+From: Suman Kumari <sumankumari090@outlook.com>
+Subject: App.?
+Thread-Topic: App.?
+Thread-Index: AQHb80g8MxTUEU5GmE6FbSf4TmnVwQ==
+Date: Sat, 12 Jul 2025 16:16:00 +0000
+Message-ID:
+ <TYZPR04MB82696F552AC2CA78B9B7E78C884AA@TYZPR04MB8269.apcprd04.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: TYZPR04MB8269:EE_|JH0PR04MB7175:EE_
+x-ms-office365-filtering-correlation-id: a88f8674-adef-4d60-16a0-08ddc15f6456
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|15030799006|15080799012|461199028|40105399003|41105399003|39145399003|51005399003|440099028|39105399003|3412199025|12091999003|102099032;
+x-microsoft-antispam-message-info:
+ =?iso-8859-1?Q?7NZzTe88QSimneK5ggr6/LGnmJfuvXp6Ho0eLdvWHCD00XFgY2ZyI5thfI?=
+ =?iso-8859-1?Q?eBmMJ1QdmUMzDgHGM5BLdUFnh7ljao1A3IAUCFxwpEVpf2RTjwgNES48zI?=
+ =?iso-8859-1?Q?N1GEgl8t8t5kIGODSUAni3z5q9Duh2PuvG5dYiz30vVjy78pNVxU7T+a/p?=
+ =?iso-8859-1?Q?dPBu4xiunI54wMohl1LeEowe5U+Y8KtNIQpC5DnIxgXBWYvaKL3idaKusT?=
+ =?iso-8859-1?Q?Mdz6hDrmnogNYEy8K8oE3I47r/FeXIdzrwQTpKEEPfTTi2TmYJQUxNEkdN?=
+ =?iso-8859-1?Q?l5c6iJaaDoCenFSkNdzm37K2aFgL1hrHIsCQYZAHE5JxaPLPLtR16L/TjY?=
+ =?iso-8859-1?Q?rvcR/ADRMHvpt+G8QXZIW5PMRQqhNuar9cMSl9UOBiRPpzGCENTGhwphRB?=
+ =?iso-8859-1?Q?hn2d0hDc6dHbrGVghoFn5P0xOtbxDtdJBM827kPfJSxjjHCi8CTyFTmM53?=
+ =?iso-8859-1?Q?o50YHgp/kwFjoe9irDY66Y+P+WqR2vKJAviWqy8jOnZeHom/m/2XmVGw9y?=
+ =?iso-8859-1?Q?lSmCngUTdcHItcq7W/RZSDAqdH4IGYFT0tTYmBAHhee0rQHCh5OwkYrKjg?=
+ =?iso-8859-1?Q?Uk6vOXYkSl6dIcE/lv4gjwT27LdHSXeUFxGbLF2TWWiU26PuKMCbR7tU/H?=
+ =?iso-8859-1?Q?c+IHqN4uKCILTpzwG497t+9o574BbqYW1e/U8bSlyS+gi/graEWjuGjIi2?=
+ =?iso-8859-1?Q?x2jAX874Bkz6dhDF/rc2z/E2blKRU8SelrTOPbPwCCbEebrH2C9mNjzK+O?=
+ =?iso-8859-1?Q?KfL4hw44AtEyq5wj4/BZ0v+4DGbUbI97hVhSreodthzsjDAFpoXI8nB99Y?=
+ =?iso-8859-1?Q?tN9uzCevsWaK06cHwI6n/e1eik38ZDDBY6Ega1ARXP2r2efjFsOBKMhX+v?=
+ =?iso-8859-1?Q?svSOQVv7FsMMRjLrfxnUkfHcQOLFuCsHJ/i8TKp08VSCiFi3bu4PZadfT/?=
+ =?iso-8859-1?Q?MsomUNZzUJ5v9vXKKIlKW7d06+oEVjzoofbEOqJGoPyHUUfE31xbI4MgxP?=
+ =?iso-8859-1?Q?yKoChR86KVXngalZxnKwHJrfy0069wwm9uq79aW1MleyiGJf6gDNyL20Vd?=
+ =?iso-8859-1?Q?xih1EGLX945bE7Wmfc44/5o7sasWdc2FlYbPhV4c2pa/8QbcD9cemx17IO?=
+ =?iso-8859-1?Q?KRhLvMKc5RAVx5IXkn9YkDk8ijPsujsPlKGyRY+Rg4Et0kO55jhaHhndW9?=
+ =?iso-8859-1?Q?LV5XJIqm9iNa0MEePzuITWwrxzupwQd35ATITln7dkDUWof6xR9/o2mnwN?=
+ =?iso-8859-1?Q?ReUGjY7mUaMaVrb/9RnA=3D=3D?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?gpI7Gy7Fhyft/uKLISoAXOi/4K4BfanC+w7OmRi3mM1D1X7DYQwcOHrpce?=
+ =?iso-8859-1?Q?fAUh0CS31hO4Ols/URcXniYWr7ayLDGhhCatzF8QMrpsBU+IR0u35cROdx?=
+ =?iso-8859-1?Q?NQy1cLxqqTMIGvHOjbwly8R5KxPGG6Bi41EPHAhBea8D5qkZ2ns2fso3Hy?=
+ =?iso-8859-1?Q?abgP33e9oJnNn5Muo08bfyFLyETeZh2HEFbEGTaM+P6mEdry/Y5F0X4XiZ?=
+ =?iso-8859-1?Q?Ia23D2ZrOkn2+2QygxC1RPV/5v6b3qJe6RTX9IdFEgMeWDyCS/qulycVgM?=
+ =?iso-8859-1?Q?UgJE/eEjTgKvcD+RU9a0rvrrxNjvrAwuDbQ18JLyIsdyIo0j1Mna96GI98?=
+ =?iso-8859-1?Q?6C/f6dP2PvvTD39NHNyKGTVs9Y1HgFDnuzSqGP3NS6PH4V1s+5I8ehYaJh?=
+ =?iso-8859-1?Q?KN/kguSRkaJN5kmx19SkN1FY2jWNOyQ+zdqoeTlao2yQ/pigQIWcSnJklp?=
+ =?iso-8859-1?Q?G/XRJCdGmctbq4qJdoTrQBSBs9l1Emq5COyLwyp+zdaWBLA9Wk4UT5CCi8?=
+ =?iso-8859-1?Q?K1ggSm8Vq2k9itvyOZcyd1PYtm7UiDS2metvHroSV3T/agqY10pxLdoGu1?=
+ =?iso-8859-1?Q?5q9BqNfBvJgjKk7BIvCpUfTeRKoWruCi/NScJPSr+iQIwYYY5vVj9ZWjj8?=
+ =?iso-8859-1?Q?wewAQns0qsK3b8oumEF9JTE8zp0t7HMgci3pxTycozkM1hzHJqxrhypNOG?=
+ =?iso-8859-1?Q?Fnc9Y5NkeMEt3DCOWcgvAZtA3oeOhlULKS7i1B5ypdm6ntLFBzl6xn7lfM?=
+ =?iso-8859-1?Q?dKrwv0KdVOUI0IrAciU71Yl5xZCuxP4VaCSUdGyLhU1qnh91l+0e4ruB3q?=
+ =?iso-8859-1?Q?Rf+MQZ9k4kuBKbsVQ9g8sLD4d3PoPY1Aot1AA+LZpNkOftRlbCdpLgraTQ?=
+ =?iso-8859-1?Q?+9fROdWt44YpA8oH+XXFltZgbfIy34vawqrdx2ZLQdZBm6Sy2n8UCcsfDO?=
+ =?iso-8859-1?Q?dHKjOnoqnDwPklDPD4VcAxXV8ybp1/FJlIdt3CUg7NB0YeZCLB22IFzSub?=
+ =?iso-8859-1?Q?viVcdfKVEzVsWqoNOFhmPMT4p1x8+DlHRGcJ8wMJZ5c9kZ4L2yRUO8YTmH?=
+ =?iso-8859-1?Q?Pj+FtS5nTEuhi+0K7/yRS7tfvYkiZEpIkztZPjFa7SiFVJznajdpdFsBT4?=
+ =?iso-8859-1?Q?7rC+RMHJwpgAoEQxc0d8li1/t1liConAdab/cYKr14jpHACFetSnk7FrEP?=
+ =?iso-8859-1?Q?2a4Z7b0QIEENXhBjehdJ/oDNU9VY9uIQjfMJPGNsO3bYd7wXKjFRzFpq5b?=
+ =?iso-8859-1?Q?b2Yut+lYXRlq6RFslGVXIwnWO0V6hCOIBhWX4aldw=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_TYZPR04MB82696F552AC2CA78B9B7E78C884AATYZPR04MB8269apcp_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: TYZPR04MB8269.apcprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: a88f8674-adef-4d60-16a0-08ddc15f6456
+X-MS-Exchange-CrossTenant-originalarrivaltime: 12 Jul 2025 16:16:00.5491
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: JH0PR04MB7175
+
+--_000_TYZPR04MB82696F552AC2CA78B9B7E78C884AATYZPR04MB8269apcp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+Are you interested in a mobile app for Android, iOS, or iPad?
+
+I create custom apps based on your needs. Feel free to share your idea or t=
+he type of app you want.
+
+Looking forward to your reply!
+
+Best regards,
+
+Suman
+
+
+--_000_TYZPR04MB82696F552AC2CA78B9B7E78C884AATYZPR04MB8269apcp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<p class=3D"elementToProof" style=3D"line-height: 1.38; margin: 0cm 0cm 10p=
+t;"><span style=3D"font-family: &quot;Cambria Math&quot;, &quot;serif&quot;=
+; font-size: 13pt; color: rgb(0, 32, 96); line-height: 115%;">Hi,</span></p=
+>
+<p class=3D"elementToProof" style=3D"line-height: 1.38; margin: 0cm 0cm 10p=
+t;"><span style=3D"font-family: &quot;Cambria Math&quot;, &quot;serif&quot;=
+; font-size: 13pt; color: rgb(0, 32, 96); line-height: 115%;">Are you inter=
+ested in a mobile app for Android, iOS, or iPad?</span></p>
+<p class=3D"elementToProof" style=3D"line-height: 1.38; margin: 0cm 0cm 10p=
+t;"><span style=3D"font-family: &quot;Cambria Math&quot;, &quot;serif&quot;=
+; font-size: 13pt; color: rgb(0, 32, 96); line-height: 115%;">I create cust=
+om apps based on your needs. Feel free to share your idea
+ or the type of app you want.</span></p>
+<p class=3D"elementToProof" style=3D"line-height: 1.38; margin: 0cm 0cm 10p=
+t;"><span style=3D"font-family: &quot;Cambria Math&quot;, &quot;serif&quot;=
+; font-size: 13pt; color: rgb(0, 32, 96); line-height: 115%;">Looking forwa=
+rd to your reply!</span></p>
+<p class=3D"elementToProof" style=3D"line-height: 1.38; margin: 0cm 0cm 10p=
+t;"><span style=3D"font-family: &quot;Cambria Math&quot;, &quot;serif&quot;=
+; font-size: 13pt; color: rgb(0, 32, 96); line-height: 115%;">Best regards,=
+</span></p>
+<p class=3D"elementToProof" style=3D"line-height: 1.38; margin: 0cm 0cm 10p=
+t;"><span style=3D"font-family: &quot;Cambria Math&quot;, &quot;serif&quot;=
+; font-size: 13pt; color: rgb(0, 32, 96); line-height: 115%;">Suman</span><=
+/p>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+</body>
+</html>
+
+--_000_TYZPR04MB82696F552AC2CA78B9B7E78C884AATYZPR04MB8269apcp_--

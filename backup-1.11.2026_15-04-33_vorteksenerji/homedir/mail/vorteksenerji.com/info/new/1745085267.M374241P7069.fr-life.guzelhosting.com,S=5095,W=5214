@@ -1,0 +1,119 @@
+Return-Path: <postmaster@7d1519a671.nxcli.io>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id APr5FVPjA2idGwAAOB6+FQ
+	(envelope-from <postmaster@7d1519a671.nxcli.io>)
+	for <info@vorteksenerji.com>; Sat, 19 Apr 2025 20:54:27 +0300
+Return-path: <postmaster@7d1519a671.nxcli.io>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Sat, 19 Apr 2025 20:54:27 +0300
+Received: from cloudhost-1920797.us-midwest-1.nxcli.net ([8.29.155.183]:44812)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <postmaster@7d1519a671.nxcli.io>)
+	id 1u6COZ-000000001d2-0We3
+	for info@vorteksenerji.com;
+	Sat, 19 Apr 2025 20:54:27 +0300
+Comment: DomainKeys? See http://domainkeys.sourceforge.net/
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=default; d=7d1519a671.nxcli.io;
+  b=ePzrQZvoNWT2VZJLIVZq2zAI+9Oe2Une2p5i1WJICJLRencGsWqZMx5xYabRQ1QAS7jJXRSEpSAL6VM9D2c3zdj3Qc4s5RAaaZ/mzDtcGXsWG4Ng4jAPKfDYwKy4Jj2gN42mR3Dc72YN4MpyvlKa15JdVo0q5YVpUvKJ8+9ZMqvpYl26a69gDph1JSMaJFKpt9YvqDvaSrrrhNVlZis/1nGQdEbX0LG2iCuJQ9BxFt6qVOIKWNpuboffy4m8T3Bp6o5HZUHkORWqb4tivnlPsWZCzTatTJw/OBzIubM6DTKQe4p3z33cYNTIk1MPCpI1cL1JN8seJjfVdEbU9doa2A==;
+  h=Received:Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=7d1519a671.nxcli.io; h=
+	date:to:from:reply-to:subject:message-id:list-unsubscribe
+	:mime-version:content-type:content-transfer-encoding; s=default;
+	 bh=zK4rnZFzxbXfaowquHYV8UZ37WM=; b=NPQhe2y9sNoxlRk3KFNkWevIlCiR
+	iqk87DW1qAjw16P2Zri2K7Ttwl0VDBiEvcKvv7+bVT7F7oGnn4AgXw0vbWbfmX7y
+	EMhcl/Kk80UBjpxTymBx29RcJP4PKe5L+D2DiXKpERmzmn4dHZtxXqHdpvrOk9ce
+	kG3F3/R1pKQ719gjT1IGXMi8mT8UGTbkYa/MTHvkDiDmE6DtFdFRGv5HyFjZZvlF
+	TyFykxGib5NGDkZaEJ9GdOwI081JLpPrWU54QHwtl0QaZxd1u5DWAtCcR8Ax8DwU
+	7q/a3PVN3A8fbknFCbKUCDsMiKtGgunNRJEk+gf4NtSY2w25XBhLB98Nzw==
+Received: (qmail 32369 invoked by uid 10194); 19 Apr 2025 17:53:44 +0000
+Date: Sat, 19 Apr 2025 17:53:40 +0000
+To: info@vorteksenerji.com
+From: MetaMask Security <info@wallet-support.net>
+Reply-To: info@wallet-support.net
+Subject: Security Alert: Verify Your MetaMask Account
+Message-ID: <3069f4766bf3a05f4d0f8bc33b0cb24c@wallet-support.net>
+List-Unsubscribe: mailto:bounce686-g0blBFEP9rxXDoJ@wallet-support.net?subject=list-unsubscribe
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="1d617ec7835bd40ed6f5c6f66c0727f97"
+Content-Transfer-Encoding: 8bit
+
+This is a multi-part message in MIME format.
+
+--1d617ec7835bd40ed6f5c6f66c0727f97
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+
+
+
+
+  
+    
+      
+      Verify Your Wallet Access
+    
+  
+  
+    
+      We detected an update to your session activity. To maintain uninterrupted access, please confirm your identity below.
+      Activating Two-Factor Authentication (2FA) helps secure your wallet against unauthorized access—even if your password is known.
+      
+        🔒 Secure My Wallet Now
+      
+      For your protection, this session will expire shortly.
+      If this wasn't initiated by you, please disregard this message.
+      Regards,Support Team
+    
+  
+  
+    
+      © 2025 Account Services. All rights reserved.
+    
+  
+
+
+
+
+--1d617ec7835bd40ed6f5c6f66c0727f97
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+<body style="margin:0;padding:20px;font-family:Arial,sans-serif;background-color:#fff;color:#333;">
+<table width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;margin:auto;border:1px solid #ddd;border-radius:6px;">
+  <tr>
+    <td style="background-color:#fff;padding:20px;text-align:center;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/MetaMask_Fox.svg" width="60" alt="Access Logo" style="margin-bottom:20px;">
+      <h2 style="color:#f6851b;font-size:20px">Verify Your Wallet Access</h2>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:20px;">
+      <p>We detected an update to your session activity. To maintain uninterrupted access, please confirm your identity below.</p>
+      <p>Activating Two-Factor Authentication (2FA) helps secure your wallet against unauthorized access—even if your password is known.</p>
+      <p style="text-align:center;margin:30px 0">
+        <a href="https://micro-pep-gateway.pure-digital.com.au/nt" style="background-color:#f6851b;color:#fff;text-decoration:none;padding:12px 22px;border-radius:5px;font-weight:bold">🔒 Secure My Wallet Now</a>
+      </p>
+      <p style="text-align:center;font-size:13px;color:#777;">For your protection, this session will expire shortly.</p>
+      <p>If this wasn't initiated by you, please disregard this message.</p>
+      <p>Regards,<br>Support Team</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color:#f2f2f2;text-align:center;font-size:12px;color:#888;padding:10px;border-top:1px solid #ddd;">
+      © 2025 Account Services. All rights reserved.
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+
+--1d617ec7835bd40ed6f5c6f66c0727f97--

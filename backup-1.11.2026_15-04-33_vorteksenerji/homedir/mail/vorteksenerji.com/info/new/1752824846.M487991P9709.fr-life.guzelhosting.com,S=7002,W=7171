@@ -1,0 +1,169 @@
+Return-Path: <poonam@indiadesigner.in>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id UKa/HA78eWjtJQAAOB6+FQ
+	(envelope-from <poonam@indiadesigner.in>)
+	for <info@vorteksenerji.com>; Fri, 18 Jul 2025 10:47:26 +0300
+Return-path: <poonam@indiadesigner.in>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Fri, 18 Jul 2025 10:47:26 +0300
+Received: from mail-pf1-f169.google.com ([209.85.210.169]:53432)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <poonam@indiadesigner.in>)
+	id 1ucfoU-000000007PA-1CNH
+	for info@vorteksenerji.com;
+	Fri, 18 Jul 2025 10:47:26 +0300
+Received: by mail-pf1-f169.google.com with SMTP id d2e1a72fcca58-7490acf57b9so1444140b3a.2
+        for <info@vorteksenerji.com>; Fri, 18 Jul 2025 00:47:06 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=indiadesigner.in; s=google; t=1752824804; x=1753429604; darn=vorteksenerji.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=Jvp3vF18Wv7T/snOwlW9P6ai2cW4bzDmKxYleZLta0Y=;
+        b=ENRICGQECQtBxmVapArABa+LFsEELeVpKeeKONLB23x0Rie1FgfCtKHSIKiVCAYzN2
+         xieih6FPRvh6Q0Fo9nT0GU4DlMhem17gYkxiUIvr9BFOpReCTR9RW/kE9BkA/P/d4kUN
+         Fgp78hhLowyR6wF7gwpDOKUWbixKsQP7m15mU=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1752824804; x=1753429604;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=Jvp3vF18Wv7T/snOwlW9P6ai2cW4bzDmKxYleZLta0Y=;
+        b=Ze9leIq1lQnHkNQ/qplRPHElKKYThvuN7VDJ6JrDcELXbtI9D6KvywLqvCH88zudGa
+         3j8UOl7/lA3GfJ+majqReo1hbucdp+J/elRiyLL9TFFsaNDMrZ6kZgtP7ld5j1HV0j3b
+         7sYVByHK+/VjaC4IjijbkpiRcXqfwKfluupAiZwHErDOV6pFKJAz/TNn2fkCzddBRSZr
+         59CmQ0JTeFA+uNtTtL2vdawxNaVJECTJzFCsBUCPbltKjIRLJqUsWicL8TH4lCLArYog
+         xjwKLmxdbNIcyoHURxmqaNwzEzPhnVnNIEzZIj7i/lcZTxDU2eL0yNtFIg2w5Q+GqXf6
+         ybFg==
+X-Gm-Message-State: AOJu0YwnNYixz8cdTvGZiGdWD/hvHNHQ7vuBnCCpR+Tphh2qDS/hk6FD
+	hLVP8RJydJ/sWhohwXd9jp6fos6kZfB254gLRcOPYvo4kjH/0+vij++dtpi3a7JjbcXk+lZxTUE
+	ZvexK
+X-Gm-Gg: ASbGncvXeCYGvrgSmu7GoUT9hkoYlN7x4T7yRR9keE3UUcBOUeo6AIhEJd4p0ZmlExc
+	TK+AvZJxMCbXT3Qso1FlrVLlY45vKp4SiEjlS95hOWsiktbQBuGS+3AsTpa0aZ50WbOoKiQ3cuy
+	Bo2TYZNPGWzMOKojttPRxul1QenSax+ZN34weZGL7wZkiD1zZtoXREpG3Am6Hlocf8ZKArryv+j
+	BlAKB3uvpJDI20z32KIVsI6HL1XNS48kwMGQu4jdomUsikVcZaZCLo81wdqNgNtSA+JccWuP1m7
+	rnwOfBs270WqpZW097QgRb6eYaN34jsqqjrCQqLSTVQ+5dqOonmgwnAPwT9Q4e13ZXK5HSGDWDb
+	HUp+9ROui3iwN1cciD4NrWdcp0lQABoROQDq9dXE=
+X-Google-Smtp-Source: AGHT+IGzMoJBalzkx8JW1LXcf6ZTt5sHi7Tm79YdyPuMKRQwSbXT2EwQMe/bDx1y4hvc6EhuzHGjKg==
+X-Received: by 2002:a05:6a21:104:b0:237:90ae:82de with SMTP id adf61e73a8af0-23810d516f6mr13135303637.16.1752824803996;
+        Fri, 18 Jul 2025 00:46:43 -0700 (PDT)
+Received: from DESKTOPQPJ2HB0 ([2409:40e4:2050:16a:f959:4cee:e124:f674])
+        by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-759c84e2727sm696444b3a.33.2025.07.18.00.46.42
+        for <info@vorteksenerji.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 18 Jul 2025 00:46:43 -0700 (PDT)
+From: "Poonam" <poonam@indiadesigner.in>
+To: <info@vorteksenerji.com>
+Subject: Apps Proposal?
+Date: Fri, 18 Jul 2025 11:06:49 +0530
+Message-ID: <3bf101dbf7b7$e7e40d80$b7ac2880$@in>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_3BF2_01DBF7E6.019C4980"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Adv3knTAJ3w/x5vYTUeQO8KL5E4KPA==
+Content-Language: en-us
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_3BF2_01DBF7E6.019C4980
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi info@vorteksenerji.com,
+
+ 
+
+Good Morning
+
+Hope you're doing great!
+
+I'm Poonam, a professional with over 12 years of experience in developing
+iOS and Android apps from India. Need help with a new app or improving an
+existing one?
+
+Don't hesitate to reach out for any mobile app needs.
+
+Warmest regards,
+
+Poonam
+
+
+------=_NextPart_000_3BF2_01DBF7E6.019C4980
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.xv1msonospacing1, li.xv1msonospacing1, div.xv1msonospacing1
+	{mso-style-name:xv1msonospacing1;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri","sans-serif"'>Hi&nbsp;info@vorteksenerji.c=
+om,</span><o:p></o:p></p><p class=3Dxv1msonospacing1 =
+style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'>&nbsp;</span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Calibri","sans-serif"'>Good Morning<br><br>Hope =
+you're doing great!<br><br>I'm Poonam, a professional with over 12 years =
+of experience in developing iOS and Android apps from India. Need help =
+with a new app or improving an existing one?<br><br>Don't hesitate to =
+reach out for any mobile app needs.<br><br>Warmest =
+regards,</span><o:p></o:p></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri","sans-serif"'>Poonam</span></p></div></bod=
+y></html>
+------=_NextPart_000_3BF2_01DBF7E6.019C4980--
+

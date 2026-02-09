@@ -1,0 +1,245 @@
+Return-Path: <vihaan@webappconsultant.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id SLmCEuytXmmVAQAAOB6+FQ
+	(envelope-from <vihaan@webappconsultant.com>)
+	for <info@vorteksenerji.com>; Wed, 07 Jan 2026 22:03:08 +0300
+Return-path: <vihaan@webappconsultant.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Wed, 07 Jan 2026 22:03:08 +0300
+Received: from mail-pl1-f196.google.com ([209.85.214.196]:47291)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <vihaan@webappconsultant.com>)
+	id 1vdYoG-000000001jZ-0OnD
+	for info@vorteksenerji.com;
+	Wed, 07 Jan 2026 22:03:08 +0300
+Received: by mail-pl1-f196.google.com with SMTP id d9443c01a7336-2a2ea96930cso19703905ad.2
+        for <info@vorteksenerji.com>; Wed, 07 Jan 2026 11:02:47 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=webappconsultant-com.20230601.gappssmtp.com; s=20230601; t=1767812546; x=1768417346; darn=vorteksenerji.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=U87tY8L4F3LovfB7Ff6eoCYdQC9biVMbJxXRRA7hLvI=;
+        b=sHuX2jYaPm7xZU476T2wMXpI/T5Wv94jLHCzRjVz/LYWu+3pSCVJ7fNdimCrIaYCnq
+         NefuquwPWMjWuvJEa0fkI6iHZu+41mlvkmIiUNbD4IbBbwuzztlRNI4AYR1IZTx+NK2h
+         oFrehi2xrKz1TPkOOBYHw8w+xnbWGBwFfKnl+sVXRBNDBg7QvZPQqciUnc8iElb2gZ0m
+         Vm6qFnnxsgTIVHQVfs2bgft3dLKywDgqWHyw+JGtZZA2ifMpk+JlcWkDnOIAADo92ADz
+         qWC7AIfLQOFMtvcgJLYLXP96mGtFNVrTAozk6NGFgXIGwwTaF0+UzSDewbCJ7l5seFIt
+         6vbw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1767812546; x=1768417346;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=U87tY8L4F3LovfB7Ff6eoCYdQC9biVMbJxXRRA7hLvI=;
+        b=TYB51scab0RhD4iIbpUaH/qJudNy7f/AQsKRUB+kcfSgRlDvE28j9klZIYZiFXFU7F
+         ybDMEdB8c5tIEYj7nTTy7/vkn3Loe9Ry9naiHV+Q+TfBOY+KSIQUs/zVkaXk0FC6NNal
+         2e7DRTZRKA+at2gVRyCyt1triN7lllyNryQQBxf+33hs+HDx7WUO8qfCzKoB6xh26pDo
+         xn0R5fjju1gpeZYzOBuLDvDZWZ87LyiEA3Rf62GpUdpcxtP1qrR3oGL+3AeUgOLo5jIo
+         PmHVxUiDypq07F0g/cqUypR+EUhRcHBEgcUl6MsRc1nb6KEq9/QHC6qgq67M6pcddypi
+         Lxqw==
+X-Gm-Message-State: AOJu0YzqB/Ou9p1+SELfFT3JzV3ec/KpuASQNCgCswk3804P5KH9Q9t9
+	lEID0KyvWR4MnyBe3WYWSEeuhqKbGeg+sMHcCw4GElDtSLLQwPe4AAeRpB2gtClln3UDT61Bq3g
+	3Qg0PO8U=
+X-Gm-Gg: AY/fxX7bmbi/kafM4VwBcjpNOi10KNjrvddQAYo1MzjB7kaYPBy98h7AlnwIeB54BpK
+	CL/YTt+oRC2Els/mn+RFAzpd2MoO27SzagVCC0/EoqgzSxsxG6bWSus1c55gmIcNjB20SXu4oLO
+	0QsS6MdNqa+WNPG4PWaNr8V21ikqI/NJL/BQIl158kbZEiq1rowjvtOWUwmFElXAgD82yvHLs32
+	6uM6cspQV7N51PoYuSImbZfXhik33SD9gdTPS/owM0HOBp4L9NpYrjwuBiv/hyHbJcPTRVXpcwC
+	aPDWrBrPgpBvOTWvj2ktFRmYIKkz6a48KVDKsF23GwbOh9xI7/l+2dewjscYfrqEQiwaxebbBrM
+	uxLq63qdlzWOQpZFNhcHaOSDonclztNgFGVPJEA/Vx9IVrNuq4kvYkx5yCaMhC+i7mGasFIFT87
+	yxjDwLHxUURSXK8usxI2MSQkCJsC0b
+X-Google-Smtp-Source: AGHT+IFJpwtKKZe/dJ1+C6IDig+8pt8xAI50B/X6IBe9kaihJBgbU+1f5lAtZ0gPOnEziJkRqCEUjQ==
+X-Received: by 2002:a17:903:2309:b0:2a0:d46d:f990 with SMTP id d9443c01a7336-2a3ee4e81c6mr33586495ad.31.1767812545425;
+        Wed, 07 Jan 2026 11:02:25 -0800 (PST)
+Received: from Arvind ([38.254.183.216])
+        by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-819bb0ddf8csm5585995b3a.26.2026.01.07.11.02.24
+        for <info@vorteksenerji.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 07 Jan 2026 11:02:25 -0800 (PST)
+From: "Vihaan Mukherjee" <vihaan@webappconsultant.com>
+To: <info@vorteksenerji.com>
+Subject: Designer / Developers
+Date: Thu, 8 Jan 2026 00:22:00 +0530
+Message-ID: <5aebf01dc8008$2b9ff830$82dfe890$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_5AEC0_01DC8036.45583430"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Adx/4wsdbzFrnaAtRbCImeGmHHJsVg==
+Content-Language: en-in
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_5AEC0_01DC8036.45583430
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+ 
+
+Happy New Year! I hope you're doing well.
+
+ 
+
+I'm reaching out on behalf of our web & mobile development team with 10+
+years of experience. We work with React, Next.js, PHP/Laravel, Shopify,
+WordPress, Wix, and mobile apps using Flutter & React Native, starting at a
+nominal cost of USD 12/hour.
+
+ 
+
+If you're interested please feel free to share your requirements. I'd be
+happy to share my portfolio, samples, and company details.
+
+ 
+
+Best regards,
+Vihaan Mukherjee
+
+ 
+
+P.S. If you'd prefer not to receive further emails from me, simply reply
+with "NO" in the subject line.
+
+ 
+
+
+------=_NextPart_000_5AEC0_01DC8036.45583430
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.m7480229873389161074apple-converted-space
+	{mso-style-name:m_7480229873389161074apple-converted-space;}
+span.xm7480229873389161074apple-converted-space
+	{mso-style-name:x_m7480229873389161074apple-converted-space;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:213858111;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1063932172 67698689 67698691 67698693 67698689 =
+67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>Hello,<o:p>=
+</o:p></span></p><p style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'><o:p>&nbsp;=
+</o:p></span></p><p style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>Happy New =
+Year! I hope you&#8217;re doing well.<o:p></o:p></span></p><p =
+style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'><o:p>&nbsp;=
+</o:p></span></p><p style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>I&#8217;m =
+reaching out on behalf of our web &amp; mobile development team with 10+ =
+years of experience. We work with <strong><span =
+style=3D'font-family:"Calibri","sans-serif"'>React, Next.js, =
+PHP/Laravel, Shopify, WordPress, Wix</span></strong>, and mobile apps =
+using <strong><span style=3D'font-family:"Calibri","sans-serif"'>Flutter =
+&amp; React Native</span></strong>, starting at a <strong><span =
+style=3D'font-family:"Calibri","sans-serif"'>nominal cost of USD =
+12/hour</span></strong>.<o:p></o:p></span></p><p =
+style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'><o:p>&nbsp;=
+</o:p></span></p><p style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#22222=
+2'>If you&#8217;re interested p</span><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>lease feel =
+free to share your requirements. </span><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#22222=
+2'>I&#8217;d be happy to share my<span =
+class=3Dxm7480229873389161074apple-converted-space>&nbsp;</span><strong><=
+span style=3D'font-family:"Calibri","sans-serif"'>portfolio, samples, =
+and company details</span></strong>.</span><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'><o:p></o:p>=
+</span></p><p style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'><o:p>&nbsp;=
+</o:p></span></p><p style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>Best =
+regards,<br><strong><span =
+style=3D'font-family:"Calibri","sans-serif";font-weight:normal'>Vihaan =
+Mukherjee</span></strong><o:p></o:p></span></p><p =
+style=3D'margin:0cm;margin-bottom:.0001pt;background:white'><span =
+style=3D'font-size:10.5pt;color:#222222'><o:p>&nbsp;</o:p></span></p><p =
+style=3D'margin:0cm;margin-bottom:.0001pt;background:white'><span =
+style=3D'font-size:10.5pt;font-family:"Calibri","sans-serif";color:red'>P=
+.S. If you&#8217;d prefer not to receive further emails from me, simply =
+reply with<span =
+class=3Dm7480229873389161074apple-converted-space>&nbsp;</span><strong><s=
+pan =
+style=3D'font-family:"Calibri","sans-serif"'>&#8220;NO&#8221;</span></str=
+ong><span =
+class=3Dm7480229873389161074apple-converted-space>&nbsp;</span>in the =
+subject line.</span><span =
+style=3D'font-size:10.5pt;color:red'><o:p></o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt'><o:p>&nbsp;</o:p></p></=
+div></body></html>
+------=_NextPart_000_5AEC0_01DC8036.45583430--
+

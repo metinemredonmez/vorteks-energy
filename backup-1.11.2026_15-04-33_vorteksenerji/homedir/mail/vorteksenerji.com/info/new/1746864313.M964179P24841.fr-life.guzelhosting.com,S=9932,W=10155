@@ -1,0 +1,223 @@
+Return-Path: <louisa@anydigitalmarketers.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id iFohObkIH2gJYQAAOB6+FQ
+	(envelope-from <louisa@anydigitalmarketers.com>)
+	for <info@vorteksenerji.com>; Sat, 10 May 2025 11:05:13 +0300
+Return-path: <louisa@anydigitalmarketers.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Sat, 10 May 2025 11:05:13 +0300
+Received: from mail-pg1-f196.google.com ([209.85.215.196]:49576)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <louisa@anydigitalmarketers.com>)
+	id 1uDfCr-0000000069W-37XN
+	for info@vorteksenerji.com;
+	Sat, 10 May 2025 11:05:13 +0300
+Received: by mail-pg1-f196.google.com with SMTP id 41be03b00d2f7-afc857702d1so2437630a12.3
+        for <info@vorteksenerji.com>; Sat, 10 May 2025 01:04:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=anydigitalmarketers-com.20230601.gappssmtp.com; s=20230601; t=1746864271; x=1747469071; darn=vorteksenerji.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=w4nlBKJdg+kml7hKwSJXW4IXImudjDKpx0I6jLAByXw=;
+        b=fkhT7tW/ZP41knmVhyvpqj0zEtDM0RZy2H1tHMNwv24Yrm4vwngQMCcDCa0o4Vy7p8
+         umIv+p7FctcdfHjeboo/3XCqn6KYyETpADuVJFLbZc5Njv6R2RxyM1SyfQ5iGj3dl4b5
+         y4ShllYjUkUkDegz7yLx64MS7pixdTyLP5GwZj0pifQj/XGIq2PRkl8MfBSsv8q/ALx4
+         6zrAjeCyOoJBxn3EA8JWfjHdvrjONnxHRw4toUk5zrRdU+Qg4aO6BCjadJ90fNQn1Ejk
+         Qz3aPD8+7qvZ42ZbvzBrOoBWqOqXL5S8Z4L/W4KckkwZqsqpohM4/7AvJ9H5yqIHb3RW
+         A2VQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1746864271; x=1747469071;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=w4nlBKJdg+kml7hKwSJXW4IXImudjDKpx0I6jLAByXw=;
+        b=juJbcv1TKJUP34KWxlFJaaS+G2sowB3tcq21X2AqCvd55NiwopCWML++o5aVgpmgsd
+         e3JzyQXFLG/+h5H4tXGUfdgDXlcsWyNLPZ0tKMIr0/kPcHam41RZYKjQn4YWzR415wLn
+         OjhHecLd2x6UCJTkR2Xr1KP7vHTqS4z2pBLmTrQZi2hDfyorPRHAK8jyO6tcOfy7P1oh
+         0ZbEgeZgidxjr86lsSWMxdzmfuBtH34HcrhnorPcsb4tzlL9o2ne/Wz9gRtPgAfutPi4
+         xljc/lcT0qaW7RP81xfuuIetVtJOhSjTrqxhzdnG6h7TMJ97epD+44P5gLex8hHWH8Wr
+         m9ZQ==
+X-Gm-Message-State: AOJu0Yxr9g8RjWqLYvibGJjySDljhRTAOnJMZgclYASEDaOf/tAmDwJ1
+	xPOeea+lSRXjVN4zsRtiLaUX9Wxr3nH2XJUJf2G2+2GA0bixbr+DC26p7jRKj6DjkCP6DAx9s8b
+	8Lu8=
+X-Gm-Gg: ASbGncudJmDt8o8AAbkmuMcRYcBG58L1IQpZcm4apcdFNmbRyzGn4d6bFMZ2NcB+lfs
+	q4koKbCbXLb/YbnSOu7bpRN1qskDGV3pgAzwy36flDzGYU7Gaq434yDmHw+b3/ex+7dtZ3KY+nt
+	4kzzyikc6icjaaxR7Z2uieROSYmQHH6v47aWnOzfB3F7DRtkA8Y+4dsNZxRede+qfrOfJqOv1lH
+	PnC4S/CgQWpa4pkcL+SZ//gGVYUi0jsOHE3/C1maO+Vx0x6XvOilkBW13XWPffoLfGhLaIa6vL6
+	6cJDKLEq8ahWP6Q/d2Q2ryq6c0RJZEhMqhq47MOtE/nTObwYrZD+YJMNYr5vQLu7I6whMNqe5qg
+	ChUu3
+X-Google-Smtp-Source: AGHT+IGH5BehN4DwuzZoV5atKbRq9092rvCpRkKD7QUcUGHVOe76UnC5QPfYLfJvBN8PcL9aTQlO2g==
+X-Received: by 2002:a17:903:41c1:b0:22e:62c3:6990 with SMTP id d9443c01a7336-22fc8b33517mr80843065ad.16.1746864271328;
+        Sat, 10 May 2025 01:04:31 -0700 (PDT)
+Received: from DESKTOPN4GFMMV ([43.227.227.132])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-22fc773e7f8sm28846875ad.60.2025.05.10.01.04.29
+        for <info@vorteksenerji.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 10 May 2025 01:04:30 -0700 (PDT)
+From: "Louisa" <louisa@anydigitalmarketers.com>
+To: <info@vorteksenerji.com>
+Subject: RE: Mobile Apps ?
+Date: Sat, 10 May 2025 13:27:33 +0530
+Message-ID: <b28301dbc182$280bc1d0$78234570$@anydigitalmarketers.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_B29E_01DBC1B0.423228F0"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AdvBdq3XBUCGzR/zSmuaqUqT0wpDBQ==
+Content-Language: en-in
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_B29E_01DBC1B0.423228F0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+I hope all is well with you.
+
+Can you please give me an update on my previous mail?
+
+Waiting for your valuable response.
+
+Thanks, 
+
+---------------------------------------------------------
+
+From: Louisa
+
+Sent: Friday, May 02, 2025 09:12 AM
+
+To: info@vorteksenerji.com
+
+Subject: Mobile Apps
+
+ 
+
+Hi,
+
+I'm checking with you on your info@vorteksenerji.com profile to see if you
+want to build a new IOS & Android Apps or if there are any changes or
+updates you'd like to make to your existing iOS and Android apps.
+
+Do you want custom mobile app for your business, we specialize in building
+apps for brands and would love to hear your thoughts
+
+If you are interested, I would be happy I can send you our past work and
+Packages with the best offer.
+
+I am waiting for your reply
+
+Thanks
+
+Louisa
+
+
+------=_NextPart_000_B29E_01DBC1B0.423228F0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 14 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-language:EN-US;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-IN><div =
+class=3DWordSection1><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Segoe =
+UI","sans-serif"'>Hi,<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Segoe =
+UI","sans-serif"'>I hope all is well with you.<o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:normal'><span =
+style=3D'font-family:"Segoe UI","sans-serif"'>Can you please give me an =
+update on my previous mail?<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Segoe =
+UI","sans-serif"'>Waiting for your valuable =
+response.<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Segoe =
+UI","sans-serif"'>Thanks, <o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Segoe =
+UI","sans-serif"'>-------------------------------------------------------=
+--<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-family:"Segoe UI","sans-serif"'>From: =
+Louisa<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-family:"Segoe UI","sans-serif"'>Sent: Friday, May 02, =
+2025 09:12 AM<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-family:"Segoe UI","sans-serif"'>To: =
+info@vorteksenerji.com<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-family:"Segoe UI","sans-serif"'>Subject: Mobile =
+Apps<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-family:"Segoe =
+UI","sans-serif"'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Segoe =
+UI","sans-serif"'>Hi,<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Segoe =
+UI","sans-serif"'>I&#8217;m checking with you on your =
+info@vorteksenerji.com profile to see if you want to build a new IOS =
+&amp; Android Apps or if there are any changes or updates you&#8217;d =
+like to make to your existing iOS and Android =
+apps.<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Segoe =
+UI","sans-serif"'>Do you want custom mobile app for your business, we =
+specialize in building apps for brands and would love to hear your =
+thoughts<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Segoe =
+UI","sans-serif"'>If you are interested, I would be happy I can send you =
+our past work and Packages with the best offer.<o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:normal'><span =
+style=3D'font-family:"Segoe UI","sans-serif"'>I am waiting for your =
+reply<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Segoe =
+UI","sans-serif"'>Thanks<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Segoe =
+UI","sans-serif"'>Louisa<o:p></o:p></span></p></div></body></html>
+------=_NextPart_000_B29E_01DBC1B0.423228F0--
+

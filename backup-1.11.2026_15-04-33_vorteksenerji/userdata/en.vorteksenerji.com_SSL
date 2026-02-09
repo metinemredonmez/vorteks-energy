@@ -1,0 +1,18 @@
+--- 
+documentroot: /home/vorteksenerji/en.vorteksenerji.com
+group: vorteksenerji
+hascgi: 1
+homedir: /home/vorteksenerji
+ip: 151.80.64.2
+ipv6: ~
+owner: ozusadeo
+phpopenbasedirprotect: ~
+port: 443
+secruleengineoff: ~
+serveradmin: webmaster@en.vorteksenerji.com
+serveralias: www.en.vorteksenerji.com
+servername: en.vorteksenerji.com
+ssl: 1
+usecanonicalname: 'Off'
+user: vorteksenerji
+userdirprotect: ''

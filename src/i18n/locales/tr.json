@@ -1,0 +1,246 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkimizda",
+    "services": "Hizmetler",
+    "projects": "Projeler",
+    "gallery": "Galeri",
+    "contact": "Iletisim",
+    "getQuote": "Teklif Al"
+  },
+  "hero": {
+    "title1": "Enerji",
+    "title2": "Cozumleri",
+    "title3": "ve Hizmetleri",
+    "subtitle": "15 yillik deneyimimizle jenerator, enerji santralleri, yakit temini ve bakim hizmetleri sunuyoruz.",
+    "cta1": "Ucretsiz Teklif Al",
+    "cta2": "Hizmetlerimiz"
+  },
+  "about": {
+    "subtitle": "HAKKIMIZDA",
+    "title1": "Enerji Sektorunde",
+    "title2": "Guvenilir Cozum Ortaginiz",
+    "description1": "Vorteks Enerji olarak, 2009 yilindan bu yana enerji sektorunde kapsamli hizmetler sunuyoruz. Jenerator satis ve kiralama, enerji santralleri kurulumu, yakit temini ve teknik bakim alanlarinda 15 yili askin deneyimimiz ve 50'den fazla uzman kadromuzla hizmet veriyoruz.",
+    "description2": "Musteri memnuniyetini on planda tutarak, her projede kalite ve guvenilirlik standartlarimizdan odun vermiyoruz. Turkiye genelinde sanayi tesisleri, insaat projeleri ve ticari kuruluslara 7/24 enerji cozumleri sagliyoruz.",
+    "stats": {
+      "projects": "Tamamlanan Proje",
+      "experience": "Yillik Deneyim",
+      "satisfaction": "Musteri Memnuniyeti",
+      "team": "Uzman Personel"
+    },
+    "mission": {
+      "title": "Misyonumuz",
+      "description": "Enerji sektorunde en yuksek kalite standartlarinda hizmet sunarak, musterilerimizin kesintisiz enerji ihtiyaclarini karsilamak."
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "description": "Turkiye'de lider enerji cozumleri firmasi olmak, yenilikci teknolojilerle sektore yon vermek."
+    },
+    "values": {
+      "title": "Degerlerimiz",
+      "description": "Kalite, guvenilirlik, musteriye odaklilik, surekli gelisim ve cevre bilinci temel degerlerimizdir."
+    },
+    "commitment": {
+      "title": "Taahhutumuz",
+      "description": "Her projede zamaninda teslimat, rekabetci fiyat ve kusursuz iscilik garantisi sunuyoruz."
+    },
+    "timeline": {
+      "title": "Sirket Tarihcemiz",
+      "subtitle": "2009'dan bugune kadar yasadigimiz donusum ve basarilarimiz"
+    },
+    "certifications": {
+      "title1": "Sertifikalarimiz ve",
+      "title2": "Onayli Belgelerimiz",
+      "description": "Uluslararasi standartlarda hizmet verdigimizi kanitlayan sertifikalarimiz, musterilerimize sundugumuz kalite garantisinin temelidir."
+    },
+    "team": {
+      "title1": "Uzman",
+      "title2": "Ekibimiz",
+      "description": "Deneyimli muhendisler, teknisyenler ve yoneticilerden olusan 50+ kisilik profesyonel kadromuz"
+    }
+  },
+  "services": {
+    "subtitle": "HIZMETLERIMIZ",
+    "title1": "Kapsamli Enerji",
+    "title2": "Cozumleri",
+    "description": "Enerji ihtiyaclariniz icin gereken tum hizmetleri tek cati altinda sunuyoruz.",
+    "repair": {
+      "title": "Jenerator Satis ve Kiralama",
+      "description": "Her guç kapasitesinde jenerator satis ve kiralama hizmeti. Dizel, benzinli ve dogalgaz jeneratorler."
+    },
+    "engine": {
+      "title": "Jenerator Bakimi",
+      "description": "Periyodik bakim, revizyonve parca degisimi. Performans optimizasyonu ve arizaonceleme."
+    },
+    "fuel": {
+      "title": "Yakit Temini",
+      "description": "Kaliteli motorin, benzin ve fuel-oil temini. 7/24 yakit ikmali ve depolama hizmetleri."
+    },
+    "paint": {
+      "title": "Enerji Santralleri",
+      "description": "Enerji santrali kurulumu, isletme ve bakim hizmetleri. Anahtar teslim projeler."
+    },
+    "yacht": {
+      "title": "Yedek Parca Temini",
+      "description": "Orijinal ve muadil yedek parca temini. Tum marka ve modeller icin stoklu hizmet."
+    },
+    "electrical": {
+      "title": "Elektrik Sistemleri",
+      "description": "Enerji dagitim sistemleri, trafo, pano ve otomasyon cozumleri. Proje ve taahhut hizmetleri."
+    },
+    "getQuote": "Teklif Isteyin",
+    "process": {
+      "title1": "Calisma",
+      "title2": "Surecimiz",
+      "step1": { "title": "Iletisim", "desc": "Bize ulasin, ihtiyaclarinizi anlatin" },
+      "step2": { "title": "Inceleme", "desc": "Uzman ekibimiz sahada inceleme yapar" },
+      "step3": { "title": "Teklif", "desc": "Detayli fiyat ve sure teklifi" },
+      "step4": { "title": "Onay", "desc": "Teklifin onaylanmasi" },
+      "step5": { "title": "Uygulama", "desc": "Profesyonel kurulum ve iscilik" },
+      "step6": { "title": "Teslimat", "desc": "Kalite kontrol ve teslim" }
+    },
+    "faq": {
+      "title1": "Sikca Sorulan",
+      "title2": "Sorular"
+    }
+  },
+  "projects": {
+    "title1": "Basari",
+    "title2": "Hikayelerimiz",
+    "description": "15 yillik deneyimimizle 500'den fazla enerji projesini basariyla tamamladik. Her proje, kalite standartlarimizin ve musteri memnuniyeti anlayisimizin bir gostergesidir.",
+    "stats": {
+      "total": "Toplam Proje",
+      "thisYear": "Bu Yil",
+      "ongoing": "Devam Eden",
+      "planned": "Planlanan"
+    },
+    "distribution": "Proje Dagilimi",
+    "featured": {
+      "title1": "One Cikan",
+      "title2": "Projelerimiz"
+    },
+    "sectors": {
+      "title1": "Hizmet Verdigimiz",
+      "title2": "Sektorler",
+      "cargo": { "title": "Sanayi Tesisleri", "desc": "Fabrika ve uretim tesisleri" },
+      "tanker": { "title": "Insaat Projeleri", "desc": "Santiye ve insaat alanlari" },
+      "passenger": { "title": "Ticari Binalar", "desc": "AVM, otel ve ofis binalari" },
+      "fishing": { "title": "Saglik Kurumlari", "desc": "Hastane ve saglik merkezleri" },
+      "yacht": { "title": "Etkinlikler", "desc": "Konser, fuar ve organizasyonlar" },
+      "offshore": { "title": "Maden ve Enerji", "desc": "Maden sahalari ve enerji tesisleri" }
+    },
+    "cta": {
+      "title": "Projenizi Gerceklestirelim",
+      "description": "Enerji ihtiyaclariniz icin profesyonel hizmet almak ister misiniz? Uzman ekibimizle iletisime gecin.",
+      "button1": "Teklif Isteyin",
+      "button2": "Galeriyi Inceleyin"
+    }
+  },
+  "gallery": {
+    "title1": "Proje",
+    "title2": "Galerimiz",
+    "description": "Tamamladigimiz projelerin gorsellerini inceleyin",
+    "categories": {
+      "all": "Tumu",
+      "repair": "Jenerator Kurulumu",
+      "yacht": "Enerji Santralleri",
+      "engine": "Bakim Hizmetleri",
+      "paint": "Yakit Temini"
+    },
+    "featured": {
+      "title1": "One Cikan",
+      "title2": "Projelerimiz"
+    },
+    "stats": {
+      "projects": "Tamamlanan Proje",
+      "customers": "Mutlu Musteri",
+      "experience": "Yillik Deneyim",
+      "team": "Uzman Personel"
+    },
+    "reviews": {
+      "title1": "Musteri",
+      "title2": "Yorumlari"
+    }
+  },
+  "contact": {
+    "title1": "Bizimle",
+    "title2": "Iletisime Gecin",
+    "description": "Enerji projeleriniz hakkinda bilgi almak veya teklif istemek icin bizimle iletisime gecin. Uzman ekibimiz size en kisa surede donecektir.",
+    "info": {
+      "phone": "Telefon",
+      "email": "E-posta",
+      "address": "Adres",
+      "hours": "Calisma Saatleri",
+      "weekdays": "Pazartesi - Cumartesi"
+    },
+    "form": {
+      "title": "Bize Ulasin",
+      "subtitle": "Formu doldurun, 24 saat icinde size donelim",
+      "name": "Adiniz Soyadiniz",
+      "company": "Sirket Adi",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "shipInfo": "Proje Bilgisi",
+      "shipInfoPlaceholder": "Proje yeri, guc ihtiyaci, sure...",
+      "serviceType": "Hizmet Turu",
+      "serviceTypes": {
+        "select": "Secin",
+        "repair": "Jenerator Kiralama",
+        "maintenance": "Bakim",
+        "painting": "Enerji Santrali",
+        "engine": "Jenerator Satis",
+        "fuel": "Yakit Temini",
+        "other": "Diger"
+      },
+      "message": "Mesajiniz",
+      "messagePlaceholder": "Projeniz hakkinda detayli bilgi verin...",
+      "submit": "Mesaj Gonder"
+    },
+    "whatsapp": {
+      "title": "WhatsApp",
+      "subtitle": "Hizli iletisim icin",
+      "button": "Simdi Mesaj Gonder"
+    },
+    "emergency": {
+      "title": "7/24 Acil Destek Hatti"
+    },
+    "offices": {
+      "title1": "Ofislerimiz ve",
+      "title2": "Hizmet Noktalari",
+      "description": "Turkiye genelinde size hizmet veriyoruz",
+      "headquarters": "Merkez Ofis",
+      "branch": "Bolge Ofisi"
+    },
+    "why": {
+      "title1": "Neden",
+      "title2": "Bizi Secmelisiniz?",
+      "support": { "title": "7/24 Destek", "desc": "Acil durumlar icin her zaman hazriz" },
+      "fast": { "title": "Hizli Mudahale", "desc": "2-4 saat icinde yerinde mudahale" },
+      "free": { "title": "Ucretsiz Kesif", "desc": "Ilk inceleme ve teklif ucretsiz" },
+      "warranty": { "title": "12 Ay Garanti", "desc": "Tum isler icin iscilik garantisi" },
+      "price": { "title": "Rekabetci Fiyat", "desc": "Piyasanin en uygun fiyatlari" },
+      "team": { "title": "Uzman Kadro", "desc": "50+ sertifikali profesyonel" }
+    },
+    "map": {
+      "show": "Haritada Goster"
+    }
+  },
+  "footer": {
+    "description": "Jenerator, enerji santralleri, yakit temini ve teknik bakim hizmetlerinde guvenilir cozum ortaginiz.",
+    "quickLinks": "Hizli Linkler",
+    "services": "Hizmetler",
+    "contact": "Iletisim",
+    "copyright": "Tum haklari saklidir.",
+    "privacy": "Gizlilik Politikasi",
+    "terms": "Kullanim Kosullari"
+  },
+  "common": {
+    "completed": "Tamamlandi",
+    "ongoing": "Devam Ediyor",
+    "learnMore": "Daha Fazla",
+    "viewAll": "Tumunu Gor",
+    "quality": "Kalite ve Guvenilirlik",
+    "isoStandards": "ISO sertifikali hizmet standartlari",
+    "days": "gun"
+  }
+}

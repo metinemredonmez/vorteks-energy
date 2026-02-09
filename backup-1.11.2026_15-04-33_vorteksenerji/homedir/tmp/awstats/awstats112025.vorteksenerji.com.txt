@@ -1,0 +1,802 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202511 will be lost/reset.
+# Last config file used to build this data file was /home/vorteksenerji/tmp/awstats/awstats.vorteksenerji.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2090                
+POS_TIME 2763                
+POS_VISITOR 19528               
+POS_DAY 20525               
+POS_DOMAIN 3408                
+POS_LOGIN 3746                
+POS_ROBOT 3901                
+POS_WORMS 4516                
+POS_EMAILSENDER 4647                
+POS_EMAILRECEIVER 4790                
+POS_SESSION 21142               
+POS_FILESIZE 21892               
+POS_REQUESTTIME 22033               
+POS_SIDER 21328               
+POS_FILETYPES 4925                
+POS_DOWNLOADS 5092                
+POS_OS 5140                
+POS_BROWSER 5283                
+POS_SCREENSIZE 5555                
+POS_UNKNOWNREFERER 5629                
+POS_UNKNOWNREFERERBROWSER 5877                
+POS_ORIGIN 6017                
+POS_SEREFERRALS 6153                
+POS_PAGEREFS 6318                
+POS_SEARCHWORDS 6466                
+POS_KEYWORDS 6618                
+POS_MISC 2427                
+POS_ERRORS 6677                
+POS_CLUSTER 3602                
+POS_SIDER_404 6828                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20251201011614 7 946 6379623921755
+FirstTime 20251101025359
+LastTime 20251130223633
+LastUpdate 20251201150401 7 0 6 0 0
+TotalVisits 137                 
+TotalUnique 23                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 26                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 5 0 12 15 3830
+1 6 6 0 102 104 120777
+2 3 3 0 7 7 0
+3 10 10 3960 16 20 7861
+4 21 21 1305 26 28 7455
+5 10 10 400 26 31 2962
+6 6 6 0 18 23 1816
+7 2 2 0 12 17 5294
+8 6 7 83899 11 17 7543
+9 4 4 0 7 9 2792
+10 4 4 246 373 375 437082
+11 15 15 4950 77 81 82912
+12 7 7 990 14 17 3990
+13 5 5 0 12 15 4059
+14 4 4 0 7 10 250
+15 7 7 0 29 37 9509
+16 7 7 0 16 24 4068
+17 13 13 0 25 40 2828
+18 13 13 4950 24 34 13863
+19 9 9 0 17 22 3855
+20 3 3 0 9 17 4275
+21 5 6 35599 13 19 8888
+22 6 6 400 11 14 5001
+23 6 12 4908567 33 35 28665
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 10
+it 136 136 0
+us 23 25 126882
+zz 10 10 4221
+at 2 2 1980
+es 2 2 1980
+se 1 1 200
+bg 1 1 200
+hn 1 1 990
+in 1 1 246
+ru 0 6 4908567
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+Go\-http\-client/ 58 54967 20251117102033 0
+Googlebot/ 26 2730 20251130223632 26
+MJ12bot/ 19 1995 20251129172634 19
+no_user_agent 10 17052 20251123014842 0
+DotBot/ 10 10380 20251128012823 10
+bot[\s_+:,\.\;\/\\-] 10 1450 20251128071926 10
+unknown 5 1618 20251125091209 5
+robot 4 420 20251125115656 4
+Apache\-HttpClient/ 4 823 20251129150654 0
+Python\-urllib/ 2 2743 20251126114627 1
+bingbot/ 1 105 20251116041739 1
+SemrushBot/ 1 145 20251116124430 1
+Applebot/ 1 145 20251114215849 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 1 35599 0 0
+js 1 83899 0 0
+html 5 2970 0 0
+png 6 4908567 0 0
+php 142 2036 0 0
+Unknown 30 12195 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+Unknown 151 151
+win10 4 3
+linux 20 20
+macosx10 1 0
+linuxubuntu 7 1
+macosx 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 12
+firefox45.0 1 1
+mozilla 15 15
+chrome91.0.4472.124 1 1
+netscape5.0 1 0
+Unknown 136 136
+safari17.5 2 2
+chrome119.0.0.0 19 19
+firefox91.0 1 1
+firefox127.0 1 1
+chrome124.0.6367.207 1 1
+chrome39.0.2171.95 1 0
+firefox126.0 6 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20251114044031
+WordPress/6.8.3;_https://vorteksenerji.com 20251130223633
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+WordPress/6.8.3;_https://vorteksenerji.com 20251130223633
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 158 166
+From1 0 0
+From2 19 19
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 19 19
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 2 2386
+301 238 0
+500 1 1074
+302 55 0
+401 1 802
+404 537 670678
+405 1 62
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 436
+/wp-includes/blocks/more/about.php 1 -
+/uploaded_script.php 1 -
+/wp-content/plugins/pwnd/block-support.php 1 -
+/wp-includes/rest-api/search/ 1 -
+/wp-includes/theme-compat/wp-conflg.php 1 -
+/zews.php 1 -
+/autoload_classmap/function.php 1 -
+/all/modules/views-7.x-3.24/views/shell.php 1 -
+/about.php 2 -
+/default.php 1 -
+/edit.php 1 -
+/av.php 1 -
+/menu.php 2 -
+/config.php 1 -
+/modules/mod_webshell/mod_webshell.php 1 -
+/wp-includes/blocks/details/about.php 1 -
+/wp-includes/rest-api/fields/index.php 1 -
+/wp-content/languages/themes/ 1 -
+/wp-includes/Text/Diff/Engine/new.php 1 -
+/wp-includes/Text/Diff/Renderer/ 1 -
+/wander.php 1 -
+/wp-content/wp-content.php 1 -
+/inc.php 1 -
+/wp-includes/rest-api/endpoints/ 1 -
+/wi.php 1 -
+/wp-includes/ID3/index.php 1 -
+/wp-includes/chosen.php 1 -
+/wp-includes/rest-api/about.php 1 -
+/command.php 2 -
+/an.php 1 -
+/wp-content/plugins/akismet/_inc/img/about.php 1 -
+/wp-content/plugins/wp-mail-smtp/assets/about.php 1 -
+/everest-enerji/ 1 -
+/wp-includes/pomo/index.php 1 -
+/wp-content/themes/twentyfive/include.php 1 -
+/wp-content/themes/news-portal/error.php 1 -
+/build.php 1 -
+/file.php 1 -
+/wp-includes/blocks/post-author-name/index.php 1 -
+/servislerimiz/ 1 -
+/q.php 1 -
+/iletisim 1 -
+/wp-content/themes/twentytwentyfive/assets/fonts/beiruti/index.php 1 -
+/media/system/js/core.js 10 -
+/yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/.tmb/cmd.php 2 -
+/wp-content/plugins/cmd.php 2 -
+/install.php 1 -
+/images/class-config.php 1 -
+/wp-content/plugins/classic-editor/wp-login.php 1 -
+/zasf 1 -
+/ab.php 1 -
+/bor-bes-enerji/ 1 -
+/wp-content/plugins/pwnd/pwnd.php 1 -
+/wp-includes/block-supports/autoload_classmap.php 1 -
+/_profiler/phpinfo 1 -
+/.well-known/acme-challenge/about.php 1 -
+/wp-content/plugins/wp-smushit/core/modules/background/about.php 1 -
+/wp-includes/block-patterns/index.php 1 -
+/abcd.php 1 -
+/wp-includes/Requests/src/Cookie/about.php 1 -
+/log.php 1 -
+/wp-includes/SimplePie/autoload_classmap.php 1 -
+/wp-includes/blocks/image/about.php 1 -
+/app/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-includes/js/about.php 1 -
+/files.php 1 -
+/wp-content/plugins/woocommerce-to-wechatapp/vendor/overtrue/wechat/src/OpenPlatform/Authorizer/MiniProgram/Domain/Current.php 1 -
+/wp-includes/css/index.php 1 -
+/.well-known/admin.php 1 -
+/baysak-enerji-nigde/ 1 -
+/wp-content/themes/classwithtostring.php 1 -
+/license.php 1 -
+/b.php 1 -
+/everest-enerji-kayseri/ 1 -
+/jindex.php 1 -
+/wp-includes/Text/Diff/Engine/wp.php 1 -
+/hukum-sartlar 1 -
+/wp-includes/sodium_compat/namespaced/Core/about.php 1 -
+/uploads/index.php 1 -
+/alfanew.php 1 -
+/wp-content/plugins/hello.php 1 -
+/1100.php 1 -
+/wp-post-data.php 1 -
+/wp-includes/js/tinymce/plugins/wptextpattern/about.php 1 -
+/wp-includes/PHPMailer/ 1 -
+/function/function.php 1 -
+/ss.php 1 -
+/moon.php 1 -
+/plugins/Cache/footer.php 1 -
+/wp-includes/wp-conflg.php 1 -
+/update/function.php 1 -
+/wp-content/BypassBest.php 1 -
+/chosen/function.php 1 -
+/link.php 1 -
+/campus/local/moodle_webshell/webshell.php 1 -
+/xx.php 2 -
+/wp-includes/js/jcrop/Jcrop.php 1 -
+/wp-includes/rest-api/index.php 1 -
+/buy.php 1 -
+/wp-includes/about.php 1 -
+/wp-includes/block-bindings/ 1 -
+/as.php 1 -
+/wp-files.php 1 -
+/cmd.php 2 -
+/wp-includes/Requests/src/Proxy/about.php 1 -
+/server/cmd.php 2 -
+/new.php 2 -
+/xmrlpc.php 1 -
+/wp-includes/images/ 1 -
+/wp-content/item.php 1 -
+/wp-content/upload/cmd.php 2 -
+/wp-includes/js/tinymce/plugins/directionality/index.php 1 -
+/userfuns.php 1 www.google.com
+/wp-Owl.php 1 -
+/content.php 1 -
+/files/ 1 -
+/wp-includes/blocks/comments-title/about.php 1 -
+/wp-includes/block-supports/index.php 1 -
+/wp-content/themes/covr-wpcom/assets/fonts/manrope.php 2 -
+/file/css/cmd.php 2 -
+/php_version.php 1 -
+/postnews.php 5 -
+/ioxi-o.php 2 -
+/aa.php 2 -
+/wso.php 1 -
+/yu.php 1 -
+/wp-includes/Text/Diff/index.php 1 -
+/wp-includes/js/wp-login.php 1 -
+/back.php 1 -
+/options.php 1 -
+/wp-content/plugins/hellopress/wp_filemanager.php 1 -
+/ll.php 1 -
+/img/files/cmd.php 2 -
+/wp-conflg/function.php 1 -
+/wp-content/classwithtostring.php 1 -
+/ty.php 1 -
+/themes/twentytwentytwo/index.php 1 -
+/wp-includes/pomo/wp-login.php 1 -
+//gmo.php 1 -
+/goods.php 1 -
+/campus/blocks/rce/lang/en/block_rce.php 1 -
+/wp-content/themes/aback.php 1 -
+/wp-content/themes/astra/template-parts/advanced-footer/about.php 1 -
+/wp-content/languages/about.php 1 -
+/wp-links.php 1 -
+/wp-content/languages/plugins/about.php 1 -
+/css/index.php 1 -
+/tinyfilemanager/tinyfilemanager.php 1 -
+/wp-includes/js/crop/zmFM.php 1 -
+/wp-content/product.php 1 -
+/wp-content/themes/theme-check/main.php 2 -
+/wp-includes/blocks/archives/ 1 -
+/gg.php 1 -
+/karteks-enerji-edirne/ 1 -
+/wp-includes/themes.php 1 -
+/wp-json/wp/v2/users 3 https://www.google.com
+/wp-content/uploads/wp.php 1 -
+/g.php 2 -
+/wp-content/themes/paradox/option-tree/assets/js/vendor/jquery/about.php 1 -
+/alfa.php 1 -
+/123.php 1 -
+/nc4.php 1 -
+/wp-content/themes/covr-wpcom/assets/fonts/manrope_normal.php 1 -
+/wp-content/uploads/ 1 -
+/wp-includes/Text/chosen.php 1 -
+/sk.php 1 -
+/wp-includes/autoload_classmap.php 1 -
+/mail.php 2 -
+/wp.php 1 -
+/wp-includes/style-engine/about.php 1 -
+/we.php 1 -
+/ALFA_DATA/index.php 1 -
+/modules/ctools-8.x-3.4/ctools/shell.php 1 -
+/wp-includes/js/dist/ 1 -
+/moodle/local/moodle_webshell/webshell.php 1 -
+/wp-content/themes/seotheme/mar.php 2 -
+/.well-known/fm.php 1 -
+/karteks-enerji/ 1 -
+/exec.php 1 -
+/wp-content/plugins/wps-hide-login/wps-hide-login.php 2 -
+/images/m.php 1 -
+/list/144.php 1 -
+/wp-content/plugins/azusa/inc/wp-host.php 1 -
+/cc.php 1 -
+/index2.php 1 -
+/wp-content/plugins/kontol/kiw.php 1 -
+/filemanager.php 1 -
+/wp-content/plugins/WordPressCore/include.php 2 -
+/blocks/rce/lang/en/block_rce.php 1 -
+/wp-content/403.php 1 -
+/modules/drupal_rce/drupal_rce/shell.php 1 -
+/test.php 1 -
+/images/Marvins.php 1 -
+/.well-known/acme-challenge/admin.php 1 -
+/wp-content/plugins/advanced-llms-txt-generator/assets/css/css_json.php 1 -
+/pir-enerji/ 1 -
+/wp-includes/index.php 1 -
+/css/cmd.php 2 -
+/radio.php 1 -
+/wp-includes/theme-compat/ 1 -
+/wp-includes/blocks/page-list-item/about.php 1 -
+/+90%20542%20347%2052%2007 1 -
+/wp-includes/css/dist/block-directory/index.php 1 -
+/assets/js/wp-config.php 1 -
+/files/css/cmd.php 2 -
+/afyon-bor-bes-enerji/ 1 -
+/wp-content/plugins/wp-optimize/vendor/mrclay/minify/static/about.php 1 -
+/class/cmd.php 2 -
+/modules/mod_simplefileuploadv1.3/elements/up.php 1 -
+/tmp/cmd.php 2 -
+/manager.php 1 -
+/wp-conflg.php 1 -
+/inputs.php 1 -
+/tiny.php 2 -
+/wp-content/plugins/js_composer/include/templates/shortcodes/lock.php 1 -
+/elp.php 1 -
+/sites/all/modules/views-7.x-3.24/views/shell.php 1 -
+/wp-content/themes/twentytwentyfour/patterns/wp-good.php 1 -
+/.well-known/acme-challenge/ 1 -
+/wp-includes/Requests/src/Utility/about.php 1 -
+/k.php 1 -
+/wp-admin/includes/admin-ajax.php 1 -
+/wp-includes/sitemaps/ 1 -
+/leaf.php 1 -
+/shell.php 1 -
+/leafmailer2.8.php 1 -
+/.well-known/gecko-litespeed.php 2 -
+/wp-content/plugins/wordpress-seo/about.php 1 -
+/ad.php 1 -
+/wp-includes/assets/about.php 1 -
+/post.php 1 -
+/bypass.php 1 -
+/2.php 1 -
+/upload/ 1 -
+/tinyfilemanager.php 1 -
+/wp-content/uploads/about.php 1 -
+/wp-configs.php 2 -
+/ee.php 1 -
+/wp-file.php 1 -
+/wp-content/plugins/pwnd/cloud.php 1 -
+/core.php 1 -
+/wp-includes/rest-api/av.php 1 -
+/wp-content/themes/mach.php 1 -
+/wp-includes/html-api/wp-conflg.php 1 -
+/fm.php 1 -
+/wp-content/themes/wp-pridmag/init.php 1 -
+/13.php 1 -
+/js/cmd.php 2 -
+/mah.php 1 -
+/wp-mn.php 1 -
+/wp-includes/certificates/index.php 1 -
+/wp-content/plugins/wp-smushit/_src/js/common/about.php 1 -
+/222.php 1 -
+/wp-content/uploads/index.php 1 -
+/worksec.php 1 -
+/yasnu.php 1 -
+/Js.php 1 -
+/wp-content/themes/twentytwentyfive/assets/fonts/roboto-slab/about.php 1 -
+/wp-includes/html-api/ 1 -
+/upload/cmd.php 2 -
+/wp-includes/SimplePie/index.php 1 -
+/biz-kimiz/ 1 -
+/byp.php 1 -
+/moodle/blocks/rce/lang/en/block_rce.php 1 -
+/pir-enerji-2/ 1 -
+/wp-includes/images/chosen.php 1 -
+/wp-includes/js/crop/index.php 1 -
+/10.php 1 -
+/wp-content/uploads/2024/index.php 1 -
+/wp-includes/blocks/about.php 1 -
+/click.php 2 -
+/wp-includes/widgets/include.php 1 -
+/wp-content/themes/sketch/404.php 1 -
+/flower.php 1 -
+/local/moodle_webshell/webshell.php 1 -
+/m.php 2 -
+/wp-content/radio.php 1 -
+/system.php 1 -
+/gizlilik-guvenlik 1 -
+/wp-includes/css/dist/ 1 -
+/bless.php 1 -
+/wordpress/ 4 -
+/i1.php 1 -
+/f.php 1 -
+/bs1.php 1 -
+/wp-content/themes/bltm/wp-login.php 1 -
+/wp-content/themes/theme-check/theme-check.php 1 -
+/wp-info.php 1 -
+/login.php 1 -
+/wp-includes/widgets/ 1 -
+/class.api.php 1 -
+/wp-includes/Text/index.php 1 -
+/chosen.php 1 -
+/wp-content/wpseo-import/about.php 1 -
+/wp-backing.php 1 -
+/about/function.php 1 -
+/wp-includes/js/ 1 -
+/wp-includes/class-json-ajax-session.php 1 -
+/wp-includes/Text/wp-login.php 1 -
+/iletisim/ 1 -
+/readme.php 2 -
+/pi.php 1 -
+/biz-kimiz 1 -
+/wp-includes/blocks/site-title/about.php 1 -
+/error.php 1 -
+/wp-content/postnews.php 2 -
+/assets/ 1 -
+/s.php 1 -
+/wp-content/languages/wp-login.php 1 -
+/wp-content/themes/about.php 1 -
+/item.php 1 -
+/wp-content/aves.php 1 -
+/bolt.php 1 -
+/php.php 1 -
+/x.php 1 -
+/classwithtostring.php 1 -
+/a.php 1 -
+/wp-content/languages/index.php 1 -
+/class.php 1 -
+/wp-content/languages/plugins/wp-login.php 1 -
+/wp-includes/IXR/ 1 -
+/wp-includes/css/ 1 -
+/wp-content/plugins/call-now-button/src/about.php 1 -
+/themes.php 1 -
+/f35.php 1 -
+/aulavirtual/local/moodle_webshell/webshell.php 1 -
+/moderation.php 1 -
+/wp-includes/0.php 1 -
+/usage-file.php 1 -
+/wp-includes/sodium_compat/lib/ 1 -
+/wp-content/plugins/advanced-product-fields-for-woocommerce/db.php 1 -
+/0.php 1 -
+/bk/index.php 1 -
+/wp-content/packed.php 1 -
+/wp-json/wp/v2/posts 30 -
+/1.php 1 -
+/wp-content/themes/404.php 1 -
+/shell3.php 1 -
+/wp-content/plugins/pwnd/wp-backing.php 1 -
+/wp-includes/fonts/index.php 1 -
+/.well-known/pki-validation/index.php 1 -
+/aulavirtual/blocks/rce/lang/en/block_rce.php 1 -
+/system_log.php 1 -
+/wp-content/plugins/core-plugin/include.php 1 -
+/wp-content/themes/astra/wp-login.php 1 -
+/wp-includes/js/codemirror/about.php 1 -
+/wp-content/plugins/about.php 1 -
+/wp-content/themes/twentytwentyfour/ 1 -
+/info.php 2 -
+/leafmailer.php 1 -
+/version.php 1 -
+/wp-content/about.php 1 -
+/mms.php 1 -
+/wp-content/plugins/better-wp-security/vendor-prod/composer/autoload.php 1 -
+/db.php 1 -
+/mini.php 1 -
+/images/index.php 1 -
+/wp-content/themes/twentyfifteen/shell3.php 1 -
+/wp-includes/blocks/navigation/index.php 1 -
+/cgi-bin/user/index.php 1 -
+/wp-includes/css/dist/components/index.php 2 -
+/wp-includes/Requests/index.php 1 -
+/wp-content/themes/astra/about.php 1 -
+/wp-includes/blocks/comment-date/about.php 1 -
+/wp-crom.php 1 -
+/foto/cmd.php 2 -
+/v4.php 1 -
+/wp-content/222.php 1 -
+/xml.php 1 -
+/wp-content/uploads/cmd.php 2 -
+/wp-content/themes/astra/inc/blog/about.php 1 -
+/uploads/cmd.php 3 -
+/wp-signin.php 1 -
+/wp-includes/IXR/index.php 1 -
+/uploads/multi.php 1 -
+/autoload_classmap.php 1 -
+/3.php 1 -
+/cong.php 1 -
+/wp-includes/blocks/calendar/index.php 1 -
+/wp-content/plugins/so-pinyin-slugs/inc/main_json.php 1 -
+/marijuana.php 1 -
+/goat1.php 1 -
+/installer.php 1 -
+/enerji-santralleri/ 1 -
+/load.php 1 -
+/wp-trackback.php 1 -
+/wp-includes/blocks/comments-pagination-numbers/about.php 1 -
+/img/cmd.php 3 -
+/cerezler 1 -
+/17.php 1 -
+/kickstart.php 1 -
+/wp-includes/Text/Diff/Engine/ 1 -
+/wp-includes/Requests/about.php 2 -
+/folders/cmd.php 2 -
+/simple.php 1 -
+/gemi-marine/ 1 -
+/lock360.php 3 -
+/files/cmd.php 2 -
+/wp-includes/blocks/latest-posts/about.php 1 -
+/wp-content/plugins/revslider/includes/external/page/index.php 1 -
+/wp-content/cmd.php 2 -
+/wp-includes/certificates/wp-conflg.php 1 -
+/.well-known/ 1 -
+/po.php 1 -
+/css.php 1 -
+/sim.php 2 -
+/oo.php 1 -
+/wsa.php 1 -
+/wp-content.php 1 -
+/wp-includes/js/codemirror/index.php 2 -
+/wp-includes/js/tinymce/themes/inlite/ 1 -
+/wp-conf.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/filemanager.php 2 -
+/uploads/foto/cmd.php 2 -
+/wp-content/plugins/shell/index.php 1 -
+/wp-content/plugins/erinyani/default.php 1 -
+/up.php 1 -
+/wp-content/plugins/mainhosting/default.php 1 -
+/ahax.php 1 -
+/max.php 1 -
+/vorteksenerji 1 -
+/pinfo.php 1 -
+/wp-header.php 1 -
+/upload/foto/cmd.php 2 -
+/index/function.php 1 -
+/contact.php 1 -
+/wp-includes/js/tinymce/ 1 -
+/wp-l0gin.php 1 -
+/wp-includes/wp-class.php 1 -
+/ws.php 1 -
+/ini.php 1 -
+/wp-content/languages/ga.php 1 -
+/wp-includes/widgets/autoload_classmap.php 1 -
+/124.php 1 -
+/404.php 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 26
+151.80.64.2 136 136 0 20251130223633
+104.207.54.103 8 8 4950 20251109112804
+65.111.23.37 7 7 3960 20251122032521
+23.178.112.107 3 3 261 20251114044030
+86.33.79.225 2 2 1980 20251118182859
+79.144.19.46 2 2 1980 20251118185559
+18.142.90.64 2 2 174 20251114044031
+13.61.179.96 2 2 174 20251114044030
+68.71.245.206 1 1 200 20251129050746
+44.243.240.139 1 1 87 20251114044031
+103.167.217.134 1 1 246 20251111105347
+44.248.22.155 1 1 87 20251114044025
+13.53.71.214 1 1 87 20251114044024
+54.202.251.209 1 1 87 20251114044028
+83.233.244.53 1 1 200 20251105223435
+109.107.90.82 1 1 200 20251106223426
+174.75.211.193 1 1 200 20251128053613
+3.143.67.172 1 1 87 20251114044025
+18.117.124.64 1 1 87 20251114044028
+138.0.241.31 1 1 990 20251113123645
+3.144.4.143 1 1 87 20251114044031
+54.179.231.86 1 1 87 20251114044028
+45.86.202.210 1 1 990 20251110183803
+35.247.161.147 0 1 35599 
+188.143.244.139 0 6 4908567 
+34.34.148.133 0 1 83899 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20251101 4 4 0 3
+20251102 6 6 0 5
+20251103 2 2 0 2
+20251104 3 3 0 3
+20251105 1 1 200 1
+20251106 4 4 200 4
+20251107 4 4 0 3
+20251108 5 5 0 5
+20251109 10 10 4950 3
+20251110 3 4 36589 3
+20251111 6 12 4908813 6
+20251112 8 8 0 5
+20251113 4 4 990 3
+20251114 24 24 1305 19
+20251115 4 4 0 3
+20251116 11 11 0 8
+20251117 11 11 0 7
+20251118 12 12 3960 8
+20251119 4 4 0 4
+20251120 3 3 0 3
+20251121 5 5 0 4
+20251122 13 13 3960 7
+20251123 3 3 0 3
+20251124 4 4 0 3
+20251125 4 4 0 4
+20251126 3 3 0 3
+20251127 2 2 0 2
+20251128 7 7 200 6
+20251129 4 4 200 4
+20251130 3 4 83899 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+30s-2mn 2
+30mn-1h 7
+0s-30s 123
+1h+ 3
+15mn-30mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 13
+/wp-cron.php 136 0 115 115
+/admin/login 11 6930 4 3
+/.well-known/acme-challenge/mSSx8xcOdK7zJU_hYNfxteSbJR784oyb78fWU6oEEfQ 5 435 5 3
+/.well-known/acme-challenge/y3r0wRpasDGmqCMWO0VZfun8Mg4zWc4TzM-4P5vWK78 5 435 2 5
+/.well-known/acme-challenge/RtKWLE3TMBFjZ8aKocALVSQ69KpIKFQtFeoBjQGov-g 5 435 4 3
+/xmlrpc.php 4 846 4 4
+/admin/ 2 990 0 0
+/administrator 2 1980 0 1
+/admin/login/ 2 990 0 0
+/admin 2 1980 0 0
+http://vorteksenerji.com/xmlrpc.php 1 200 1 1
+/wp-admin/ 1 990 1 1
+/admin/phpinfo.php 1 990 1 1
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+2K-5K 1
+1K-2K 587
+500-1K 69
+100-500 76
+5K+ 8
+0-44 439
+44-100 16
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

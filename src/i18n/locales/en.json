@@ -1,0 +1,246 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "projects": "Projects",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "getQuote": "Get Quote"
+  },
+  "hero": {
+    "title1": "Energy",
+    "title2": "Solutions",
+    "title3": "and Services",
+    "subtitle": "With 15 years of experience, we provide generator, power plant, fuel supply and maintenance services.",
+    "cta1": "Get Free Quote",
+    "cta2": "Our Services"
+  },
+  "about": {
+    "subtitle": "ABOUT US",
+    "title1": "Your Reliable Partner",
+    "title2": "in the Energy Sector",
+    "description1": "At Vorteks Energy, we have been providing comprehensive services in the energy sector since 2009. With over 15 years of experience and more than 50 expert staff, we offer generator sales and rental, power plant installation, fuel supply and technical maintenance services.",
+    "description2": "Putting customer satisfaction first, we never compromise on our quality and reliability standards in every project. We provide 24/7 energy solutions to industrial facilities, construction projects and commercial establishments throughout Turkey.",
+    "stats": {
+      "projects": "Completed Projects",
+      "experience": "Years of Experience",
+      "satisfaction": "Customer Satisfaction",
+      "team": "Expert Staff"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To meet our customers' uninterrupted energy needs by providing the highest quality services in the energy sector."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To become the leading energy solutions company in Turkey, setting trends with innovative technologies."
+    },
+    "values": {
+      "title": "Our Values",
+      "description": "Quality, reliability, customer focus, continuous improvement and environmental awareness are our core values."
+    },
+    "commitment": {
+      "title": "Our Commitment",
+      "description": "We offer on-time delivery, competitive pricing and flawless workmanship guarantee on every project."
+    },
+    "timeline": {
+      "title": "Our History",
+      "subtitle": "Our transformation and achievements from 2009 to today"
+    },
+    "certifications": {
+      "title1": "Our Certifications and",
+      "title2": "Approved Documents",
+      "description": "Our certifications that prove we provide services to international standards are the foundation of the quality guarantee we offer to our customers."
+    },
+    "team": {
+      "title1": "Our Expert",
+      "title2": "Team",
+      "description": "Our professional team of 50+ experienced engineers, technicians and managers"
+    }
+  },
+  "services": {
+    "subtitle": "OUR SERVICES",
+    "title1": "Comprehensive Energy",
+    "title2": "Solutions",
+    "description": "We offer all the services you need for your energy requirements under one roof.",
+    "repair": {
+      "title": "Generator Sales & Rental",
+      "description": "Generator sales and rental services in all power capacities. Diesel, gasoline and natural gas generators."
+    },
+    "engine": {
+      "title": "Generator Maintenance",
+      "description": "Periodic maintenance, overhaul and parts replacement. Performance optimization and fault prevention."
+    },
+    "fuel": {
+      "title": "Fuel Supply",
+      "description": "Quality diesel, gasoline and fuel-oil supply. 24/7 fuel delivery and storage services."
+    },
+    "paint": {
+      "title": "Power Plants",
+      "description": "Power plant installation, operation and maintenance services. Turnkey projects."
+    },
+    "yacht": {
+      "title": "Spare Parts Supply",
+      "description": "Original and equivalent spare parts supply. In-stock service for all brands and models."
+    },
+    "electrical": {
+      "title": "Electrical Systems",
+      "description": "Power distribution systems, transformers, panels and automation solutions. Project and contracting services."
+    },
+    "getQuote": "Request Quote",
+    "process": {
+      "title1": "Our Working",
+      "title2": "Process",
+      "step1": { "title": "Contact", "desc": "Reach us, tell us your needs" },
+      "step2": { "title": "Inspection", "desc": "Our expert team conducts on-site inspection" },
+      "step3": { "title": "Quote", "desc": "Detailed price and time estimate" },
+      "step4": { "title": "Approval", "desc": "Quote approval" },
+      "step5": { "title": "Execution", "desc": "Professional installation and workmanship" },
+      "step6": { "title": "Delivery", "desc": "Quality control and handover" }
+    },
+    "faq": {
+      "title1": "Frequently Asked",
+      "title2": "Questions"
+    }
+  },
+  "projects": {
+    "title1": "Success",
+    "title2": "Stories",
+    "description": "With 15 years of experience, we have successfully completed more than 500 energy projects. Each project is a testament to our quality standards and customer satisfaction philosophy.",
+    "stats": {
+      "total": "Total Projects",
+      "thisYear": "This Year",
+      "ongoing": "Ongoing",
+      "planned": "Planned"
+    },
+    "distribution": "Project Distribution",
+    "featured": {
+      "title1": "Featured",
+      "title2": "Projects"
+    },
+    "sectors": {
+      "title1": "Industries We",
+      "title2": "Serve",
+      "cargo": { "title": "Industrial Facilities", "desc": "Factories and production plants" },
+      "tanker": { "title": "Construction Projects", "desc": "Construction sites and areas" },
+      "passenger": { "title": "Commercial Buildings", "desc": "Shopping malls, hotels and offices" },
+      "fishing": { "title": "Healthcare Institutions", "desc": "Hospitals and health centers" },
+      "yacht": { "title": "Events", "desc": "Concerts, fairs and organizations" },
+      "offshore": { "title": "Mining & Energy", "desc": "Mining sites and energy facilities" }
+    },
+    "cta": {
+      "title": "Let's Realize Your Project",
+      "description": "Would you like to get professional service for your energy needs? Contact our expert team.",
+      "button1": "Request Quote",
+      "button2": "View Gallery"
+    }
+  },
+  "gallery": {
+    "title1": "Project",
+    "title2": "Gallery",
+    "description": "View images of our completed projects",
+    "categories": {
+      "all": "All",
+      "repair": "Generator Installation",
+      "yacht": "Power Plants",
+      "engine": "Maintenance Services",
+      "paint": "Fuel Supply"
+    },
+    "featured": {
+      "title1": "Featured",
+      "title2": "Projects"
+    },
+    "stats": {
+      "projects": "Completed Projects",
+      "customers": "Happy Customers",
+      "experience": "Years of Experience",
+      "team": "Expert Staff"
+    },
+    "reviews": {
+      "title1": "Customer",
+      "title2": "Reviews"
+    }
+  },
+  "contact": {
+    "title1": "Get in",
+    "title2": "Touch with Us",
+    "description": "Contact us for information about your energy projects or to request a quote. Our expert team will get back to you as soon as possible.",
+    "info": {
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "hours": "Working Hours",
+      "weekdays": "Monday - Saturday"
+    },
+    "form": {
+      "title": "Contact Us",
+      "subtitle": "Fill out the form, we'll get back to you within 24 hours",
+      "name": "Your Name",
+      "company": "Company Name",
+      "phone": "Phone",
+      "email": "Email",
+      "shipInfo": "Project Information",
+      "shipInfoPlaceholder": "Project location, power requirement, duration...",
+      "serviceType": "Service Type",
+      "serviceTypes": {
+        "select": "Select",
+        "repair": "Generator Rental",
+        "maintenance": "Maintenance",
+        "painting": "Power Plant",
+        "engine": "Generator Sales",
+        "fuel": "Fuel Supply",
+        "other": "Other"
+      },
+      "message": "Your Message",
+      "messagePlaceholder": "Provide detailed information about your project...",
+      "submit": "Send Message"
+    },
+    "whatsapp": {
+      "title": "WhatsApp",
+      "subtitle": "For quick communication",
+      "button": "Send Message Now"
+    },
+    "emergency": {
+      "title": "24/7 Emergency Support Line"
+    },
+    "offices": {
+      "title1": "Our Offices and",
+      "title2": "Service Points",
+      "description": "We serve you throughout Turkey",
+      "headquarters": "Headquarters",
+      "branch": "Regional Office"
+    },
+    "why": {
+      "title1": "Why",
+      "title2": "Choose Us?",
+      "support": { "title": "24/7 Support", "desc": "Always ready for emergencies" },
+      "fast": { "title": "Quick Response", "desc": "On-site intervention in 2-4 hours" },
+      "free": { "title": "Free Inspection", "desc": "First inspection and quote free" },
+      "warranty": { "title": "12 Month Warranty", "desc": "Workmanship warranty for all jobs" },
+      "price": { "title": "Competitive Pricing", "desc": "Best prices in the market" },
+      "team": { "title": "Expert Team", "desc": "50+ certified professionals" }
+    },
+    "map": {
+      "show": "Show on Map"
+    }
+  },
+  "footer": {
+    "description": "Your reliable partner in generator, power plant, fuel supply and technical maintenance services.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact",
+    "copyright": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  },
+  "common": {
+    "completed": "Completed",
+    "ongoing": "In Progress",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "quality": "Quality and Reliability",
+    "isoStandards": "ISO certified service standards",
+    "days": "days"
+  }
+}

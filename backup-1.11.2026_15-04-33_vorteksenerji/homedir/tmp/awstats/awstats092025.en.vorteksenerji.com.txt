@@ -1,0 +1,405 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202509 will be lost/reset.
+# Last config file used to build this data file was /home/vorteksenerji/tmp/awstats/awstats.en.vorteksenerji.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2093                
+POS_TIME 2767                
+POS_VISITOR 7598                
+POS_DAY 8625                
+POS_DOMAIN 3380                
+POS_LOGIN 3751                
+POS_ROBOT 3906                
+POS_WORMS 4152                
+POS_EMAILSENDER 4283                
+POS_EMAILRECEIVER 4426                
+POS_SESSION 9157                
+POS_FILESIZE 9798                
+POS_REQUESTTIME 9931                
+POS_SIDER 9363                
+POS_FILETYPES 4561                
+POS_DOWNLOADS 4678                
+POS_OS 4726                
+POS_BROWSER 4867                
+POS_SCREENSIZE 5130                
+POS_UNKNOWNREFERER 5204                
+POS_UNKNOWNREFERERBROWSER 5455                
+POS_ORIGIN 5598                
+POS_SEREFERRALS 5732                
+POS_PAGEREFS 5895                
+POS_SEARCHWORDS 6043                
+POS_KEYWORDS 6195                
+POS_MISC 2431                
+POS_ERRORS 6254                
+POS_CLUSTER 3607                
+POS_SIDER_404 6374                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20251001010503 5 712 11731361863994
+FirstTime 20250901215801
+LastTime 20250930145240
+LastUpdate 20251001151124 5 0 4 0 0
+TotalVisits 113                 
+TotalUnique 26                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 26                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 4 0 4 9 645940
+1 1 1 0 2 3 323648
+2 1 1 0 1 2 121
+3 11 11 870 5 6 121
+4 7 7 420 6 8 119216
+5 1 1 0 1 2 121
+6 1 1 0 1 3 117652
+7 5 5 0 5 8 29032
+8 7 7 0 11 12 83785
+9 7 7 990 7 11 1935
+10 3 3 0 3 8 127399
+11 9 9 506 12 15 120349
+12 6 6 0 6 11 1154
+13 13 13 296 22 25 572277
+14 6 6 990 5 7 901
+15 14 14 506 27 30 132102
+16 5 5 296 7 7 0
+17 10 10 20920 8 13 157151
+18 6 6 0 60 63 7042322
+19 6 6 0 6 11 128224
+20 16 16 1612 13 13 131221
+21 5 5 0 5 6 121
+22 4 4 0 5 5 0
+23 1 1 0 4 5 121
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 14
+it 123 123 0
+us 12 12 3289
+zz 2 2 174
+ru 2 2 613
+ir 1 1 20920
+cn 1 1 210
+at 1 1 0
+in 1 1 403
+es 1 1 296
+ro 1 1 296
+hk 1 1 210
+se 1 1 296
+de 1 1 296
+gb 1 1 403
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+DotBot/ 73 2997685 20250930215003 40
+Apache\-HttpClient/ 13 2588 20250929111402 0
+MJ12bot/ 2 242 20250922070514 2
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+Unknown 15 22974 0 0
+html 1 990 0 0
+php 133 3442 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+linux 4 4
+android12 1 1
+Unknown 133 133
+win10 6 6
+macosx15 1 1
+macosx14 4 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 12
+Unknown 123 123
+chrome128.0.0.0 1 1
+mozilla 10 10
+chrome97.7 1 1
+chrome138.0.0.0 4 4
+chrome126.0.6478.71 1 1
+chrome93.2 1 1
+safari18.4 1 1
+chrome91.6 1 1
+chrome90.0.4430.85 1 1
+chrome119.0.0.0 4 4
+chrome93.7 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20250921035537
+WordPress/6.7.1;_https://en.vorteksenerji.com 20250930145240
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+WordPress/6.7.1;_https://en.vorteksenerji.com 20250930145240
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 143 143
+From1 1 1
+From2 4 4
+From3 0 0
+From4 1 1
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+301 86 0
+404 60 6732794
+302 36 0
+401 2 1604
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 58
+/pp.php 1 -
+/pass.php 1 -
+/bolt.php 1 -
+/wp.php 1 -
+/golden.php 1 -
+/past.php 1 -
+/lc.php 1 -
+/wp-gr.php 1 -
+/file5.php 1 -
+/chosen.php 1 http://en.vorteksenerji.com/chosen.php
+/file.php 2 -
+/CLA.php 1 -
+/aaaa.php 1 -
+/wp-update.php 1 -
+/wp-content/plugins/hellopress/wp_filemanager.php 1 -
+/ahax.php 1 -
+/xpas2.php 1 -
+/lock360.php 1 -
+/bv3.php 1 -
+/about.php 2 -
+/file17.php 1 -
+/wp-content/plugins/lwbdene/ 1 -
+/dejavu.php 1 -
+/ar.php 1 -
+/we.php 1 -
+/ss.php 1 -
+/re.php 1 -
+/wsr2.php 1 -
+/cool.php 1 -
+/z.php 1 -
+/style.php 1 -
+/ot.php 1 -
+/wp-mn.php 1 -
+/file4.php 1 -
+/axx.php 1 -
+/bless.php 1 -
+/wordpress/ 1 -
+/aa.php 1 -
+/asd67.php 1 -
+/great.php 1 -
+/dex.php 1 -
+/class9.php 1 -
+/file8.php 1 -
+/num.php 1 -
+/co.php 1 -
+/ffile.php 1 -
+/new.php 1 -
+/lo.php 1 -
+/Sanskrit.php 1 -
+/witmm.php 1 -
+/cfile.php 1 -
+/gfile.php 1 -
+/ol.php 1 -
+/nc4.php 1 -
+/file7.php 1 -
+/gmo.php 1 -
+/file2.php 1 -
+/gold.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 26
+151.80.64.2 123 123 0 20250930145240
+23.178.112.105 2 2 174 20250921035536
+31.58.220.70 1 1 20920 20250916172841
+54.254.170.208 1 1 87 20250921035537
+223.66.100.47 1 1 210 20250921040225
+121.202.249.160 1 1 210 20250909040408
+16.170.167.245 1 1 87 20250921035533
+45.140.207.36 1 1 403 20250902202415
+87.149.200.45 1 1 296 20250929111354
+54.169.133.163 1 1 87 20250921035533
+212.119.44.252 1 1 403 20250902202417
+16.171.198.21 1 1 87 20250921035537
+146.247.113.16 1 1 0 20250924155823
+18.225.54.52 1 1 87 20250921035537
+152.42.163.10 1 1 990 20250913095703
+149.36.3.79 1 1 210 20250920112601
+3.137.187.175 1 1 990 20250909140121
+52.26.216.64 1 1 87 20250921035533
+3.14.3.244 1 1 87 20250921035533
+45.80.105.32 1 1 403 20250902202415
+92.100.162.208 1 1 210 20250908150045
+83.181.6.58 1 1 296 20250913165016
+213.194.156.89 1 1 296 20250916150527
+79.116.123.42 1 1 296 20250915133201
+185.61.222.110 1 1 403 20250902202415
+44.249.98.156 1 1 87 20250921035537
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 26
+20250901 1 1 0 1
+20250902 8 8 1612 6
+20250903 2 2 0 2
+20250906 3 3 0 3
+20250907 1 1 0 1
+20250908 5 5 210 3
+20250909 7 7 1200 6
+20250910 2 2 0 2
+20250911 3 3 0 3
+20250913 6 6 1286 5
+20250914 1 1 0 1
+20250915 5 5 296 4
+20250916 7 7 21216 5
+20250917 2 2 0 2
+20250919 11 11 0 5
+20250920 3 3 210 3
+20250921 24 24 1080 19
+20250922 7 7 0 5
+20250923 1 1 0 1
+20250924 13 13 0 7
+20250925 5 5 0 5
+20250926 5 5 0 4
+20250927 4 4 0 4
+20250928 7 7 0 5
+20250929 11 11 296 7
+20250930 5 5 0 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 4
+15mn-30mn 4
+30s-2mn 1
+2mn-5mn 1
+30mn-1h 6
+5mn-15mn 1
+0s-30s 96
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 9
+/wp-cron.php 123 0 88 88
+/xmlrpc.php 8 2452 8 8
+/.well-known/acme-challenge/6L2qXPlARLuT1VLf_MC5nkZjbtl3AF_iNl18vXMAcB4 5 435 4 5
+/.well-known/acme-challenge/pKirZNsBEFeLx9Ea5Llvf1rCZvUwyJ66LpC5Zo7o3ng 5 435 5 4
+/wp-json/wp/v2/users 4 1184 4 4
+http://en.vorteksenerji.com/wp-login.php 1 0 1 1
+/wp-admin/plugin-install.php 1 990 1 1
+/wp-admin/ 1 990 1 1
+/wp-json 1 20920 1 1
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 6
+0-44 246
+44-100 10
+1K-2K 12
+500-1K 17
+5K+ 80
+100-500 67
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

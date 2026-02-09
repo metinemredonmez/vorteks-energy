@@ -1,0 +1,182 @@
+Return-Path: <EdwardThompson.it567@outlook.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id 4BWaKTAkgWhiLwAAOB6+FQ
+	(envelope-from <EdwardThompson.it567@outlook.com>)
+	for <info@vorteksenerji.com>; Wed, 23 Jul 2025 21:04:32 +0300
+Return-path: <EdwardThompson.it567@outlook.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Wed, 23 Jul 2025 21:04:32 +0300
+Received: from mail-japaneastazolkn19013078.outbound.protection.outlook.com ([52.103.43.78]:63064 helo=TYDPR03CU002.outbound.protection.outlook.com)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.98.1)
+	(envelope-from <EdwardThompson.it567@outlook.com>)
+	id 1uedpQ-000000007fC-1Yaq
+	for info@vorteksenerji.com;
+	Wed, 23 Jul 2025 21:04:32 +0300
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=BgW85Fk3YXOnbuzPjCqCiRB5ZG/KOg7arKNdxWpEgr6QQcDqH338yaEbRvoyUy7I5LXcIm5q7olfpNvJR/7rTEYLXgkH8evq+Ow3x+y9ZFNk9nhDOD3GlNtpuX11+x7NtXekGcakwkNTMiOWI2JHDDOVpLIUm3pVzIg1jNKzCQreQ+jkTyUjVHZ2WEU9O0D7TCJZN4cEWStmxTxEkyvJDOofXNKsjt9AXg4D1JFVEv7E/VXzP6k7OkeLF7Kxtm/FNWdBcUDcG0Zn1/iKPGVFBuqd1k+wUJYreE0/dnYdQJDiIFzf7YEJIygW+SOfPKNNSWlaSukfnJG1wqvsLtc1yQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=dWFPjhQZaw7+TIbXfIbTomn6ZiHTBvFclX7ztK4oSB8=;
+ b=UMEL4F2QQzHvkXqwwIfgg35hj47XVfsR/ls88Rv3ZY3HAqpe7D7tCAQDsncsjLR+pFV0hh00l+0FQFhhP7NKvrk1J0yazFymlmYkt4G1r+H4YMdBsj/LztGaCw1J8Vho8Sx1I8MrlQbSjIxNxhf1m+hW2CbHNLg/4I3Bcz7dy7s/b0HplR94wh/uu8SVFKzFIC1ZMF6xB/+W0KP+QSlxmaujXEo7OklqICl/Jf67C2Fb3P7K6CIlNUHfOUM1kcNvipgRKqtbku1gtOBrUCfjtqvSezWJZfDlFwtQNGTK0QL3hiDSdizOuk2OoCqBRpljGExj8y5l26a32ma6xiWTQQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=dWFPjhQZaw7+TIbXfIbTomn6ZiHTBvFclX7ztK4oSB8=;
+ b=r0f9QgPLVUc3kTWHYiUzVK5oURAQy6KwR54zJmsmIBe+higvc/Aj99MoC62VRJ6hBpYn0mse7Q2uBA8KmiiXo6dSFj3mh12Cizq9SdtQaUShpVghQvve+LA/9mccTXMgJhN+WFf00P62Ka4IUSlM5SYlUpkj0wInREaLQgXdGCU/F6tHpZ19njay/IcxQVECbMYOR2KzJPFrKVOW+DJLQx0zqzg9jALhjqO7a179JnXQQWXuFpa3ejWXkp0is19+oOwUbsw5j2sJ/qP0kfkbDw6lVo3cxxMq5HTjlzbJ6Y+3wqAo5Zm60Ap2M/aZaqvNgIUb3yWJun0kfEfmqOzxAA==
+Received: from SEL0PF8C30FB8E0.apcprd01.prod.exchangelabs.com
+ (2603:1096:108:1::5b6) by OSNPR01MB7579.apcprd01.prod.exchangelabs.com
+ (2603:1096:604:317::10) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8964.21; Wed, 23 Jul
+ 2025 18:03:19 +0000
+Received: from SEL0PF8C30FB8E0.apcprd01.prod.exchangelabs.com
+ ([fe80::7e01:71f7:d88b:1476]) by
+ SEL0PF8C30FB8E0.apcprd01.prod.exchangelabs.com
+ ([fe80::7e01:71f7:d88b:1476%3]) with mapi id 15.20.8964.019; Wed, 23 Jul 2025
+ 18:03:19 +0000
+From: Edward Thompson <EdwardThompson.it567@outlook.com>
+Subject: Re: Can I Send you?
+Thread-Topic: Can I Send you?
+Thread-Index: AQHb+/vsehIBVxHTVUWYtMwGZTngsg==
+Date: Wed, 23 Jul 2025 18:03:06 +0000
+Message-ID:
+ <SEL0PF8C30FB8E01A13F818AC7FDD2850CDC65FA@SEL0PF8C30FB8E0.apcprd01.prod.exchangelabs.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SEL0PF8C30FB8E0:EE_|OSNPR01MB7579:EE_
+x-ms-office365-filtering-correlation-id: 1ff1bf3a-4254-485e-afe1-08ddca133471
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|8060799015|8062599012|461199028|19110799012|15030799006|6115599003|7071999006|15080799012|36102599003|40105399003|440099028|39105399003|39145399003|51005399003|3412199025|41105399003|102099032;
+x-microsoft-antispam-message-info:
+ =?iso-8859-1?Q?i1Y+k6N4JrZdsg2buJ/K1LCA+uhar++u1m+Z5lqMW2dhKP1GJDaiWlVl1/?=
+ =?iso-8859-1?Q?b6PxoWAAeULayDkYvQufYIEqF8WAapPdxoz+9phoKlqeNW/SbogiK70mAs?=
+ =?iso-8859-1?Q?Ynek06XTZcRv6/svTtgw2+jEhL6RpJ/uzxJGyKDW3fMReJqtQ0Di+r2QUH?=
+ =?iso-8859-1?Q?Hk1k7D10x1y+lEnT5VmvU9+C1zIeEFeNIiW6gw1nwzPTtiFPK4zAZ3QZv5?=
+ =?iso-8859-1?Q?1NHTiyXBbyifr1OY9Sb57KglBRK8LM6C4FGMb2zAEM1MLEgyaWEDCDfR6K?=
+ =?iso-8859-1?Q?IXONkVy5zksa8F6pU5DC3usk/wDbCRjQUvTFzLeF6oxU4VaMlRHzYdQump?=
+ =?iso-8859-1?Q?UYXs/Dadkve3J4YieZ6Ywx4nrdeIvNw1XWEOBjqZMAeoPyC+tK4zMHOkc/?=
+ =?iso-8859-1?Q?IpUqOJIcIQKvNk+TSbIyhMYwu1cQpsau11T93W4UmnT0Rgjy2u2ni7tjey?=
+ =?iso-8859-1?Q?NMNO7V9q8+WiZNvuBn9AauUd8Al8RFvO8NV55wtjL/e9sCiD3NA3s1Mw9J?=
+ =?iso-8859-1?Q?BrgCwLz7uJmiumf6TqCWV5Lj54sa7LO25KFgM4biJS3QKmWSYyX5yGQlvn?=
+ =?iso-8859-1?Q?v9mTg6eNgRt7ceMUorx/Cr9FedmIjajG9O1NS+hlQY2f7+5v1vdrDWP0p9?=
+ =?iso-8859-1?Q?n9p/sEgaZMxVXWdqZ1/7eausJ7AclsB7NN8IAK9pSuP8h1xa8lNCemf6kl?=
+ =?iso-8859-1?Q?qAOQpPYn6WbBZMmac26+kOVJezEAljL7VYFb6oACxW/7fPiWSFeVvjVChn?=
+ =?iso-8859-1?Q?UThzcIafU/b/mrbyvH7+KduPk1ucNBQUZRuQ05Bq2+rHqcvIP8O85IML5E?=
+ =?iso-8859-1?Q?8sgAIMa+KoNcmuU+bX2vui4T6u5u3IE8MdMXFtUOj4pVK8mOIlj3xaRZRV?=
+ =?iso-8859-1?Q?ElnC/chwZxB9W8bJvbri3UMzAx559fkEgHxrsZ7yAKsAjLDRRdSdWmoR11?=
+ =?iso-8859-1?Q?LHOUr3Ap4A+J9ImWX/TbrXIvTmGvfFZ67VNazaUUyU82r04jnIJ0eHCdtO?=
+ =?iso-8859-1?Q?wkOesnHSkWi3nWZGDdeJ8ODU0DAVo2xDIHgT4m5Rv0f6oUEHzP98O8xySb?=
+ =?iso-8859-1?Q?fNknmCHnf2Cd3qiapn4xkyUNX7enTQNQmvsOqgedoWeMe4G1ugcpziOSXT?=
+ =?iso-8859-1?Q?Um3eZrHy7C9cpAzRtqejrSVNnUK5cikTExlgqyIAQ9xl3KKGw0hMfDY3Ay?=
+ =?iso-8859-1?Q?P6+gw3gYQS/YsHGJUR3RB/w4hAblIaF2NwhJg1ZTOLGb5AlBPYW9u9S6bm?=
+ =?iso-8859-1?Q?7XOiYJ9rPIlJU2GU7kD7cTKuqpqKe//d8B4bcgzj4VWivAKUawVMNkD3aG?=
+ =?iso-8859-1?Q?IbSebV8GmWEx6LPoo3N8eX5/n/KTDy6niypdQHAl647DFbQELjmyYe6Q4Z?=
+ =?iso-8859-1?Q?EipGlhyE07ScNWD+Atrs/vXge9GfBQSWIKpPBdhSsCQZjvfr9wMBg=3D?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?2ubkaHEA8bVOWeXtWg/zQkuilKOfhQU2RtNwnARuTeLjSiysoKp9Ow0Lpo?=
+ =?iso-8859-1?Q?deMjTRZZV/72j/ngR1yZjfFoi605QXqaqEmGb1jOwxWPl6faBKU1idtbwc?=
+ =?iso-8859-1?Q?glwWSCfo7HV0haUkjV7/TsiNmu7J1/lm2P0B01C/YQTEV8i9SB9KeJA7/h?=
+ =?iso-8859-1?Q?NDAbSXzke5p1BTUmTq3u7eYEX4pTeh43gPtrh5hjo2dmj0lZb84QbsOCIi?=
+ =?iso-8859-1?Q?sqO4etmT5XO61Wtu+7WrmvnbcYJbElvbTbasV+yry9xGLD5ybkY+C05uBg?=
+ =?iso-8859-1?Q?pOKbv12BFHHGxtMZKyiwjwjEWDG0Dt+uwWkkaraRtv1RHEW/znD8/ijHFm?=
+ =?iso-8859-1?Q?xNOHQ2KmmvCGywhI33L3idAJR1xm66lxIyQaP5OCxerwYs6CiQIiZYSa7O?=
+ =?iso-8859-1?Q?HWs2MBTZIw0ryOX9n+3lPQPiCaNf/Db5L8itfdO6Bi7gfO7UG3ypV4agae?=
+ =?iso-8859-1?Q?oswnbaAnKwRT47UWkcUSfnKEufoCXxYDdI9M1rsFMi8I8aDiVqYWA+VgRe?=
+ =?iso-8859-1?Q?MCleMVcJ0IIGOqpjwZW1iPTvbJ7agYJgvpJmmxtOlsFJeHBkSVgacMYEqE?=
+ =?iso-8859-1?Q?x6WX6lyK9G89/qZcFFVx1Nkmc+40GnsdmU7U5J8C99R8aNhr/fxYAQDOwa?=
+ =?iso-8859-1?Q?w6p3pM5pbXv2+z5gnrgquWUrOVb8pi352XpRyFBsFqEkscn74gWgZQQYDV?=
+ =?iso-8859-1?Q?++HHM79e+JNvSUUGw//sP7bot7RdQ+9pLtEnRZTeNNNclH7HvEb3yWQdwY?=
+ =?iso-8859-1?Q?sQheEZOFVZzRuq/lQUtwhbTbYwVg/M8Qhzhk8mPurjTkqqOiyFxXbPs+Qn?=
+ =?iso-8859-1?Q?Fj+XUh6NEohv8U/6/r2M1vAuhrbpmU8swJ55QU/lCxsetrVKnODD29h3rO?=
+ =?iso-8859-1?Q?l+EHUZIOCyMw3cRfaewct7/ggeZrMHOHI08JXP9fcylCZxGSpA7/KFEOEa?=
+ =?iso-8859-1?Q?Q6r5zFN1kZa+RsyIizu+oQjd/a3KEOltwbNdxfDE29yLDVgxwfaPbBa91l?=
+ =?iso-8859-1?Q?R524fj1y3KvWZFAQo1pm1DYNFWl0ln+V97hvnidD5xQ/mb1NQ9XgGYDPD6?=
+ =?iso-8859-1?Q?n6+MsKox5t/xAfR/mRQIZiDyMq+ijLBum/6mbZK5v8WwPIQJGq4XHBULKe?=
+ =?iso-8859-1?Q?IAUrQfygrjh2hpM2qBi5jomaIUHVwK/ETXEHq7+hjtwO5dDPwpVvodDWmc?=
+ =?iso-8859-1?Q?CiNRzLF43K8pxKpb4ekWfGZYN3znDTlF5HfvygHjGuBZWgIeXu6pP99zTw?=
+ =?iso-8859-1?Q?g+mN5rc2aDpbpZDXiw7F8qSVCbpjVkDWx26Rv2oROEIMW1aZzseQCAvfAR?=
+ =?iso-8859-1?Q?ABhvuHuRkzVBQGyAszGc0Tpn32v0G4cOCrAD+8l8ZdrJjbZ08zsDNG+cOz?=
+ =?iso-8859-1?Q?6aXKkGaT0W?=
+Content-Type: multipart/alternative;
+	boundary="_000_SEL0PF8C30FB8E01A13F818AC7FDD2850CDC65FASEL0PF8C30FB8E0_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: SEL0PF8C30FB8E0.apcprd01.prod.exchangelabs.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 1ff1bf3a-4254-485e-afe1-08ddca133471
+X-MS-Exchange-CrossTenant-originalarrivaltime: 23 Jul 2025 18:03:06.1873
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: OSNPR01MB7579
+
+--_000_SEL0PF8C30FB8E01A13F818AC7FDD2850CDC65FASEL0PF8C30FB8E0_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+I found a few issues with your website,
+The performance, visibility, and ranking of the website could all be improv=
+ed.
+I would like to send you images of these errors.
+Can I Send you?
+Cheers!
+
+
+--_000_SEL0PF8C30FB8E01A13F818AC7FDD2850CDC65FASEL0PF8C30FB8E0_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"margin-top: 1em; margin-bottom: 1em; font-family: Calibri, He=
+lvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);" class=3D"elemen=
+tToProof">
+Hello,</div>
+<div style=3D"margin-top: 1em; margin-bottom: 1em; font-family: Calibri, He=
+lvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);" class=3D"elemen=
+tToProof">
+I found a few issues with your website,</div>
+<div style=3D"margin-top: 1em; margin-bottom: 1em; font-family: Calibri, He=
+lvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);" class=3D"elemen=
+tToProof">
+The performance, visibility, and ranking of the website could all be improv=
+ed.</div>
+<div style=3D"margin-top: 1em; margin-bottom: 1em; font-family: Calibri, He=
+lvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);" class=3D"elemen=
+tToProof">
+I would like to send you images of these errors.</div>
+<div style=3D"margin-top: 1em; margin-bottom: 1em; font-family: Calibri, He=
+lvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);" class=3D"elemen=
+tToProof">
+Can I Send you?</div>
+<div style=3D"margin-top: 1em; margin-bottom: 1em; font-family: Calibri, He=
+lvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);" class=3D"elemen=
+tToProof">
+Cheers!</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 11pt;=
+ color: rgb(0, 0, 0);" class=3D"elementToProof">
+<br>
+</div>
+</body>
+</html>
+
+--_000_SEL0PF8C30FB8E01A13F818AC7FDD2850CDC65FASEL0PF8C30FB8E0_--

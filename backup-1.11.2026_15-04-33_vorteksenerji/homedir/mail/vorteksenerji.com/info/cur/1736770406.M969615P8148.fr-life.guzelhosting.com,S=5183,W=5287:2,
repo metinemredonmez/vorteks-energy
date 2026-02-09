@@ -1,0 +1,104 @@
+Return-Path: <purchase.mksinsk@gmail.com>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id kA2DOWYDhWfUHwAAOB6+FQ
+	(envelope-from <purchase.mksinsk@gmail.com>)
+	for <info@vorteksenerji.com>; Mon, 13 Jan 2025 15:13:26 +0300
+Return-path: <purchase.mksinsk@gmail.com>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Mon, 13 Jan 2025 15:13:26 +0300
+Received: from mail-ed1-f67.google.com ([209.85.208.67]:56749)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <purchase.mksinsk@gmail.com>)
+	id 1tXJJu-0003pY-2x
+	for info@vorteksenerji.com;
+	Mon, 13 Jan 2025 15:13:26 +0300
+Received: by mail-ed1-f67.google.com with SMTP id 4fb4d7f45d1cf-5d3e6f6cf69so7110433a12.1
+        for <info@vorteksenerji.com>; Mon, 13 Jan 2025 04:13:06 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1736770366; x=1737375166; darn=vorteksenerji.com;
+        h=cc:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=sDvMTnm7b0HNQ5Ai5loJ3RfP1ZV3OaGbF4vmw2DxLzo=;
+        b=XmDPO0qm6fV66jqTUCA6XLEvwjN2sjsWvqme9GAVULe1WunkFe/zYw+L/jDyZ79u5q
+         vU9iuLZ9HPVAyEEZi8VRVd0p5lFoNPUmYq1+vsLngmxWcZYZOYwhaOVCogtVaqID8GRs
+         8+MDo+H3uNctUJM48j5sWuQq1BVu2BkpRWk2fLThZZycs2snrAUKLOdus7niAns9E9bD
+         l/yfY2zf7tRDbWZMW6xJV4Szc4ZUWGpa8AOoF42/TMXPS/7BeAm22Yu/ZebRT1EnYjVg
+         uHak7OibKnSpkg3yygGvxw/lMXFQEVwjyVji++9u96tbHmEkHhe8YiWvBaIc5Tbx4GQ0
+         uRhw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1736770366; x=1737375166;
+        h=cc:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=sDvMTnm7b0HNQ5Ai5loJ3RfP1ZV3OaGbF4vmw2DxLzo=;
+        b=jBYUl43wIroAF3HEuRYCBVZxS3fBOI+7pv5z0GsROUIkX1qmzjtHopNA/QxVioEah6
+         FLqY2pQ8Gz/gROpPRS25nUgZ25ckNswEHGFkyFUcO2yxXNjiJ92PWd+M2etbzvGj9Sh1
+         4rxlnQ5LYD2/NggWpvafEDoNKFTWe9T6IHdjoMKpDHUGR6OrXtCIiB0yVQpa09BNj5s7
+         kNhtbb+SudU9E18GPxy9amaqAujBYlFlQk3Eo3TMY23F++GkH7Zo797ANLSwOTizUs/e
+         wCGCFQqcMgdQovVtqzMUa/E6oQHwVBIFe5WeVxFS/TXeeBDfj2KmGKwOrWTl0BidFOVh
+         nJsA==
+X-Forwarded-Encrypted: i=1; AJvYcCVS6BTMkTql/ag/9xs9Sn7giDPY0AlVJeuk/IbzwNWVByP4lnWeQ39lbq+J8eoi2B+F4dKt@vorteksenerji.com
+X-Gm-Message-State: AOJu0YwaisySfMvrlLUUB0AzRMi4AGkPh1rzvAei8Jj9Gupgm1T5++sP
+	++JR4k1R4eCG9SiZN0I2PNHg8sqPynmhc5AiNJiFigNXMiWnK2sBazDQ2LYQ6wetUYFbuCSABW5
+	VF74CPvcRENIZLy6NEkjZHrRzTRU=
+X-Gm-Gg: ASbGncuyLKimaQ8VvA7a2KBPl9XCO3zVkQv+DbWu18hXR5zBYjNuVGGEnvk4EjMLjcf
+	eTasP/rhUh/6uAeGmtMJGwQcQS6cGLPxs/KArQMI=
+X-Received: by 2002:a05:6402:538d:b0:5d3:d7ae:a893 with SMTP id
+ 4fb4d7f45d1cf-5d972e48691mt17545629a12.25.1736770366173; Mon, 13 Jan 2025
+ 04:12:46 -0800 (PST)
+MIME-Version: 1.0
+From: Mksinsk Group Ltd <purchase.mksinsk@gmail.com>
+Date: Mon, 13 Jan 2025 19:01:37 +0200
+X-Gm-Features: AbW1kvaMiNmCROCkwXcrhA8SLTx9-8S6Q3bv18PSA6PxvODqKDaoMQgcC6vJzwU
+Message-ID: <CAGOpYPduedu2X67-b6Y51jnRuaEeAnkNLbY94ziFwiNrG_EjwQ@mail.gmail.com>
+Subject: Business Inquiry
+Cc: purchases@mksinsk.com
+Content-Type: multipart/alternative; boundary="000000000000bd0aad062b955c4a"
+Bcc: info@vorteksenerji.com
+
+--000000000000bd0aad062b955c4a
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Sir / Madam
+
+Greetings from Robert, purchasing manager Mksinsk Inc in Sweden. We have
+interest in your company product and would love to get a quote from your
+esteemed company.
+
+Meanwhile could you please send me your company profile to study more about
+your company and can you confirm if you=E2=80=99re the right person to disc=
+uss our
+requirements with.
+
+Best regards,
+
+Mr Robert
+Purchasing Manager
+Mksinsk Inc
+Bruksall=C3=A9n 4, 647 51 =C3=85kers Styckebruk, Sweden.
+
+Reply To : purchases@mksinsk.com
+
+--000000000000bd0aad062b955c4a
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><br clear=3D"all"></div><div><div dir=3D"ltr" class=
+=3D"gmail_signature" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><d=
+iv style=3D"direction:ltr;min-height:280px"><br clear=3D"all"><div><div dir=
+=3D"ltr"><div dir=3D"ltr"><div>Hello Sir / Madam=C2=A0</div><div><br></div>=
+<div>Greetings from Robert, purchasing manager Mksinsk Inc in Sweden. We ha=
+ve interest in your company product and would love to get a quote from your=
+ esteemed company.=C2=A0</div><div><br></div><div>Meanwhile could you pleas=
+e send me your company profile to study more about your company and can you=
+ confirm if you=E2=80=99re the right person to discuss our requirements wit=
+h.</div><div><br></div><div>Best regards,</div><div><br></div><div>Mr Rober=
+t</div><div>Purchasing Manager</div><div>Mksinsk Inc</div><div>Bruksall=C3=
+=A9n 4, 647 51 =C3=85kers Styckebruk, Sweden.</div><div><br></div><div>Repl=
+y To :=C2=A0<a href=3D"mailto:purchases@mksinsk.com" target=3D"_blank">purc=
+hases@mksinsk.com</a></div></div></div></div></div></div></div></div></div>
+
+--000000000000bd0aad062b955c4a--

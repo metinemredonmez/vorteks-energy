@@ -1,0 +1,263 @@
+Return-Path: <Noreply@nespresso.fr>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id qODhEiymLmeJMwAAOB6+FQ
+	(envelope-from <Noreply@nespresso.fr>)
+	for <info@vorteksenerji.com>; Sat, 09 Nov 2024 03:00:44 +0300
+Return-path: <Noreply@nespresso.fr>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Sat, 09 Nov 2024 03:00:44 +0300
+Received: from 29.204.90.34.bc.googleusercontent.com ([34.90.204.29]:59368 helo=cs-967003179045-default.europe-west4-b.c.od237066db22328bb-tp.internal)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <Noreply@nespresso.fr>)
+	id 1t9YuC-0003Es-0n
+	for info@vorteksenerji.com;
+	Sat, 09 Nov 2024 03:00:44 +0300
+Received: from cs-967003179045-default (localhost [127.0.0.1])
+	by cs-967003179045-default.europe-west4-b.c.od237066db22328bb-tp.internal (Postfix) with ESMTP id 8D8502272B8
+	for <info@vorteksenerji.com>; Fri,  8 Nov 2024 23:45:45 +0000 (UTC)
+Date: Fri, 8 Nov 2024 23:45:45 +0000
+To: info@vorteksenerji.com
+From: Noreply@nespresso.fr
+Subject: =?UTF-8?Q?Votre_nom_a_=C3=A9t=C3=A9_s=C3=A9lectionn=C3=A9_pour_une_r=C3=A9compense_Krups_Nespresso_Pixie!?=
+Message-ID: <XMyyzvQYZxVSt8GlTaeLnvNK1spQAXk1zSW1Dr8I0@cs-967003179045-default>
+X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <style>
+ body,
+ table,
+ thead,
+ tbody,
+ tr,
+ td,
+ img {
+ padding: 0;
+ margin: 0;
+ border: none;
+ border-spacing: 0px;
+ border-collapse: collapse;
+ vertical-align: top;
+ }
+ .wrapper {
+ padding-left: 10px;
+ padding-right: 10px;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ a {
+ margin: 0;
+ padding: 0;
+ padding-bottom: 20px;
+ line-height: 1.2;
+ font-family: Verdana, "Arial", sans-serif;
+ color: #fff;
+ }
+ .logo {
+ width: 160px;
+ margin-top: 20px;
+ margin-bottom: 10px;
+ }
+ h2 {
+ font-size: 24px;
+ font-weight: bold;
+ color: #fff;
+ padding-bottom: 0;
+ background: #ed8b17;
+ width: 320px;
+ padding: 10px;
+ border-top-left-radius: 40px;
+ border-bottom-right-radius: 40px;
+ }
+ h1 {
+ padding-bottom: 0px;
+ padding-top: 10px;
+ font-size: 36px;
+ }
+ .title-para {
+ font-family: Verdana, "Arial", sans-serif;
+ font-size: 22px;
+ color: #fff;
+ padding-bottom: 10px;
+ padding-top: 15px;
+ border-bottom: 2px solid #fff;
+ width: 340px;
+ }
+ .feature-para {
+ width: 400px;
+ max-width: 90%;
+ padding-top: 0px;
+ color: #525252;
+ font-size: 16px;
+ }
+ .linebg {
+ background-size: 200px;
+ background-position: center;
+ background-repeat: no-repeat;
+ }
+ .cta {
+ background-color: #0c70b5;
+ padding: 16px 20px;
+ text-decoration: none;
+ color: #fff;
+ font-weight: bold;
+ border-radius: 5px;
+ }
+ @media only screen and (max-width: 480px) {
+ .wrapper .section {
+ width: 100%;
+ }
+ .logo{
+ margin-top: 0px;
+ margin-bottom: 0px;
+ }
+ .wrapper .column {
+ width: 95%;
+ display: block;
+ padding: 10px;
+ }
+ 
+ h2 {
+ margin-top: 0px;
+ text-align: center;
+ width: 220px;
+ font-size: 17px;
+ }
+ h1 {
+ font-size: 26px;
+ }
+ .cta {
+ display: block;
+ max-width: 80%;
+ }
+ .title-para {
+ width: 220px;
+ font-size: 16px;
+ padding-top: 5px;
+ }
+ .feature-para {
+ width: auto;
+ }
+ }
+ .style1 {color: #810613}
+ .style2 {
+	color: #810613;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: xx-large;
+}
+ </style>
+ </head>
+
+ <body style="background-color: #efefef;">
+ <table>
+ <tbody>
+ <tr>
+ <td height="35" style="line-height: 35px;">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ <h1 align="center" class="style2">Nespresso</h1>
+ <p align="center" class="style1">&nbsp;</p>
+ <table width="100%">
+ <tbody>
+ <tr>
+ <td class="wrapper" width="550" align="center">
+ <table class="section header" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td align="center" bgcolor="#fff" background="https://krups-pixie.s3.us-east-1.amazonaws.com/bg.jpg" style="background-repeat:no-repeat;background-size: 100%;-webkit-text-size-adjust: 100%;mso-line-height-rule: exactly;">
+ <table class="column" width="550" cellpadding="" cellspacing="" align="center">
+ <tbody>
+ <tr>
+ <td height="10" style="line-height: 10px;"></td>
+ </tr>
+
+ <tr>
+ <td align="center">&nbsp;</td>
+ </tr>
+ <tr>
+ <td height="10" style="line-height: 10px;"></td>
+ </tr>
+
+ <tr>
+ <td align="center">
+ <h2>Répondez et gagnez!</h2>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p class="title-para">Un tout nouvel</p>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">
+ <h1>Krups Nespresso Pixie</h1>
+ </td>
+ </tr>
+ <tr>
+ <td height="10" style="line-height: 10px;"></td>
+ </tr>
+ <tr>
+ <td align="center">
+ <img border="0" src="https://krups-pixie.s3.us-east-1.amazonaws.com/feature.png" alt="reward" style="width: 300px; max-width: 65%;" />
+ </td>
+ </tr>
+ <tr>
+ <td height="20" style="line-height: 20px;"></td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p class="feature-para">&nbsp;</p>
+ <p class="feature-para">Vous avez été sélectionné(e) pour participer <strong>GRATUITEMENT</strong> à notre Programme de Fidélité ! Cela ne vous prendra qu'une minute pour recevoir un prix fantastique.</p></td>
+ </tr>
+ <tr>
+ <td height="30" style="line-height: 30px;"></td>
+ </tr>
+ <tr>
+ <td align="center">
+ <a href="https://krups-pixie.s3.us-east-1.amazonaws.com/track.html" class="cta">COMMENCER!</a>
+ </td>
+ </tr>
+ <tr>
+ <td height="50" style="line-height: 50px;"></td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td height="15" style="line-height: 15px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td align="center">
+ <p style="font-size: 12px; color: #797979; max-width: 550px; line-height: 1.4;">
+ Si vous ne souhaitez plus recevoir ces e-mails, vous pouvez vous désinscrire <a href="https://www.threeneptuneboot.com/o-ckcc-r46-ff2ce5f202828a5f6faa83a99e50344d" style="color: #666; text-decoration: none;">en cliquant ici</a> 
+
+ </p>
+ </td>
+ </tr>
+ <tr>
+ <td height="35" style="line-height: 35px;">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ </body>
+</html>
+

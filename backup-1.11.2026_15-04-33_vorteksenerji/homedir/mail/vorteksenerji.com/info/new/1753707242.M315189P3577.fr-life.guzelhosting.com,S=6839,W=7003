@@ -1,0 +1,164 @@
+Return-Path: <yosef@yourwebmaster.info>
+Delivered-To: info@vorteksenerji.com
+Received: from fr-life.guzelhosting.com
+	by fr-life.guzelhosting.com with LMTP
+	id iAJ8Eupyh2j5DQAAOB6+FQ
+	(envelope-from <yosef@yourwebmaster.info>)
+	for <info@vorteksenerji.com>; Mon, 28 Jul 2025 15:54:02 +0300
+Return-path: <yosef@yourwebmaster.info>
+Envelope-to: info@vorteksenerji.com
+Delivery-date: Mon, 28 Jul 2025 15:54:02 +0300
+Received: from mail-pl1-f196.google.com ([209.85.214.196]:56324)
+	by fr-life.guzelhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <yosef@yourwebmaster.info>)
+	id 1ugNMg-000000006wl-0SqI
+	for info@vorteksenerji.com;
+	Mon, 28 Jul 2025 15:54:02 +0300
+Received: by mail-pl1-f196.google.com with SMTP id d9443c01a7336-236470b2dceso38070185ad.0
+        for <info@vorteksenerji.com>; Mon, 28 Jul 2025 05:53:41 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=yourwebmaster-info.20230601.gappssmtp.com; s=20230601; t=1753707200; x=1754312000; darn=vorteksenerji.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=deEy79sekZE3D2Gn/SWoRn8dSGxPhx5BA1A2t/WvnEQ=;
+        b=hKYAaovyK3CzkOc1BU3rm3MvRuLTwKrszlmPudNYGGUHiyQgkOf42Jfn9sYlswIFDZ
+         ubG2a4FxF38IO355ea1mvb0ckUYGYvIUjbyNSj5JXIO6+UzWsJY8XMQbSgzUGAbP+xby
+         /WoIulU7yn6/Cp8QnZu5ExdPAPmVPQ2kKWh3yzoG359jQA45SpD3fMlzjfBUayfZsUw9
+         nUNsY3/tmyXpPC9/V/ac3n1YU9Qe2h3lVbPrgqjTDZ3I2XDedbOp6g0s6ty79heQREu4
+         +rDeKZ0KN1tpFqY4KZxsFKKoMiX5pSYJfybyTYeRzZeaWMvWdPZJMVr9zsPLKSfiZ9YP
+         P//A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1753707200; x=1754312000;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=deEy79sekZE3D2Gn/SWoRn8dSGxPhx5BA1A2t/WvnEQ=;
+        b=fLzmqpiPi012qhWcsUlQTQfIJdCg/zOoaxxyXAV5UwY/+YvA59FWJBuh0UKAfKszgL
+         1CjpRoWJFkhvgqHUhvXAT5QgP00Hp0h9YXWEz6/PRkOXNfduHaG5koux37gPNbtw7nEN
+         sR8DtZROW2bLoavPlNqaExlaDRmF2/jW97yFxfgiD8rViMeOr3XbVNZ91lq746KYPQ4T
+         xcXdBXLAA6comcLT3y4U6XTwM1p5WWtdehIIz/xy6d+5Kr722O0nSPKJNJZZ8G0pYcrt
+         4haMZkZiqZNb2i521Trf/RbAZ7sKq0WBxArUkiI0dLwjjHec1tu5IlO4yC3om+ZNVMSl
+         QDYQ==
+X-Gm-Message-State: AOJu0YyoDNiDEZnT5ASWTYLPNelOow2NG/V2+/NonhVtxgBJKGOl85Ah
+	yC/FzMgMgvrNlrkVGWzAmRh5XqGoH4e4ryYquou45lP+wFHpqoUa3Cp+bKy55yj/JxvCoU8iYvO
+	iXWppBUg=
+X-Gm-Gg: ASbGnct90WWAqv5tn1MgP2t6EiSNtaVIDBRBEgv6LGhNvXeucHnvp5L6Xak8iCKd3QQ
+	fwUMtPTiKMWmJhwmQqOlLssL1W4raxm9v4kjeWjnhDEw4+MCOmuvcwaeKg7y4gSQZ+ugbdaIkWu
+	F9/tviopoLtlEpcnSata6kTM9GVZ2vacERcBN3qeT2nW5itNqMPftPMj1QqjQGVeirXCAwXHxEJ
+	+8zHqGGml3Bb3rqdOmmb/2raP1Ek47/d4vNZoIgdhvaD7RxuWfcovbXtqSgf2gaeR9gFV/+CPot
+	bO0Y/fZKPvG2+qAxGgJakIE/3HOjm7STmPTLmlpvMOz5EeDHioyVEuHia/Ute+PYTfeX9Q7e2f6
+	6rCOH6swciL8fMTtLmVM101bdQBDs5vNnRdOtp4I1N/XFCx6r
+X-Google-Smtp-Source: AGHT+IF2G4f94qqEJ9ju+JwFvyyrXqABRrR+oSbU/YB6DjbrV7I/hXnqQ9gzDDR1JEgFBg/XM6oX/A==
+X-Received: by 2002:a17:903:198d:b0:23f:8bcc:e4e9 with SMTP id d9443c01a7336-23fb30b44d1mr166509185ad.23.1753707199414;
+        Mon, 28 Jul 2025 05:53:19 -0700 (PDT)
+Received: from Mobrilz ([2401:4900:1c62:715c:bcac:e6bd:dca1:54e9])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-24025f4a8e5sm22669225ad.130.2025.07.28.05.53.18
+        for <info@vorteksenerji.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 28 Jul 2025 05:53:18 -0700 (PDT)
+From: "Yosef" <yosef@yourwebmaster.info>
+To: <info@vorteksenerji.com>
+Subject: App Proposal
+Date: Mon, 28 Jul 2025 18:05:59 +0530
+Message-ID: <1bdbe01dbffbe$975809c0$c6081d40$@info>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_1BDBF_01DBFFEC.B11045C0"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Adv/mn6oCGQcZ9zdR/y2jwGsoIc0XA==
+Content-Language: en-us
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_1BDBF_01DBFFEC.B11045C0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+
+
+Sorry for disturbing you,
+ 
+do you want to develop a mobile app for your business?
+ 
+If you are interested, please share your requirements.
+ 
+Regards,
+Yosef.
+Country - India 
+
+ 
+
+
+P.S.: If you don't want to received incoming emails from me please reply
+"NO" in the subject line.
+
+
+------=_NextPart_000_1BDBF_01DBFFEC.B11045C0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNoSpacing><span =
+style=3D'color:#0D0D0D'>Hi,<br><br><o:p></o:p></span></p><p =
+class=3DMsoNoSpacing><span style=3D'color:#0D0D0D'>Sorry for disturbing =
+you,<br>&nbsp;<br>do you want to develop a mobile app for your =
+business?<br>&nbsp;<br>If you are interested, please share your =
+requirements.<br>&nbsp;<br>Regards,<br><b>Yosef</b>.<br>Country - =
+India&nbsp;<o:p></o:p></span></p><p =
+class=3DMsoNoSpacing><o:p>&nbsp;</o:p></p><p class=3DMsoNoSpacing><span =
+style=3D'color:#E36C0A'><br>P.S.: If you don't want to received incoming =
+emails from me please reply &quot;NO&quot; in the subject =
+line.<o:p></o:p></span></p></div></body></html>
+------=_NextPart_000_1BDBF_01DBFFEC.B11045C0--
+
