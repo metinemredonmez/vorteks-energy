@@ -18,7 +18,7 @@
     "@mui/material-nextjs": "^7.0.0",
     "@tabler/icons-react": "^3.28.1",
     "framer-motion": "^10.16.4",
-    "next": "^15.1.6",
+    "next": "^15.5.12",
     "next-intl": "^4.7.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
